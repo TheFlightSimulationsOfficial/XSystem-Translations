@@ -1,0 +1,126 @@
+A
+1 version de fichier, ne pas toucher
+
+0   À propos de
+0   À propos de X-Plane
+1   Instructions
+-
+0 Fichier
+300   Choix de Vol Rapide
+301   -
+302   Enregistrer une Situation
+303   Charger      une Situation
+304   -
+305   Enregistrer un Replay
+306   Charger      un Replay
+307   -
+308   Charger un Vol Xavion
+309   Charger Fichier Enregistreur de Données de Vol
+310   -
+311   Faire une Capture d’Ecran
+312   Faire un film AVI
+313   Options  film AVI
+314   -
+315   Carnet de Vol
+316   -
+317   Quitter
+-
+0 Aéronef
+600   Charger un Aéronef 
+601   -
+602   Masse et Carburant
+603   Pannes d’Equipement
+604   Aéronefs & Situations
+605   -
+606   L’Ordinateur Pilote votre Aéronef
+607   L’Ordinateur Contrôle vos Vues
+608   -
+609   Fumigènes
+610   Choix de Trajectoire de Vol 3-D 
+611   Réinitialiser Trajectoire de Vol 3-D
+612   -
+613   Mode Replay
+-
+0 Lieu
+900   Changer d’Aéroport
+901   Carte Locale
+902   Carte de la Planète
+903   -
+904   Me Perdre
+-
+0 Environnement
+1200   Météo
+1201   Date & Heure
+-
+0 Paramètres
+1500   Données Entrées & Sorties
+1501   Connexions Réseaux
+1502   -
+1503   Joystick & Equipements
+1504   Options Graphiques
+1505   Sons
+1506   -
+1507   Opérations & Avertissements
+-
+0 Vue
+1800   Vers l’Avant avec Cockpit
+1801   Vers l’Avant avec HUD
+1802   Vers l’Avant sans Rien
+1803   -
+1804   Cockpit 3D, Contrôle par Commandes
+1805   -
+1806   Vue de Proximité
+1807   Vue Poursuite
+1808   Vue Cercle
+1809   Vue Point Fixe
+1810   Vue Mode Traveling
+1811   -
+1812   Vue de la Tour de Contrôle
+1813   Vue de la Piste de Décollage
+1814   Vue sur Arme
+1815   Vue Libre
+1816   -
+1817   Translation Gauche
+1818   Translation Droite
+1819   Translation Haut
+1820   Translation Bas
+1821   Translation Avant
+1822   Translation Arrière
+1823   -
+1824   Rotation Gauche
+1825   Rotation Droite
+1826   Rotation Haut
+1827   Rotation Bas
+1828   Zoom Avant
+1829   Zoom Arrière
+1830   -
+1831   Effet Vraie Caméra
+1832   Lunettes de Soleil
+1833   Lunettes de Vision Nocturne
+1834   Lampe de Poche
+-
+0 Spécial
+2100   Ajustement Stabilité en Tangage
+2101   Ajustement Stabilité en Lacet
+2102   -
+2103   Montrer       Modèle de Vol 
+2104   Enregistrer Modèle du Vol
+2105   -
+2106   Charger  Fichier Texte
+2107   Afficher  Fichier Texte
+2108   -
+2109   Charger  Check-list
+2110   Afficher  Check-list
+2111   -
+2112   Afficher la Liste des Contrôleurs Aériens à Proximité
+2113   -
+2114   Configurer Constantes de Stabilité Artificielle
+2115   Configurer Constantes du Pilote Automatique
+2116   Configurer Constantes du FADEC
+2117   Montrer Débattement des Commandes
+2118   Montrer Objets ‘Baladeurs’
+2119   Montrer Guidage d’Armes
+2120   Montrer Configuration du Projecteur
+2121   Montrer Couleurs du Ciel
+2122   Montrer Console Développeur
+-

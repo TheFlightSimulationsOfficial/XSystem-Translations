@@ -1,0 +1,117 @@
+A
+1 version de fichier, ne pas toucher
+
+0 À propos de
+0   À propos de
+-
+0 Fichier
+300   Nouveau
+301   Ouvrir
+302   -
+303   Enregistrer
+304   Enregistrer sous
+305   -
+306   Quitter
+-
+0 Standard
+600   Auteur
+601   Point d'Observation
+602   Limites des Instruments
+603   Planche de Bord: 2-D
+604   Planche de Bord: 3-D
+605   -
+606   Caractéristiques Moteur
+607   Systèmes
+608   -
+609   Ailes
+610   Autres Ailes
+611   Pylônes Moteurs
+612   -
+613   Fuselage
+614   Autres Volumes
+615   Autres Objets 3D
+616   Nacelles Moteurs
+617   Carénages/Sabots de roue 
+618   -
+619   Contrôle de la Géométrie
+620   -
+621   Train d'atterrissage
+622   -
+623   Masse & Centrage
+-
+0 Expert
+900   Profils d'Ailes
+901   -
+902   Contrôles VTOL ou Hélico
+903   Contrôles Spéciaux
+904   Équipement Spécial
+905   -
+906   Stabilité Artificielle
+907   -
+908   Armes par Défaut
+909   Construire Armes
+910   -
+911   Zones de Texture Visibles
+912   Parties Invisibles
+-
+0 Contexte
+1200   Haut
+1201   Bas
+1202   Côté
+1203   Avant
+1204   Arrière
+1205   -
+1206   Ajuster Cap Droite
+1207   Ajuster Cap Gauche
+1208   Ajuster Roulis Droite
+1209   Ajuster Roulis Gauche
+1210   -
+1211   Mouvement à Gauche
+1212   Mouvement à Droite 
+1213   Mouvement en Haut
+1214   Mouvement en Bas
+1215   -
+1216   Mouvement à Gauche Rapide
+1217   Mouvement à Droite Rapide
+1218   Mouvement en Haut Rapide
+1219   Mouvement en Bas Rapide
+1220   -
+1221   Zoom avant
+1222   Zoom arrière
+1223   -
+1224   Zoom avant Rapide
+1225   Zoom arrière Rapide
+1226   -
+1227   3-D Rapide
+1228   3-D Lent
+-
+0 Spécial
+1500   Fuselage Lissage Elliptique
+1501   Nacelles Lissage Elliptique
+1502   Autres Organes Lissage Elliptique
+1503   Carénages de Roues Lissage Elliptique
+1504   Armes Lissage Elliptique
+1505   -
+1506   Fuselage Lissage Total
+1507   Nacelles Lissage Total
+1508   Divers Organes Lissage Total
+1509   Carénages de roues Lissage Total
+1510   Armes Lissage Total
+1511   -
+1512   Montrer avec Contrôles Fixes / en Mouvement
+1513   Montrer en Filaire / Textures
+1514   Montrer avec Textures jour / nuit
+1515   -
+1516   Recharger Texture
+1517   Recharger Objet du Cockpit 
+1518   Enregistrer Points de Départ de la Texture
+1519   Retoucher les Textures de l'Aéronef 
+1520   -
+1521   Convertir Tout l'Aéronef au Dernier Format
+1522   -
+1523   Produire OBJ à partir de l'Aéronef
+1524   Produire STL à partir de l'Aéronef
+1525   Annuler
+1526   Refaire
+1527   Personnaliser les Touches
+-

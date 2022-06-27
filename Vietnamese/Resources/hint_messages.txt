@@ -1,0 +1,115 @@
+1. Dynamically control weather, create aircraft failures and more with Control Pad for X-Plane. It is a free App from the Apple App Store that allows you to control X-Plane without pausing the simulation.
+
+1. You can record a flight in a real aircraft on Xavion, a free iOS app, and replay it in X-Plane 11.
+
+1. Go to Settings > Graphics and reduce the rendering options settings to increase performance on slow machines. Hover over each slider to see whether they impact the CPU or GPU.
+
+1. X-Plane uses an aerodynamic model called “blade element theory.” X-Plane actually models the virtual airflow over the airfoil surfaces of the simulated aircraft. Most simulators use a table lookup scheme which can only approximate a correct flight model.
+
+1. There are thousands of free 3rd party aircraft, sceneries, and other X-Plane enhancements. Just search online for “X-Plane freeware.”
+
+1. You can display the frame rate by checking the first box in the Data Input & Output screen under the Settings. This allows you to fine-tune your simulator’s performance.
+
+1. Build your very own custom aircraft using Plane Maker! It comes with X-Plane at no extra cost and is located in your main X-Plane folder.
+
+1. Aviators worldwide use a phonetic alphabet: ALPHA BRAVO CHARLIE DELTA ECHO FOXTROT GOLF HOTEL INDIA JULIET KILO LIMA MIKE NOVEMBER OSCAR PAPA QUEBEC ROMEO SIERRA TANGO UNIFORM VICTOR WHISKEY X-RAY YANKEE ZULU
+
+1. For a new challenge try the formation flying situation. Go to Flight Configuration > Location > Customize > Special Starts and pick Formation Flying. You will be given an AI aircraft to fly with that is appropriate for your aircraft’s speed.
+
+1. There is a professional version of X-Plane. Flight schools use it in pilot training. Many commercial cockpit simulators also use X-Plane to drive their instruments and visuals.
+
+1. It’s easy to change the scenery that you’ve installed with X-Plane at any time. Run the installer and select the option to “Add / Remove Scenery.”
+
+1. By default the keys Q and E look left and right respectively when inside the 3D cockpit. R and F look up and down. Period and comma move backwards and forwards. Plus and minus zoom in and out. You can use the 4 arrow keys to move the camera around as well.
+
+1. Try using the mouse to look around inside of the 3D cockpit-—right click and drag to look around, and left click to touch things.
+
+1. You can fly gliders, land the space shuttle, conduct aerial refueling and perform aircraft carrier operations. See the Flight Configuration > Location > Customize > Special Starts window.
+
+1. You can pull up a local map at any time to gain better perspective on your flight.   Press the M key or click the map marker icon in the menu.
+
+1. Save your flight parameters as situations and then reload them later. Set up your flight exactly as you like it then use File > Save Flight.
+
+1. It’s sometimes desirable to start your aircraft on a 3 mile (VFR) or 10 mile (IFR) final to any runway. You can do so in Flight Configuration > Location > Customize and then toggling the Starts button to Runway. Use the drop down to select the appropriate distance for the runway you would like at your selected field.
+
+1. MSL is an aviation term used to denote “altitude above mean sea level.” The altimeters in aircraft measure altitude above mean sea level and not above ground level. The term AGL means “above ground level” and radio altimeters are used to report altitudes in AGL.
+
+1. The Airspeed Indicator in the aircraft will read “Indicated Airspeed,” or IAS. The error in this value will increase the higher you fly (as the density of the surrounding air decreases).
+
+1. It’s easier than ever to run X-Plane on multiple monitors. Go to Settings > Graphics > Monitor Configuration and configure each of the monitor boxes how you want it. Move the pop up windows for ATC, GPS, or maps to the other monitors if you like!
+
+1. You can change and customize the default keyboard commands in X-Plane. Go to Settings > Keyboard and expand the lists or search for a word.
+ 
+1. X-Plane 11 runs on all of the most popular operating systems. X-Plane Desktop is available for Windows, macOS, and Linux. The mobile version of X-Plane is available for both Apple iOS and Android.
+
+1. Understanding the aerodynamic forces on an airplane will give you a better concept of how the aircraft flies. The four basic forces are weight, lift, thrust, and drag. Understanding the interaction of these forces will help you become a better pilot.
+
+1. POH stands for “Pilot Operating Handbook” and contains aircraft operational information. Most POH can be obtained on the internet by searching for your aircraft and the phrase “POH.”
+
+1. Pick a specific point in the touchdown zone of the runway and try to land there as precisely as possible. Learning to do this consistently will greatly increase your piloting skills.
+
+1. For something new, try taking off from a grass field. Set it up by going to Flight Configuration > Location > Customize > Special Starts > Grass Strip. You will notice your takeoff roll is somewhat longer than on a paved runway.
+
+1. “Controlled airspace” is airspace of defined dimensions. Pilots should become familiar with the types of controlled airspace and the restrictions for flying within it. X-Plane, along with the appropriate charts and airspace documentation, is the perfect way to practice staying legal.
+
+1. You can set your rendering settings using five preset options on the slider: minimal, low, medium, high & maximum. Go to Settings > Graphics and select the setting you want to use.
+
+1. One of the best training books for pilots is over a half-century old: “Stick and Rudder” by Wolfgang Langewiesche.
+
+1. Take on a new challenge in X-Plane and learn to fly a tail-dragger. Open Flight Configuration and select the Stinson L5, or try the Taildragger Takeoff Tutorial. Better practice up on your stick and rudder skills for this challenge.
+
+1. Simulate an engine failure right after takeoff. Can you make the airport or do you land straight ahead? Try it with different wind directions and wind velocities. Now try changing the fuel and passenger loading. Can you survive this emergency under instrument conditions?
+
+1. Adding takeoff power to a single-engine aircraft in X-Plane will cause the plane to veer to the left. This effect also occurs in real aircraft and is caused by engine torque and by the propeller wash over the wings. Compensate for this effect by applying right rudder during takeoff and climb.
+
+1. You can change the default language in X-Plane. Go to Settings > General > Language.
+
+1. Want a different flying experience for a change? Try the glider tow. Go to Flight Configuration and pick a glider. Hit the Customize button and pick Tow Plane. You will be towed aloft and you will choose when to release the tow line.
+
+1. Save your flying memories by easily creating screenshots right within X-Plane. Press the shift and space keys, or select File > Take Screenshot from the menu bar. Find your screenshots in the Output folder in your main X-Plane folder.
+
+1. Find out if you have the latest X-Plane update by clicking on Settings > About X-Plane. If an update is available there will be an “Update X-Plane” button in the window. Click the button to download and launch the installer to install the update.
+
+1. Groundspeed is the actual speed that an aircraft travels over the ground. It is the combination of the aircraft’s airspeed and the wind's speed relative to the aircraft's direction.
+
+1. You can practice emergency procedures in X-Plane by flying while a friend or instructor uses the Control Pad App. Use numerous options to simulate emergencies, change location, and even conjure up storms. Using Control Pad, all changes in X-Plane take place dynamically without pausing the simulator.
+
+1. Try the “get me lost” feature, and then try to figure out where you are. Can you find an available airport before running out of fuel? Select Location > Customize > Special Starts > Get Me Lost from the Flight Configuration screen.
+
+1. Laminar Research’s internal scenery tool for building airports is called World Editor or WED. WED can be downloaded for free and even includes a full set of video tutorials designed for the 1st time user. There are now thousands of free 3-D WED airports included with X-Plane updates.
+
+1. Do you notice a yawing movement as you enter a turn? This is called “adverse yaw” and is caused by the lifting wing. Counter this tendency by applying rudder in the direction of the turn.
+
+1. Be a top gun and “call the ball.” Try landing your fighter jet on the deck of an aircraft carrier. Go to Flight Configuration > Location > Customize > Special Starts, then select the Carrier Approach line. Make sure you’re flying a fighter such as the F-4 Phantom, or perhaps a jet that you designed with Plane Maker.
+
+1. A flare in an airplane is not what you use when you have a flat tire. It is the simple maneuver performed moments before touchdown in which the nose is pitched up. This reduces the descent rate and causes the aircraft to touch down on the main wheels first.
+
+1. When you get tired of flying, let X-Plane AI take control of your aircraft, views, or both. Select Flight > AI Flies Your Aircraft or AI Controls Your Views from the menu.
+
+1. If you’ve tried the glider tow and want something a little more exciting, try the winch. Go to Flight Configuration and pick a glider. Hit the Customize button and pick Glider Winch.
+
+1. Did you know a nautical mile is a unit of distance equal to 1.15 statute miles, and one knot (a unit of speed) is defined as one nautical mile per hour?
+
+1. Be a hit at the airshow flying your aerobatic plane and turn on the smoke. Hit the ‘x’ key to toggle smoke, or pick a different key in Settings > Keyboard.
+
+1. Running low on fuel? Try the mid-air refueling! Go to Flight Configuration > Location > Customize > Special Starts and pick Refuel-Boom or Refuel-Basket. Make sure you’re flying a fighter such as the F-4 Phantom, or perhaps a jet that you designed with Plane Maker.
+
+1. A stall in an aircraft occurs when the angle of attack of the wing is too high. This disrupts the smooth airflow over the wing and can result in buffeting and sudden loss of lift. Commonly you can encounter a stall by flying with the nose too high and/or not enough power. Correct this by immediately lowering the nose and adding power.
+
+1. You can fly the X-15 rocket plane to the edge of space. Go to Flight Configuration > Location > Customize > Special Starts and pick Air Drop from B-52. Hit the space key to release, add power, and watch the sky turn from blue to black.
+
+1. Indicated airspeed (IAS) is the airspeed read directly from the airspeed indicator. It is the difference between total pressure and static pressure, and shows the dynamic pressure.
+
+1. You can accurately simulate thermal activity in X-Plane. Go to Flight Configuration > Weather > Customize and adjust thermal coverage, tops, and climb rate.
+
+1. When flying an instrument approach you should make your land/miss decision at the decision height. Decision height for approaches at various airports can be found on printed approach charts, as well as online. Not having visual contact with the airport at decision height will lead to a missed approach.
+ 
+1. Want to try the ultimate challenge? Try landing the Space Shuttle. Go to Flight Configuration > Location > Customize. Click the Special Starts button and pick one of the 4 shuttle entry points. You can do a full re-entry from space all the way down to starting the flight on the final approach.
+
+1. Strap yourself in an X-Plane helicopter and land on a floating oil platform. Go to Flight Configuration > Location > Customize. Click the Special Starts button and pick a small or large oil rig approach.
+
+1. Automatic Terminal Information Services, or ATIS, broadcast airport information on a continuous basis. Always listen to the ATIS transmission before contacting air traffic control at a controlled airport. ATIS frequencies for towered airports can be found on aeronautical maps and airport documentation. Similar information is broadcast at some non-towered airfields from automatic weather stations and is called AWOS.
+
+1. You can build your own 3-D airports and submit them for inclusion in future updates to X-Plane 11. Visit the X-Plane Scenery Gateway (gateway.x-plane.com) for more information.
+
+1. Interested in making X-Plane ATC pronunciations better? Visit x-plane.com/improve-atc/ for instructions.
