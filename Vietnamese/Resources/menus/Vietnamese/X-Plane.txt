@@ -1,126 +1,127 @@
-A
-1 version de fichier, ne pas toucher
+CÓ
+1 phiên bản tệp, không chạm vào
 
-0   À propos de
-0   À propos de X-Plane
-1   Instructions
+0 Giới thiệu
+0 Giới thiệu về X-Plane
+1 Hướng dẫn
 -
-0 Fichier
-300   Choix de Vol Rapide
-301   -
-302   Enregistrer une Situation
-303   Charger      une Situation
-304   -
-305   Enregistrer un Replay
-306   Charger      un Replay
-307   -
-308   Charger un Vol Xavion
-309   Charger Fichier Enregistreur de Données de Vol
-310   -
-311   Faire une Capture d’Ecran
-312   Faire un film AVI
-313   Options  film AVI
-314   -
-315   Carnet de Vol
-316   -
-317   Quitter
+0 Tệp
+300 Lựa chọn Chuyến bay Nhanh
+301 -
+302 Ghi lại một tình huống
+303 Tải một tình huống
+304 -
+305 Ghi lại một lần phát lại
+306 Tải phát lại
+307 -
+308 Tải chuyến bay X-plane
+309 Tải tệp ghi dữ liệu chuyến bay
+310 -
+311 Chụp ảnh màn hình
+312 Tạo phim AVI
+313 Tùy chọn phim AVI
+314 -
+315 Nhật ký chuyến bay
+316 -
+317 Thoát
 -
-0 Aéronef
-600   Charger un Aéronef 
-601   -
-602   Masse et Carburant
-603   Pannes d’Equipement
-604   Aéronefs & Situations
-605   -
-606   L’Ordinateur Pilote votre Aéronef
-607   L’Ordinateur Contrôle vos Vues
-608   -
-609   Fumigènes
-610   Choix de Trajectoire de Vol 3-D 
-611   Réinitialiser Trajectoire de Vol 3-D
-612   -
-613   Mode Replay
+0 Máy bay
+600 Tải máy bay
+601 -
+602 Khối lượng và Nhiên liệu
+603 Lỗi thiết bị
+604 Máy bay & Địa điểm
+605 -
+606 Máy tính lái máy bay của bạn
+607 Máy tính kiểm soát chế độ xem của bạn
+608 -
+609 -
+610 Lựa chọn Đường bay 3-D
+611 Đặt lại Đường bay 3-D
+612 -
+613 Chế độ phát lại
 -
-0 Lieu
-900   Changer d’Aéroport
-901   Carte Locale
-902   Carte de la Planète
-903   -
-904   Me Perdre
+0 Vị trí
+900 Sân bay Thay đổi
+901 Bản đồ địa phương
+902 Bản đồ hành tinh
+903 -
+904 -
 -
-0 Environnement
-1200   Météo
-1201   Date & Heure
+0 Môi trường
+1200 Thời tiết
+1201 Ngày & Giờ
 -
-0 Paramètres
-1500   Données Entrées & Sorties
-1501   Connexions Réseaux
-1502   -
-1503   Joystick & Equipements
-1504   Options Graphiques
-1505   Sons
-1506   -
-1507   Opérations & Avertissements
+0 Cài đặt
+1500 Đầu vào & Đầu ra Dữ liệu
+1501 Kết nối mạng
+1502 -
+1503 Cần điều khiển & Thiết bị
+1504 Tùy chọn đồ họa
+1505 âm thanh
+1506 -
+1507 Hoạt động & Cảnh báo
 -
-0 Vue
-1800   Vers l’Avant avec Cockpit
-1801   Vers l’Avant avec HUD
-1802   Vers l’Avant sans Rien
-1803   -
-1804   Cockpit 3D, Contrôle par Commandes
-1805   -
-1806   Vue de Proximité
-1807   Vue Poursuite
-1808   Vue Cercle
-1809   Vue Point Fixe
-1810   Vue Mode Traveling
-1811   -
-1812   Vue de la Tour de Contrôle
-1813   Vue de la Piste de Décollage
-1814   Vue sur Arme
-1815   Vue Libre
-1816   -
-1817   Translation Gauche
-1818   Translation Droite
-1819   Translation Haut
-1820   Translation Bas
-1821   Translation Avant
-1822   Translation Arrière
-1823   -
-1824   Rotation Gauche
-1825   Rotation Droite
-1826   Rotation Haut
-1827   Rotation Bas
-1828   Zoom Avant
-1829   Zoom Arrière
-1830   -
-1831   Effet Vraie Caméra
-1832   Lunettes de Soleil
-1833   Lunettes de Vision Nocturne
-1834   Lampe de Poche
+0 lượt xem
+1800 Chuyển tiếp với Buồng lái
+1801 Chuyển tiếp với HUD
+1802 Tiến lên mà không có gì
+1803 -
+1804 3D Cockpit, điều khiển bằng lệnh
+1805 -
+1806 -
+1807 Xem theo đuổi
+1808 Chế độ xem vòng tròn
+1809 Chế độ xem điểm cố định
+1810 Xem thời trang du lịch
+1811 năm
+1812 Quang cảnh tháp điều khiển
+1813 Quang cảnh đường băng
+1814 Chế độ xem vũ khí
+1815 Xem miễn phí
+1816 -
+1817 Bản dịch sang trái
+1818 Bản dịch phải
+1819 Bản dịch hàng đầu
+1820 Bản dịch thấp
+1821 Bản dịch chuyển tiếp
+1822 Bản dịch phía sau
+1823 -
+1824 Xoay trái
+1825 Xoay phải
+1826 Vòng quay trên cùng
+1827 Xoay xuống
+1828 Phóng to
+1829 Thu nhỏ
+1830 -
+1831 Hiệu ứng máy ảnh thực
+1832 Kính râm
+1833 Kính nhìn ban đêm
+1834 Đèn
 -
-0 Spécial
-2100   Ajustement Stabilité en Tangage
-2101   Ajustement Stabilité en Lacet
-2102   -
-2103   Montrer       Modèle de Vol 
-2104   Enregistrer Modèle du Vol
-2105   -
-2106   Charger  Fichier Texte
-2107   Afficher  Fichier Texte
-2108   -
-2109   Charger  Check-list
-2110   Afficher  Check-list
-2111   -
-2112   Afficher la Liste des Contrôleurs Aériens à Proximité
-2113   -
-2114   Configurer Constantes de Stabilité Artificielle
-2115   Configurer Constantes du Pilote Automatique
-2116   Configurer Constantes du FADEC
-2117   Montrer Débattement des Commandes
-2118   Montrer Objets ‘Baladeurs’
-2119   Montrer Guidage d’Armes
-2120   Montrer Configuration du Projecteur
-2121   Montrer Couleurs du Ciel
-2122   Montrer Console Développeur
+0 Đặc biệt
+2100 Điều chỉnh độ ổn định của sân
+2101 Điều chỉnh độ ổn định của ren
+2102 -
+2103 Hiển thị mô hình chuyến bay
+2104 Lưu mô hình chuyến bay
+2105 -
+2106 Tải tệp văn bản
+2107 Tệp văn bản hiển thị
+2108 -
+2109 Danh sách kiểm tra tải
+2110 Hiển thị danh sách kiểm tra
+2111 -
+2112 Hiển thị danh sách các kiểm soát viên không lưu lân cận
+2113 -
+2114 Định cấu hình các hằng số ổn định nhân tạo
+2115 Định cấu hình Hằng số lái xe tự động
+2116 Định cấu hình các hằng số FADEC
+
+Chương 2117
+2118 Hiển thị các đối tượng 'Người đi bộ'
+2119 Hiển thị Hướng dẫn Vũ khí
+2120 Hiển thị thiết lập máy chiếu
+2121 Hiển thị màu bầu trời
+2122 Hiển thị Bảng điều khiển dành cho nhà phát triển
 -

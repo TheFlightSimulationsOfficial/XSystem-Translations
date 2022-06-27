@@ -1,117 +1,117 @@
-A
-1 version de fichier, ne pas toucher
+CÓ
+1 phiên bản tệp, không chạm vào
 
-0 À propos de
-0   À propos de
+0 Giới thiệu
+0 Giới thiệu
 -
-0 Fichier
-300   Nouveau
-301   Ouvrir
-302   -
-303   Enregistrer
-304   Enregistrer sous
-305   -
-306   Quitter
+0 Tệp
+300 Mới
+301 Mở
+302 -
+303 Lưu
+304 Lưu dưới dạng
+305 -
+306 Thoát
 -
-0 Standard
-600   Auteur
-601   Point d'Observation
-602   Limites des Instruments
-603   Planche de Bord: 2-D
-604   Planche de Bord: 3-D
-605   -
-606   Caractéristiques Moteur
-607   Systèmes
-608   -
-609   Ailes
-610   Autres Ailes
-611   Pylônes Moteurs
-612   -
-613   Fuselage
-614   Autres Volumes
-615   Autres Objets 3D
-616   Nacelles Moteurs
-617   Carénages/Sabots de roue 
-618   -
-619   Contrôle de la Géométrie
-620   -
-621   Train d'atterrissage
-622   -
-623   Masse & Centrage
+0 Tiêu chuẩn
+600 Tác giả
+601 Điểm quan sát 
+602 Giới hạn dụng cụ
+Bảng điều khiển 603: 2-D
+Bảng điều khiển 604: 3-D
+605 -
+606 Thông số kỹ thuật động cơ
+607 Hệ thống
+608 -
+609 Cánh
+610 Đôi cánh khác
+611 Giá đỡ động cơ
+612 -
+613 Khung máy bay
+614 Tập khác
+615 Đối tượng 3D khác
+616 Engine Nacelles
+617 -
+618 -
+619 Kiểm soát hình học
+620 -
+621 Thiết bị hạ cánh
+622 -
+623 Khối lượng & Cân bằng
 -
-0 Expert
-900   Profils d'Ailes
-901   -
-902   Contrôles VTOL ou Hélico
-903   Contrôles Spéciaux
-904   Équipement Spécial
-905   -
-906   Stabilité Artificielle
-907   -
-908   Armes par Défaut
-909   Construire Armes
-910   -
-911   Zones de Texture Visibles
-912   Parties Invisibles
+0 Chuyên gia
+900 Hồ sơ Cánh
+901 -
+902 VTOL hoặc Điều khiển trực thăng
+903 Kiểm soát Đặc biệt
+904 Thiết bị Đặc biệt
+905 -
+906 Độ ổn định nhân tạo
+907 -
+908 Vũ khí Mặc định
+909 Chế tạo vũ khí
+910 -
+911 Khu vực kết cấu có thể nhìn thấy
+912 -
 -
-0 Contexte
-1200   Haut
-1201   Bas
-1202   Côté
-1203   Avant
-1204   Arrière
-1205   -
-1206   Ajuster Cap Droite
-1207   Ajuster Cap Gauche
-1208   Ajuster Roulis Droite
-1209   Ajuster Roulis Gauche
-1210   -
-1211   Mouvement à Gauche
-1212   Mouvement à Droite 
-1213   Mouvement en Haut
-1214   Mouvement en Bas
-1215   -
-1216   Mouvement à Gauche Rapide
-1217   Mouvement à Droite Rapide
-1218   Mouvement en Haut Rapide
-1219   Mouvement en Bas Rapide
-1220   -
-1221   Zoom avant
-1222   Zoom arrière
-1223   -
-1224   Zoom avant Rapide
-1225   Zoom arrière Rapide
-1226   -
-1227   3-D Rapide
-1228   3-D Lent
+0 Nền
+Cao 1200
+1201 Lên
+1202 Xuống
+1203 Trước
+1204 Sau
+1205 -
+1206 Điều chỉnh tiêu đề bên phải
+1207 Điều chỉnh tiêu đề bên trái
+1208 Điều chỉnh cuộn sang phải
+1209 Điều chỉnh cuộn sang trái
+1210 -
+1211 Chuyển động sang trái
+1212 Quyền di chuyển
+1213 Tiến lên
+1214 Đi xuống
+1215 -
+Chương 1216: Di chuyển nhanh sang trái
+Chương 1217 nhanh sang phải
+1218 Chuyển động lên nhanh
+1219 Chuyển động xuống nhanh
+1220 -
+1221 Phóng to
+1222 Thu nhỏ
+1223 -
+1224 Phóng to nhanh
+1225 Thu nhỏ nhanh
+1226 -
+1227 Nhanh 3-D
+1228 Chậm 3-D
 -
-0 Spécial
-1500   Fuselage Lissage Elliptique
-1501   Nacelles Lissage Elliptique
-1502   Autres Organes Lissage Elliptique
-1503   Carénages de Roues Lissage Elliptique
-1504   Armes Lissage Elliptique
-1505   -
-1506   Fuselage Lissage Total
-1507   Nacelles Lissage Total
-1508   Divers Organes Lissage Total
-1509   Carénages de roues Lissage Total
-1510   Armes Lissage Total
-1511   -
-1512   Montrer avec Contrôles Fixes / en Mouvement
-1513   Montrer en Filaire / Textures
-1514   Montrer avec Textures jour / nuit
-1515   -
-1516   Recharger Texture
-1517   Recharger Objet du Cockpit 
-1518   Enregistrer Points de Départ de la Texture
-1519   Retoucher les Textures de l'Aéronef 
-1520   -
-1521   Convertir Tout l'Aéronef au Dernier Format
-1522   -
-1523   Produire OBJ à partir de l'Aéronef
-1524   Produire STL à partir de l'Aéronef
-1525   Annuler
-1526   Refaire
-1527   Personnaliser les Touches
+0 Đặc biệt
+1500 Thân máy làm mịn hình elip
+1501 Nền tảng làm mịn hình elip
+1502 Các cơ quan làm mịn hình elip khác
+1503 Elip Smooth Wheel Fairings
+1504 Elip Smooth Arms
+1505 -
+1506 Fuselage Total Smoothing
+1507 Tổng số nền tảng làm mịn
+1508 Tổng làm mịn các cơ quan khác
+1509 Làm trơn bánh xe Tổng số làm mịn
+1510 Tổng số vũ khí làm mịn
+1511 -
+1512 Hiển thị với các điều khiển cố định / di chuyển
+1513 Hiển thị dưới dạng Wireframe / Kết cấu
+1514 Hiển thị với họa tiết Ngày / Đêm
+1515 -
+1516 Tải lại kết cấu
+1517 Vật thể Buồng lái Tải lại
+1518 Lưu điểm bắt đầu kết cấu
+1519 Chỉnh sửa họa tiết máy bay
+1520 -
+1521 Chuyển đổi toàn bộ máy bay sang định dạng mới nhất (Cẩn thận)
+1522 -
+1523 Sản xuất OBJ từ máy bay
+1524 Sản xuất STL từ máy bay
+1525 Hủy bỏ
+1526 Làm lại
+1527 Tùy chỉnh phím
 -

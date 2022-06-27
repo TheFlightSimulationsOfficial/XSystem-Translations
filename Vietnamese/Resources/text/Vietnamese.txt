@@ -222,7 +222,6 @@ STRING Part to Edit: Arrows and +/- to Zoom====Phần cần chỉnh sửa: Mũi 
 STRING Speedbrake====Phanh tốc độ
 STRING Wheels====Bánh xe
 STRING Tires====Lốp xe
-#STRING Strut====Đi khệnh khạng
 STRING File====Tập tin
 STRING Route====Tuyến đường
 STRING Auto-tune recommended frequencies====Tự động điều chỉnh các tần số được đề xuất
@@ -356,9 +355,6 @@ STRING Panel====Bảng điều khiển
 STRING Systems====Hệ thống
 STRING Engine Pylons====Trụ động cơ
 STRING Misc Objects====Đối tượng Khác
-#STRING Engine Nacelles====Engine Nacelles
-#STRING Wheel Fairings/Skids====Wheel Fairings/Skids
-#STRING Foils====Lá
 STRING Special Equipment====Thiết bị đặc biệt
 STRING Artificial Stability====Tính ổn định nhân tạo
 STRING Default Weapons====Vũ khí mặc định
@@ -406,7 +402,6 @@ STRING Done with pre-loading.====Đã hoàn tất với việc tải trước.
 STRING CAVOK====CAVOK
 STRING VFR====VFR
 STRING Pressurization====Điều áp
-STRING Pitch====Sân bóng đá
 STRING Name:====Tên:
 STRING OK====ĐƯỢC RỒI
 STRING LOCATION====ĐỊA ĐIỂM
@@ -422,7 +417,7 @@ STRING Add Standalone DME====Thêm DME độc lập
 STRING Altitude====Độ cao
 STRING Day====Ngày
 STRING Date====Ngày
-#STRING bus 1====Xe buýt 1
+#STRING bus 1====bus #1
 STRING Add NDB====Thêm NDB
 STRING Do nothing.====Không làm gì cả.
 STRING Air refueling (boom).====Tiếp nhiên liệu hàng không (bùng nổ).
@@ -573,8 +568,7 @@ STRING State====Tiểu bang
 STRING Resets all systems to working.====Đặt lại tất cả các hệ thống về hoạt động bình thường.
 STRING %1:degrees%°%2:E or W% magnetic variation====%1:degrees%°%2:E or W% biến thiên từ tính
 STRING RUNWAY====ĐƯỜNG BĂNG
-STRING %1:runway length%×%2:runway width% m====% 1: chiều dài đường băng% Ã—% 2: chiều rộng đường băng% m
-STRING %1:number of minutes% mins====% 1: số phút% phút
+STRING %1:number of minutes% mins====%1:number of minutes% phút
 STRING Weapons====Vũ khí
 STRING NORMAL CRUISE====TIẾP CẬN BÌNH THƯỜNG
 STRING Fuel Tank %1:tank number%====%1:tank number% thùng nhiên liệu
@@ -631,10 +625,10 @@ STRING Garmin GPS III Pilot, or Garmin 196, 296, 396, or 496====Garmin GPS III P
 STRING GARMIN 400, 430, & 530====GARMIN 400, 430, & 530
 STRING Order a Pro-Use Key Now====Đặt mua một khóa sử dụng chuyên nghiệp ngay bây giờ
 STRING GARMIN 400, 430, & 530 SIMULATION UNITS====GARMIN 400, 430, & 530 ĐƠN VỊ MÔ PHỎNG
-STRING Enable %1:WAAS or non-WAAS% G400, G430, or G530 Simulation Unit Nav (COM %2:com port number%)====Bật% 1: WAAS hoặc không phải WAAS% G400, G430, hoặc G530 Điều hướng đơn vị mô phỏng (COM %2:com port number%)
-STRING Garmin 430 #%1:com port number%, SIM port====Garmin 430 #% 1: số cổng com%, Cổng SIM
+STRING Enable %1:WAAS or non-WAAS% G400, G430, or G530 Simulation Unit Nav (COM %2:com port number%)====Bật%1:WAAS or non-WAAS% G400, G430, hoặc G530 Điều hướng đơn vị mô phỏng (COM %2:com port number%)
+STRING Garmin 430 #%1:com port number%, SIM port====Garmin 430 #%1:com port number%, Cổng SIM
 STRING WAAS====WAAS
-STRING Garmin 430 #%1:com port number%, GPS port====Garmin 430 #% 1: số cổng com%, Cổng GPS
+STRING Garmin 430 #%1:com port number%, GPS port====Garmin 430 #%1:com port number%, Cổng GPS
 STRING Garmin 400, 430, or 530 Simulation Unit #1====Garmin 400, 430, hoặc 530 Đơn vị mô phỏng # 1
 STRING Garmin 400, 430, or 530 Simulation Unit #2====Garmin 400, 430, hoặc 530 Đơn vị mô phỏng # 2
 STRING Garmin 400, 430, or 530 Simulation Unit #1, WAAS SIM====Garmin 400, 430, hoặc 530 Đơn vị mô phỏng # 1, WAAS SIM
@@ -644,7 +638,7 @@ STRING Garmin 400, 430, or 530 Simulation Unit #2, WAAS GPS====Garmin 400, 430, 
 STRING Physical GPS====GPS vật lý
 STRING Draw shadows on scenery====Hiện bóng trên phong cảnh
 STRING Reflection Detail====Độ chi tiết phản xạ
-STRING %1:texture size% MB of textures currently loaded====% 1: kích thước họa tiết% MB texture đã được tải
+STRING %1:texture size% MB of textures currently loaded====%1:texture size% MB texture đã được tải
 STRING High (HDR)====Cao (HDR)
 STRING Maximum (HDR+SSAO)====Tối đa (HDR + SSAO)
 STRING Enable Matrox TripleHead2Go====Bật Matrox TripleHead2Go
@@ -671,7 +665,7 @@ STRING PFC HARDWARE CONFIGURATION====CẤU HÌNH PHẦN CỨNG PFC
 STRING Min, Max, & Center====Tối thiểu, Tối đa, & Trung tâm
 STRING INSTRUCTOR OPERATING STATION %1:(in use or not)%====TRẠM VẬN HÀNH HƯỚNG DẪN %1:(in use or not)%
 STRING EXTERNAL VISUALS %1:(number of connections)%====VISUALS BÊN NGOÀI %1:(number of connections)%
-STRING (%1:number of connections% connections)====(% 1: số lượng kết nối% kết nối)
+STRING (%1:number of connections% connections)====(%1:number of connections% kết nối)
 STRING %1:number of seconds% seconds ago====%1:number of seconds% giây trước
 STRING Multiplayer machine %1:machine index% flying %2:aircraft name% (%3:IP address%)====Máy nhiều người chơi %1:machine index% flying %2:aircraft name% (%3:IP address%)
 STRING Multiplayer machine %1:machine index% (%2:IP address%)====Máy nhiều người chơi %1:machine index% (%2:IP address%)
@@ -864,7 +858,7 @@ STRING Tanks====Xe tăng
 STRING ICAO code for ATC====Mã ICAO cho ATC
 STRING notes====ghi chú
 STRING Use '%1:file%' for this aircraft.====Sử dụng '%1:file%' cho máy bay này.
-STRING This aircraft is '%1:file%'.====Máy bay này là '% 1: file%'.
+STRING This aircraft is '%1:file%'.====Máy bay này là '%1:file%'.
 STRING SHOW ALL PARTS IN X-PLANE====HIỂN THỊ TẤT CẢ CÁC BỘ PHẬN TRONG X-PLANE
 STRING HIDE ALL PARTS IN X-PLANE====Ẩn TẤT CẢ CÁC BỘ PHẬN TRONG X-PLANE
 STRING Air Traffic Control====Kiểm soát không lưu
@@ -1218,17 +1212,16 @@ STRING SCENERY ELEVATION & LAND CLASS====THANG ĐIỂM VÀ LỚP ĐẤT
 STRING SCENERY TEXTURES & FORESTS====LỚP HIỂN THỊ & RỪNG
 STRING AUTOGEN, ROADS, & URBAN TERRAIN ART====AUTOGEN, ĐƯỜNG, & ĐỊA HÌNH ĐÔ THỊ
 STRING SOURCE PHOTOGRAPHY====ẢNH NGUỒN
-#STRING RENDERING ART====NGHỆ THUẬT ĐỌC HIỂU
 STRING AIRPLANES & SKY COLORS====MÁY BAY & BẦU TRỜI 
 STRING AIRPLANES & AIRPORTS====MÁY BAY & SÂN BAY
 STRING LINUX PORT====CỔNG LINUX
 STRING TESTING & DOCUMENTATION====KIỂM TRA & TÀI LIỆU
-#STRING INSTRUMENT APPROACH DATA====DỮ LIỆU TIẾP CẬN INSTRUMENT
+STRING INSTRUMENT APPROACH DATA====DỮ LIỆU TIẾP CẬN BẰNG THIẾT BỊ
 STRING LEGAL====HỢP PHÁP
 STRING X-Plane uses free airspace data from SoaringWeb.com====X-Plane sử dụng dữ liệu không phận miễn phí từ SoaringWeb.com
 STRING X-Plane uses FreeType to render fonts. See FreeType.org for more information.====X-Plane sử dụng FreeType để hiển thị phông chữ. Xem FreeType.org để biết thêm thông tin.
 STRING DIFFICULTY====ĐỘ KHÓ KHĂN
-#STRING SCORE====GHI BÀN
+STRING SCORE====ĐIỂM
 STRING Airliners====Hàng không dân dụng
 STRING Other====Khác
 STRING Discard Changes====Loại bỏ những thay đổi
@@ -1888,7 +1881,6 @@ STRING FMS2: key_Z==== Phím Z
 STRING FMS2: key_period==== Phím period
 STRING FMS2: key_back==== Phím back
 STRING FMS2: key_space==== Phím space
-## X-Plane/réglages/Clavier/Navigation & radios/FMS (pilote)====## X-Plane/rÃ © glages/Clavier/Navigation & radio/FMS (pilote)
 STRING FMS: CDU popup====FMS: CDU popup
 STRING FMS: CLB====FMS: CLB
 STRING FMS: CRZ====FMS: CRZ
@@ -2214,7 +2206,7 @@ STRING VTOL Controls====Điều khiển VTOL
 STRING Accessory====Phụ kiện
 STRING After this 'Pre-Flare', where you level your descent, get the gear down and touch down smoothly.====Sau 'Pre-Flare', này, nơi bạn cân bằng gốc của bạn, xuống số và chạm xuống mượt mà.
 STRING %1:hours%:%2:minutes% local====%1:hours%:%2:minutes% giờ địa phương
-STRING Scanning %1:folder path% to see what files need updating.====Đang quét% 1: đường dẫn thư mục% để xem những tệp nào cần cập nhật.
+STRING Scanning %1:folder path% to see what files need updating.====Đang quét %1:folder path% để xem những tệp nào cần cập nhật.
 STRING This is the “%1:special start name%” special start.====Bạn đã chọn bắt đầu đặc biệt: “%1:special start name%”
 STRING Slung Load Object====Đối tượng tải trượt
 STRING Support for physical G400, G430, or G530 unit is unavailable, since you don’t have a Pro-Use USB key.====Không hỗ trợ cho thiết bị G400, G430, hoặc G530 vật lý, vì bạn không có khóa phiên bản X-plane Pro.
@@ -2348,9 +2340,8 @@ STRING writes/sec====ghi/giây
 STRING Port we receive on====Cảng chúng tôi nhận được trên
 STRING STABILITY AUGMENTATION====XÁC ĐỊNH ỔN ĐỊNH
 STRING No====Không
-STRING Max====Max
-STRING %1:no/some/moderate/high/max% %2:pitch/roll/yaw% stability augmentation====% 1: không/một số/vừa phải/cao/tối đa%% 2: tăng độ ổn định cao độ/cuộn/yaw%
-STRING In reality, aircraft controls have near-infinite resolution, high displacement-force, and the plane imparts G on you when you pull back. To help make up for the lack of these things in the sim, you can slide these sliders up a bit to add “auto-control” displacements to stabilize the plane. It isn’t realistic, but may make the plane feel more realistic.====Trong thực tế, điều khiển máy bay có độ phân giải gần như vô hạn, lực dịch chuyển cao, và máy bay truyền điểm G cho bạn khi bạn lùi lại. Để bù đắp cho việc thiếu những thứ này trong sim, bạn có thể trượt các thanh trượt này lên một chút để thêm các chuyển vị â € œauto-controlâ € để ổn định mặt phẳng. Nó không thực tế, nhưng có thể làm cho máy bay cảm thấy thực tế hơn.
+STRING Max====Tối đa
+STRING In reality, aircraft controls have near-infinite resolution, high displacement-force, and the plane imparts G on you when you pull back. To help make up for the lack of these things in the sim, you can slide these sliders up a bit to add “auto-control” displacements to stabilize the plane. It isn’t realistic, but may make the plane feel more realistic.====Trong thực tế, điều khiển máy bay có độ phân giải gần như vô hạn, lực dịch chuyển cao, và máy bay truyền điểm G cho bạn khi bạn lùi lại. Để bù đắp cho việc thiếu những thứ này trong sim, bạn có thể trượt các thanh trượt này lên một chút để thêm các chuyển vị "auto-control" để ổn định mặt phẳng. Nó không thực tế, nhưng có thể làm cho máy bay cảm thấy thực tế hơn.
 STRING Contact ATC.====Liên hệ với ATC.
 STRING Toggle text file.====Chuyển đổi tệp văn bản.
 STRING Weapon single/pair/ripple/salvo up.====Vũ khí đơn/cặp/ripple/salvo lên.
@@ -2804,8 +2795,8 @@ STRING After connecting the GPS to your computer, you’ll need to put the devic
 STRING You can do so by going to the Main Menu, then to Setup, then to System, and setting it to Simulator mode.====Bạn có thể làm như vậy bằng cách đi tới Menu chính, sau đó đến Cài đặt, sau đó đến Hệ thống, và đặt nó ở chế độ Giả lập.
 STRING Then, set the device's Serial #1 to “Aviation In” and Serial #2 to “none,” if applicable. Note that you may need a DB-9 cable from Garmin.====Sau đó, đặt Sê-ri số 1 của thiết bị thành “Aviation In” và Sê-ri số 2 thành “không”, nếu có. Lưu ý rằng bạn có thể cần cáp DB-9 từ Garmin.
 STRING There are thousands of free 3rd party aircraft, sceneries, and other X-Plane enhancements. Just search online for “X-Plane freeware.”====Có hàng nghìn máy bay bên thứ 3 miễn phí, cảnh, và các cải tiến khác của X-Plane. Chỉ cần tìm kiếm trực tuyến cho "X-plane freeware".
-STRING It’s easy to change the scenery that you’ve installed with X-Plane at any time. Run the installer and select the option to “Add/Remove Scenery.”====Thật dễ dàng để thay đổi khung cảnh mà bạn đã cài đặt với X-Plane bất kỳ lúc nào. Chạy trình cài đặt và chọn tùy chọn để â € œThêm/Xóa Phong cảnh.â €
-STRING The Airspeed Indicator in the aircraft will read “Indicated Airspeed,” or IAS. The error in this value will increase the higher you fly (as the density of the surrounding air decreases).====Chỉ báo Airspeed trong máy bay sẽ đọc â € œIndicated Airspeed, â € hoặc IAS. Sai số trong giá trị này sẽ tăng lên khi bạn bay càng cao (khi mật độ của không khí xung quanh giảm xuống).
+STRING It’s easy to change the scenery that you’ve installed with X-Plane at any time. Run the installer and select the option to “Add/Remove Scenery.”====Thật dễ dàng để thay đổi khung cảnh mà bạn đã cài đặt với X-Plane bất kỳ lúc nào. Chạy trình cài đặt và chọn tùy chọn để "Thêm/Xóa Phong cảnh".
+STRING The Airspeed Indicator in the aircraft will read “Indicated Airspeed,” or IAS. The error in this value will increase the higher you fly (as the density of the surrounding air decreases).====Chỉ báo Airspeed trong máy bay sẽ đọc "Indicated Airspeed", hoặc IAS. Sai số trong giá trị này sẽ tăng lên khi bạn bay càng cao (khi mật độ của không khí xung quanh giảm xuống).
 STRING One of the best training books for pilots is over a half-century old: “Stick and Rudder” by Wolfgang Langewiesche.====Một trong những cuốn sách đào tạo hay nhất dành cho phi công đã có tuổi đời hơn nửa thế kỷ: "Stick and Rudder" của Wolfgang Langewiesche.
 STRING Do you notice a yawing movement as you enter a turn? This is called “adverse yaw” and is caused by the lifting wing. Counter this tendency by applying rudder in the direction of the turn.====Bạn có nhận thấy chuyển động yaw khi vào một lượt không? Điều này được gọi là "chệch hướng bất lợi" và do cánh nâng gây ra. Chống lại xu hướng này bằng cách tác động bánh lái theo hướng rẽ.
 STRING More Info====Thêm thông tin
@@ -2832,7 +2823,6 @@ STRING MISC BODY 18====MISC CƠ THỂ 18
 STRING MISC BODY 19====CƠ THỂ MISC 19
 STRING MISC BODY 20====MISC BODY 20
 STRING Flight Configuration====Cấu hình chuyến bay
-########## traduits mais je ne sais pas les afficher, translated but I am not able to bring it to display====########## traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể hiển thị
 STRING Low rotor rpm====Vòng tua máy thấp
 STRING High rotor rpm====Vòng quay rôto cao
 STRING Oil press low====Báo dầu thấp
@@ -2922,19 +2912,13 @@ STRING WEAPON GUIDANCE====HƯỚNG DẪN VŨ KHÍ
 STRING WEAPON THRUST: Three phases available. Enter zero thrust for drop-phase.====WEAPON THRUST: Có ba giai đoạn. Nhập lực đẩy 0 cho giai đoạn thả.
 STRING RESET BOTTOM/LEFT TO SAME AS TOP/RIGHT====ĐẶT LẠI ĐÁY/TRÁI ĐỂ CÙNG NHƯ TRÊN/PHẢI
 STRING VERT STAB 1====VERT STAB 1
-##Spécial/Convertir tout l'aéronef au dernier format====## SpÃ © cial/Convertir tout l'aÃ © ronef au dernier định dạng
 STRING Select the key you'd like to program from the list on the left of this screen and hit any key you like! Then select the group and item to assign a funtion to that keypress!===="Chọn khóa bạn muốn lập trình từ danh sách bên trái màn hình này và nhấn bất kỳ phím nào bạn muốn! Sau đó, chọn nhóm và mục để chỉ định một thao tác cho lần nhấn phím đó!"
-##Tutoriels====## Tutoriels
 STRING Continue====Tiếp tục
 STRING Acknowledge====Thừa nhận
 STRING Try again!====Thử lại!
-#traffic_pattern====#traffic_pattern
 STRING Alright, let’s line up with the runway for our final approach.====Được rồi, hãy chuẩn bị cho đường băng để tiếp cận cuối cùng của chúng tôi.
-## vor_tutorial====## vor_tutorial
-## GA_takeoff_tut====## GA_takeoff_tut
-## intro====## giới thiệu
 STRING X-Plane Basics====Kiến thức cơ bản về X-Plane
-STRING You’re using a mouse to fly. Click the mouse near the center of the screen to “grab” the yoke (the flight controls). Click a second time if you want to release the controls.====Bạn đang sử dụng chuột để bay. Nhấp chuột gần giữa màn hình để â € œgrabâ € ách (điều khiển chuyến bay). Bấm lần thứ hai nếu bạn muốn giải phóng các điều khiển.
+STRING You’re using a mouse to fly. Click the mouse near the center of the screen to “grab” the yoke (the flight controls). Click a second time if you want to release the controls.====Bạn đang sử dụng chuột để bay. Nhấp chuột gần giữa màn hình để kéo cần điều khiển (điều khiển chuyến bay). Bấm lần thứ hai nếu bạn muốn giải phóng các điều khiển.
 STRING Practice!====Thực tiễn!
 STRING Move the [control] to the left to make the plane go left!====Di chuyển [điều khiển] sang trái để máy bay đi sang trái!
 STRING Move the [control] to the right to make the plane go right!====Di chuyển [điều khiển] sang phải để làm cho máy bay đi sang phải!
@@ -2943,28 +2927,25 @@ STRING Pull the [control] back toward you to raise the nose.====Kéo [điều kh
 STRING Push the [control] away from you to lower the nose.====Đẩy [điều khiển] ra khỏi bạn để hạ mũi.
 STRING Move the mouse pointer towards the bottom of the box to raise the nose.====Di chuyển con trỏ chuột về phía dưới cùng của hộp để nâng cao mũi.
 STRING I’ll fly the plane for a moment while we learn a few other controls.====Tôi sẽ lái máy bay trong giây lát trong khi chúng ta tìm hiểu một số cách điều khiển khác.
-STRING You can pause the simulator at any time by pressing ‘[pause]’.====Bạn có thể tạm dừng trình mô phỏng bất kỳ lúc nào bằng cách nhấn â € ˜ [pause] â € ™.
+STRING You can pause the simulator at any time by pressing ‘[pause]’.====Bạn có thể tạm dừng trình mô phỏng bất kỳ lúc nào bằng cách nhấn '[pause]'.
 STRING Increase the throttle all the way to go to full power.====Tăng ga hết cỡ để đi hết công suất.
-STRING You can use the keyboard to control the throttle. The ‘[throttle_up]’ key increases the throttle.====Bạn có thể sử dụng bàn phím để điều khiển ga. Phím â € ˜ [bướm ga] â € ™ tăng ga.
-STRING While the ‘[throttle_down]’ key decreases it.====Trong khi phím â € ˜ [bướm ga] â € ™ giảm nó.
+STRING You can use the keyboard to control the throttle. The ‘[throttle_up]’ key increases the throttle.====Bạn có thể sử dụng bàn phím để điều khiển ga. Phím ‘[throttle_up]’ tăng ga.
+STRING While the ‘[throttle_down]’ key decreases it.====Trong khi phím ‘[throttle_down]’ giảm nó.
 STRING Good! I’ll set the throttle to 50% to keep the plane moving nicely.====Tốt! Tôi sẽ đặt bướm ga ở mức 50% để giữ cho máy bay di chuyển tốt.
-STRING Commands on the keyboard can change your view. Try pressing ‘[view_circle]’ to go to the Circle view.====Các lệnh trên bàn phím có thể thay đổi chế độ xem của bạn. Thử nhấn â € ˜ [view_circle] â € ™ để chuyển đến dạng xem Circle.
-STRING You can also use the ‘[backwards]’ and ‘[forwards]’ keys to move your view farther from or closer to the plane.====Bạn cũng có thể sử dụng các phím â € ˜ [ngược] â € ™ và â € ˜ [tiến] â € ™ để di chuyển chế độ xem của bạn ra xa hoặc gần mặt phẳng hơn.
+STRING Commands on the keyboard can change your view. Try pressing ‘[view_circle]’ to go to the Circle view.====Các lệnh trên bàn phím có thể thay đổi chế độ xem của bạn. Thử nhấn '[view_circle]' để chuyển đến dạng xem Circle.
+STRING You can also use the ‘[backwards]’ and ‘[forwards]’ keys to move your view farther from or closer to the plane.====Bạn cũng có thể sử dụng các phím '[ngược]' và '[tiến]' để di chuyển chế độ xem của bạn ra xa hoặc gần mặt phẳng hơn.
 STRING Zooming can be especially useful in the cockpit to get a good look at your instruments.====Tính năng thu phóng có thể đặc biệt hữu ích trong buồng lái để nhìn rõ các thiết bị của bạn.
-STRING Use the scroll wheel on your mouse to zoom, or the ‘[forwards]’ key to get a closer look.====Sử dụng con lăn trên chuột để thu phóng, hoặc phím â € ˜ [chuyển tiếp] â € ™ để xem kỹ hơn.
+STRING Use the scroll wheel on your mouse to zoom, or the ‘[forwards]’ key to get a closer look.====Sử dụng con lăn trên chuột để thu phóng, hoặc phím '[chuyển tiếp]' để xem kỹ hơn.
 STRING You can bring up the main menu by pressing [sim/operation/show_menu] or by moving your mouse to the top of the screen.====Bạn có thể hiển thị menu chính bằng cách nhấn [sim/operation/show_menu] hoặc di chuyển chuột lên đầu màn hình.
 STRING You can also use the scroll wheel on your mouse to move your view farther from or closer to the plane.====Bạn cũng có thể sử dụng con lăn trên chuột để di chuyển chế độ xem của mình xa hơn hoặc gần hơn với mặt phẳng.
 STRING Use the scroll wheel on your mouse to zoom in and out.====Sử dụng con lăn trên chuột của bạn để phóng to và thu nhỏ.
 STRING Finally, if you need help, just click on the question mark on the right side of the menu bar.====Cuối cùng, nếu bạn cần trợ giúp, chỉ cần nhấp vào dấu chấm hỏi bên phải thanh menu.
-## intro_helo====## intro_helo
 STRING Helicopter Basics====Kiến thức cơ bản về máy bay trực thăng
 "STRING We want to set down right on the ""29"" numbers painted on the runway."===="Chúng tôi muốn đặt xuống ngay trên con số ""29"" được sơn trên đường băng."
-## ga_landing_tut====## ga_landing_tut
 STRING Landing in the Cessna 172====Hạ cánh xuống Cessna 172
 STRING Landing an airplane can be incredibly daunting. Take it one step at a time, though, and you can learn to pilot the Cessna 172 safely down to the ground in no time.====Hạ cánh máy bay có thể cực kỳ khó khăn. Hãy thực hiện từng bước một, mặc dù, và bạn có thể học cách lái chiếc Cessna 172 hạ cánh an toàn ngay lập tức.
 STRING We’re too high to land safely. I’m going to call the landing off.====Độ cao quá cao để hạ cánh an toàn. Tôi sẽ gọi hạ cánh.
 STRING We’re going too fast to land safely. I’m going to call the landing off.====Chúng tôi đang đi quá nhanh để hạ cánh an toàn. Tôi sẽ gọi hạ cánh.
-## ils_tutorial_172====## ils_tutorial_172
 STRING Flying an ILS Approach====Bay một phương pháp tiếp cận ILS
 STRING Runway 34R, you’re cleared to land.====Đường băng 34R, bạn đã được dọn dẹp để hạ cánh.
 STRING We’re too low... We were supposed to be maintaining 5,000 ft.====Chúng tôi quá thấp ... Chúng tôi được cho là đang duy trì 5, 000 ft.
@@ -2972,63 +2953,44 @@ STRING Soon, ATC will contact us and have us turn perpendicular to the runway, e
 STRING Turn left heading 070, descend and maintain 3,000 ft.====Rẽ trái tiêu đề 070, đi xuống và duy trì 3, 000 ft.
 STRING We’re too high... we were supposed to be maintaining 3,000 ft.====Chúng tôi quá cao ... chúng tôi phải duy trì 3, 000 ft.
 STRING We’re too low... we were supposed to be maintaining 3,000 ft.====Chúng tôi quá thấp ... chúng tôi được cho là đang duy trì 3, 000 ft.
-## ils_tutorial_airliner====## ils_tutorial_airliner
-## tut_landing_a320====## tut_landing_a320
 STRING Landing an Airliner====Hạ cánh máy bay
 STRING Uh... we didn't make it to the runway...====Uh ... chúng tôi đã không đến được đường băng ...
-## tut_super_cub_takeoff====## tut_super_cub_takeoff
 STRING Taildragger Takeoff====Taildragger Cất cánh
-## ils_tutorial_downwind====## ils_tutorial_downwind
 STRING Use your altimeter and heading indicator to make sure you’re on track.====Sử dụng máy đo độ cao và chỉ báo tiêu đề của bạn để đảm bảo rằng bạn đang đi đúng hướng.
 STRING Remember... we’re aiming for heading 160 and 5,000 ft.====Hãy nhớ rằng ... chúng tôi đang nhắm đến tiêu đề 160 và 5, 000 ft.
-## ils _tutoriel_172_intro====## ils _tutoriel_172_intro
 STRING Soon, the SeaTac ATC will contact us with the heading and altitude we need to fly on the approach. Until then, we’ll just keep it straight and level.====Ngay sau đó, SeaTac ATC sẽ liên hệ với chúng tôi với hướng đi và độ cao mà chúng tôi cần bay khi tiếp cận. Cho đến lúc đó, chúng ta sẽ chỉ cần giữ cho nó thẳng thắn và cân bằng.
-## ils_tutorial_intro====## ils_tutorial_intro
-## ils_tutotrail_base====## ils_tutotrail_base
 STRING At this point, when you look at your PFD, you should see two purple diamonds: one on the horizontal axis, one on the vertical axis.====Tại thời điểm này, khi bạn nhìn vào PFD, bạn sẽ thấy hai viên kim cương màu tím: một trên trục hoành, một trên trục tung.
 STRING If you point the plane’s nose toward the needles (for instance, by flying right when the vertical needle is off to the right, or by flying up when the horizontal needle is up above the horizon line), you’ll eventually intercept the course.====Nếu bạn hướng mũi máy bay về phía kim (ví dụ, bằng cách bay sang phải khi kim thẳng đứng lệch sang phải, hoặc bay lên khi kim nằm ngang lên trên đường chân trời) >> > cuối cùng bạn sẽ chặn được khóa học.
 STRING For now, we’ll just continue on heading 070 at 3,000 ft.===="Hiện tại,, chúng ta sẽ tiếp tục đi về hướng 070 ở độ cao 3, 000 ft."
-## ils_tutorial_turn_for_final====## ils_tutorial_turn_for_final
 STRING Watch your purple course deviation indicators. When the vertical needle starts moving toward the center, you’ll know you’re almost lined up with the runway.====Xem các chỉ số độ lệch khóa học màu tím của bạn. Khi kim dọc bắt đầu di chuyển về phía trung tâm, bạn sẽ biết bạn gần như đã xếp hàng với đường băng.
 STRING Okay, you heard the ATC! Let’s get to a heading of 160 and an altitude of 5,000 ft. We’ll be setting up for an approach to runway 34R.====Được rồi, bạn đã nghe ATC! Chúng ta hãy đi đến tiêu đề 160 và độ cao 5, 000 ft. Chúng tôi sẽ thiết lập phương án tiếp cận đường băng 34R.
-## landing_nanny_c172====## landing_nanny_c172
 STRING Don’t forget to extend flaps. This will make the plane easier to control at low speeds.====Đừng quên mở rộng cánh tà. Điều này sẽ giúp máy bay dễ điều khiển hơn ở tốc độ thấp.
 STRING Remember you want to gently descend by lowering the throttle.====Hãy nhớ rằng bạn muốn xuống nhẹ nhàng bằng cách giảm ga.
-## *takeoff_intro====## * cất cánh_intro
 STRING Let’s walk through your first takeoff in the Cessna 172SP.====Hãy cùng bước qua lần cất cánh đầu tiên của bạn trên chiếc Cessna 172SP.
 STRING Let’s get started!====Hãy bắt đầu!
 STRING Make sure you’re using full power!====Đảm bảo rằng bạn đang sử dụng toàn bộ sức mạnh!
 STRING Here we go! Watch for 55kts...====Bắt đầu! Xem với giá 55kts ...
 STRING Raise the nose a bit to maintain 74kts during our climb to 1500 feet.====Nâng mũi lên một chút để duy trì 74kts trong quá trình chúng tôi leo lên độ cao 1500 feet.
-## *takeoff_p1====## * cất cánh_p1
 STRING First, disengage the brakes.====Đầu tiên, ngắt phanh.
 STRING Okay, whenever you’re ready, add full power!====Được rồi, bất cứ khi nào bạn sẵn sàng, thêm toàn bộ sức mạnh!
-STRING (You can press and hold ‘[throttle_up]’ to add full power.)====(Bạn có thể nhấn và giữ â € ˜ [bướm ga] â € ™ để thêm toàn bộ sức mạnh.)
+STRING (You can press and hold ‘[throttle_up]’ to add full power.)====(Bạn có thể nhấn và giữ '[bướm ga]' để thêm toàn bộ sức mạnh.)
 STRING (You can push the black knob in all the way to add full power.)====(Bạn có thể đẩy núm màu đen theo mọi cách để thêm toàn bộ sức mạnh.)
 STRING There’s 55 knots! Slowly bring the nose up!====Đó là 55 hải lý! Từ từ đưa mũi lên!
-## *takeoff_p2====## * cất cánh_p2
 STRING Continue climbing until you reach 1500 ft.====Tiếp tục leo cho đến khi bạn đạt 1500 ft.
 STRING At 1400 feet, slowly start lowering the nose to level off right at 1500 feet.====Ở độ cao 1400 feet, từ từ bắt đầu hạ mũi xuống thấp ngay ở 1500 feet.
 STRING Climb back up to 1,500 feet.====Leo ngược lên đến 1, 500 feet.
 STRING Descend back down to 1,500 feet.====Giảm xuống 1, 500 feet.
 STRING Level off to maintain 1,500 feet.====Giảm mức để duy trì 1, 500 feet.
 STRING Great! Hold the plane level right here!====Tuyệt quá! Giữ mức máy bay ngay tại đây!
-## traffic_pattern_altitude====## traffic_pattern_altitude
-## traffic_pattern_cruising====## traffic_pattern_cruising
 STRING Now that we’re in the crosswind phase of the pattern, you can go ahead and lower the throttle to about 70% to cruise.====Bây giờ chúng ta đang ở trong giai đoạn tua ngược của mô hình, bạn có thể tiếp tục và giảm ga xuống khoảng 70% để hành trình.
-## traffic_pattern_departure====## traffic_pattern_departure
 STRING Looking good! We’ve entered the upwind phase of the traffic pattern. Let’s aim to maintain about 1100 ft as we circle around.====Trông được! Chúng ta đã bước vào giai đoạn ngược lại của kiểu lưu lượng truy cập. Hãy đặt mục tiêu duy trì khoảng 1100 ft khi chúng ta đi vòng quanh.
-## traffic_pattern_intro====## traffic_pattern_intro
 STRING We’re ready to fly our first traffic pattern!====Chúng tôi đã sẵn sàng thực hiện mô hình giao thông đầu tiên của mình!
 STRING Follow the green checkpoint markers for a perfect pattern.====Thực hiện theo các điểm đánh dấu điểm kiểm tra màu xanh lá cây để có một mẫu hoàn hảo.
-## traffic_pattern_look over shoulder====## traffic_pattern_look qua vai
 STRING You can keep yourself oriented during the pattern by looking over your shoulder at the runway.====Bạn có thể giữ cho mình định hướng trong suốt quá trình làm mẫu bằng cách nhìn qua vai về đường băng.
-STRING Remember that you can re-center your view by pressing ‘[view_3d_cockpit]’.====Hãy nhớ rằng bạn có thể căn giữa chế độ xem của mình bằng cách nhấn â € ˜ [view_3d_cockpit] â € ™.
+STRING Remember that you can re-center your view by pressing ‘[view_3d_cockpit]’.====Hãy nhớ rằng bạn có thể căn giữa chế độ xem của mình bằng cách nhấn '[view_3d_cockpit]'.
 STRING Okay, controls are yours again.====Được rồi, điều khiển lại là của bạn.
-## traffic_pattern_prep_for_landing====## traffic_pattern_prep_for_landing
 STRING Let’s go ahead and reduce the throttle to about 50% to start slowing down a bit.====Hãy tiếp tục và giảm ga xuống khoảng 50% để bắt đầu giảm tốc độ một chút.
 STRING Let’s descend down to 800 ft in preparation for landing.====Hãy hạ xuống 800 ft để chuẩn bị hạ cánh.
-## tutorial_helo_flight====## tutorial_helo_flight
 STRING Add a bit of collective and move your [control] forward to start moving forward. You move your [control] left or right to turn.====Thêm một chút tập thể và di chuyển [quyền kiểm soát] của bạn về phía trước để bắt đầu tiến về phía trước. Bạn di chuyển [điều khiển] của mình sang trái hoặc phải để rẽ.
 STRING It’s incredibly difficult to control a helicopter with only the mouse. It’s probably a good idea to return to Flight School and try something different for now.====Điều khiển máy bay trực thăng chỉ với chuột là vô cùng khó. Có lẽ bạn nên quay lại Trường dạy bay và thử một cái gì đó khác ngay bây giờ.
 STRING Welcome to your first helicopter flight. We’ll start off learning to hover.====Chào mừng đến với chuyến bay trực thăng đầu tiên của bạn. Chúng ta sẽ bắt đầu học cách di chuột.
@@ -3041,69 +3003,48 @@ STRING Likewise, if you drift back, tilt your [control] forward a bit.====Tươn
 STRING Be careful, though! It’s easy to over-control and go too far. It takes only the tiniest movements of the controls to stay in place.====Hãy cẩn thận, mặc dù! Thật dễ dàng để kiểm soát quá mức và đi quá xa. Chỉ cần những chuyển động nhỏ nhất của các nút điều khiển để giữ nguyên vị trí.
 STRING As you hover, you’ll need to keep the pedals just a tad to the left (and hold them there) to keep the helicopter pointed straight down the runway.====Khi bạn di chuột, bạn sẽ cần giữ bàn đạp lệch sang trái một chút (và giữ chúng ở đó) để giữ cho máy bay trực thăng hướng thẳng xuống đường băng.
 STRING Now, let’s try it!====Bây giờ, hãy thử nó!
-## tutorial_helo_intro====## tutorial_helo_intro
-## tutorial_helo_landing====## tutorial_helo_landing
 STRING You’ll need to reduce the collective and pitch the nose up a bit to begin descending and slowing down.====Bạn sẽ cần giảm tập thể và hướng mũi lên một chút để bắt đầu giảm dần và giảm tốc độ.
 STRING Your goal is to be in a perfect hover by the time you set down on the runway.====Mục tiêu của bạn là bay lượn hoàn hảo vào thời điểm bạn đặt chân xuống đường băng.
-## tutorial_helo_take_off.====## hướng dẫn_helo_take_off.
 STRING Slowly increase the collective to about 30% so that you hover a few feet above the ground. As you do, move your [control] to hover in place.====Từ từ tăng mức tập lên khoảng 30% sao cho bạn lơ lửng cách mặt đất vài feet. Khi bạn làm, di chuyển [điều khiển] của bạn để di chuột vào vị trí.
-## tutorial_landing_postgame====## tutorial_landing_postgame
 STRING You did it! Way to go!====Bạn làm được rồi! Tốt thôi!
-## tutorial_landing_a320_postgame====## tutorial_landing_a320_postgame
-## tutorial_landing====## tutorial_landing
 STRING Next, let's reduce the throttle to about 30%. This will cause us to start slowly descending...ideally around 500fpm.====Tiếp theo, chúng ta hãy giảm ga khoảng 30%. Điều này sẽ khiến chúng ta bắt đầu giảm dần ... lý tưởng là khoảng 500fpm.
 STRING From here on out, we just need to keep the plane lined up with the runway as we slowly descend.====Từ đây trở đi, chúng ta chỉ cần giữ cho máy bay thẳng hàng với đường băng khi chúng ta từ từ hạ xuống.
-## tutorial_landing_a320====## tutorial_landing_a320
-## tutorial_landing_a320_intro====## tutorial_landing_a320_intro
 STRING We're about 10 nm out from Seattle-Tacoma International, preparing to land our Boeing B737 there.====Chúng tôi cách Seattle-Tacoma International khoảng 10 hải lý, chuẩn bị hạ cánh chiếc Boeing B737 của chúng tôi ở đó.
-## tutorial_landing_a320_p2====## tutorial_landing_a320_p2
 STRING We’re getting close...====Chúng tôi đang tiến gần đến ...
 STRING Let’s extend the landing gear.====Hãy mở rộng thiết bị hạ cánh.
 STRING You're coming in too steep—raise the nose a bit and aim to touch down farther back on the runway.====Bạn đang đến quá dốc - hãy nâng mũi lên một chút và hướng xuống xa hơn trên đường băng.
-## tutorial_landing_a320_p3====## tutorial_landing_a320_p3
-## tutorial_landing_intro====## tutorial_landing_intro
 STRING We're on a final approach to Sea-Tac (KSEA) Runway 16L, preparing to land our Cessna 172.====Chúng tôi đang tiến hành cách tiếp cận cuối cùng tới Đường băng 16L của Sea-Tac (KSEA), chuẩn bị hạ cánh Cessna 172 của chúng tôi.
-## tutorial_landing_p2====## tutorial_landing_p2
 STRING Looks good!====Có vẻ tốt!
 STRING We’re getting close!====Chúng ta đang đến gần!
 STRING Let’s lower a notch of flaps. This will slow us down more, and allow us to fly slower at the proper descent rate.====Hãy hạ thấp một chút cánh tà. Điều này sẽ làm chậm chúng ta hơn, và cho phép chúng ta bay chậm hơn với tốc độ hạ độ cao thích hợp.
 STRING By the time we touch the ground, we want to be at idle throttle with full flaps.====Vào thời điểm chúng ta chạm đất, chúng ta muốn ở trạng thái ga không tải với các cánh lật hoàn toàn.
-## tutorial_super_cub_intro====## tutorial_super_cub_intro
 STRING Welcome to your first taildragger takeoff! This is the Stinson L5.====Chào mừng bạn đến với lần cất cánh đầu tiên của bạn! Đây là Stinson L5.
 STRING At low speeds in a taildragger, you’ll need to pull back on the [control] slightly to keep the nose up and the tail wheel firmly on the ground. Otherwise, you’ll lose the ability to steer!====Ở tốc độ thấp trong máy cắt đuôi, bạn cần phải lùi nhẹ [điều khiển] về phía sau để giữ cho mũi xe hướng lên và bánh đuôi bám chắc trên mặt đất. Nếu không, bạn sẽ mất khả năng chỉ đạo!
 STRING As you’re steering down the runway, watch your airspeed indicator, and start pulling back when you hit 50 mph.====Khi bạn đang lái xuống đường băng, xem chỉ báo tốc độ không khí của bạn, và bắt đầu lùi lại khi bạn đạt 50 dặm/giờ.
-## tutorial_super_cub_takeoff_p1====## tutorial_super_cub_takeoff_p1
 STRING Eventually, your tail will naturally rise, and the aircraft's body will be parallel to the ground. At that point, you’ll be able to move the [control] back to neutral and simply steer like usual.====Cuối cùng, đuôi của bạn sẽ tự nhiên nhô lên, và thân máy bay sẽ song song với mặt đất. Tại thời điểm đó, bạn sẽ có thể di chuyển [điều khiển] trở lại vị trí trung lập và chỉ cần chỉ đạo như bình thường.
 STRING Go ahead and turn off the brakes and slowly increase the throttle to about halfway.===="Tiếp tục, tắt phanh và từ từ tăng ga lên khoảng nửa chừng."
 STRING Release the brakes.====Nhả phanh.
-STRING Use ‘[throttle_up]’ to increase the throttle.====Sử dụng â € ˜ [bướm ga] â € ™ để tăng ga.
+STRING Use ‘[throttle_up]’ to increase the throttle.====Sử dụng '[bướm ga]' để tăng ga.
 STRING Aim to maintain 65 mph during the climb. Let’s get to 1,200 feet.====Mục tiêu duy trì 65 dặm/giờ trong suốt quá trình leo núi. Hãy đến 1, 200 feet.
-## tutorial_172_getting_close====## tutorial_172_getting_close
-## tutorial_172_intro====## tutorial_172_intro
 STRING We’re ready to start navigating to Juneau International. I’m going to fly for a moment to get you oriented.====Chúng tôi đã sẵn sàng để bắt đầu điều hướng đến Juneau International. Tôi sẽ bay trong giây lát để giúp bạn định hướng.
-STRING So, we’re going to follow one of these “spokes” (radials) to reach Sisters Island, and then we’ll follow another radial away from Sisters Island to get to Juneau.===="Vì vậy,, chúng ta sẽ đi theo một trong những â € œspokesâ € (xuyên tâm) này để đến Đảo Sisters, và sau đó chúng ta sẽ đi theo một hướng xuyên tâm khác từ Đảo Sisters để đến Juneau."
-STRING We’re on the 295 radial—the “spoke” coming from the VOR transmitter “hub” at heading 295. The hoops in front of us visualize that radial.====Chúng tôi đang ở trên 295 radialâ € ”â € œspokeâ € đến từ máy phát VOR - œhubâ € ở tiêu đề 295. Các vòng tròn trước mặt chúng tôi hình dung ra nó.
+STRING So, we’re going to follow one of these “spokes” (radials) to reach Sisters Island, and then we’ll follow another radial away from Sisters Island to get to Juneau.===="Vì vậy,, chúng ta sẽ đi theo một trong những "spokes" (xuyên tâm) này để đến Đảo Sisters, và sau đó chúng ta sẽ đi theo một hướng xuyên tâm khác từ Đảo Sisters để đến Juneau."
+STRING We’re on the 295 radial—the “spoke” coming from the VOR transmitter “hub” at heading 295. The hoops in front of us visualize that radial.====Chúng tôi đang ở trên 295 radial" ”"spoke" đến từ máy phát VOR - œhub" ở tiêu đề 295. Các vòng tròn trước mặt chúng tôi hình dung ra nó.
 STRING If you look to the left, you can see a hoop visualization of the 296 radial.====Nếu bạn nhìn sang bên trái, bạn có thể thấy hình ảnh vòng của đường tròn 296.
 STRING Likewise, to the right of us is a visualization of the 294 radial.====Tương tự như vậy, ở bên phải của chúng tôi là hình ảnh của 294 xuyên tâm.
-## tutorial_172_intro_p2====## tutorial_172_intro_p2
 STRING The vertical bar here is the lateral (horizontal) course deviation indicator. The CDI shows where our course is in relation to the aircraft itself.====Thanh dọc ở đây là chỉ báo độ lệch của khóa học bên (ngang). CDI chỉ ra vị trí của khóa học của chúng tôi trong mối quan hệ với chính chiếc máy bay.
 STRING But, watch what happens when we drift off course.====Nhưng, hãy xem điều gì sẽ xảy ra khi chúng ta đi chệch hướng.
 STRING If you look out the window, you’ll see that the 295 radial is over to our left—this agrees with the vertical course deviation indicator.===="Nếu bạn nhìn ra ngoài cửa sổ, bạn sẽ thấy rằng đường tròn 295 nằm ở phía bên trái của chúng ta "", điều này đồng ý với chỉ báo độ lệch khóa học theo chiều dọc."
 STRING As you can see, the vertical bar is starting to come back toward the center, so we need to turn back to be lined up with the radial.====Như bạn thấy, thanh dọc bắt đầu quay trở lại hướng tâm, vì vậy chúng ta cần quay trở lại để thẳng hàng với xuyên tâm.
 STRING Okay, at this point, you know all you need to fly the VOR. So, we’re going to head to Sisters Island (the site of the VOR we’re getting guidance from) and from there go on to Juneau International.===="Được rồi, tại thời điểm này, bạn biết tất cả những gì bạn cần để bay VOR. Vì vậy,, chúng tôi sẽ đi đến Đảo chị em (trang web của VOR mà chúng tôi đang nhận hướng dẫn) và từ đó đi đến Juneau International."
 STRING Just follow the guidance from the course deviation indicator and we’ll reach Sisters Island in no time.====Chỉ cần làm theo hướng dẫn từ chỉ báo độ lệch khóa học và chúng tôi sẽ đến được Đảo Chị em ngay lập tức.
-## tutorial_172_reached_vor====## tutorial_172_reached_vor
 STRING Okay, we’re over the Sisters Island VOR... Remember, this is like being at the hub of a bike wheel.====Được rồi, chúng ta đang ở Đảo Sisters VOR ... Hãy nhớ, điều này giống như ở trung tâm của một bánh xe đạp.
 STRING When the needle starts to move, turn to heading 035, then begin correcting your heading to center the CDI again.====Khi kim bắt đầu di chuyển, chuyển sang tiêu đề 035, sau đó bắt đầu điều chỉnh lại tiêu đề của bạn để căn giữa CDI.
-## vor_tutorial_intro====## vor_tutorial_intro
 STRING The VOR transmitter creates 360 lines like this—one line for each compass degree around the transmitter.===="Máy phát VOR tạo ra 360 đường như thế này, một đường cho mỗi độ la bàn xung quanh máy phát."
 STRING The purple diamond here (beneath the artificial horizon) is the course deviation indicator, or CDI. The CDI shows where our course is in relation to the aircraft itself.====Viên kim cương màu tím ở đây (bên dưới đường chân trời nhân tạo) là chỉ báo độ lệch khóa học, hoặc CDI. CDI chỉ ra vị trí của khóa học của chúng tôi trong mối quan hệ với chính chiếc máy bay.
 STRING If you look out the window, you’ll see that the 295 radial is over to our left—this agrees with the purple course deviation indicator.===="Nếu bạn nhìn ra ngoài cửa sổ, bạn sẽ thấy rằng đường bán kính 295 nằm ở phía bên trái của chúng ta "", điều này đồng ý với chỉ báo độ lệch khóa học màu tím."
 STRING Let’s get back on track.====Hãy trở lại đúng hướng.
 STRING If, after a few seconds, we don’t see the CDI diamond moving, we’ll deviate a bit farther toward the left.====Nếu, sau vài giây, chúng ta không thấy viên kim cương CDI di chuyển, chúng ta sẽ lệch xa hơn một chút về phía bên trái.
 STRING As you can see, the diamond is starting to come back toward the center, so we need to turn back to be lined up with the radial.====Như bạn có thể thấy, viên kim cương đang bắt đầu quay trở lại tâm, vì vậy chúng ta cần quay lại để thẳng hàng với mặt tâm.
-## de log.txt====## de log.txt
-##de untranslated string====## de chuỗi chưa được dịch
 STRING Stay on the runway!====Ở trên đường băng!
 STRING PAUSED====ĐÃ TẠM DỪNG
 STRING FROZEN====ĐÔNG CỨNG
@@ -3128,27 +3069,11 @@ STRING Save before quitting?====Lưu trước khi nghỉ việc?
 STRING Regenerate Icon====Tạo lại biểu tượng
 STRING Overwrite File====Ghi đè tệp
 STRING OVERWRITE EXISTING FILE?====GHI ĐÈ LÊN TẬP TIN HIỆN CÓ?
-STRING Are you sure you want to overwrite your existing file “%1:file name%”?====Bạn có chắc chắn muốn ghi đè tệp hiện có của mình â € œ% 1: tên tệp% â € không?
+STRING Are you sure you want to overwrite your existing file “%1:file name%”?====Bạn có chắc chắn muốn ghi đè tệp hiện có của mình “%1:file name%” không?
 STRING design studio====xưởng thiết kế
-##Plane Maker: à ranger====## Plane Maker: Ã ranger
-##Plane Maker/standart/Vue générale cadre Airspeed====## Plane Maker/standart/Vue gÃ © nÃ © rale staff Airspeed
-## de untranslated strings, où ranger? probablement indications sur TDB si coché====## de chuỗi chưa được dịch, oÃ¹ ranger? chỉ định xác suất sur TDB si cochÃ ©
-## train d'atterrissage====## train d'atterrissage
-##fuel====##nhiên liệu
-## Plane Maker menu tableau de bord: éclairage et voyants====## Trình đơn Plane Maker tableau de bord: Ã © clairage et voyants
-## Plane Maker menu tableau de bord: démarrage====## Trình đơn Plane Maker tableau de bord: dÃ © marrage
-## Plane Maker menu tableau de bord: cadrans et afficheurs====## Trình đơn Plane Maker tableau de bord: cadrans et afficheurs
-## Plane Maker menu tableau de bord: weapons/armes====## Trình đơn Plane Maker tableau de bord: vũ khí/armes
-## Plane Maker menu tableau de bord: De-ice Dégivrage====## Trình đơn Plane Maker tableau de bord: De-ice DÃ © givrage
-## Plane Maker menu tableau de bord: radios====## Trình đơn Plane Maker tableau de bord: radio
-## Plane Maker menu tableau de bord: Displays, affichages écrans====## Trình đơn Plane Maker tableau de bord: Hiển thị, affichages Ã © crans
-## Boutons/interrupteurs fonction spéciales====## Boutons/interrupteurs fonction spÃ © ciales
-STRING ground attitude: %1:degrees% deg, %2:height% ft.====mặt đất:% 1: độ% deg ,% 2: height% ft.
+STRING ground attitude: %1:degrees% deg, %2:height% ft.====mặt đất: %1:degrees% deg, %2:height% ft.
 STRING      bypass ratio==== tỷ lệ bỏ qua
 STRING Show a list of generic instruments.  These are basic instruments that you can customize.====Hiển thị danh sách các công cụ chung. Đây là những nhạc cụ cơ bản mà bạn có thể tùy chỉnh.
-## King air C90? (pas beau, mais anglais pire)====## King air C90? (pas beau, mais anglais pire)
-#fin reste à traduire, fin traduit 6666====#fin reste Ã traduire, fin traduit 6666
-## messages et indications (issu de untranslated strings)====## tin nhắn và chỉ dẫn (cấp phát cho các chuỗi chưa được dịch)
 STRING No approach selected====Không có phương pháp tiếp cận nào được chọn
 STRING No approach selected.====Không có cách tiếp cận nào được chọn.
 STRING Choose an approach from the dropdown to the right.====Chọn một cách tiếp cận từ menu thả xuống bên phải.
@@ -3181,8 +3106,8 @@ STRING END CURRENT FLIGHT?====KẾT THÚC CHUYẾN BAY HIỆN TẠI?
 STRING Start New Flight====Bắt đầu chuyến bay mới
 STRING Minimal====Tối thiểu
 STRING Maximum====Tối đa
-STRING Fail when %1:keyboard key% or joystick button are pressed====Không thành công khi% 1: phím bàn phím% hoặc nút cần điều khiển được nhấn
-STRING Fail when %1:keyboard key% is pressed====Không thành công khi% 1: phím bàn phím% được nhấn
+STRING Fail when %1:keyboard key% or joystick button are pressed====Không thành công khi %1:keyboard key% hoặc nút cần điều khiển được nhấn
+STRING Fail when %1:keyboard key% is pressed====Không thành công khi %1:keyboard key% được nhấn
 STRING Failed to open the following aircraft:====Không mở được máy bay sau:
 STRING Cirrus====Tua quăn
 STRING Noncombatant====Không tham gia
@@ -3201,20 +3126,13 @@ STRING WINCH LAUNCH====CHIẾN THẮNG RA MẮT
 STRING Landing light 03 off.====Đèn hạ cánh 03 tắt.
 STRING Autopilot====Lái tự động
 STRING Dirt field takeoff.====Trường bụi đất cất cánh.
-STRING 3 nm final to %1:runway%====3 nm cuối cùng đến% 1: đường băng%
-STRING 10 nm final to %1:runway%====10 nm cuối cùng đến% 1: đường băng%
+STRING 3 nm final to %1:runway%====3 nm cuối cùng đến%1:runway%
+STRING 10 nm final to %1:runway%====10 nm cuối cùng đến%1:runway%
 STRING Oil Platform====Nền dầu
 STRING 3D====3D
-STRING (near %1:airport ID%)====(gần% 1: ID sân bay%)
-#eh oui, le pluriel de scenario est scenaris====#eh oui, le pluriel de scripts est scriris
+STRING (near %1:airport ID%)====(gần %1:airport ID%)
 STRING You can display the frame rate by checking the first box in the Data Input & Output screen under the Settings. This allows you to fine-tune your simulator’s performance.====Bạn có thể hiển thị tốc độ khung hình bằng cách chọn hộp đầu tiên trong màn hình Đầu vào & Đầu ra Dữ liệu trong phần Cài đặt. Điều này cho phép bạn tinh chỉnh hiệu suất của trình mô phỏng.
 STRING Groundspeed is the actual speed that an aircraft travels over the ground. It is the combination of the aircraft’s airspeed and the wind's speed relative to the aircraft's direction.====Tốc độ bay là tốc độ thực tế của máy bay trên mặt đất. Nó là sự kết hợp giữa vận tốc của máy bay và tốc độ của gió so với hướng của máy bay.
-#_______________________________________________________________________________________________________====#_______________________________________________________________________________________________________
-# Plane Maker====# Máy bay tạo máy bay
-## expert/parties invisibles====## chuyên gia/bên ẩn
-# standart/systèmes/électricité cadre batteries,génératrices et bus====# standart/systÃ¨mes/Ã © lectricitÃ © pin cán bộ, gÃ © nÃ © ratrices et xe buýt
-#test====#kiểm tra
-##traffic_pattern====## traffic_pattern
 STRING Takeoff in the Cessna 172====Cessna 172 cất cánh
 STRING Welcome to X-Plane 11! This is a quick tour to show you around.====Chào mừng đến với X-Plane 11! Đây là một chuyến tham quan nhanh chóng để cho bạn thấy xung quanh.
 STRING Let’s talk about how to control the plane.====Hãy nói về cách điều khiển máy bay.
@@ -3226,15 +3144,14 @@ STRING Looking good! Now, right before the plane reaches the ground, gently rais
 STRING You made it! Put on the brakes to stop the airplane.====Bạn đã thực hiện nó! Phanh để dừng máy bay.
 STRING Looking good! Now, right before the plane reaches the ground, gently raise the nose up a bit above the horizon for a soft touchdown.====Trông được! Bây giờ, ngay trước khi máy bay chạm đất, nhẹ nhàng nâng mũi lên phía trên đường chân trời một chút để chạm nhẹ xuống.
 STRING Raise the nose slightly, so that your speed slowly goes back down to 74kts during the climb.====Nâng mũi lên một chút, để tốc độ của bạn từ từ lùi xuống 74kts trong quá trình leo dốc.
-# X-Plane Bundle installer====# Trình cài đặt Gói X-Plane
 STRING Please insert X-Plane 10 DVD number one to begin, then wait a few moments for the DVD to be recognized by your computer.====Vui lòng chèn X-Plane 10 DVD số một để bắt đầu, sau đó đợi một lát để máy tính của bạn nhận dạng đĩa DVD.
 STRING This DVD does not appear to be an X-Plane 11 DVD.====DVD này dường như không phải là DVD X-Plane 11.
 STRING Are you sure you want to stop scenery installation? You can add or remove more scenery later.====Bạn có chắc chắn muốn dừng cài đặt phong cảnh không? Bạn có thể thêm hoặc bớt các khung cảnh khác sau này.
 STRING Upgrade Demo====Nâng cấp Demo
-STRING Please insert DVD number %1:disk number%, then wait a few moments for the DVD to be recognized by your computer.====Vui lòng chèn DVD number% 1: disk number%, sau đó đợi một lát để máy tính của bạn nhận dạng DVD.
+STRING Please insert DVD number %1:disk number%, then wait a few moments for the DVD to be recognized by your computer.====Vui lòng chèn DVD number %1:disk number%, sau đó đợi một lát để máy tính của bạn nhận dạng DVD.
 STRING The installer will try to download again shortly.====Trình cài đặt sẽ cố gắng tải xuống lại trong thời gian ngắn.
-STRING About %1:time% left in the install, downloading at %2:rate% from %3:number% download server.====Khoảng% 1: thời gian% còn lại trong cài đặt, tải xuống tại% 2: tỷ lệ% từ% 3: máy chủ tải xuống số%.
-STRING About %1:time% left in the install, downloading at %2:rate% from %3:number% download servers.====Khoảng% 1: thời gian% còn lại trong cài đặt, tải xuống ở% 2: tỷ lệ% từ% 3: số% máy chủ tải xuống.
+STRING About %1:time% left in the install, downloading at %2:rate% from %3:number% download server.====Khoảng%1:time% còn lại trong cài đặt, tải xuống tại% 2: tỷ lệ% từ% 3: máy chủ tải xuống số%.
+STRING About %1:time% left in the install, downloading at %2:rate% from %3:number% download servers.====Khoảng%1:time% còn lại trong cài đặt, tải xuống ở% 2: tỷ lệ% từ% 3: số% máy chủ tải xuống.
 STRING Please be sure to select the folder that contains the X-Plane application.====Hãy đảm bảo chọn thư mục chứa ứng dụng X-Plane.
 STRING the demo installation process.====quá trình cài đặt demo.
 STRING the install.====cài đặt.
@@ -3262,7 +3179,7 @@ STRING You can continue with the installation and attempt to reinstall the damag
 STRING Some of your scenery may not be usable. Please check your internet connection and try again, or contact Laminar Research tech support for help.====Một số khung cảnh của bạn có thể không sử dụng được. Vui lòng kiểm tra kết nối internet của bạn và thử lại, hoặc liên hệ với bộ phận hỗ trợ kỹ thuật của Laminar Research để được trợ giúp.
 STRING Some of your scenery may not be usable. Please try the installer again later or contact Laminar Research tech support for help.====Một số khung cảnh của bạn có thể không sử dụng được. Vui lòng thử lại trình cài đặt sau hoặc liên hệ với bộ phận hỗ trợ kỹ thuật của Laminar Research để được trợ giúp.
 STRING Check for Updates====Kiểm tra cập nhật
-STRING Hint: You can copy your product key from your email (using %1:copy shortcut%) & paste it into the text box above (using %2:paste shortcut%).====Gợi ý: Bạn có thể sao chép khóa sản phẩm từ email của mình (sử dụng% 1: sao chép phím tắt%) và dán vào hộp văn bản ở trên (sử dụng% 2: dán phím tắt%).
+STRING Hint: You can copy your product key from your email (using %1:copy shortcut%) & paste it into the text box above (using %2:paste shortcut%).====Gợi ý: Bạn có thể sao chép khóa sản phẩm từ email của mình (sử dụng %1:copy shortcut%) và dán vào hộp văn bản ở trên (sử dụng %2:paste shortcut%).
 STRING This free update includes both new features and bug fixes.====Bản cập nhật miễn phí này bao gồm cả các tính năng mới và các bản sửa lỗi.
 STRING Additional Terms for Jeppesen Data====Điều khoản bổ sung cho dữ liệu Jeppesen
 STRING Could not connect to the internet to find the current version of X-Plane at X-Plane.com.====Không thể kết nối với Internet để tìm phiên bản hiện tại của X-Plane tại X-Plane.com.
@@ -3270,9 +3187,9 @@ STRING Unable to read downloaded version information.====Không thể đọc th�
 STRING Can’t connect to the internet to find latest version.====Không thể kết nối với internet để tìm phiên bản mới nhất.
 STRING There is a new version of X-Plane available! Visit X-Plane.com to download the update.====Đã có phiên bản X-Plane mới! Truy cập X-Plane.com để tải xuống bản cập nhật.
 STRING There is a newer beta of X-Plane available! Visit X-Plane.com to download the update.====Đã có phiên bản beta mới hơn của X-Plane! Truy cập X-Plane.com để tải xuống bản cập nhật.
-STRING Downloading Xavion Flight Data Recorder File (%1:percent complete%%)====Tải xuống Tệp ghi dữ liệu chuyến bay Xavion (% 1: phần trăm hoàn thành %%)
+STRING Downloading Xavion Flight Data Recorder File (%1:percent complete%%)====Tải xuống Tệp ghi dữ liệu chuyến bay Xavion (%1:percent complete%%)
 STRING Frame rate and controls tests will be done at conclusion of startup.====Các bài kiểm tra tốc độ khung hình và điều khiển sẽ được thực hiện khi kết thúc khởi động.
-STRING No runways within %1:distance% nm====Không có đường băng trong% 1: khoảng cách% nm
+STRING No runways within %1:distance% nm====Không có đường băng trong %1:distance% nm
 STRING A file with the same name already exists.====Tệp có cùng tên đã tồn tại.
 STRING Overwrite Existing Flight====Ghi đè chuyến bay hiện có
 # X-Plane/Démarrage/Conseils - Startup hints====# X-Plane/DÃ © marrage/Conseils - Gợi ý khởi động
@@ -3286,7 +3203,7 @@ STRING Will initialize plugins.====Sẽ khởi tạo các plugin.
 STRING Will initialize ATC.====Sẽ khởi tạo ATC.
 STRING Will load boat objects.====Sẽ tải các đối tượng thuyền.
 STRING Will do region prep.====Sẽ chuẩn bị khu vực.
-STRING Loading %1:file path%.====Đang tải% 1: đường dẫn tệp%.
+STRING Loading %1:file path%.====Đang tải %1:file path%.
 # X-Plane /Quitter ==== # X-Plane/Quitter
 STRING QUIT ALL CONNECTED COPIES OF X-PLANE?====QUIT TẤT CẢ CÁC BẢN SAO ĐƯỢC KẾT NỐI CỦA X-PLANE?
 STRING If you click Quit, X-Plane will exit on this machine, as well as on any networked computers.====Nếu bạn nhấp vào Thoát, X-Plane sẽ thoát trên máy này, cũng như trên bất kỳ máy tính nối mạng nào.
@@ -3297,7 +3214,7 @@ STRING Would you like to start a new flight?====Bạn có muốn bắt đầu m�
 # X-Plane Menu Principal ==== # X-Plane Menu chính
 # X-Plane/configuration du vol====# X-Plane/configuration du vol
 STRING AI AIRCRAFT====MÁY BAY AI
-STRING %1:number of results% Result====% 1: số kết quả% Kết quả
+STRING %1:number of results% Result====%1:number of results% Kết quả
 STRING Because you changed your aircraft, we will end your current flight and start a new one as you configured it. Is this what you want?====Vì bạn đã thay đổi máy bay của mình, chúng tôi sẽ kết thúc chuyến bay hiện tại của bạn và bắt đầu chuyến bay mới khi bạn định cấu hình. Đây có phải là những gì bạn muốn?
 STRING Because you changed your location, we will end your current flight and start a new one as you configured it. Is this what you want?====Vì bạn đã thay đổi vị trí của mình, chúng tôi sẽ kết thúc chuyến bay hiện tại của bạn và bắt đầu chuyến bay mới khi bạn định cấu hình. Đây có phải là những gì bạn muốn?
 #X-Plane/ Config du vol/Appareils IA====# X-Plane/Config du vol/Appareils IA
@@ -3345,133 +3262,64 @@ STRING PRECIPITATION====SỰ KẾT TỦA
 STRING STORMINESS====BÃO
 STRING ALTITUDE====ĐỘ CAO
 STRING COVERAGE====ĐỘ PHỦ SÓNG
-#STRING CLIMB RATE====TỶ LỆ CLIMB
+STRING CLIMB RATE====TỐC ĐỘ THAY ĐỔI ĐỘ CAO
 STRING WAVE HEIGHT====CHIỀU CAO SÓNG
 STRING WAVE DIRECTION====HƯỚNG SÓNG
 STRING RUNWAY WETNESS====TÌNH TRẠNG ĐƯỜNG BĂNG
 STRING DIRECTION====HƯỚNG ĐI
 STRING SPEED====TỐC ĐỘ GIÓ
-#STRING SHEAR AMOUNT====SỐ TIỀN SHEAR
-#STRING GUST SPEED INCREASE====GUST TĂNG TỐC ĐỘ
-#STRING flaps %1:degrees extended%====lật% 1: độ mở rộng%
-STRING %1:airport identifier%, %2:runway name%====% 1: định danh sân bay% ,% 2: tên đường băng%
-STRING %1:airport identifier%, Ramp %2:ramp name%====1: số nhận dạng sân bay%, Đường nối% 2: tên đường nối%
-# X-Plane/Configuration du vol/réglage heure====# X-Plane/Cấu hình du vol/rÃ © glage heure
-STRING %1:month name% %2:day of month%====% 1: tên tháng%% 2: ngày trong tháng%
-STRING %1:date%, %2:time of day%====% 1: ngày% ,% 2: thời gian trong ngày%
-## X-Plane/config du vol/personnalisation avion====## X-Plane/config du vol/personnalisation avion
 STRING Regenerate Icons====Tạo lại các biểu tượng
 STRING Glider start:====Khởi động tàu lượn:
 STRING Winch launch====Khởi động tời
-STRING Towed aloft by %1:aircraft name%====Được kéo lên cao bởi% 1: tên máy bay%
+STRING Towed aloft by %1:aircraft name%====Được kéo lên cao bởi %1:aircraft name%
 STRING EDIT GLIDER START====CHỈNH SỬA GLIDER BẮT ĐẦU
 STRING Your glider will be lanched from a ground-based winch.====Tàu lượn của bạn sẽ được thả từ một tời trên mặt đất.
-# X-Plane/enregistrer un vol====# X-Plane/enregistrer un vol
-# X-Plane/charger un vol enregistré====# X-Plane/bộ sạc un vol enregistrÃ ©
 STRING Flight Data Recorder====Máy ghi dữ liệu chuyến bay
-## X-Plane/Ecole de pilotage====## X-Plane/Ecole de pilotage
-## X-Plane/Tutoriels====## X-Plane/Tutoriels
 STRING Next====Tiếp theo
 STRING Retry====Thử lại
-## X-Plane/Tutoriels/traffic_pattern====## X-Plane/Tutoriels/traffic_pattern
 STRING Real pilots fly in a very specific way during takeoff & landing. In this tutorial, you’ll learn to take off, fly a rectangular circuit, and land back on the runway just like you would in the real world.====Các phi công thực sự bay theo một cách rất cụ thể trong quá trình cất cánh và hạ cánh. Trong hướng dẫn này, bạn sẽ học cách cất cánh, bay một vòng hình chữ nhật, và hạ cánh trở lại đường băng giống như bạn làm trong thế giới thực.
-##  X-Plane/Tutoriels/vor_tutorial====## X-Plane/Tutoriels/vor_tutorial
 STRING If you want to fly cross-country without the benefit of a GPS, you'll need to learn to use VOR navigation. Fly this tutorial to learn how real pilots fly from Point A to Point B.====Nếu bạn muốn bay xuyên quốc gia mà không có GPS, bạn sẽ cần học cách sử dụng định vị VOR. Bay hướng dẫn này để tìm hiểu cách các phi công thực sự bay từ Điểm A đến Điểm B.
-##  X-Plane/Tutoriels/GA_takeoff_tut====## X-Plane/Tutoriels/GA_takeoff_tut
-##  X-Plane/Tutoriels/intro====## X-Plane/Tutoriels/intro
-##  X-Plane/Tutoriels/intro_helo====## X-Plane/Tutoriels/intro_helo
-##  X-Plane/Tutoriels/ga_landing_tut====## X-Plane/Tutoriels/ga_landing_tut
-##  X-Plane/Tutoriels/ils_tutorial_172====## X-Plane/Tutoriels/ils_tutorial_172
 STRING We’re off course... We were supposed to be turning to heading 070 at 3,000 ft.====Chúng tôi đang đi chệch hướng ... Chúng tôi được cho là đang chuyển sang hướng 070 ở độ cao 3, 000 ft.
 STRING At this point, when you look at your CDI, you should see two lines.====Tại thời điểm này, khi bạn nhìn vào CDI của bạn, bạn sẽ thấy hai dòng.
-STRING Once we get on course for the ILS approach, these lines (“needles”) will indicate which direction you need to fly to stay on course.====Khi chúng ta đã đi đúng hướng cho phương pháp tiếp cận ILS, những dòng này (â € œneedlesâ €) sẽ cho biết bạn cần bay theo hướng nào để đi đúng hướng.
+STRING Once we get on course for the ILS approach, these lines (“needles”) will indicate which direction you need to fly to stay on course.====Khi chúng ta đã đi đúng hướng cho phương pháp tiếp cận ILS, những dòng này ("needles") sẽ cho biết bạn cần bay theo hướng nào để đi đúng hướng.
 STRING We’re off course... we were supposed to be turning to heading 070 at 3,000 ft.====Chúng tôi đang đi chệch hướng ... chúng tôi được cho là đang chuyển hướng đến hướng 070 ở độ cao 3, 000 ft.
 STRING We’re off course... We were supposed to be flying the ILS to runway 34R, but we’re too far west.====Chúng tôi đi chệch hướng ... Chúng tôi đã định bay ILS đến đường băng 34R, nhưng chúng tôi ở quá xa về phía tây.
 STRING We’re off course... We were supposed to be flying the ILS to runway 34R, but we’re too far east.====Chúng tôi đang đi chệch hướng ... Chúng tôi đã định bay ILS đến đường băng 34R, nhưng chúng tôi đang ở quá xa về phía đông.
 STRING We’re at the threshold of the runway... be sure to make visual contact with the runway as you set the plane down.====Chúng ta đang ở ngưỡng cửa của đường băng ... hãy đảm bảo tiếp xúc trực quan với đường băng khi bạn hạ máy bay.
-##  X-Plane/Tutoriels/ils_tutorial_airliner====## X-Plane/Tutoriels/ils_tutorial_airliner
-##  X-Plane/Tutoriels/tut_landing_a320====## X-Plane/Tutoriels/tut_landing_a320
-##  X-Plane/Tutoriels/tut_super_cub_takeoff====## X-Plane/Tutoriels/tut_super_cub_takeoff
-## X-Plane/Tutoriels/ils_tutorial_downwind====## X-Plane/Tutoriels/ils_tutorial_downwind
 STRING Fly heading 160, maintain 5,000 feet... vectors ILS runway 34R at KSEA.====Bay hướng 160, duy trì 5, 000 feet ... vectơ ILS đường băng 34R tại KSEA.
-##  X-Plane/Tutoriels/ils _tutoriel_172_intro====## X-Plane/Tutoriels/ils _tutoriel_172_intro
-##  X-Plane/Tutoriels/ils_tutorial_intro====## X-Plane/Tutoriels/ils_tutorial_intro
-##  X-Plane/Tutoriels/ils_tutoriel_base====## X-Plane/Tutoriels/ils_tutoriel_base
-STRING Once we get on course for the ILS approach, these diamonds (“needles”) will indicate which direction you need to fly to stay on course.====Khi chúng ta đi đúng hướng cho phương pháp ILS, những viên kim cương này (â € œneedlesâ €) sẽ cho biết bạn cần bay theo hướng nào để đi đúng hướng.
-##  X-Plane/Tutoriels/ils_tutorial_turn_for_final====## X-Plane/Tutoriels/ils_tutorial_turn_for_final
-##  X-Plane/Tutoriels/ils_tutorial_downwind====## X-Plane/Tutoriels/ils_tutorial_downwind
-##  X-Plane/Tutoriels/landing_nanny_c172====## X-Plane/Tutoriels/landing_nanny_c172
-STRING Remember to extend flaps (‘[flaps_down]’). This will make the plane easier to control at low speeds.====Hãy nhớ mở rộng cánh tà (â € ˜ [Fls_down] â € ™). Điều này sẽ giúp máy bay dễ điều khiển hơn ở tốc độ thấp.
-##  X-Plane/Tutoriels/*takeoff_intro====## X-Plane/Tutoriels/* takeoff_intro
-##  X-Plane/Tutoriels/*takeoff_p1====## X-Plane/Tutoriels/* cất cánh_p1
-##  X-Plane/Tutoriels/*takeoff_p2====## X-Plane/Tutoriels/* cất cánh_p2
+
+STRING Once we get on course for the ILS approach, these diamonds (“needles”) will indicate which direction you need to fly to stay on course.====Khi chúng ta đi đúng hướng cho phương pháp ILS, những viên kim cương này ("needles") sẽ cho biết bạn cần bay theo hướng nào để đi đúng hướng.
+
+STRING Remember to extend flaps (‘[flaps_down]’). This will make the plane easier to control at low speeds.====Hãy nhớ mở rộng cánh tà ('[Fls_down]'). Điều này sẽ giúp máy bay dễ điều khiển hơn ở tốc độ thấp.
+
 STRING This is your altimeter. Read it like a clock. The small hand is thousands of feet. The big hand is hundreds of feet.====Đây là máy đo độ cao của bạn. Đọc nó như một chiếc đồng hồ. Bàn tay nhỏ bé nghìn chân. Bàn tay to dài hàng trăm thước.
 STRING Since you want to level off here at 1500 ft, you want to try to keep the VSI needle at 0.====Vì bạn muốn dừng lại ở đây ở 1500 ft, bạn muốn cố gắng giữ kim VSI ở 0.
-##  X-Plane/Tutoriels/traffic_pattern_altitude====## X-Plane/Tutoriels/traffic_pattern_altitude
-##  X-Plane/Tutoriels/traffic_pattern_cruising====## X-Plane/Tutoriels/traffic_pattern_cruising
-##  X-Plane/Tutoriels/traffic_pattern_departure====## X-Plane/Tutoriels/traffic_pattern_departure
 STRING We’re pretty high for landing—let’s drop down to 800 ft.====Chúng tôi khá cao để hạ cánh xuống 800 ft.
-##  X-Plane/Tutoriels/traffic_pattern_intro====## X-Plane/Tutoriels/traffic_pattern_intro
-##  X-Plane/Tutoriels/traffic_pattern_look over shoulder====## X-Plane/Tutoriels/traffic_pattern_look qua vai
-##  X-Plane/Tutoriels/traffic_pattern_prep_for_landing====## X-Plane/Tutoriels/traffic_pattern_prep_for_landing
-## X-Plane/Tutoriels/tutorial_helo_flight====## X-Plane/Tutoriels/tutorial_helo_flight
-## X-Plane/Tutoriels/tutorial_helo_intro====## X-Plane/Tutoriels/tutorial_helo_intro
-## X-Plane/Tutoriels/tutorial_helo_landing====## X-Plane/Tutoriels/tutorial_helo_landing
-## X-Plane/Tutoriels/tutorial_helo_take_off.====## X-Plane/Tutoriels/tutorial_helo_take_off.
 STRING Use [brakes] to turn off the brakes.====Sử dụng [phanh] để tắt phanh.
-## X-Plane/Tutoriels/tutorial_landing_postgame====## X-Plane/Tutoriels/tutorial_landing_postgame
-## X-Plane/Tutoriels/tutorial_landing_a320_postgame====## X-Plane/Tutoriels/tutorial_landing_a320_postgame
-## X-Plane/Tutoriels/tutorial_landing====## X-Plane/Tutoriels/tutorial_landing
-## X-Plane/Tutoriels/tutorial_landing_a320====## X-Plane/Tutoriels/tutorial_landing_a320
-## X-Plane/Tutoriels/tutorial_landing_a320_intro====## X-Plane/Tutoriels/tutorial_landing_a320_intro
-## X-Plane/Tutoriels/tutorial_landing_a320_p2====## X-Plane/Tutoriels/tutorial_landing_a320_p2
-## X-Plane/Tutoriels/tutorial_landing_a320_p3====## X-Plane/Tutoriels/tutorial_landing_a320_p3
-## X-Plane/Tutoriels/tutorial_landing_intro====## X-Plane/Tutoriels/tutorial_landing_intro
-## X-Plane/Tutoriels/tutorial_landing_p2====## X-Plane/Tutoriels/tutorial_landing_p2
-## X-Plane/Tutoriels/tutorial_super_cub_intro====## X-Plane/Tutoriels/tutorial_super_cub_intro
-## X-Plane/Tutoriels/tutorial_super_cub_takeoff_p1====## X-Plane/Tutoriels/tutorial_super_cub_takeoff_p1
-## X-Plane/Tutoriels/tutorial_172_getting_close====## X-Plane/Tutoriels/tutorial_172_getting_close
-## X-Plane/Tutoriels/tutorial_172_intro====## X-Plane/Tutoriels/tutorial_172_intro
-## X-Plane/Tutoriels/tutorial_172_intro_p2====## X-Plane/Tutoriels/tutorial_172_intro_p2
 STRING The key here is not to over-correct. We want to turn just a bit toward the direction the CDI indicates, then wait.====Chìa khóa ở đây là không sửa sai quá nhiều. Chúng tôi muốn quay một chút về hướng CDI chỉ ra, sau đó đợi.
-## X-Plane/Tutoriels/tutorial_172_reached_vor====## X-Plane/Tutoriels/tutorial_172_reached_vor
-## X-Plane/Tutoriels/vor_tutorial_intro====## X-Plane/Tutoriels/vor_tutorial_intro
-## FIN Ecole de pilotage - TUTORIELS====## FIN Ecole de pilotage - TUTORIELS
-# X-Plane/Pilotage/Menus/Fichier ==== # Máy bay X/Phi công/Thực đơn/Fichier
+
 STRING Open Checklist====Mở danh sách kiểm tra
-# X-Plane/Pilotage/Menus/Fichier/ enregistrement video====# X-Plane/Phi công/Thực đơn/Fichier/video đăng ký
 STRING Create time lapse video====Tạo video tua nhanh thời gian
 STRING This lets you run at a higher frame rate when capturing videos, but results in an upside-down movie on some computers.====Điều này cho phép bạn chạy ở tốc độ khung hình cao hơn khi quay video, nhưng dẫn đến phim bị lộn ngược trên một số máy tính.
 STRING a random location====một vị trí ngẫu nhiên
-# X-Plane/Pilotage/Menus/Fichier/ carnet de vol====# X-Plane/Phi công/Thực đơn/Fichier/carnet de vol
 STRING Tail Number====Số đuôi
 STRING Landings====Hạ cánh
 STRING Night Hours====Giờ ban đêm
 STRING Cross Country Hours====Giờ xuyên quốc gia
-# X-Plane/Pilotage/Menus/Fichier/ Check List====# X-Plane/Phi công/Thực đơn/Fichier/Danh sách kiểm tra
 STRING Checklist====Danh mục
-# X-Plane/Pilotage/Menus/Fichier/ fichier texte====# X-Plane/Phi công/Thực đơn/Fichier/fichier texte
-# X-Plane/Pilotage/Menus/Fichier/ quitter====# X-Plane/Pilotage/Menus/Fichier/quitter
-# X-Plane/Pilotage/Menus/Vol====# Máy bay X/Phi công/Thực đơn/Tập
 STRING Toggle Replay Mode====Chuyển sang chế độ phát lại
 STRING Hide Key Shortcuts====Ẩn phím tắt
-# X-Plane/Pilotage/Menus/Vol/Masse et centrage====# X-Plane/Pilotage/Menus/Vol/Masse et centrage
 STRING Show Units In====Hiển thị các đơn vị trong
 STRING Metric====Hệ mét
 STRING US Customary====Hệ U.S.
 STRING Payload Weight====Trọng lượng tải trọng
 STRING Restore Defaults====Khôi phục mặc định
-# X-Plane/Pilotage/Menus/Vol/Armes====# X-Plane/Pilotage/Menus/Vol/Armes
-##bug## : pas de traduction ==== ## bug ##: pas de traduction
-##end bug## fin bug traduction====## end bug ## fin bug traduction
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillance====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillance
 STRING Search by failure name====Tìm kiếm theo tên lỗi
 STRING Fail at exact altitude====Không đạt ở độ cao chính xác
 STRING Fail at exact speed====Không đạt ở tốc độ chính xác
 STRING Set exact time until failure====Đặt thời gian chính xác cho đến khi xảy ra sự cố
 STRING Set mean time until failure====Đặt thời gian trung bình cho đến khi xảy ra sự cố
 STRING Always working====Luôn hoạt động
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillance/DETAIL====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillance/DETAIL
 STRING Equipment====Thiết bị
 STRING Primary====Sơ đẳng
 STRING Engine====Động cơ
@@ -3560,9 +3408,9 @@ STRING You can either change to a different aircraft, or go to Settings > Graphi
 STRING Enter IP Address====Nhập địa chỉ IP
 STRING Reset UDP Ports====Đặt lại các cổng UDP
 STRING Datarefs will be written and read as $ + comma-separated strings.====Datarefs sẽ được viết và đọc dưới dạng $ + các chuỗi được phân tách bằng dấu phẩy.
-STRING HTTP Error %1:cryptic error number% (%2:explanation%)====Lỗi HTTP% 1: số lỗi khó hiểu% (% 2: giải thích%)
+STRING HTTP Error %1:cryptic error number% (%2:explanation%)====Lỗi HTTP %1:cryptic error number% (%2:explanation%)
 STRING Waiting====Đang chờ đợi
-STRING COM Port #%1:com port% opened====Cổng COM #% 1: Cổng com% đã mở
+STRING COM Port #%1:com port% opened====Cổng COM #%1:com port% đã mở
 STRING Could not initialize networking.====Không thể khởi tạo mạng.
 STRING This means that your operating system does not seem to have a working ethernet or wi-fi adapter.====Điều này có nghĩa là hệ điều hành của bạn dường như không có bộ điều hợp ethernet hoặc wi-fi đang hoạt động.
 STRING This may be because you have intentionally disabled your network adapter, or you may need to manually install drivers for your network adapter.====Điều này có thể là do bạn đã cố tình tắt bộ điều hợp mạng của mình, hoặc bạn có thể cần phải cài đặt trình điều khiển cho bộ điều hợp mạng của mình theo cách thủ công.
@@ -3570,7 +3418,7 @@ STRING You will not be able to use multiplayer or other network features until t
 STRING Data to Output====Dữ liệu đến đầu ra
 #X-Plane/réglages/Joystick/calibration====# X-Plane/rÃ © glages/Joystick/hiệu chuẩn
 STRING Unconfigured input devices have been found. These devices have no axes or buttons assigned to any function:====Đã tìm thấy thiết bị đầu vào chưa được định cấu hình. Các thiết bị này không có trục hoặc nút nào được gán cho bất kỳ chức năng nào:
-STRING An unconfigured input device, “%1:device name%,” has been found. This device has no axes or buttons assigned to any function.====Đã tìm thấy thiết bị đầu vào chưa được định cấu hình, â € œ% 1: tên thiết bị%, â €. Thiết bị này không có trục hoặc nút nào được gán cho bất kỳ chức năng nào.
+STRING An unconfigured input device, “%1:device name%,” has been found. This device has no axes or buttons assigned to any function.====Đã tìm thấy thiết bị đầu vào chưa được định cấu hình: "%1:device name%". Thiết bị này không có trục hoặc nút nào được gán cho bất kỳ chức năng nào.
 STRING CONFIGURE JOYSTICK OR YOKE====CẤU HÌNH JOYSTICK HOẶC YOKE
 STRING That means these controls will be completely ignored until you configure them.====Điều đó có nghĩa là các điều khiển này sẽ bị bỏ qua hoàn toàn cho đến khi bạn định cấu hình chúng.
 STRING Would you like to configure your controls now?====Bạn có muốn định cấu hình các điều khiển của mình ngay bây giờ không?
@@ -3579,7 +3427,7 @@ STRING Would you like to configure it now?====Bạn có muốn cấu hình nó n
 STRING Would you like to configure them now?====Bạn có muốn cấu hình chúng ngay bây giờ không?
 STRING UNCONFIGURED JOYSTICK OR YOKE FOUND====NỀN TẢNG JOYSTICK HOẶC YOKE KHÔNG ĐƯỢC ĐỊNH HÌNH
 STRING UNCONFIGURED JOYSTICKS OR YOKES FOUND====TÌM KIẾM NIỀM VUI HOẶC TRẺ KHÔNG ĐƯỢC ĐỊNH HÌNH
-STRING Multiple axes assigned to %1:axis assignments%.====Nhiều trục được chỉ định cho% 1: chỉ định trục%.
+STRING Multiple axes assigned to %1:axis assignments%.====Nhiều trục được chỉ định cho %1:axis assignments%.
 STRING Your controls might not work correctly.====Các điều khiển của bạn có thể không hoạt động chính xác.
 STRING You may need to recalibrate.====Bạn có thể cần phải hiệu chuẩn lại.
 STRING Genius MetalStrike 3D====Genius MetalStrike 3D
@@ -3603,7 +3451,7 @@ STRING CONTROL RESPONSE====PHẢN ỨNG KIỂM SOÁT
 STRING COM port for yoke or avionics====Cổng COM cho ách hoặc thiết bị điện tử hàng không
 # X-Plane/réglages/Clavier====# X-Plane/rÃ © glages/Clavier
 STRING X-Plane 11====X-Plane 11
-STRING Clicking “Reset All Keyboard Configuration” below will undo any key bindings you have made and reconfigure X-Plane to use the %1:keyboard layout name% keyboard shortcuts.\n\nIf this was not your intention, click Cancel.====Nhấp vào â € œĐặt lại tất cả cấu hình bàn phímâ € dưới đây sẽ hoàn tác bất kỳ liên kết phím nào bạn đã thực hiện và định cấu hình lại X-Plane để sử dụng phím tắt% 1: keyboard layout name%. \ N \ nNếu đây không phải là ý định của bạn, hãy nhấp vào Hủy.
+STRING Clicking “Reset All Keyboard Configuration” below will undo any key bindings you have made and reconfigure X-Plane to use the %1:keyboard layout name% keyboard shortcuts.\n\nIf this was not your intention, click Cancel.====Nhấp vào "Đặt lại tất cả cấu hình bàn phím" dưới đây sẽ hoàn tác bất kỳ liên kết phím nào bạn đã thực hiện và định cấu hình lại X-Plane để sử dụng phím tắt %1:keyboard layout name%.\n\nNếu đây không phải là ý định của bạn, hãy nhấp vào Hủy.
 # X-Plane/réglages/Clavier/atc====# X-Plane/rÃ © glages/Clavier/atc
 ## X-Plane/réglages/Clavier/Check-List====## X-Plane/rÃ © glages/Clavier/Check-List
 STRING Checklists====Danh sách kiểm tra
@@ -3623,7 +3471,7 @@ STRING Aircraft carrier approach.====Phương pháp tiếp cận tàu sân bay.
 ### Démarrages spéciaux====### DÃ © marrages spÃ © ciaux
 STRING Generate all missing aircraft & livery icons.====Tạo tất cả các biểu tượng máy bay & livery bị thiếu.
 STRING File Not Found====Không tìm thấy tệp
-## X-Plane/messages d’erreur====## X-Plane/messages dâ € ™ erreur
+## X-Plane/messages d’erreur====## X-Plane/messages d" ™ erreur
 STRING A file is in use by another application====Một tệp đang được ứng dụng khác sử dụng
 STRING Could not delete a .zip file after extracting it.====Không thể xóa tệp .zip sau khi giải nén.
 STRING 7-Zip data error====Lỗi dữ liệu 7-Zip
@@ -3729,7 +3577,7 @@ STRING Total smooth nacelles.====Tổng số nano trơn.
 STRING Total smooth misc bodies.====Tổng số cơ thể mịn.
 STRING Total smooth fairings.====Hoàn toàn mượt mà.
 STRING Total smooth weapons.====Tổng số vũ khí trơn tru.
-STRING Hide Object #%1:index%====Ẩn đối tượng #% 1: chỉ mục%
+STRING Hide Object #%1:index%====Ẩn đối tượng #%1:index%.
 STRING Select all instruments.====Chọn tất cả các nhạc cụ.
 STRING Deselect all instruments.====Bỏ chọn tất cả các công cụ.
 STRING Move selected instruments toward top.====Di chuyển các công cụ đã chọn về phía trên cùng.
@@ -3817,19 +3665,19 @@ STRING Rel_bus1_plugin====Rel_bus1_plugin
 STRING Rel_bus2_plugin====Rel_bus2_plugin
 STRING Rel_bus3_plugin====Rel_bus3_plugin
 STRING Rudder trim====Bánh lái cắt
-STRING Prop %1:prop index%====Đề xuất% 1: chỉ số chống đỡ%
-STRING Mixture %1:mixture index%====Hỗn hợp% 1: chỉ số hỗn hợp%
+STRING Prop %1:prop index%====Đề xuất %1:prop index%
+STRING Mixture %1:mixture index%====Hỗn hợp %1:mixture index%
 STRING No failures found.====Không tìm thấy lỗi nào.
-STRING %1:number of results% Results====% 1: số kết quả% Kết quả
+STRING %1:number of results% Results====%1:number of results% Kết quả
 STRING Select an approach here to declutter the map as necessary, and to choose which glideslope to display in the cross section view.====Chọn một cách tiếp cận ở đây để khai báo bản đồ khi cần thiết, và chọn cầu trượt nào để hiển thị trong chế độ xem mặt cắt ngang.
 STRING Sealane====Sealane
-STRING %1:distance% nm====% 1: khoảng cách% nm
+STRING %1:distance% nm====%1:distance% nm
 STRING Stay in the air!====Ở trong không khí!
 STRING Tailwheel====Bánh xe đuôi
 STRING Yaw damper on====Van điều tiết yaw đang bật
 STRING Click to learn more about how Laminar Research collects diagnostic information====Nhấp để tìm hiểu thêm về cách Laminar Research thu thập thông tin chẩn đoán
 STRING If you check this, X-Plane will send usage data to Laminar Research so we can learn how you use X-Plane and make it better.====Nếu bạn chọn mục này, X-Plane sẽ gửi dữ liệu sử dụng đến Laminar Research để chúng tôi có thể tìm hiểu cách bạn sử dụng X-Plane và cải thiện nó.
-STRING X-Plane cannot be installed to the location “%1:parent folder%,” because this location is known to cause problems with X-Plane.====Không thể cài đặt X-Plane vào vị trí â € œ% 1: thư mục mẹ%, â € vì vị trí này được biết là nguyên nhân gây ra sự cố với X-Plane.
+STRING X-Plane cannot be installed to the location “%1:parent folder%,” because this location is known to cause problems with X-Plane.====Không thể cài đặt X-Plane vào vị trí "%1:parent folder%," vì vị trí này được biết là nguyên nhân gây ra sự cố với X-Plane.
 STRING Enter Product Key====Nhập mã sản phẩm
 STRING Command+C====Lệnh + C
 STRING Ctrl+C====Ctrl + C
@@ -3853,7 +3701,7 @@ STRING X-Plane can automatically download the latest installer from the web and 
 STRING Your demo time is up, so your flight controls will no longer function until you restart X-Plane.====Thời gian demo của bạn đã hết, vì vậy điều khiển chuyến bay của bạn sẽ không còn hoạt động cho đến khi bạn khởi động lại X-Plane.
 STRING This installer will guide you through the process of upgrading your X-Plane 11 demo to a full installation of X-Plane.====Trình cài đặt này sẽ hướng dẫn bạn quá trình nâng cấp bản demo X-Plane 11 của bạn lên bản cài đặt đầy đủ X-Plane.
 STRING Click on the world map to select the scenery you would like to install. Scenery that you deselect will be removed; scenery that you select will be installed. If you fly into an area with no scenery installed, you will see only ocean.====Nhấp vào bản đồ thế giới để chọn khung cảnh bạn muốn cài đặt. Phong cảnh mà bạn bỏ chọn sẽ bị xóa; khung cảnh mà bạn chọn sẽ được cài đặt. Nếu bạn bay vào một khu vực không có cảnh trí, bạn sẽ chỉ thấy đại dương.
-STRING The folder “%1:install name%” already exists inside the folder “%2:parent folder%.”====Thư mục â € œ% 1: tên cài đặt% â € đã tồn tại bên trong thư mục â € œ% 2: thư mục mẹ% .â €
+STRING The folder “%1:install name%” already exists inside the folder “%2:parent folder%.”====Thư mục “%1:install name%” đã tồn tại bên trong thư mục "%2:parent folder% ."
 STRING But it does not appear to be an installed copy of X-Plane 11.====Nhưng nó dường như không phải là một bản sao đã cài đặt của X-Plane 11.
 STRING You have enough free disk space to install the X-Plane 11 Demo at this location.====Bạn có đủ dung lượng đĩa trống để cài đặt Bản dùng thử X-Plane 11 tại vị trí này.
 STRING You do not have enough free disk space to install the X-Plane 11 Demo at this location. You can change the install location to a drive with more free disk space.====Bạn không có đủ dung lượng đĩa trống để cài đặt Bản dùng thử X-Plane 11 tại vị trí này. Bạn có thể thay đổi vị trí cài đặt thành ổ đĩa có nhiều dung lượng đĩa trống hơn.
@@ -3878,10 +3726,10 @@ STRING MSL is an aviation term used to denote “altitude above mean sea level.�
 STRING It’s easier than ever to run X-Plane on multiple monitors. Go to Settings > Graphics > Monitor Configuration and configure each of the monitor boxes how you want it. Move the pop up windows for ATC, GPS, or maps to the other monitors if you like!====Chạy X-Plane trên nhiều màn hình dễ dàng hơn bao giờ hết. Đi tới Cài đặt> Đồ họa> Cấu hình Màn hình và định cấu hình từng hộp màn hình theo cách bạn muốn. Di chuyển cửa sổ bật lên cho ATC, GPS, hoặc bản đồ sang các màn hình khác nếu bạn muốn!
 STRING You can change and customize the default keyboard commands in X-Plane. Go to Settings > Keyboard and expand the lists or search for a word.====Bạn có thể thay đổi và tùy chỉnh các lệnh bàn phím mặc định trong X-Plane. Đi tới Cài đặt> Bàn phím và mở rộng danh sách hoặc tìm kiếm một từ.
 STRING Understanding the aerodynamic forces on an airplane will give you a better concept of how the aircraft flies. The four basic forces are weight, lift, thrust, and drag. Understanding the interaction of these forces will help you become a better pilot.====Hiểu được các lực khí động học trên máy bay sẽ giúp bạn có khái niệm tốt hơn về cách máy bay bay. Bốn lực cơ bản là trọng lượng, lực nâng, lực đẩy, và lực cản. Hiểu được sự tương tác của các lực này sẽ giúp bạn trở thành một phi công tốt hơn.
-STRING POH stands for “Pilot Operating Handbook” and contains aircraft operational information. Most POH can be obtained on the internet by searching for your aircraft and the phrase “POH.”====POH là viết tắt của â € œPilot Operating Handbookâ € và chứa thông tin hoạt động của máy bay. Hầu hết POH có thể được lấy trên internet bằng cách tìm kiếm máy bay của bạn và cụm từ â € œPOH.â €
+STRING POH stands for “Pilot Operating Handbook” and contains aircraft operational information. Most POH can be obtained on the internet by searching for your aircraft and the phrase “POH.”====POH là viết tắt của "Pilot Operating Handbook" và chứa thông tin hoạt động của máy bay. Hầu hết POH có thể được lấy trên internet bằng cách tìm kiếm máy bay của bạn và cụm từ "POH."
 STRING Pick a specific point in the touchdown zone of the runway and try to land there as precisely as possible. Learning to do this consistently will greatly increase your piloting skills.====Chọn một điểm cụ thể trong vùng chạm đất của đường băng và cố gắng hạ cánh ở đó càng chính xác càng tốt. Học cách làm điều này một cách nhất quán sẽ nâng cao kỹ năng lái của bạn lên rất nhiều.
 STRING For something new, try taking off from a grass field. Set it up by going to Flight Configuration > Location > Customize > Special Starts > Grass Strip. You will notice your takeoff roll is somewhat longer than on a paved runway.====Đối với một cái gì đó mới, hãy thử cất cánh từ một sân cỏ. Thiết lập nó bằng cách đi tới Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Khởi động đặc biệt> Dải cỏ. Bạn sẽ nhận thấy quá trình cất cánh của mình dài hơn một chút so với trên đường băng lát đá.
-STRING “Controlled airspace” is airspace of defined dimensions. Pilots should become familiar with the types of controlled airspace and the restrictions for flying within it. X-Plane, along with the appropriate charts and airspace documentation, is the perfect way to practice staying legal.====â € œ Vùng trời được kiểm soátâ € là vùng trời có kích thước xác định. Phi công nên làm quen với các loại vùng trời được kiểm soát và các hạn chế bay trong vùng trời đó. X-Plane, cùng với các biểu đồ thích hợp và tài liệu về không phận, là cách hoàn hảo để thực hành hợp pháp.
+STRING “Controlled airspace” is airspace of defined dimensions. Pilots should become familiar with the types of controlled airspace and the restrictions for flying within it. X-Plane, along with the appropriate charts and airspace documentation, is the perfect way to practice staying legal.====" Vùng trời được kiểm soát" là vùng trời có kích thước xác định. Phi công nên làm quen với các loại vùng trời được kiểm soát và các hạn chế bay trong vùng trời đó. X-Plane, cùng với các biểu đồ thích hợp và tài liệu về không phận, là cách hoàn hảo để thực hành hợp pháp.
 STRING You can set your rendering settings using five preset options on the slider: minimal, low, medium, high & maximum. Go to Settings > Graphics and select the setting you want to use.====Bạn có thể đặt cài đặt kết xuất của mình bằng năm tùy chọn đặt trước trên thanh trượt: tối thiểu, thấp, trung bình, cao & tối đa. Đi tới Cài đặt> Đồ họa và chọn cài đặt bạn muốn sử dụng.
 STRING Take on a new challenge in X-Plane and learn to fly a tail-dragger. Open Flight Configuration and select the Stinson L5, or try the Taildragger Takeoff Tutorial. Better practice up on your stick and rudder skills for this challenge.====Tham gia một thử thách mới trong X-Plane và học cách lái máy bay kéo đuôi. Mở Cấu hình Chuyến bay và chọn Stinson L5, hoặc thử Hướng dẫn Cất cánh Taildragger. Thực hành tốt hơn các kỹ năng về gậy và bánh lái của bạn cho thử thách này.
 STRING Simulate an engine failure right after takeoff. Can you make the airport or do you land straight ahead? Try it with different wind directions and wind velocities. Now try changing the fuel and passenger loading. Can you survive this emergency under instrument conditions?====Mô phỏng sự cố động cơ ngay sau khi cất cánh. Bạn có thể đến sân bay hay bạn hạ cánh thẳng về phía trước? Hãy thử nó với các hướng gió và vận tốc gió khác nhau. Bây giờ hãy thử thay đổi nhiên liệu và tải hành khách. Bạn có thể sống sót trong trường hợp khẩn cấp này trong điều kiện thiết bị không?
@@ -3889,14 +3737,14 @@ STRING You can change the default language in X-Plane. Go to Settings > General 
 STRING Adding takeoff power to a single-engine aircraft in X-Plane will cause the plane to veer to the left. This effect also occurs in real aircraft and is caused by engine torque and by the propeller wash over the wings. Compensate for this effect by applying right rudder during takeoff and climb.====Thêm sức mạnh cất cánh cho máy bay một động cơ trong X-Plane sẽ khiến máy bay quay sang trái. Hiệu ứng này cũng xảy ra trong máy bay thực và do mô-men xoắn của động cơ và do cánh quạt rửa qua cánh. Bù đắp cho hiệu ứng này bằng cách tác động bánh lái bên phải khi cất cánh và lên cao.
 STRING Want a different flying experience for a change? Try the glider tow. Go to Flight Configuration and pick a glider. Hit the Customize button and pick Tow Plane. You will be towed aloft and you will choose when to release the tow line.====Muốn có một trải nghiệm bay khác để thay đổi? Hãy thử kéo tàu lượn. Đi tới Cấu hình máy bay và chọn một tàu lượn. Nhấn nút Customize và chọn Tow Plane. Bạn sẽ được kéo trên cao và bạn sẽ chọn thời điểm thả dây kéo.
 STRING Save your flying memories by easily creating screenshots right within X-Plane. Press the shift and space keys, or select File > Take Screenshot from the menu bar. Find your screenshots in the Output folder in your main X-Plane folder.====Lưu lại những kỷ niệm bay của bạn bằng cách dễ dàng tạo ảnh chụp màn hình ngay trong X-Plane. Nhấn phím shift và phím cách, hoặc chọn Tệp> Chụp ảnh chụp màn hình từ thanh menu. Tìm ảnh chụp màn hình của bạn trong thư mục Đầu ra trong thư mục X-Plane chính của bạn.
-STRING Find out if you have the latest X-Plane update by clicking on Settings > About X-Plane. If an update is available there will be an “Update X-Plane” button in the window. Click the button to download and launch the installer to install the update.===="Tìm hiểu xem bạn có bản cập nhật X-Plane mới nhất hay không bằng cách nhấp vào Cài đặt> Giới thiệu về X-Plane. Nếu có bản cập nhật, sẽ có nút â € œCập nhật X-Planeâ € trong cửa sổ. Nhấp vào nút để tải xuống và khởi chạy trình cài đặt để cài đặt bản cập nhật."
-STRING Try the “get me lost” feature, and then try to figure out where you are. Can you find an available airport before running out of fuel? Select Location > Customize > Special Starts > Get Me Lost from the Flight Configuration screen.====Hãy thử tính năng â € œget me lostâ €, và sau đó cố gắng tìm ra vị trí của bạn. Bạn có thể tìm thấy một sân bay còn trống trước khi hết nhiên liệu? Chọn Vị trí> Tùy chỉnh> Bắt đầu đặc biệt> Đưa tôi đi lạc từ màn hình Cấu hình chuyến bay.
+STRING Find out if you have the latest X-Plane update by clicking on Settings > About X-Plane. If an update is available there will be an “Update X-Plane” button in the window. Click the button to download and launch the installer to install the update.===="Tìm hiểu xem bạn có bản cập nhật X-Plane mới nhất hay không bằng cách nhấp vào Cài đặt> Giới thiệu về X-Plane. Nếu có bản cập nhật, sẽ có nút "Cập nhật X-Plane" trong cửa sổ. Nhấp vào nút để tải xuống và khởi chạy trình cài đặt để cài đặt bản cập nhật."
+STRING Try the “get me lost” feature, and then try to figure out where you are. Can you find an available airport before running out of fuel? Select Location > Customize > Special Starts > Get Me Lost from the Flight Configuration screen.====Hãy thử tính năng "get me lost", và sau đó cố gắng tìm ra vị trí của bạn. Bạn có thể tìm thấy một sân bay còn trống trước khi hết nhiên liệu? Chọn Vị trí> Tùy chỉnh> Bắt đầu đặc biệt> Đưa tôi đi lạc từ màn hình Cấu hình chuyến bay.
 STRING Laminar Research’s internal scenery tool for building airports is called World Editor or WED. WED can be downloaded for free and even includes a full set of video tutorials designed for the 1st time user. There are now thousands of free 3-D WED airports included with X-Plane updates.====Công cụ cảnh quan nội bộ của Laminar Research để xây dựng sân bay được gọi là World Editor hoặc WED. WED có thể được tải xuống miễn phí và thậm chí bao gồm một bộ video hướng dẫn đầy đủ được thiết kế cho người dùng lần đầu tiên. Hiện đã có hàng nghìn sân bay 3-D WED miễn phí được đưa vào bản cập nhật X-Plane.
-STRING Be a top gun and “call the ball.” Try landing your fighter jet on the deck of an aircraft carrier. Go to Flight Configuration > Location > Customize > Special Starts, then select the Carrier Approach line. Make sure you’re flying a fighter such as the F-4 Phantom, or perhaps a jet that you designed with Plane Maker.====Hãy là một tay súng hàng đầu và â € œcall ball.â € Hãy thử hạ cánh máy bay chiến đấu của bạn xuống boong tàu sân bay. Vào Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Bắt đầu Đặc biệt, sau đó chọn dòng Phương pháp tiếp cận nhà cung cấp dịch vụ. Đảm bảo rằng bạn đang lái máy bay chiến đấu chẳng hạn như F-4 Phantom, hoặc có thể là máy bay phản lực mà bạn đã thiết kế bằng Plane Maker.
+STRING Be a top gun and “call the ball.” Try landing your fighter jet on the deck of an aircraft carrier. Go to Flight Configuration > Location > Customize > Special Starts, then select the Carrier Approach line. Make sure you’re flying a fighter such as the F-4 Phantom, or perhaps a jet that you designed with Plane Maker.====Hãy là một tay súng hàng đầu và "call ball." Hãy thử hạ cánh máy bay chiến đấu của bạn xuống boong tàu sân bay. Vào Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Bắt đầu Đặc biệt, sau đó chọn dòng Phương pháp tiếp cận nhà cung cấp dịch vụ. Đảm bảo rằng bạn đang lái máy bay chiến đấu chẳng hạn như F-4 Phantom, hoặc có thể là máy bay phản lực mà bạn đã thiết kế bằng Plane Maker.
 STRING A flare in an airplane is not what you use when you have a flat tire. It is the simple maneuver performed moments before touchdown in which the nose is pitched up. This reduces the descent rate and causes the aircraft to touch down on the main wheels first.===="Pháo sáng trên máy bay không phải là thứ bạn sử dụng khi bị xẹp lốp. Đây là động tác đơn giản được thực hiện ngay trước khi chạm đất, trong đó mũi xe hướng lên. Điều này làm giảm tốc độ hạ độ cao và khiến máy bay chạm bánh chính xuống trước."
 STRING If you’ve tried the glider tow and want something a little more exciting, try the winch. Go to Flight Configuration and pick a glider. Hit the Customize button and pick Glider Winch.====Nếu bạn đã thử kéo tàu lượn và muốn thứ gì đó thú vị hơn một chút, hãy thử tời kéo. Đi tới Cấu hình máy bay và chọn một tàu lượn. Nhấn vào nút Customize và chọn Glider Winch.
 STRING Did you know a nautical mile is a unit of distance equal to 1.15 statute miles, and one knot (a unit of speed) is defined as one nautical mile per hour?===="Bạn có biết một hải lý là một đơn vị khoảng cách bằng 1,15 dặm theo quy chế, và một hải lý (một đơn vị tốc độ) được định nghĩa là một hải lý mỗi giờ?"
-STRING Be a hit at the airshow flying your aerobatic plane and turn on the smoke. Hit the ‘x’ key to toggle smoke, or pick a different key in Settings > Keyboard.====Hãy trở thành một hit tại buổi trình diễn airshow bay máy bay nhào lộn của bạn và bật khói. Nhấn phím â € ˜xâ € ™ để chuyển đổi khói, hoặc chọn một phím khác trong Cài đặt> Bàn phím.
+STRING Be a hit at the airshow flying your aerobatic plane and turn on the smoke. Hit the ‘x’ key to toggle smoke, or pick a different key in Settings > Keyboard.====Hãy trở thành một hit tại buổi trình diễn airshow bay máy bay nhào lộn của bạn và bật khói. Nhấn phím" ˜x" ™ để chuyển đổi khói, hoặc chọn một phím khác trong Cài đặt> Bàn phím.
 STRING Running low on fuel? Try the mid-air refueling! Go to Flight Configuration > Location > Customize > Special Starts and pick Refuel-Boom or Refuel-Basket. Make sure you’re flying a fighter such as the F-4 Phantom, or perhaps a jet that you designed with Plane Maker.====Sắp hết nhiên liệu? Hãy thử tiếp nhiên liệu giữa không trung! Đi tới Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Khởi động Đặc biệt và chọn Tiếp nhiên liệu-Boom hoặc Tiếp nhiên liệu-Giỏ. Đảm bảo rằng bạn đang lái máy bay chiến đấu chẳng hạn như F-4 Phantom, hoặc có thể là máy bay phản lực mà bạn đã thiết kế bằng Plane Maker.
 STRING You can fly the X-15 rocket plane to the edge of space. Go to Flight Configuration > Location > Customize > Special Starts and pick Air Drop from B-52. Hit the space key to release, add power, and watch the sky turn from blue to black.====Bạn có thể lái máy bay tên lửa X-15 đến rìa không gian. Đi tới Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Bắt đầu đặc biệt và chọn Máy bay thả từ B-52. Nhấn phím cách để giải phóng, thêm sức mạnh, và xem bầu trời chuyển từ màu xanh lam sang màu đen.
 STRING You can build your own 3-D airports and submit them for inclusion in future updates to X-Plane 11. Visit the X-Plane Scenery Gateway (gateway.x-plane.com) for more information.====Bạn có thể xây dựng các sân bay 3-D của riêng mình và gửi chúng để đưa vào các bản cập nhật trong tương lai cho X-Plane 11. Truy cập Cổng cảnh quan X-Plane (gateway.x-plane.com) để biết thêm thông tin.
@@ -3954,16 +3802,16 @@ STRING Increase the throttle.====Tăng ga.
 ## X-Plane/Tutoriels/intro====## X-Plane/Tutoriels/intro
 STRING Learn the basics of taking off from the runway in a small, general aviation airplane.====Tìm hiểu những điều cơ bản về cất cánh từ đường băng trong một chiếc máy bay hàng không chung, loại nhỏ.
 STRING Welcome to X-Plane. Here, you’ll learn the basics of flying in X-Plane: controlling the plane, changing the view, & more.====Chào mừng đến với X-Plane. Tại đây, bạn sẽ tìm hiểu những kiến thức cơ bản về bay trong X-Plane: điều khiển máy bay, thay đổi chế độ xem, & hơn thế nữa.
-STRING You can dismiss this message by pressing the Enter key, or by clicking “Continue.”====Bạn có thể loại bỏ thông báo này bằng cách nhấn phím Enter, hoặc bằng cách nhấp vào â € œTiếp tục.â €
+STRING You can dismiss this message by pressing the Enter key, or by clicking “Continue.”====Bạn có thể loại bỏ thông báo này bằng cách nhấn phím Enter, hoặc bằng cách nhấp vào "Tiếp tục."
 STRING Now let’s practice using the [control] to control the airplane’s pitch.====Bây giờ chúng ta hãy thực hành sử dụng [điều khiển] để điều khiển cao độ của máy bay.
 STRING Move the pointer towards the top of the box to lower the nose.====Di chuyển con trỏ về phía trên cùng của hộp để hạ thấp mũi.
 STRING Well done! Practice bringing the nose up and down until you’re ready to continue.====Làm tốt! Thực hành đưa mũi lên và xuống cho đến khi bạn sẵn sàng tiếp tục.
 STRING The arrow keys allow you to move the view around.====Các phím mũi tên cho phép bạn di chuyển chế độ xem xung quanh.
-STRING The throttle controls your engine power, just like the gas pedal in a car. The slider on your joystick is the throttle. Or…====Ga điều khiển công suất động cơ của bạn, giống như bàn đạp ga trên ô tô. Thanh trượt trên cần điều khiển của bạn là van tiết lưu. Orâ € ¦
+STRING The throttle controls your engine power, just like the gas pedal in a car. The slider on your joystick is the throttle. Or…====Ga điều khiển công suất động cơ của bạn, giống như bàn đạp ga trên ô tô. Thanh trượt trên cần điều khiển của bạn là van tiết lưu. Or" ¦
 STRING The throttle controls your engine power, just like the gas pedal in a car.====Ga điều khiển công suất động cơ của bạn, giống như bàn đạp ga trên ô tô.
 STRING Push the black knob in the cockpit in to increase the throttle, or pull it out to decrease throttle.====Đẩy núm màu đen trong khoang lái vào để tăng ga, hoặc kéo nó ra để giảm ga.
 STRING This is your airspeed indicator. You can see your speed rising since you added power. Decrease the throttle all the way down to idle and watch the plane slow down again.====Đây là chỉ báo tốc độ không khí của bạn. Bạn có thể thấy tốc độ của mình tăng lên kể từ khi bạn thêm sức mạnh. Giảm hết ga xuống không tải và quan sát máy bay giảm tốc độ một lần nữa.
-STRING Let’s go back to the cockpit. Press ‘[view_3d_cockpit]’.====Hãy quay lại buồng lái. Nhấn â € ˜ [view_3d_cockpit] â € ™.
+STRING Let’s go back to the cockpit. Press ‘[view_3d_cockpit]’.====Hãy quay lại buồng lái. Nhấn '[view_3d_cockpit]'.
 STRING Select the Circle view under the View > Change (External) menu.====Chọn chế độ xem Vòng kết nối trong menu Xem> Thay đổi (Bên ngoài).
 STRING Let’s go back to the cockpit view. Open the menu and select the 3-D Panel view, under View > Change (Internal).====Hãy quay lại chế độ xem buồng lái. Mở menu và chọn chế độ xem Bảng điều khiển 3-D, trong Chế độ xem> Thay đổi (Nội bộ).
 STRING That’s all you need to know to get started. Why not visit Flight School to check out some more tutorials or customize your own flight in Flight Configuration?====Đó là tất cả những gì bạn cần biết để bắt đầu. Tại sao không truy cập Trường dạy bay để xem thêm một số hướng dẫn hoặc tùy chỉnh chuyến bay của riêng bạn trong Cấu hình chuyến bay?
@@ -4006,11 +3854,11 @@ STRING Since the C172 is a single-engine propeller aircraft, you will feel the a
 STRING Use right rudder to keep the plane in the center of the runway, either by twisting your joystick or using your rudder pedals, if you have them.====Sử dụng bánh lái bên phải để giữ máy bay ở giữa đường băng, bằng cách vặn cần điều khiển hoặc sử dụng bàn đạp lái, nếu bạn có.
 STRING Use right rudder to keep the plane in the center of the runway by moving your mouse slightly to the right.====Sử dụng bánh lái bên phải để giữ máy bay ở giữa đường băng bằng cách di chuyển chuột sang bên phải một chút.
 STRING Once we reach 55kts, you’ll gently raise the nose of the plane to get off the ground.====Khi chúng ta đạt đến 55kts, bạn sẽ nhẹ nhàng nâng mũi máy bay để lên khỏi mặt đất.
-STRING Press the ‘[brakes]’ key to disengage your parking brakes.====Nhấn phím â € ˜ [phanh] â € ™ để ngắt phanh đỗ xe của bạn.
+STRING Press the ‘[brakes]’ key to disengage your parking brakes.====Nhấn phím '[phanh]' để ngắt phanh đỗ xe của bạn.
 STRING Maintain 74 knots while climbing. If you get too fast, bring the plane’s nose up. If you get too slow, lower the nose.====Duy trì 74 hải lý trong khi leo núi. Nếu bạn đến quá nhanh, đưa mũi máy bay lên. Nếu bạn quá chậm, thu gọn cánh mũi.
 ## X-Plane/Tutoriels/*takeoff_p2====## X-Plane/Tutoriels/* cất cánh_p2
 STRING There’s 750 ft! You’re halfway to 1500, so keep climbing!====Đó là 750 ft! Bạn đang ở mức 1500, vì vậy hãy tiếp tục leo lên!
-STRING This is your vertical speed indicator, or “VSI.” The needle points up when you’re climbing and down when you’re descending.====Đây là chỉ báo tốc độ thẳng đứng của bạn, hoặc â € œVSI.â € Kim chỉ lên khi bạn đang leo lên và xuống khi bạn đang giảm dần.
+STRING This is your vertical speed indicator, or “VSI.” The needle points up when you’re climbing and down when you’re descending.====Đây là chỉ báo tốc độ thẳng đứng của bạn, hoặc "VSI." Kim chỉ lên khi bạn đang leo lên và xuống khi bạn đang giảm dần.
 ## X-Plane/Tutoriels/traffic_pattern_altitude====## X-Plane/Tutoriels/traffic_pattern_altitude
 STRING We’re a bit high. Let’s descend back down to 1100 ft.====Chúng tôi hơi cao. Hãy hạ xuống 1100 ft.
 ## X-Plane/Tutoriels/traffic_pattern_cruising====## X-Plane/Tutoriels/traffic_pattern_cruising
@@ -4036,40 +3884,40 @@ STRING Now, let’s hover in place for a few seconds. Remember not to over-contr
 STRING As we approach, you'll want to keep the plane's nose pointed down just a bit so the runway is above the cockpit glare shield. Go ahead and try it.====Khi chúng ta đến gần, bạn sẽ muốn giữ mũi máy bay hướng xuống một chút để đường băng nằm phía trên tấm chắn chói của buồng lái. Đi trước và thử nó.
 STRING Go ahead and lower a notch of flaps—you can press ‘[flaps_down]’. This will slow us down a bit as we descend. We want to be slower than 90kts.====Hãy tiếp tục và hạ thấp một bậc của vạt áo. Điều này sẽ làm chúng ta chậm lại một chút khi chúng ta đi xuống. Chúng tôi muốn chậm hơn 90kts.
 STRING Go ahead and lower a notch of flaps—you can use the flap lever in the cockpit. This will slow us down a bit as we descend. We want to be slower than 90kts.====Tiếp tục và hạ thấp một bậc của nắp và bạn có thể sử dụng cần gạt trong buồng lái. Điều này sẽ làm chúng ta chậm lại một chút khi chúng ta đi xuống. Chúng tôi muốn chậm hơn 90kts.
-STRING Whoa, that’s a bit much. Let’s retract a notch of flaps—just press ‘[flaps_up]’.===="Whoa, thatâ € ™ sa bit nhiều. Hãy để thu lại một khía cạnh của vạt áo ""chỉ cần nhấn â € ˜ [fls_up] â € ™."
-STRING Whoa, that’s a bit much. Let’s retract a notch of flaps.====Whoa, thatâ € ™ sa bit nhiều. Hãy rút lại một khía cạnh của nắp.
+STRING Whoa, that’s a bit much. Let’s retract a notch of flaps—just press ‘[flaps_up]’.===="Whoa, that" ™ sa bit nhiều. Hãy để thu lại một khía cạnh của vạt áo ""chỉ cần nhấn '[fls_up]'."
+STRING Whoa, that’s a bit much. Let’s retract a notch of flaps.====Whoa, that" ™ sa bit nhiều. Hãy rút lại một khía cạnh của nắp.
 STRING Your speed is a little low. Try pitching the airplane down just a bit.====Tốc độ của bạn là một chút thấp. Hãy thử hạ thấp máy bay một chút.
-STRING Let's lower a notch of flaps—press ‘[flaps_down]’ just like you did before. This will slow us down more, and allow us to fly slower and descend at the correct rate.===="Hãy hạ một bậc của vạt áo xuống ""nhấn â € ˜ [fls_down] â € ™ giống như bạn đã làm trước đây. Điều này sẽ làm chậm chúng ta hơn, và cho phép chúng ta bay chậm hơn và hạ xuống với tốc độ chính xác."
+STRING Let's lower a notch of flaps—press ‘[flaps_down]’ just like you did before. This will slow us down more, and allow us to fly slower and descend at the correct rate.===="Hãy hạ một bậc của vạt áo xuống ""nhấn '[fls_down]' giống như bạn đã làm trước đây. Điều này sẽ làm chậm chúng ta hơn, và cho phép chúng ta bay chậm hơn và hạ xuống với tốc độ chính xác."
 STRING Let's lower a notch of flaps just like you did before. This will slow us down more, and allow us to fly slower and descend at the correct rate.====Hãy hạ thấp một bậc của nắp giống như bạn đã làm trước đây. Điều này sẽ làm chậm chúng ta hơn, và cho phép chúng ta bay chậm hơn và hạ xuống với tốc độ chính xác.
 STRING As we approach, you'll want to keep the plane's nose pointed just a bit below the horizon. Go ahead and try it.====Khi chúng ta đến gần, bạn sẽ muốn giữ cho mũi máy bay hướng xuống dưới đường chân trời một chút. Đi trước và thử nó.
-STRING Go ahead and lower the first notch of flaps (‘[flaps_down]’). This will help slow us down a bit.====Tiếp tục và hạ thấp rãnh đầu tiên của nắp xuống (â € ˜ [Fls_down] â € ™). Điều này sẽ giúp chúng ta chậm lại một chút.
+STRING Go ahead and lower the first notch of flaps (‘[flaps_down]’). This will help slow us down a bit.====Tiếp tục và hạ thấp rãnh đầu tiên của nắp xuống ('[Fls_down]'). Điều này sẽ giúp chúng ta chậm lại một chút.
 STRING Go ahead and lower the first notch of flaps. This will help slow us down a bit.====Tiếp tục và hạ thấp khía đầu tiên của cánh tà. Điều này sẽ giúp chúng ta chậm lại một chút.
-STRING Whoa, that’s a bit much. Let’s move the flaps up a notch (‘[flaps_up]’).====Whoa, thatâ € ™ sa bit nhiều. Hãy di chuyển các nắp đàn lên một bậc (â € ˜ [nắp bật] â € ™).
-STRING Whoa, that’s a bit much. Let’s move the flaps up a notch.====Whoa, thatâ € ™ sa bit nhiều. Hãy di chuyển các nắp lên một bậc.
-STRING Let’s extend the landing gear—press ‘[landing_gear]’.====Hãy kéo dài thiết bị hạ cánhâ € ”nhấn â € ˜ [landing_gear] â € ™.
+STRING Whoa, that’s a bit much. Let’s move the flaps up a notch (‘[flaps_up]’).====Whoa, that" ™ sa bit nhiều. Hãy di chuyển các nắp đàn lên một bậc ('[nắp bật]').
+STRING Whoa, that’s a bit much. Let’s move the flaps up a notch.====Whoa, that" ™ sa bit nhiều. Hãy di chuyển các nắp lên một bậc.
+STRING Let’s extend the landing gear—press ‘[landing_gear]’.====Hãy kéo dài thiết bị hạ cánh" ”nhấn '[landing_gear]'.
 STRING You're coming in too fast—raise the nose and aim to touch down farther back on the runway. We want to be at about 120 knots when we reach the runway.===="Bạn đang đến quá nhanh "", hãy nâng cao mũi và hướng xuống xa hơn trên đường băng. Chúng tôi muốn ở tốc độ khoảng 120 hải lý khi đến đường băng."
-STRING You made it! Tap ‘[brakes]’ to stop the airplane.====Bạn đã thực hiện nó! Nhấn vào â € ˜ [phanh] â € ™ để dừng máy bay.
-STRING Now, to stop even faster, engage the B737’s reverse thrust, so the engines will work to slow you down quickly. Press ‘[thrust_reverse]’ to toggle it on or off.====Bây giờ, để dừng nhanh hơn, tham gia lực đẩy ngược của B737, để động cơ sẽ làm việc để giảm tốc độ của bạn một cách nhanh chóng. Nhấn â € ˜ [thrust_reverse] â € ™ để bật hoặc tắt.
+STRING You made it! Tap ‘[brakes]’ to stop the airplane.====Bạn đã thực hiện nó! Nhấn vào '[phanh]' để dừng máy bay.
+STRING Now, to stop even faster, engage the B737’s reverse thrust, so the engines will work to slow you down quickly. Press ‘[thrust_reverse]’ to toggle it on or off.====Bây giờ, để dừng nhanh hơn, tham gia lực đẩy ngược của B737, để động cơ sẽ làm việc để giảm tốc độ của bạn một cách nhanh chóng. Nhấn '[thrust_reverse]' để bật hoặc tắt.
 STRING Now, to stop even faster, engage the B737’s reverse thrust, so the engines will work to slow you down quickly. Drag the throttle down below the idle position in the cockpit.====Bây giờ, để dừng nhanh hơn, tham gia lực đẩy ngược của B737, để động cơ sẽ làm việc để giảm tốc độ của bạn một cách nhanh chóng. Kéo bướm ga xuống dưới vị trí không tải trong buồng lái.
 STRING Go ahead and lower the final notch of flaps.====Tiếp tục và hạ thấp khía cuối cùng của cánh tà.
 STRING You're coming in too fast—raise the nose and reduce your power to slow your descent and aim to touch down farther back on the runway. We’d like to be at about 55 knots when we touch down.====Bạn đang đến quá nhanh - hãy nâng mũi và giảm sức mạnh của bạn để giảm tốc độ xuống của bạn và nhằm mục đích chạm xuống xa hơn trên đường băng. Chúng tôi muốn ở khoảng 55 hải lý khi chúng tôi chạm xuống.
 STRING You're coming in a little fast—reduce the throttle all the way back to idle. We should be slowed down to about 55 knots by the time we reach the runway.====Bạn đang đi nhanh một chút - giảm hết ga về trạng thái không tải. Chúng ta nên giảm tốc độ xuống khoảng 55 hải lý/giờ vào thời điểm chúng ta đến đường băng.
 STRING You're too high—reduce power so that you glide down to the runway.===="Bạn quá cao, hãy giảm sức mạnh để bạn lướt xuống đường băng."
-STRING Use ‘[brakes]’ to turn off the brakes.====Sử dụng â € ˜ [phanh] â € ™ để tắt phanh.
+STRING Use ‘[brakes]’ to turn off the brakes.====Sử dụng nút [phanh] để tắt phanh.
 STRING Go ahead and slowly advance the throttle to full.====Tiếp tục và từ từ tăng ga để đầy đủ.
 STRING The tail is naturally rising off the ground now, so gently move the [control] back to neutral.====Đuôi lúc này đang nhô lên khỏi mặt đất một cách tự nhiên, vì vậy hãy nhẹ nhàng di chuyển [điều khiển] trở lại vị trí trung lập.
 STRING At 50 mph, gently pull back on the [control] to bring the aircraft off the ground.====Ở tốc độ 50 dặm/giờ, nhẹ nhàng kéo lại [điều khiển] để đưa máy bay lên khỏi mặt đất.
 STRING There's 50 mph! Go ahead and gently bring the nose up to get off the ground.====Có 50 dặm/giờ! Tiến lên nhẹ nhàng đưa mũi lên cao để khỏi mặt đất.
 STRING Way to go! You’re ready to try some real bush flying!====Tốt thôi! Bạn đã sẵn sàng để thử một số chuyến bay bụi thực sự!
 STRING Note that as you get closer to the VOR, the radials will get closer together, so smaller changes to your course will produce bigger changes on the course deviation indicator.====Lưu ý rằng khi bạn tiến gần hơn đến VOR, các hướng tâm sẽ gần nhau hơn, vì vậy những thay đổi nhỏ hơn đối với khóa học của bạn sẽ tạo ra những thay đổi lớn hơn trên chỉ báo độ lệch khóa học.
-STRING We’re flying the 295 radial to the Sisters Island VOR. The VOR transmitter is like the hub of a bike wheel, and it sends out 360 radials—the “spokes” of the wheel—to tell you where you are in relation to the “hub.”===="Chúng tôi đang bay chiếc 295 xuyên tâm đến Sisters Island VOR. Bộ phát VOR giống như trung tâm của một bánh xe đạp, và nó phát ra 360 radialsâ € """" tiếng cười ""của bánh xe"" để cho bạn biết bạn đang ở đâu trong mối quan hệ với â € œhub.â €"
+STRING We’re flying the 295 radial to the Sisters Island VOR. The VOR transmitter is like the hub of a bike wheel, and it sends out 360 radials—the “spokes” of the wheel—to tell you where you are in relation to the “hub.”===="Chúng tôi đang bay chiếc 295 xuyên tâm đến Sisters Island VOR. Bộ phát VOR giống như trung tâm của một bánh xe đạp, và nó phát ra 360 radials" """" tiếng cười ""của bánh xe"" để cho bạn biết bạn đang ở đâu trong mối quan hệ với "hub.""
 STRING Now, we’re on the 295 radial, but since the radials are measured as the heading when going away from the VOR, and we’re instead going toward it, that means we'll fly a course of 115 degrees (the inverse heading of 295).====Bây giờ, chúng ta đang ở trên 295 radial, nhưng vì các radial được đo như tiêu đề khi đi ra khỏi VOR, và thay vào đó chúng ta sẽ đi về phía nó, điều đó có nghĩa là chúng ta sẽ bay theo hướng 115 độ (tiêu đề nghịch đảo của 295).
 STRING Take a look at your course deviation indicator, or CDI.====Hãy xem chỉ báo độ lệch khóa học của bạn, hoặc CDI.
 STRING Do you see the vertical course deviation indicator drifting to the left of center? It indicates that, since we’ve deviated to the right, we need to adjust our course to the left to re-intercept the radial.====Bạn có thấy chỉ báo độ lệch khóa học theo chiều dọc trôi về bên trái của trung tâm không? Nó chỉ ra rằng, vì chúng ta đã lệch sang phải, nên chúng ta cần điều chỉnh hướng đi của mình sang trái để chặn lại hướng tâm.
 STRING If, after a few seconds, we don’t see the CDI bar moving, we’ll deviate a bit farther toward the left.====Nếu, sau vài giây, chúng tôi không thấy thanh CDI di chuyển, chúng tôi sẽ lệch xa hơn một chút về phía bên trái.
 STRING We’re now going to fly the 035 radial out of the hub. Start flying away from the hub for a bit, and watch your CDI closely.====Chúng tôi hiện sẽ đưa chiếc máy bay xuyên tâm 035 ra khỏi trung tâm. Bắt đầu bay ra khỏi trung tâm một chút, và theo dõi chặt chẽ CDI của bạn.
 STRING You can picture the VOR radial like the series of hoops you see in the sky. The hoops start at the VOR transmitter and continue for many miles in a straight line.====Bạn có thể hình dung VOR radial giống như chuỗi vòng tròn mà bạn nhìn thấy trên bầu trời. Các vòng bắt đầu từ máy phát VOR và tiếp tục trong nhiều dặm theo đường thẳng.
-STRING We’re on the 295 radial—the line coming from the VOR transmitter at heading 295. The hoops in front of us visualize that radial.====Chúng tôi đang ở trên 295 radialâ € ”dòng đến từ máy phát VOR ở tiêu đề 295. Các vòng trước mặt chúng tôi hình dung hướng tâm đó.
+STRING We’re on the 295 radial—the line coming from the VOR transmitter at heading 295. The hoops in front of us visualize that radial.====Chúng tôi đang ở trên 295 radial" ”dòng đến từ máy phát VOR ở tiêu đề 295. Các vòng trước mặt chúng tôi hình dung hướng tâm đó.
 STRING Take a look at your primary flight display.====Hãy xem màn hình chuyến bay chính của bạn.
 STRING Do you see the purple course deviation indicator drifting to the left of center? It indicates that, since we’ve deviated to the right, we need to adjust our course to the left to re-intercept the radial.====Bạn có thấy chỉ báo độ lệch khóa học màu tím trôi về bên trái của tâm không? Nó chỉ ra rằng, vì chúng ta đã lệch sang phải, chúng ta cần điều chỉnh hướng đi của chúng ta sang trái để chặn lại hướng tâm.
 # X-Plane/Pilotage/Menus/Fichier====# Máy bay X/Phi công/Thực đơn/Fichier
@@ -4237,26 +4085,19 @@ STRING Bus 1 volt indication====Chỉ báo bus 1 volt
 STRING Bus 2 volt indication====Chỉ báo bus 2 volt
 STRING G1000 PFD pilot-side====G1000 PFD phía phi công
 STRING G1000 PFD copilot-side====G1000 PFD bên phụ lái
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/moteurs/pannes et défaillances====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/moteurs/pannes et dÃ © faillances
 STRING Left magneto====Nam châm bên trái
 STRING Right magneto====Nam châm bên phải
 STRING Engine fire====Cháy động cơ
 STRING Engine flameout====Ngọn lửa động cơ
 STRING Engine fail====Động cơ bị lỗi
 STRING Engine separation====Tách động cơ
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances /moteurs/ Carb/Air====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/moteurs/Carb/Air
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/Moteur/Démarrage====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/Moteur/DÃ © marrage
 STRING Hung start (clogged nozzles)====Hung khởi động (đầu phun bị tắc)
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/Moteurs/Hélice====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/Moteurs/HÃ © chí
 STRING Prop governor fail-to-fine====Đề nghị thống đốc không phạt tiền
 STRING Prop governor fail-to-coarse====Đề nghị thống đốc không-để-thô
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/Moteurs/Inverseurs====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/Moteurs/Inverseurs
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/Moteurs/Accessoires====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/Moteurs/Accessoires
 STRING Throttle governor====Điều khiển bướm ga
 STRING Engine FADEC====Động cơ FADEC
 STRING Oil pump====Bơm dầu
 STRING Chip detect====Phát hiện chip
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/Moteurs/Ailes====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/Moteurs/Ailes
 STRING LEFT WING 1====CÁNH TRÁI 1
 STRING RIGT WING 1====RIGT WING 1
 STRING LEFT WING 2====CÁNH TRÁI 2
@@ -4268,10 +4109,7 @@ STRING RIGT WING 4====RIGT WING 4
 STRING LEFT H STAB====TRÁI H STAB
 STRING RIGT H STAB====RIGT H STAB
 STRING VERT STAB 2====VERT STAB 2
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/Octo-rotors====X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/Octo-rotors
 STRING Vector actuator failure====Lỗi bộ truyền động vector
-# X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/NAVAID====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/NAVAID
-# X-Plane/Pilotage/Menus/Vol/Carte  -ou- /IOS====# X-Plane/Pilotage/Menus/Vol/Carte -ou-/IOS
 STRING Clouds (Satellite IR)====Mây (Vệ tinh IR)
 STRING Clouds & precipitation (IR & NEXRAD)====Mây & mưa (IR & NEXRAD)
 STRING Precipitation (NEXRAD)====Lượng mưa (NEXRAD)
@@ -4280,7 +4118,7 @@ STRING Disable downwind ILSes====Tắt hạ cánh ILS xuôi gió
 STRING In the real world, airport operations typically uses only one direction of an airport at a time, and consequently shuts down the ILS for the opposite runway direction.====Trong thế giới thực, hoạt động của sân bay thường chỉ sử dụng một hướng của sân bay tại một thời điểm, và do đó tắt ILS cho hướng đường băng ngược lại.
 STRING Ground Speed====Tốc độ mặt đất
 STRING Change Aircraft====Thay đổi máy bay
-STRING %1:angle%° Glideslope====% 1: góc% Â ° Cầu trượt
+STRING %1:angle%° Glideslope====%1:angle%° Cầu trượt
 STRING Add Outer Marker====Thêm điểm đánh dấu bên ngoài
 STRING Add Middle Marker====Thêm điểm đánh dấu giữa
 STRING Add Inner Marker====Thêm điểm đánh dấu bên trong
@@ -4329,8 +4167,8 @@ STRING Show Sky Colors====Hiển thị màu sắc bầu trời
 STRING Show Dev Console====Hiển thị bảng điều khiển dành cho nhà phát triển
 STRING The aircraft must now be in trimmed, level flight. It must be in trimmed, level, un-accelerated flight before you select this menu option.====Máy bay bây giờ phải ở trạng thái bay ngang, cắt tỉa. Nó phải ở mức, mức, chuyến bay chưa được tăng tốc trước khi bạn chọn tùy chọn menu này.
 STRING The controls should be centered, with the exception of any trim needed to hold level, un-accelerated flight. The autopilot may be on, since it will not have time to affect the test results.====Các điều khiển phải được căn giữa, ngoại trừ bất kỳ phần nào cần thiết để giữ mức, chuyến bay không tăng tốc. Chế độ lái tự động có thể bật, vì nó sẽ không có thời gian để ảnh hưởng đến kết quả kiểm tra.
-STRING By looking at that acceleration, X-Plane will know the stability derivative. X-Plane will output its findings to the end of the “Cycle Dump.txt” file for you to see.====Bằng cách nhìn vào gia tốc đó, X-Plane sẽ biết được đạo hàm ổn định. X-Plane sẽ xuất những phát hiện của mình vào cuối tệp â € œCycle Dump.txtâ € cho bạn xem.
-STRING Quit X-Plane and open the “Cycle Dump.txt” file with a word processor to read the results.====Thoát X-Plane và mở tệp â € œCycle Dump.txtâ € bằng trình xử lý văn bản để đọc kết quả.
+STRING By looking at that acceleration, X-Plane will know the stability derivative. X-Plane will output its findings to the end of the “Cycle Dump.txt” file for you to see.====Bằng cách nhìn vào gia tốc đó, X-Plane sẽ biết được đạo hàm ổn định. X-Plane sẽ xuất những phát hiện của mình vào cuối tệp "Cycle Dump.txt" cho bạn xem.
+STRING Quit X-Plane and open the “Cycle Dump.txt” file with a word processor to read the results.====Thoát X-Plane và mở tệp "Cycle Dump.txt" bằng trình xử lý văn bản để đọc kết quả.
 STRING Projection Configuration====Cấu hình chiếu
 STRING Rendering Options====Tùy chọn kết xuất
 STRING Check this box to set a vertical field of view that is different from what it normally would be to give a non-distorted view. If you have a monitor with non-square pixels, this setting can be useful to counteract that distortion.====Chọn hộp này để đặt trường xem thẳng đứng khác với trường nhìn bình thường để cung cấp chế độ xem không bị bóp méo. Nếu bạn có màn hình với các pixel không phải hình vuông, cài đặt này có thể hữu ích để chống lại sự biến dạng đó.
@@ -4339,17 +4177,17 @@ STRING Grid Adjustments====Điều chỉnh lưới
 STRING PROJECTION WARPING====CHIẾN TRANH DỰ ÁN
 STRING X-Plane can distort the image it displays to match distortions in your projection screen.====X-Plane có thể làm biến dạng hình ảnh mà nó hiển thị để khớp với các biến dạng trên màn hình chiếu của bạn.
 STRING Configure distortion by checking the box below, then dragging the red nodes with the mouse to adjust the warping grid.====Định cấu hình độ méo bằng cách đánh dấu vào ô bên dưới, sau đó dùng chuột kéo các nút màu đỏ để điều chỉnh lưới độ cong vênh.
-STRING Configure projection warping on Display %1:monitor number%====Định cấu hình cong vênh chiếu trên Màn hình% 1: số màn hình%
+STRING Configure projection warping on Display %1:monitor number%====Định cấu hình cong vênh chiếu trên Màn hình %1:monitor number%
 STRING Ctrl + click or Cmd + click a node to select it.====Ctrl + nhấp chuột hoặc Cmd + nhấp vào nút để chọn nó.
 STRING Move the selected node with the arrow keys, or Shift+arrow keys.====Di chuyển nút đã chọn bằng các phím mũi tên, hoặc Shift + phím mũi tên.
-STRING Apply projection warping on Display %1:monitor number% during flight====Áp dụng độ cong hình chiếu trên Màn hình% 1: số màn hình% trong suốt chuyến bay
+STRING Apply projection warping on Display %1:monitor number% during flight====Áp dụng độ cong hình chiếu trên Màn hình %1:monitor number% trong suốt chuyến bay
 STRING Grid size (x direction)====Kích thước lưới (hướng x)
 STRING Grid size (y direction)====Kích thước lưới (hướng y)
 STRING Reset Grid Offsets====Reset Grid Offsets
 STRING Show dome test pattern on all displays====Hiển thị mẫu thử nghiệm mái vòm trên tất cả các màn hình
 STRING Draw a 3-D test pattern onscreen for configuring dome projection.====Vẽ mẫu thử nghiệm 3-D trên màn hình để định cấu hình chiếu vòm.
 STRING Edge Blending====Trộn cạnh
-STRING Enable edge blending on Display %1:monitor number%====Bật kết hợp cạnh trên Hiển thị% 1: số màn hình%
+STRING Enable edge blending on Display %1:monitor number%====Bật kết hợp cạnh trên Hiển thị %1:monitor number%
 STRING Edge blending fades the image to black near the edges of the screen.====Tính năng hòa trộn cạnh làm mờ hình ảnh thành màu đen gần các cạnh của màn hình.
 STRING This can be used to blend images from multiple projectors onto one big surface.====Điều này có thể được sử dụng để trộn hình ảnh từ nhiều máy chiếu vào một bề mặt lớn.
 STRING LEFT====BÊN TRÁI
@@ -4392,7 +4230,7 @@ STRING SET KIOSK MODE PASSWORD====ĐẶT MẬT KHẨU CHẾ ĐỘ KIOSK
 STRING Set Password====Đặt mật khẩu
 STRING Search by profile name====Tìm kiếm theo tên hồ sơ
 STRING Click to rename====Bấm để đổi tên
-STRING Clicking Delete will permanently remove the profile “%1:profile name%” from X-Plane.====Nhấp vào Xóa sẽ xóa vĩnh viễn hồ sơ â € œ% 1: tên hồ sơ% â € khỏi X-Plane.
+STRING Clicking Delete will permanently remove the profile “%1:profile name%” from X-Plane.====Nhấp vào Xóa sẽ xóa vĩnh viễn hồ sơ “%1:profile name%” khỏi X-Plane.
 STRING Delete====Xóa bỏ
 STRING ENTER NEW PROFILE NAME====NHẬP TÊN HỒ SƠ MỚI
 STRING Save as New Profile====Lưu dưới dạng hồ sơ mới
@@ -4425,15 +4263,15 @@ STRING Reset Visual Offsets====Reset Visual Offsets
 STRING This aircraft has no 2-D panel.====Máy bay này không có bảng điều khiển 2-D.
 STRING Use aircraft from suffixed folder====Sử dụng máy bay từ thư mục có hậu tố
 STRING Aircraft folder suffix====Hậu tố thư mục máy bay
-STRING iPHONE, iPAD, and EXTERNAL APPS %1:(number of connections)%====iPHONE, iPAD, và ỨNG DỤNG BÊN NGOÀI% 1: (số lượng kết nối)%
-STRING A device running Xavion or FlyQ (%1:IP address%)====Một thiết bị chạy Xavion hoặc FlyQ (% 1: IP address%)
-STRING A device running X-Plane Control Pad (%1:IP address%)====Một thiết bị chạy Bảng điều khiển X-Plane (% 1: Địa chỉ IP%)
-STRING An X-Plane machine (%1:IP address%) that incorrectly thinks this machine is external visuals====Máy X-Plane (% 1: IP address%) nghĩ không chính xác máy này là hình ảnh bên ngoài
-STRING An external visuals machine (%1:IP address%) being directed from this master simulator====Một máy hình ảnh bên ngoài (% 1: IP address%) được điều hướng từ trình mô phỏng chính này
-STRING An external visuals machine (%1:IP address%) that incorrectly thinks this is a master simulator====Máy có hình ảnh bên ngoài (% 1: IP address%) nhầm tưởng rằng đây là một trình mô phỏng chính
+STRING iPHONE, iPAD, and EXTERNAL APPS %1:(number of connections)%====iPHONE, iPAD, và ỨNG DỤNG BÊN NGOÀI %1:(number of connections)%
+STRING A device running Xavion or FlyQ (%1:IP address%)====Một thiết bị chạy Xavion hoặc FlyQ (%1:IP address%)
+STRING A device running X-Plane Control Pad (%1:IP address%)====Một thiết bị chạy Bảng điều khiển X-Plane (%1:IP address%)
+STRING An X-Plane machine (%1:IP address%) that incorrectly thinks this machine is external visuals====Máy X-Plane (%1:IP address%) nghĩ không chính xác máy này là hình ảnh bên ngoài
+STRING An external visuals machine (%1:IP address%) being directed from this master simulator====Một máy hình ảnh bên ngoài (%1:IP address%) được điều hướng từ trình mô phỏng chính này
+STRING An external visuals machine (%1:IP address%) that incorrectly thinks this is a master simulator====Máy có hình ảnh bên ngoài (%1:IP address%) nhầm tưởng rằng đây là một trình mô phỏng chính
 STRING ALL NETWORKING CONFIGURATION WILL BE RESET====TẤT CẢ CẤU HÌNH MẠNG SẼ ĐƯỢC ĐẶT LẠI
-STRING Clicking “Reset All Networking Configuration” below will undo any setup changes you have made and reconfigure this machine to the default networking settings.\n\nIf this was not your intention, click Cancel.====Nhấp vào â € œĐặt lại tất cả cấu hình mạngâ € dưới đây sẽ hoàn tác bất kỳ thay đổi thiết lập nào bạn đã thực hiện và định cấu hình lại máy này về cài đặt mạng mặc định. \ N \ nNếu đây không phải là ý định của bạn, hãy nhấp vào Hủy.
-STRING Array Indices to %1:Read/Write%====Chỉ số mảng đến% 1: Đọc/Ghi%
+STRING Clicking “Reset All Networking Configuration” below will undo any setup changes you have made and reconfigure this machine to the default networking settings.\n\nIf this was not your intention, click Cancel.====Nhấp vào "Đặt lại tất cả cấu hình mạng" dưới đây sẽ hoàn tác bất kỳ thay đổi thiết lập nào bạn đã thực hiện và định cấu hình lại máy này về cài đặt mạng mặc định. \ N \ nNếu đây không phải là ý định của bạn, hãy nhấp vào Hủy.
+STRING Array Indices to %1:Read/Write%====Chỉ số mảng đến %1:Read/Write%
 STRING Read====Đọc
 STRING Write====Viết
 STRING Send network data output====Gửi đầu ra dữ liệu mạng
@@ -4495,34 +4333,31 @@ STRING Xbox One Elite Controller====Bộ điều khiển Xbox One Elite
 STRING Xbox One S Controller====Bộ điều khiển Xbox One S
 STRING UNCALIBRATED JOYSTICK OR YOKE FOUND====NỀN TẢNG JOYSTICK HOẶC TRẺ KHÔNG ĐƯỢC HỖN HỢP
 STRING UNCALIBRATED DEVICES FOUND====TÌM HIỂU THIẾT BỊ KHÔNG ĐƯỢC HỖN HỢP
-STRING %1:percentage%% (%2:time% seconds remaining)====1: phần trăm %% (% 2: thời gian còn lại% giây)
-#X-Plane/réglages/Joystick/profile====# X-Plane/rÃ © glages/Joystick/profile
 STRING Active Profile====Hồ sơ hoạt động
 STRING User Profile====Thông tin người dùng
 STRING Save as new profile====Lưu dưới dạng hồ sơ mới
 STRING Manage Profiles====Quản lý hồ sơ
-#X-Plane/réglages/Joystick/diag de configuration====# X-Plane/rÃ © glages/Joystick/Diag de cấu hình
-STRING Axis %1:axis number%====Trục% 1: số trục%
-STRING Hat Switch %1:hat switch index%====Chuyển đổi mũ% 1: chỉ số chuyển đổi mũ%
+STRING Axis %1:axis number%====Trục %1:axis number%
+STRING Hat Switch %1:hat switch index%====Chuyển đổi mũ  %1:hat switch index%
 STRING Hat switch right.====Mũ chuyển sang phải.
 STRING Hat switch down + right.====Công tắc mũ xuống + phải.
 STRING Hat switch down.====Chuyển mũ xuống.
 STRING Hat switch down + left.====Chuyển mũ xuống + trái.
 STRING Hat switch left.====Mũ công tắc trái.
-STRING Reset to Defaults for %1:Device Name%====Đặt lại về Mặc định cho% 1: Tên thiết bị%
+STRING Reset to Defaults for %1:Device Name%====Đặt lại về Mặc định cho %1:Device Name%
 STRING Choose path to save joystick defaults file.====Chọn đường dẫn để lưu tệp mặc định cần điều khiển.
 STRING Let go of your controls, allowing them to go back to their centered position.====Hãy buông bỏ các điều khiển của bạn, cho phép chúng quay trở lại vị trí trung tâm của chúng.
 STRING Then, hit the Next button and leave your controls there until the timer is up.====Sau đó, nhấn nút Tiếp theo và để các điều khiển của bạn ở đó cho đến khi hết giờ.
 STRING Leave your controls in their centered position until the timer is up.====Để các điều khiển của bạn ở vị trí chính giữa cho đến khi hết giờ.
 STRING Create a joystick configuration file to share with Laminar Research.====Tạo tệp cấu hình cần điều khiển để chia sẻ với Laminar Research.
 STRING Create Default Configuration File====Tạo tệp cấu hình mặc định
-STRING %1:Axis type, like Pitch or Roll% required for certified use====% 1: Loại trục, như Pitch hoặc Roll% bắt buộc để sử dụng được chứng nhận
+STRING %1:Axis type, like Pitch or Roll% required for certified use====%1:Axis type, like Pitch or Roll% bắt buộc để sử dụng được chứng nhận
 STRING Reset Joystick Configuration====Đặt lại cấu hình cần điều khiển
-STRING Clicking “%1:button label%” below will undo any joystick change you have made and reconfigure X-Plane to use the defaults for this device.====Nhấp vào â € œ% 1: nhãn nút% â € bên dưới sẽ hoàn tác mọi thay đổi cần điều khiển mà bạn đã thực hiện và định cấu hình lại X-Plane để sử dụng mặc định cho thiết bị này.
+STRING Clicking “%1:button label%” below will undo any joystick change you have made and reconfigure X-Plane to use the defaults for this device.====Nhấp vào “%1:button label%” bên dưới sẽ hoàn tác mọi thay đổi cần điều khiển mà bạn đã thực hiện và định cấu hình lại X-Plane để sử dụng mặc định cho thiết bị này.
 STRING (Note that this change affects your current profile only.)====(Lưu ý rằng thay đổi này chỉ ảnh hưởng đến hồ sơ hiện tại của bạn.)
 STRING If this was not your intention, click Cancel.====Nếu đây không phải là ý định của bạn, nhấp vào Hủy.
 STRING JOYSTICK CONFIGURATION WILL BE RESET====CẤU HÌNH JOYSTICK SẼ ĐƯỢC ĐẶT LẠI
-STRING CALIBRATE %1:device name%====CALIBRATE% 1: tên thiết bị%
+STRING CALIBRATE %1:device name%====CALIBRATE %1:device name%
 STRING 1 throttle, prop, & mixture====1 van tiết lưu, chống, & hỗn hợp
 STRING 1 heat, throttle, & mixture====1 nhiệt, ga, & hỗn hợp
 STRING 2 throttle, prop, & mixture====2 van tiết lưu, chống, & hỗn hợp
@@ -4740,7 +4575,7 @@ STRING Frigate approach.====Phương pháp tiếp cận Frigate.
 STRING Waterway takeoff.====Đường thủy cất cánh.
 STRING Unclassified====Chưa được phân loại
 STRING Toggle AI flying your aircraft.====Chuyển đổi AI điều khiển máy bay của bạn.
-STRING Load situation %1:number%====Tình hình tải% 1: số%
+STRING Load situation %1:number%====Tình hình tải %1:number%
 STRING Stop Interaction Recording====Ngừng ghi lại tương tác
 STRING Fail selected in failures screen.====Đã chọn Sự cố trong màn hình Sự cố.
 STRING Push-back for airliners: Nose 90 left.====Đẩy lùi cho máy bay: Mũi 90 trái.
@@ -4789,7 +4624,7 @@ STRING LOAD TOP BACKGROUND BITMAP====TẢI BITMAP NỀN TẢNG HÀNG ĐẦU
 STRING LOAD LEFT BACKGROUND BITMAP====TẢI BITMAP BACKGROUND TRÁI
 STRING Save current airplane.====Lưu máy bay hiện tại.
 STRING Reload aircraft textures.====Tải lại kết cấu máy bay.
-STRING You cannot attach the object '%1:file%' to this aircraft.====Bạn không thể đính kèm đối tượng '% 1: file%' vào máy bay này.
+STRING You cannot attach the object '%1:file%' to this aircraft.====Bạn không thể đính kèm đối tượng '%1:file%' vào máy bay này.
 STRING All objects attached to your aircraft must be in the aircraft's objects sub-folder.====Tất cả các đối tượng được gắn vào máy bay của bạn phải nằm trong thư mục con các đối tượng của máy bay.
 STRING Remove Slung Load====Loại bỏ tải trọng
 STRING X-Plane failed to open the following aircraft file, because it was created with an old version of X-Plane:====X-Plane không mở được tệp máy bay sau, do tệp được tạo bằng phiên bản cũ của X-Plane:
@@ -4839,7 +4674,7 @@ STRING Exhaust Gas Temperature (per engine).====Nhiệt độ khí thải (mỗi
 STRING Cylinder Head Temperature (per engine).====Nhiệt độ đầu xi lanh (mỗi động cơ).
 STRING Options in the menu can change your view. Open the menu by pressing [sim/operation/show_menu] or by moving your mouse to the top of the screen.====Các tùy chọn trong menu có thể thay đổi chế độ xem của bạn. Mở menu bằng cách nhấn [sim/operation/show_menu] hoặc di chuyển chuột lên đầu màn hình.
 STRING In a moment I’ll ask you to disengage the parking brake and add full power for takeoff.===="Trong giây lát, tôi sẽ yêu cầu bạn tháo phanh tay và bổ sung toàn bộ sức mạnh để cất cánh."
-STRING You can use the throttle on your joystick to control the collective. Or press ‘[sim/engines/prop_up]’ to increase it or ‘[sim/engines/prop_down]’ to decrease it.====Bạn có thể sử dụng van tiết lưu trên cần điều khiển của mình để điều khiển tập thể. Hoặc nhấn â € ˜ [sim/engine/prop_up] â € ™ để tăng hoặc â € ˜ [sim/engine/prop_down] â € ™ để giảm.
+STRING You can use the throttle on your joystick to control the collective. Or press ‘[sim/engines/prop_up]’ to increase it or ‘[sim/engines/prop_down]’ to decrease it.====Bạn có thể sử dụng van tiết lưu trên cần điều khiển của mình để điều khiển tập thể. Hoặc nhấn '[sim/engine/prop_up]' để tăng hoặc '[sim/engine/prop_down]' để giảm.
 STRING Raise the nose—you don’t want it pointed so far down.====Nâng cao mũi mà bạn không muốn nó hướng xuống quá xa.
 STRING Lower the nose—you want it pointed down a bit below the horizon.====Hạ mũi xuống mà bạn muốn nó hướng xuống dưới đường chân trời một chút.
 STRING You made it safely! Nicely done!====Bạn đã thực hiện nó một cách an toàn! Rất tốt!
@@ -4852,58 +4687,58 @@ STRING New Lower Re====New Hạ Re
 STRING Delete THis Re====Xóa THis Re
 STRING New Higher Re====Re mới cao hơn
 STRING Toggle display of the V11 UI style guide.====Chuyển đổi hiển thị hướng dẫn kiểu giao diện người dùng V11.
-STRING Slider #%1:index% On/Off control.====Thanh trượt #% 1: điều khiển bật/tắt chỉ mục%.
-STRING Magnetos down one notch for engine #%1:index%.====Magnetos giảm một bậc cho engine #% 1: index%.
-STRING Magnetos up one notch for engine #%1:index%.====Magnetos tăng một bậc cho engine #% 1: index%.
-STRING Magnetos off for engine #%1:index%.====Magnetos tắt cho công cụ #% 1: chỉ mục%.
-STRING Magnetos left for engine #%1:index%.====Magnetos còn lại cho công cụ #% 1: chỉ mục%.
-STRING Magnetos right for engine #%1:index%.====Magnetos phù hợp với công cụ #% 1: chỉ số%.
-STRING Magnetos both for engine #%1:index%.====Magnetos dành cho cả công cụ #% 1: chỉ mục%.
-STRING Ignition key down one notch for engine #%1:index%.====Phím đánh lửa giảm một bậc đối với công cụ #% 1: index%.
-STRING Ignition key up one notch for engine #%1:index%.====Phím đánh lửa tăng một bậc cho động cơ #% 1: index%.
-STRING Igniter #%1:index% arm off.====Igniter #% 1: tắt nhánh index%.
-STRING Igniter #%1:index% arm on.====Igniter #% 1: bật nhánh index%.
-STRING Igniter #%1:index% contin-ignition off.====Igniter #% 1: index% tiếp tục đánh lửa tắt.
-STRING Igniter #%1:index% contin-ignition on.====Igniter #% 1: index% tiếp tục đánh lửa đang bật.
-STRING Engage starter #%1:index%.====Người bắt đầu tương tác #% 1: chỉ mục%.
-STRING Throttle down a bit for engine #%1:index%.====Giảm ga một chút cho động cơ #% 1: chỉ số%.
-STRING Throttle up a bit for engine #%1:index%.====Tăng ga một chút cho động cơ #% 1: chỉ số%.
-STRING Prop down a bit for engine #%1:index%.====Đề xuất giảm một chút cho engine #% 1: index%.
-STRING Prop up a bit for engine #%1:index%.====Đề xuất một chút cho engine #% 1: index%.
-STRING Mixture down a bit for engine #%1:index%.====Kết hợp giảm một chút cho engine #% 1: index%.
-STRING Mixture up a bit for engine #%1:index%.====Trộn lên một chút cho engine #% 1: index%.
-STRING Toggle beta prop #%1:index%.====Chuyển đổi beta prop #% 1: index%.
-STRING Toggle thrust reversers #%1:index%.====Chuyển đổi đảo ngược lực đẩy #% 1: chỉ số%.
-STRING Hold thrust reverse at max #%1:index%.====Giữ lực đẩy ngược lại ở mức tối đa #% 1: chỉ số%.
-STRING Pull fuel and mags for shut-down #%1:index%.====Kéo nhiên liệu và mags để ngừng hoạt động #% 1: chỉ số%.
-STRING Move cowl flaps #%1:index% closed a bit.====Di chuyển nắp cao su #% 1: chỉ số% đã đóng một chút.
-STRING Move cowl flaps #%1:index% open a bit.====Di chuyển nắp cao su #% 1: chỉ số% mở một chút.
-STRING FADEC #%1:index% off.====FADEC #% 1: giảm chỉ số%.
-STRING FADEC #%1:index% on.====FADEC #% 1: bật chỉ mục%.
-STRING Alternate air #%1:index% off.====Không khí thay thế #% 1: giảm chỉ số%.
-STRING Alternate air #%1:index% on.====Không khí thay thế #% 1: bật chỉ mục%.
-STRING Alternate air backup #%1:index% off.====Dự phòng không khí thay thế #% 1: giảm chỉ mục%.
-STRING Alternate air backup #%1:index% on.====Dự phòng không khí thay thế #% 1: bật chỉ mục%.
-STRING Fire extinguisher #%1:index% off.====Bình chữa cháy #% 1: giảm chỉ số%.
-STRING Fire extinguisher #%1:index% on.====Bình chữa cháy #% 1: bật chỉ số%.
-STRING Fuel pump for tank #%1:index% on.====Bơm nhiên liệu cho bể chứa #% 1: bật chỉ số%.
-STRING Fuel pump for tank #%1:index% off.====Bơm nhiên liệu cho bể chứa #% 1: giảm chỉ số%.
-STRING Fuel pump for engine #%1:index% on.====Bơm nhiên liệu cho động cơ #% 1: bật chỉ số%.
-STRING Fuel pump for engine #%1:index% off.====Bơm nhiên liệu cho động cơ #% 1: giảm chỉ số%.
+STRING Slider #%1:index% On/Off control.====Thanh trượt #%1:index%.
+STRING Magnetos down one notch for engine #%1:index%.====Magnetos giảm một bậc cho engine #%1:index%.
+STRING Magnetos up one notch for engine #%1:index%.====Magnetos tăng một bậc cho engine #%1:index%.
+STRING Magnetos off for engine #%1:index%.====Magnetos tắt cho công cụ #%1:index%.
+STRING Magnetos left for engine #%1:index%.====Magnetos còn lại cho công cụ #%1:index%.
+STRING Magnetos right for engine #%1:index%.====Magnetos phù hợp với công cụ #%1:index%.
+STRING Magnetos both for engine #%1:index%.====Magnetos dành cho cả công cụ #%1:index%.
+STRING Ignition key down one notch for engine #%1:index%.====Phím đánh lửa giảm một bậc đối với công cụ #%1:index%.
+STRING Ignition key up one notch for engine #%1:index%.====Phím đánh lửa tăng một bậc cho động cơ #%1:index%.
+STRING Igniter #%1:index% arm off.====Igniter #%1:index%.
+STRING Igniter #%1:index% arm on.====Igniter #%1:index%.
+STRING Igniter #%1:index% contin-ignition off.====Igniter #%1:index% tiếp tục đánh lửa tắt.
+STRING Igniter #%1:index% contin-ignition on.====Igniter #%1:index% tiếp tục đánh lửa đang bật.
+STRING Engage starter #%1:index%.====Người bắt đầu tương tác #%1:index%.
+STRING Throttle down a bit for engine #%1:index%.====Giảm ga một chút cho động cơ #%1:index%.
+STRING Throttle up a bit for engine #%1:index%.====Tăng ga một chút cho động cơ #%1:index%.
+STRING Prop down a bit for engine #%1:index%.====Đề xuất giảm một chút cho engine #%1:index%.
+STRING Prop up a bit for engine #%1:index%.====Đề xuất một chút cho engine #%1:index%.
+STRING Mixture down a bit for engine #%1:index%.====Kết hợp giảm một chút cho engine #%1:index%.
+STRING Mixture up a bit for engine #%1:index%.====Trộn lên một chút cho engine #%1:index%.
+STRING Toggle beta prop #%1:index%.====Chuyển đổi beta prop #%1:index%.
+STRING Toggle thrust reversers #%1:index%.====Chuyển đổi đảo ngược lực đẩy #%1:index%.
+STRING Hold thrust reverse at max #%1:index%.====Giữ lực đẩy ngược lại ở mức tối đa #%1:index%.
+STRING Pull fuel and mags for shut-down #%1:index%.====Kéo nhiên liệu và mags để ngừng hoạt động #%1:index%.
+STRING Move cowl flaps #%1:index% closed a bit.====Di chuyển nắp cao su #%1:index% đã đóng một chút.
+STRING Move cowl flaps #%1:index% open a bit.====Di chuyển nắp cao su #%1:index% mở một chút.
+STRING FADEC #%1:index% off.====FADEC #%1:index%.
+STRING FADEC #%1:index% on.====FADEC #%1:index%.
+STRING Alternate air #%1:index% off.====Không khí thay thế #%1:index%.
+STRING Alternate air #%1:index% on.====Không khí thay thế #%1:index%.
+STRING Alternate air backup #%1:index% off.====Dự phòng không khí thay thế #%1:index%.
+STRING Alternate air backup #%1:index% on.====Dự phòng không khí thay thế #%1:index%.
+STRING Fire extinguisher #%1:index% off.====Bình chữa cháy #%1:index%.
+STRING Fire extinguisher #%1:index% on.====Bình chữa cháy #%1:index%.
+STRING Fuel pump for tank #%1:index% on.====Bơm nhiên liệu cho bể chứa #%1:index%.
+STRING Fuel pump for tank #%1:index% off.====Bơm nhiên liệu cho bể chứa #%1:index%.
+STRING Fuel pump for engine #%1:index% on.====Bơm nhiên liệu cho động cơ #%1:index%.
+STRING Fuel pump for engine #%1:index% off.====Bơm nhiên liệu cho động cơ #%1:index%.
 STRING Fuel pump for engine #%1:index% toggle.====Bơm nhiên liệu cho động cơ #% 1: bật tắt chỉ số%.
-STRING Fuel pump prime for engine #%1:index% on.====Đầu bơm nhiên liệu cho động cơ #% 1: bật chỉ số%.
-STRING Generator #%1:index% off.====Trình tạo #% 1: giảm chỉ mục%.
-STRING Generator #%1:index% on.====Trình tạo #% 1: bật chỉ mục%.
+STRING Fuel pump prime for engine #%1:index% on.====Đầu bơm nhiên liệu cho động cơ #%1:index%.
+STRING Generator #%1:index% off.====Trình tạo #%1:index%.
+STRING Generator #%1:index% on.====Trình tạo #%1:index%.
 STRING Generator #%1:index% toggle.====Trình tạo #% 1: chuyển đổi chỉ mục%.
 STRING Generator #%1:index% reset.====Trình tạo #% 1: đặt lại chỉ mục%.
-STRING Anti-ice: engine #%1:index% inlet heat on.====Chống đóng băng: động cơ #% 1: bật chỉ số% nhiệt đầu vào.
-STRING Anti-ice: engine #%1:index% inlet heat off.====Chống đóng băng: động cơ #% 1: chỉ số% tắt nhiệt đầu vào.
-STRING Anti-ice: engine #%1:index% inlet heat toggle.====Chống đóng băng: động cơ #% 1: chỉ số% chuyển đổi nhiệt đầu vào.
-STRING Anti-ice: engine #%1:index% prop heat on.====Chống đóng băng: động cơ #% 1: bật chỉ số% chống đóng băng.
-STRING Anti-ice: engine #%1:index% prop heat off.====Chống đóng băng: động cơ #% 1: chỉ số% đẩy nhiệt tắt.
-STRING Anti-ice: engine #%1:index% prop heat toggle.====Chống đóng băng: động cơ #% 1: chỉ số% chuyển đổi nhiệt đẩy.
-STRING Door #%1:index% open.====Cửa #% 1: chỉ số% mở.
-STRING Door #%1:index% close.====Cửa #% 1: chỉ số% đóng.
+STRING Anti-ice: engine #%1:index% inlet heat on.====Chống đóng băng: động cơ #%1:index% nhiệt đầu vào.
+STRING Anti-ice: engine #%1:index% inlet heat off.====Chống đóng băng: động cơ #%1:index% tắt nhiệt đầu vào.
+STRING Anti-ice: engine #%1:index% inlet heat toggle.====Chống đóng băng: động cơ #%1:index% chuyển đổi nhiệt đầu vào.
+STRING Anti-ice: engine #%1:index% prop heat on.====Chống đóng băng: động cơ #%1:index% chống đóng băng.
+STRING Anti-ice: engine #%1:index% prop heat off.====Chống đóng băng: động cơ #%1:index% đẩy nhiệt tắt.
+STRING Anti-ice: engine #%1:index% prop heat toggle.====Chống đóng băng: động cơ #%1:index% chuyển đổi nhiệt đẩy.
+STRING Door #%1:index% open.====Cửa #%1:index% mở.
+STRING Door #%1:index% close.====Cửa #%1:index% đóng.
 STRING COM 1 coarse down (8.33 kHz).===="COM 1 xuống thô (8,33 kHz)."
 STRING COM 1 coarse up (8.33 kHz).===="COM 1 tăng thô (8,33 kHz)."
 STRING COM 1 standby coarse down (8.33kHz).===="COM 1 ở chế độ chờ giảm thô (8,33kHz)."
@@ -4985,9 +4820,9 @@ STRING NO AVAILABLE SITUATION FILE SLOTS====KHÔNG CÓ TỆP TỆP TÌNH HÌNH C
 STRING You already have the maximum number of .sit files bound to commands.====Bạn đã có số lượng tệp .sit tối đa được liên kết với các lệnh.
 STRING To add a new binding, delete an old one first.====Để thêm một ràng buộc mới, trước tiên hãy xóa một ràng buộc cũ.
 STRING Button %1:button number%====Nút% 1: số nút%
-STRING “%1:key or button%” is already bound to the situation “%2:current situation file%”.====â € œ% 1: phím hoặc nút% â € đã bị ràng buộc với tình huống â € œ% 2: tệp tình huống hiện tại% â €.
-STRING “%1:key or button%” is already bound to the command “%2:current binding%”====â € œ% 1: phím hoặc nút% â € đã được liên kết với lệnh â € œ% 2: ràng buộc hiện tại% â €
-STRING Press OK to remove this old binding and assign “%1:key or button%” to “%2:new binding%”.====Nhấn OK để xóa liên kết cũ này và gán â € œ% 1: phím hoặc nút% â € cho â € œ% 2: ràng buộc mới% â €.
+STRING “%1:key or button%” is already bound to the situation “%2:current situation file%”.===="% 1: phím hoặc nút%" đã bị ràng buộc với tình huống "% 2: tệp tình huống hiện tại%".
+STRING “%1:key or button%” is already bound to the command “%2:current binding%”===="% 1: phím hoặc nút%" đã được liên kết với lệnh "% 2: ràng buộc hiện tại%"
+STRING Press OK to remove this old binding and assign “%1:key or button%” to “%2:new binding%”.====Nhấn OK để xóa liên kết cũ này và gán "% 1: phím hoặc nút%" cho "% 2: ràng buộc mới%".
 STRING Record button press====Ghi lại nút bấm
 STRING Any connected copies of Xavion====Mọi bản sao được kết nối của Xavion
 STRING Searched the following locations in the X-Plane directory:====Đã tìm kiếm các vị trí sau trong thư mục X-Plane:
@@ -5002,7 +4837,7 @@ STRING Go to %1:Tutorial Name%====Chuyển đến% 1: Tên hướng dẫn%
 STRING Show Texture Browser====Hiển thị trình duyệt kết cấu
 STRING Show Style Guide====Hiển thị Hướng dẫn Kiểu
 STRING No <things> found.====Không tìm thấy <thứ gì>.
-STRING Never—Check your internet connection====Neverâ € ”Kiểm tra kết nối internet của bạn
+STRING Never—Check your internet connection====Never" ”Kiểm tra kết nối internet của bạn
 STRING A long time ago====Lâu lắm rồi
 STRING Default ramp====Đoạn đường nối mặc định
 STRING CHOOSE AIRCRAFT TO CARRY====CHỌN MÁY BAY ĐỂ CHUYỂN ĐI
@@ -5013,7 +4848,7 @@ STRING Aircraft may not support AI flight.====Máy bay có thể không hỗ tr�
 STRING Show aircraft without AI support====Hiển thị máy bay không có hỗ trợ AI
 STRING Aircraft that do not explicitly support AI use may not work correctly. Check this box to show those aircraft anyway.====Máy bay không hỗ trợ rõ ràng sử dụng AI có thể không hoạt động chính xác. Chọn hộp này để hiển thị các máy bay đó.
 STRING COURSE====KHÓA HỌC
-STRING Minimum frame rate hasn’t been achieved in over %1:number of minutes% minutes.====Chưa đạt được tốc độ khung hình tối thiểu trong hơn% 1: số phút% phút.
+STRING Minimum frame rate hasn’t been achieved in over %1:number of minutes% minutes.====Chưa đạt được tốc độ khung hình tối thiểu trong hơn%1:number of minutes% phút.
 STRING Always reset flight immediately====Luôn đặt lại chuyến bay ngay lập tức
 STRING Next Tutorial (%1:Tutorial Name%)====Hướng dẫn tiếp theo (% 1: Tên hướng dẫn%)
 STRING PURCHASE COMPLETE====HOÀN THÀNH MUA HÀNG
@@ -5051,21 +4886,21 @@ STRING Purchase the X-Plane digital download now to instantly unlock the full si
 STRING Would you like to end your flight and install the missing scenery now?====Bạn có muốn kết thúc chuyến bay của mình và cài đặt khung cảnh còn thiếu ngay bây giờ không?
 STRING GDPR PRIVACY NOTICE====THÔNG BÁO QUYỀN RIÊNG TƯ GDPR
 STRING Accept====Chấp nhận
-STRING If you select “Accept,” X-Plane will continue to contact Laminar Research's servers to authorize your digital download copy of X-Plane.====Nếu bạn chọn â € œChấp nhận, â € X-Plane sẽ tiếp tục liên hệ với máy chủ của Laminar Research để cho phép bản tải xuống kỹ thuật số của X-Plane của bạn.
-STRING If you select “Cancel,” we will not contact our servers, and X-Plane will revert to demo mode in %1:days% days.===="Nếu bạn chọn â € œHủy, â, chúng tôi sẽ không liên hệ với máy chủ của chúng tôi, và X-Plane sẽ trở lại chế độ demo sau% 1: days% days."
+STRING If you select “Accept,” X-Plane will continue to contact Laminar Research's servers to authorize your digital download copy of X-Plane.====Nếu bạn chọn "Chấp nhận," X-Plane sẽ tiếp tục liên hệ với máy chủ của Laminar Research để cho phép bản tải xuống kỹ thuật số của X-Plane của bạn.
+STRING If you select “Cancel,” we will not contact our servers, and X-Plane will revert to demo mode in %1:days% days.===="Nếu bạn chọn "Hủy, â, chúng tôi sẽ không liên hệ với máy chủ của chúng tôi, và X-Plane sẽ trở lại chế độ demo sau% 1: days% days."
 STRING When you click update button, X-Plane will launch the installer and update to the latest version.====Khi bạn nhấp vào nút cập nhật, X-Plane sẽ khởi chạy trình cài đặt và cập nhật lên phiên bản mới nhất.
 STRING Quit & Update to the Latest Beta====Thoát và cập nhật lên bản Beta mới nhất
 STRING Quit & Update Now====Thoát và cập nhật ngay
-STRING When you click “Quit & Install Scenery,” X-Plane will launch the installer and allow you to change your scenery installation.====Khi bạn nhấp vào â € œQuit & Install Scenery, â € X-Plane sẽ khởi chạy trình cài đặt và cho phép bạn thay đổi cài đặt khung cảnh của mình.
+STRING When you click “Quit & Install Scenery,” X-Plane will launch the installer and allow you to change your scenery installation.====Khi bạn nhấp vào "Quit & Install Scenery," X-Plane sẽ khởi chạy trình cài đặt và cho phép bạn thay đổi cài đặt khung cảnh của mình.
 STRING Quit & Install Scenery====Thoát & Cài đặt Phong cảnh
-STRING When you click “Quit & Complete Installation,” X-Plane will launch the installer and begin installing your missing files.====Khi bạn nhấp vào â € œQuit & Complete Cài đặt, â € X-Plane sẽ khởi chạy trình cài đặt và bắt đầu cài đặt các tệp còn thiếu của bạn.
+STRING When you click “Quit & Complete Installation,” X-Plane will launch the installer and begin installing your missing files.====Khi bạn nhấp vào "Quit & Complete Cài đặt," X-Plane sẽ khởi chạy trình cài đặt và bắt đầu cài đặt các tệp còn thiếu của bạn.
 STRING Quit & Complete Installation====Thoát & hoàn tất cài đặt
 STRING Require minimum frame rate and joystick checks at startup====Yêu cầu tốc độ khung hình tối thiểu và kiểm tra phím điều khiển khi khởi động
 STRING If checked, X-Plane will ensure at startup that your simulator meets the minimum frame rate requirements, and that all required joystick hardware (configured in the joystick settings) is present.====Nếu được chọn, X-Plane sẽ đảm bảo khi khởi động rằng trình mô phỏng của bạn đáp ứng các yêu cầu về tốc độ khung hình tối thiểu, và tất cả phần cứng cần điều khiển được yêu cầu (được định cấu hình trong cài đặt cần điều khiển) đều có mặt.
 STRING Require certified-use message====Yêu cầu thông báo sử dụng được chứng nhận
 STRING If checked, X-Plane will remind you to set the weather to low IFR for IFR training.====Nếu được chọn, X-Plane sẽ nhắc bạn đặt thời tiết thành IFR thấp để đào tạo IFR.
 STRING VR axes can only be assigned to a single stick or touchpad at a time.====Các trục VR chỉ có thể được gán cho một thanh hoặc bàn di chuột tại một thời điểm.
-STRING An X-Plane machine (%1:IP address%) sending an r-ref====Máy X-Plane (% 1: IP address%) gửi r-ref
+STRING An X-Plane machine (%1:IP address%) sending an r-ref====Máy X-Plane (%1:IP address%) gửi r-ref
 STRING VR MANIPULATOR SETTINGS====CÀI ĐẶT BỘ ĐIỀU KHIỂN VR
 STRING Realistic Yoke====Realistic Yoke
 STRING Ergonomic Yoke====Ergonomic Yoke
@@ -5081,7 +4916,7 @@ STRING VR====VR
 STRING Configure this set of axes normally.====Định cấu hình bộ trục này bình thường.
 STRING Configure this set of axes as a single hat switch.====Định cấu hình bộ trục này như một công tắc mũ duy nhất.
 STRING Heat====Nhiệt
-STRING Reverse Thrust %1:throttle index%====Lực đẩy ngược% 1: chỉ số ga%
+STRING Reverse Thrust %1:throttle index%====Lực đẩy ngược %1:throttle index%
 STRING Get In Pilot's Seat====Ngồi vào ghế của phi công
 STRING Unpause====Bỏ tạm dừng
 STRING Pause====Tạm ngừng
@@ -5095,17 +4930,17 @@ STRING X-Plane cannot continue.====X-Plane không thể tiếp tục.
 STRING Try removing any recently added plugins to fix your copy of X-Plane.====Thử xóa mọi plugin được thêm gần đây để sửa bản sao X-Plane của bạn.
 STRING Couldn't find the required library:====Không thể tìm thấy thư viện được yêu cầu:
 STRING Rerun the X-Plane installer and choose Update to fix your copy of X-Plane.====Chạy lại trình cài đặt X-Plane và chọn Cập nhật để sửa bản sao X-Plane của bạn.
-STRING Loading the required %1:file name% failed with error:====Tải% 1: tên tệp% bắt buộc không thành công với lỗi:
+STRING Loading the required %1:file name% failed with error:====Tải%1:file name% bắt buộc không thành công với lỗi:
 STRING Couldn't find a required submodule:====Không thể tìm thấy một mô-đun con bắt buộc:
 STRING Failed to initialize the required Chromium Embedded Framework.====Không thể khởi chạy Khung nhúng Chromium bắt buộc.
 STRING Couldn't find a required resource directory:====Không thể tìm thấy thư mục tài nguyên bắt buộc:
-STRING Loading…====Đang tảiâ € ¦
+STRING Loading…====Đang tải" ¦
 STRING Reload====Nạp lại
 STRING RECORDING====GHI ÂM
 STRING PLAYBACK====PHÁT LẠI
 STRING No selection====Không có sự lựa chọn nào
-STRING Recording begins in %1:seconds%====Quá trình ghi bắt đầu sau% 1: giây%
-STRING Playback begins in %1:seconds%====Phát lại bắt đầu sau% 1: giây%
+STRING Recording begins in %1:seconds%====Quá trình ghi bắt đầu sau %1:seconds%
+STRING Playback begins in %1:seconds%====Phát lại bắt đầu sau %1:seconds%
 STRING Back to Flight Configuration====Quay lại cấu hình chuyến bay
 STRING Back to Recording & Playback====Quay lại Ghi & Phát lại
 STRING Airport====Phi trường
@@ -5114,7 +4949,7 @@ STRING No change====Không thay đổi
 STRING NAV1 Freq====Tần suất NAV1
 STRING COM1 Freq====Tần suất COM1
 STRING Hide Texture Browser====Ẩn trình duyệt kết cấu
-STRING X-Plane has dumped all the data for one cycle of the flight model to the “Cycle Dump.txt” file.====X-Plane đã kết xuất tất cả dữ liệu cho một chu kỳ của mô hình chuyến bay vào tệp â € œCycle Dump.txtâ €.
+STRING X-Plane has dumped all the data for one cycle of the flight model to the “Cycle Dump.txt” file.====X-Plane đã kết xuất tất cả dữ liệu cho một chu kỳ của mô hình chuyến bay vào tệp "Cycle Dump.txt".
 STRING This includes all the angles of attack, forces, velocities, etc. for this instant in time.====Điều này bao gồm tất cả các góc tấn công, lực, vận tốc, vv cho thời điểm này trong thời gian.
 STRING Some scenery textures could not be loaded.====Không thể tải một số kết cấu phong cảnh.
 STRING This may be an installation problem or you may have a damaged add-on aircraft package.====Đây có thể là sự cố cài đặt hoặc bạn có thể có gói máy bay bổ trợ bị hỏng.
@@ -5125,12 +4960,12 @@ STRING Some textures could not be loaded.====Không thể tải một số kết
 STRING This may be an installation problem.====Đây có thể là một vấn đề cài đặt.
 STRING Run the installer/updater again to get these missing textures.====Chạy lại trình cài đặt/trình cập nhật để lấy các kết cấu còn thiếu này.
 STRING Frame rate check failed, and no flight controls found.====Kiểm tra tốc độ khung hình không thành công, và không tìm thấy điều khiển chuyến bay.
-STRING %1:Axis usage, like Pitch or Roll% axis not found.====% 1: Sử dụng trục, không tìm thấy trục Pitch hoặc Roll%.
+STRING %1:Axis usage, like Pitch or Roll% axis not found.====%1:Axis usage, like Pitch or Roll%.
 STRING The following required axes could not be found:====Không thể tìm thấy các trục bắt buộc sau:
 STRING Cannot open menu file:====Không thể mở tệp menu:
-STRING %1:App name% cannot continue without the menus.====% 1: Tên ứng dụng% không thể tiếp tục nếu không có menu.
-STRING Re-run the X-Plane installer and choose ”Update” to replace the missing file.====Chạy lại trình cài đặt X-Plane và chọn â € Updateâ € để thay thế tệp bị thiếu.
-STRING %1:ratio%x time-speed, which is as fast as your PC can run with these rendering options====% 1: ratio% x time-speed, nhanh như PC của bạn có thể chạy với các tùy chọn kết xuất này
+STRING %1:App name% cannot continue without the menus.====%1:App name% không thể tiếp tục nếu không có menu.
+STRING Re-run the X-Plane installer and choose ”Update” to replace the missing file.====Chạy lại trình cài đặt X-Plane và chọn" Update" để thay thế tệp bị thiếu.
+STRING %1:ratio%x time-speed, which is as fast as your PC can run with these rendering options====%1:ratio%x time-speed, nhanh như PC của bạn có thể chạy với các tùy chọn kết xuất này
 STRING Time in seconds from the beginning of the recording.====Thời gian tính bằng giây kể từ khi bắt đầu ghi.
 STRING Aileron deflection as a ratio from -1.0 (left) to +1.0 (right)====Độ lệch của Aileron theo tỷ lệ từ -1.0 (trái) đến +1.0 (phải)
 STRING Elevator deflection as a ratio from -1.0 (nose down) to +1.0 (nose up)====Độ võng của thang máy theo tỷ lệ từ -1.0 (mũi xuống) đến +1.0 (mũi lên)
@@ -5170,7 +5005,7 @@ STRING Your indicated airspeed is above the structural limit for your extended l
 STRING You blew one or more tires.====Bạn đã làm nổ một hoặc nhiều lốp xe.
 STRING Procedures could not be loaded:====Không thể tải các thủ tục:
 STRING Missing runways should be reported to the X-Plane Scenery Gateway.====Đường băng bị thiếu phải được báo cáo cho Cổng cảnh quan X-Plane.
-STRING Click “Learn more” to go there and file an automated report.====Nhấp vào â € œTìm hiểu thêmâ € để đến đó và gửi báo cáo tự động.
+STRING Click “Learn more” to go there and file an automated report.====Nhấp vào "Tìm hiểu thêm" để đến đó và gửi báo cáo tự động.
 STRING Missing runways can be reported to the X-Plane Scenery Gateway if your AIRAC cycle is up-to-date.====Các đường băng bị thiếu có thể được báo cáo cho Cổng cảnh quan X-Plane nếu chu kỳ AIRAC của bạn được cập nhật.
 STRING LibOVR was unable to initialize:====LibOVR không thể khởi chạy:
 STRING LibOVR HMD was unable to initialize:====LibOVR HMD không thể khởi chạy:
@@ -5182,21 +5017,21 @@ STRING Failed to initialize joystick system.====Không thể khởi chạy hệ 
 STRING You will be unable to use any USB controller (joystick, yoke, rudder pedals, etc.)====Bạn sẽ không thể sử dụng bất kỳ bộ điều khiển USB nào (cần điều khiển, ách, bàn đạp bánh lái, v.v.)
 STRING Try restarting your computer.====Thử khởi động lại máy tính của bạn.
 STRING If that fails to resolve the issue, please contact X-Plane support by sending an email to info@x-plane.com.====Nếu không giải quyết được sự cố, vui lòng liên hệ với bộ phận hỗ trợ của X-Plane bằng cách gửi email tới info@x-plane.com.
-STRING %1:file name%: failed to parse line %2:line number% beginning “%3:Start of line%”====% 1: tên tệp%: không thể phân tích cú pháp dòng% 2: số dòng% bắt đầu â € œ% 3: Bắt đầu dòng% â €
-STRING %1:file name%: Illegal Button index on line %2:line number%====% 1: tên tệp%: Chỉ mục nút bất hợp pháp trên dòng% 2: số dòng%
-STRING %1:file name%: Malformed Virtual Button line: %2:error text%====% 1: tên tệp%: Dòng nút ảo không đúng định dạng:% 2: văn bản lỗi%
-STRING %1:file name%: Illegal Virtual Button index: %2:error text%====% 1: tên tệp%: Chỉ mục nút ảo bất hợp pháp:% 2: văn bản lỗi%
-STRING %1:file name%: Illegal button index in Button Group line in View “%2:view name%”====% 1: tên tệp%: Chỉ mục nút bất hợp pháp trong dòng Nhóm nút trong Chế độ xem â € œ% 2: tên chế độ xem% â €
-STRING %1:file name%: Malformed Hat Switch Group line in View “%2:view name%”====% 1: tên tệp%: Dòng chuyển đổi mũ không đúng định dạng trong Chế độ xem â € œ% 2: tên chế độ xem% â €
-STRING %1:file name%: Multiple Virtual Buttons assigned to index %1:button number%.====% 1: tên tệp%: Nhiều Nút ảo được gán cho chỉ mục% 1: số nút%.
+STRING %1:file name%: failed to parse line %2:line number% beginning “%3:Start of line%”====%1:file name%: không thể phân tích cú pháp dòng %2:line number%: “%3:Start of line%”
+STRING %1:file name%: Illegal Button index on line %2:line number%====%1:file name%: Chỉ mục nút bất hợp pháp trên dòng %2:line number%
+STRING %1:file name%: Malformed Virtual Button line: %2:error text%====%1:file name%: Dòng nút ảo không đúng định dạng: %2:error text%
+STRING %1:file name%: Illegal Virtual Button index: %2:error text%====%1:file name%: Chỉ mục nút ảo bất hợp pháp: %2:error text%
+STRING %1:file name%: Illegal button index in Button Group line in View “%2:view name%”====%1:file name%: Chỉ mục nút bất hợp pháp trong dòng Nhóm nút trong Chế độ xem “%2:view name%”
+STRING %1:file name%: Malformed Hat Switch Group line in View “%2:view name%”====%1:file name%: Dòng chuyển đổi mũ không đúng định dạng trong Chế độ xem “%2:view name%”
+STRING %1:file name%: Multiple Virtual Buttons assigned to index %1:button number%.====%1:file name%: Nhiều Nút ảo được gán cho chỉ mục %1:button number%.
 STRING VR Touchpad X====Bàn di chuột VR X
 STRING VR Touchpad Y====Bàn di chuột VR Y
 STRING VR Trigger====Trình kích hoạt VR
 STRING Custom command(s)====(Các) lệnh tùy chỉnh
 STRING Directory creation failed.====Tạo thư mục không thành công.
-STRING We were unable to create the directory %1:directory name%.====Chúng tôi không thể tạo thư mục% 1: tên thư mục%.
+STRING We were unable to create the directory %1:directory name%.====Chúng tôi không thể tạo thư mục %1:directory name%.
 STRING OVERWRITE EXISTING PROFILE SETTINGS?====CÀI ĐẶT HỒ SƠ HIỆN CÓ TRÊN TRANG WEB?
-STRING If you click “Confirm,” %1:number% aircraft profile settings will be changed.====Nếu bạn nhấp vào â € œXác nhận, â €% 1: cài đặt cấu hình máy bay số% sẽ được thay đổi.
+STRING If you click “Confirm,” %1:number% aircraft profile settings will be changed.====Nếu bạn nhấp vào "Xác nhận," %1:number% sẽ được thay đổi.
 STRING No default aircraft found.====Không tìm thấy máy bay mặc định.
 STRING X-Plane requires the default aircraft (included with every installation of X-Plane) in order to function.====X-Plane yêu cầu máy bay mặc định (đi kèm với mọi cài đặt của X-Plane) để hoạt động.
 STRING You can use the X-Plane installer to update X-Plane and restore all missing aircraft.====Bạn có thể sử dụng trình cài đặt X-Plane để cập nhật X-Plane và khôi phục tất cả các máy bay bị mất tích.
@@ -5211,8 +5046,8 @@ STRING The aircraft may not look correct.====Máy bay có thể trông không đ
 STRING There was a problem loading the scenery package:====Đã xảy ra sự cố khi tải gói phong cảnh:
 STRING The following scenery package has a problem and will therefore not be loaded:====Gói khung cảnh sau có sự cố và do đó sẽ không được tải:
 STRING It requires an additional library scenery package that is not installed, or it is missing some of its files.====Nó yêu cầu một gói khung cảnh thư viện bổ sung chưa được cài đặt, hoặc nó bị thiếu một số tệp của nó.
-STRING The scenery package “%1:file path%” requires a third-party scenery library that is not installed.====Gói khung cảnh â € œ% 1: đường dẫn tệp% â € yêu cầu thư viện khung cảnh của bên thứ ba chưa được cài đặt.
-STRING You will need to install (or update) the “%1:scenery package name%” package in order for your scenery to render correctly.====Bạn sẽ cần cài đặt (hoặc cập nhật) gói â € œ% 1: tên gói khung cảnh% â € để khung cảnh của bạn hiển thị chính xác.
+STRING The scenery package “%1:file path%” requires a third-party scenery library that is not installed.====Gói khung cảnh “%1:file path%” yêu cầu thư viện khung cảnh của bên thứ ba chưa được cài đặt.
+STRING You will need to install (or update) the “%1:scenery package name%” package in order for your scenery to render correctly.====Bạn sẽ cần cài đặt (hoặc cập nhật) gói “%1:scenery package name%” để khung cảnh của bạn hiển thị chính xác.
 STRING Click the Learn More button below to download the missing library.====Nhấp vào nút Tìm hiểu thêm bên dưới để tải xuống thư viện bị thiếu.
 STRING Cargo====Hàng hóa
 STRING PROP INDEX 1====CHỈ SỐ PROP 1
@@ -5258,7 +5093,7 @@ STRING Our altitude is a bit higher than it should be. Pull back the throttle to
 STRING We’re a bit lower than we should be. Add throttle to gain altitude and get back on track.====Chúng tôi thấp hơn một chút so với chúng tôi nên có. Thêm ga để tăng độ cao và trở lại đúng đường.
 STRING Lower the nose a bit to increase your speed. We don’t want to drop below 140 kts until we’re ready to touch down.====Hạ mũi xuống một chút để tăng tốc độ của bạn. Chúng tôi không muốn giảm xuống dưới 140 kts cho đến khi chúng tôi sẵn sàng hạ xuống.
 STRING Make sure your throttle is near zero. You want to slow down to about 140 knots by the time you touch down.====Đảm bảo ga của bạn gần bằng không. Bạn muốn giảm tốc độ xuống khoảng 140 hải lý vào thời điểm bạn chạm xuống.
-STRING Your speed is at 215 knots. Lower the first notch of flaps (‘[flaps_down]’). This will help slow us down a bit.====Tốc độ của bạn là 215 hải lý/giờ. Hạ thấp rãnh đầu tiên của nắp (â € ˜ [vạt_ xuống] â € ™). Điều này sẽ giúp chúng ta chậm lại một chút.
+STRING Your speed is at 215 knots. Lower the first notch of flaps (‘[flaps_down]’). This will help slow us down a bit.====Tốc độ của bạn là 215 hải lý/giờ. Hạ thấp rãnh đầu tiên của nắp ('[vạt_ xuống]'). Điều này sẽ giúp chúng ta chậm lại một chút.
 STRING We’re coming in a bit high. Reduce the throttle some to descend a little faster.====Chúng tôi đang tăng giá một chút. Giảm ga một số để giảm nhanh hơn một chút.
 STRING We’re a little lower than we should be. Add throttle to gain altitude and get back on track.====Chúng tôi thấp hơn một chút so với chúng tôi nên có. Thêm ga để tăng độ cao và trở lại đúng đường.
 STRING You're coming in too fast—raise the nose and aim to touch down farther back on the runway. We should touch down at about 120 knots.===="Bạn đang đến quá nhanh "", hãy nâng cao mũi và hướng tới việc chạm xuống xa hơn trên đường băng. Chúng ta sẽ chạm xuống ở khoảng 120 hải lý/giờ."
@@ -5356,7 +5191,7 @@ STRING fixed-manual pitch-constant speed-main rotor-tail rotor-VTOL cyclic-const
 STRING N1 AS FUNCTION OF N2====N1 NHƯ CHỨC NĂNG CỦA N2
 STRING POWER-CURVES FOR N1 AS FUNCTION OF N2====NGUỒN ĐIỆN CHO N1 NHƯ CHỨC NĂNG CỦA N2
 STRING THRUST WITH MACH AND ALTITUDE====CHỈ VỚI MÁY VÀ ALTITUDE
-STRING If fuel not engaged, then starter will reach %1:N1%% N1 in approximately %2:seconds% seconds.====Nếu nhiên liệu không hoạt động, thì bộ khởi động sẽ đạt% 1: N1 %% N1 trong khoảng% 2: giây% giây.
+STRING If fuel not engaged, then starter will reach %1:N1%% N1 in approximately %2:seconds% seconds.====Nếu nhiên liệu không hoạt động, thì bộ khởi động sẽ đạt  %1:N1%% N1 trong khoảng %2:seconds% giây.
 STRING MAX PER-BATTERY POWER OUTPUT TO ELECTRIC MOTORS WITH STATE OF CHARGE====NGUỒN ĐIỆN TỐI ĐA MỖI LẦN ĐẦU RA CHO ĐỘNG CƠ ĐIỆN CÓ TIỀN PHÍ
 STRING This graph shows how much of that maximum power is available per-battery as a function of the battery state of charge. (click and drag to tune)====Biểu đồ này cho biết lượng điện năng tối đa có sẵn trên mỗi pin dưới dạng hàm của trạng thái sạc pin. (nhấp và kéo để điều chỉnh)
 STRING Propeller Beta====Propeller Beta
@@ -5417,8 +5252,8 @@ STRING NOTE: These settings may be overridden on a per-axis basis by a custom re
 STRING This device needs to be calibrated before use.====Thiết bị này cần được hiệu chuẩn trước khi sử dụng.
 STRING Sending, but not replying====Đang gửi, nhưng không trả lời
 STRING (no reply)====(không trả lời)
-STRING (ping %1:number of milliseconds% ms)====(ping% 1: số mili giây% ms)
-STRING A mobile mapping app (%1:IP address%)====Một ứng dụng bản đồ trên điện thoại di động (% 1: IP address%)
+STRING (ping %1:number of milliseconds% ms)====(ping %1:number of milliseconds% ms)
+STRING A mobile mapping app (%1:IP address%)====Một ứng dụng bản đồ trên điện thoại di động (%1:IP address%)
 STRING All mobile mapping apps on the network====Tất cả các ứng dụng bản đồ di động trên mạng
 STRING Feather====Lông vũ
 STRING Cut-off====Cắt
@@ -5486,8 +5321,8 @@ STRING Currently loaded in X-Plane:====Hiện đã được tải trong X-Plane:
 STRING This flight plan saved with:====Kế hoạch chuyến bay này được lưu với:
 STRING Warning: This flight plan was saved with the SID %1:SID name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với tên SID %1:SID name% không tồn tại trong cơ sở dữ liệu của X-Plane.
 STRING Warning: This flightplan specifies a STAR %1:STAR name% without specifying the active runway or the runway feeder for the STAR.====Cảnh báo: Kế hoạch bay này chỉ định STAR %1:STAR name% mà không chỉ định đường băng đang hoạt động hoặc đường trung chuyển cho đường băng cho STAR.
-STRING Warning: This flight plan was saved with the STAR %1:STAR name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với tên STAR% 1: STAR% không tồn tại trong cơ sở dữ liệu của X-Plane.
-STRING Warning: This flight plan was saved with the approach %1:approach name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với phương pháp tiếp cận% 1: tên tiếp cận% không tồn tại trong cơ sở dữ liệu của X-Plane.
+STRING Warning: This flight plan was saved with the STAR %1:STAR name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với tên STAR %1:STAR% không tồn tại trong cơ sở dữ liệu của X-Plane.
+STRING Warning: This flight plan was saved with the approach %1:approach name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với phương pháp tiếp cận %1:approach name% không tồn tại trong cơ sở dữ liệu của X-Plane.
 STRING X-Plane could not understand or save this flight plan file:====X-Plane không thể hiểu hoặc lưu tệp kế hoạch chuyến bay này:
 STRING X-Plane could not read or write this flight plan file:====X-Plane không thể đọc hoặc ghi tệp kế hoạch chuyến bay này:
 STRING Failed to initialize UDP network connectivity.====Không thể khởi tạo kết nối mạng UDP.
@@ -5602,9 +5437,9 @@ STRING We, the X-Plane community, owe these scenery authors a tremendous debt of
 STRING View All Scenery Contributors====Xem tất cả những người đóng góp về phong cảnh
 STRING Anisotropic Filtering====Lọc bất đẳng hướng
 STRING Increasing this slider makes runways and flat surfaces sharper from low angles. This impacts your graphics card, so if you have a very powerful graphics card, you can set this up to 8x or higher.====Việc tăng thanh trượt này làm cho đường băng và bề mặt phẳng trở nên sắc nét hơn từ các góc thấp. Điều này ảnh hưởng đến cạc đồ họa của bạn, vì vậy nếu bạn có cạc đồ họa rất mạnh, bạn có thể thiết lập nó lên đến 8x hoặc cao hơn.
-STRING Use %1:driver name% for faster rendering====Sử dụng% 1: driver name% để hiển thị nhanh hơn
-STRING The %1:driver name% is faster than the default OpenGL driver and may improve your framerate. Not all third party plugins are compatible with the %2:driver name%; if your installed third party add-ons do not render correctly, disable this option and restart X-Plane.====1: driver name% nhanh hơn trình điều khiển OpenGL mặc định và có thể cải thiện tốc độ khung hình của bạn. Không phải tất cả các plugin của bên thứ ba đều tương thích với% 2: driver name%; nếu các tiện ích bổ sung của bên thứ ba đã cài đặt của bạn không hiển thị chính xác, hãy tắt tùy chọn này và khởi động lại X-Plane.
-STRING %1:driver name% is not supported on this computer. %2:reason%====% 1: tên trình điều khiển% không được hỗ trợ trên máy tính này. % 2: lý do%
+STRING Use %1:driver name% for faster rendering====Sử dụng %1:driver name% để hiển thị nhanh hơn
+STRING The %1:driver name% is faster than the default OpenGL driver and may improve your framerate. Not all third party plugins are compatible with the %2:driver name%; if your installed third party add-ons do not render correctly, disable this option and restart X-Plane.====%1:driver name% nhanh hơn trình điều khiển OpenGL mặc định và có thể cải thiện tốc độ khung hình của bạn. Không phải tất cả các plugin của bên thứ ba đều tương thích với %2:driver name%; nếu các tiện ích bổ sung của bên thứ ba đã cài đặt của bạn không hiển thị chính xác, hãy tắt tùy chọn này và khởi động lại X-Plane.
+STRING %1:driver name% is not supported on this computer. %2:reason%====%1:driver name% không được hỗ trợ trên máy tính này. %2:reason%
 STRING Very High====Rất cao
 STRING Inbound network traffic disabled.====Lưu lượng mạng đến bị vô hiệu hóa.
 STRING Accept incoming connections====Chấp nhận các kết nối đến
@@ -5620,20 +5455,20 @@ STRING With this unchecked, we will temporarily hide all in-cockpit data output.
 STRING You must restart X-Plane for any changes to take effect!====Bạn phải khởi động lại X-Plane để mọi thay đổi có hiệu lực!
 STRING Use UPnP for IPv4 port forwarding====Sử dụng UPnP để chuyển tiếp cổng IPv4
 STRING UPnP success: gateway accepted forwarding request====UPnP thành công: yêu cầu chuyển tiếp cổng được chấp nhận
-STRING IPv4 address in use: %1:address in use%====Địa chỉ IPv4 đang được sử dụng:% 1: địa chỉ đang được sử dụng%
+STRING IPv4 address in use: %1:address in use%====Địa chỉ IPv4 đang được sử dụng: %1:address in use%
 STRING UPnP error: gateway rejected forwarding request====Lỗi UPnP: yêu cầu chuyển tiếp bị từ chối cổng
 STRING UPnP warning: no UPnP-capable gateway found====Cảnh báo UPnP: không tìm thấy cổng hỗ trợ UPnP
 STRING Controller (* denotes recommended)====Bộ điều khiển (* biểu thị khuyến nghị)
 STRING Aircraft deleted; X-Plane cannot continue.====Máy bay bị xóa; X-Plane không thể tiếp tục.
 STRING The aircraft you were using (%1:aircraft name%) has moved or was deleted.====Máy bay bạn đang sử dụng (%1:aircraft name%) đã di chuyển hoặc đã bị xóa.
-STRING The previous file path was: %1:path%====Đường dẫn tệp trước đó là:% 1: path%
+STRING The previous file path was: %1:path%====Đường dẫn tệp trước đó là: %1:path%
 STRING Custom Scenery====Phong cảnh tùy chỉnh
 STRING Set mean time between failures====Đặt thời gian trung bình giữa các lần Sự cố
 STRING X-Plane has about 250 systems that can fail, so this is ==== X-Plane có khoảng 250 hệ thống có thể bị lỗi, vì vậy đây là
 STRING  hours per failure.==== giờ mỗi lần Sự cố.
 STRING  failures per hour.==== Sự cố mỗi giờ.
 STRING Total Internal Fuel Weight====Tổng trọng lượng nhiên liệu bên trong
-STRING External Fuel Tank %1:tank number%====Thùng nhiên liệu bên ngoài% 1: số thùng%
+STRING External Fuel Tank %1:tank number%====Thùng nhiên liệu bên ngoài %1:tank number%
 STRING Overview====Tổng quan
 STRING Signature====Chữ ký
 STRING Path====Đường dẫn
@@ -5838,9 +5673,9 @@ STRING Anti-ice: right wing, TKS de-ice toggle.====Chống băng: cánh phải, 
 STRING Anti-ice: all engines inlet heat on.====Chống đóng băng: bật tất cả nhiệt đầu vào động cơ.
 STRING Anti-ice: all engines inlet heat off.====Chống đóng băng: tắt nhiệt tất cả đầu vào động cơ.
 STRING Anti-ice: all engines inlet heat toggle.====Chống đóng băng: tất cả các động cơ chuyển đổi nhiệt đầu vào.
-STRING Anti-ice: engine #%1:index% anti-ice on.====Chống đóng băng: động cơ #% 1: bật chỉ số% chống đóng băng.
-STRING Anti-ice: engine #%1:index% anti-ice off.====Chống đóng băng: động cơ #% 1: chỉ số% chống đóng băng.
-STRING Anti-ice: engine #%1:index% anti-ice toggle.====Chống đóng băng: động cơ #% 1: chỉ số% chuyển đổi chống đóng băng.
+STRING Anti-ice: engine #%1:index% anti-ice on.====Chống đóng băng: động cơ #%1:index% chống đóng băng.
+STRING Anti-ice: engine #%1:index% anti-ice off.====Chống đóng băng: động cơ #%1:index% chống đóng băng.
+STRING Anti-ice: engine #%1:index% anti-ice toggle.====Chống đóng băng: động cơ #%1:index% chuyển đổi chống đóng băng.
 STRING Anti-ice: all prop TKS norm.====Chống băng: tất cả định mức TKS chống đỡ.
 STRING Anti-ice: all prop TKS high.====Chống băng: tất cả đều đẩy TKS lên cao.
 STRING Anti-ice: all prop TKS off.====Chống băng: tất cả chống TKS tắt.
