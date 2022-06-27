@@ -240,9 +240,9 @@ STRING Complete Installation====Hoàn thành cài đặt
 STRING Download Installer Now====Tải xuống trình cài đặt ngay
 STRING If this message does not go away in the next few days, contact X-Plane customer support at info@x-plane.com.====Nếu thông báo này không biến mất trong vài ngày tới, hãy liên hệ với bộ phận hỗ trợ khách hàng của X-Plane tại info@x-plane.com.
 STRING Understood====Đã rõ
-STRING You can fly for a limited time in demo mode.====Bạn có thể bay trong thời gian giới hạn ở chế độ demo.
+STRING You can fly for a limited time in dùng thử mode.====Bạn có thể bay trong thời gian giới hạn ở chế độ dùng thử.
 STRING Or, enter a digital download product key to unlock the full version of X-Plane without a DVD.====Hoặc, nhập khóa sản phẩm tải xuống kỹ thuật số để mở khóa phiên bản đầy đủ của X-Plane mà không cần đĩa DVD.
-STRING X-Plane is operating in demo mode.====X-Plane đang hoạt động ở chế độ demo.
+STRING X-Plane is operating in dùng thử mode.====X-Plane đang hoạt động ở chế độ dùng thử.
 STRING Or, if you already own the full version, place the Disc 1 DVD in your computer now, or restart X-Plane to enter your digital download product key.====Hoặc, nếu bạn đã sở hữu phiên bản đầy đủ, đặt Đĩa 1 DVD vào máy tính của bạn ngay bây giờ, hoặc khởi động lại X-Plane để nhập khóa sản phẩm tải xuống kỹ thuật số của bạn.
 STRING Your copy of X-Plane is now fully functional.====Bản sao X-Plane của bạn hiện đã hoạt động đầy đủ.
 STRING Engines====Động cơ
@@ -255,7 +255,7 @@ STRING EFIS====EFIS
 STRING G430====G430
 STRING View====Xem
 STRING none====không có gì
-STRING Navigation====dẫn đường
+STRING Navigation====Điều hướng
 STRING Situations====Tình huống
 STRING Sound====Âm thanh
 STRING Joystick====Cần điều khiển
@@ -361,23 +361,23 @@ STRING Default Weapons====Vũ khí mặc định
 STRING Texture Region Select====Chọn vùng kết cấu
 STRING Part Visiblity====Khả năng hiển thị một phần
 STRING Keys====Chìa khóa
-STRING Jan ==== Tháng 1 
-STRING Feb ==== Tháng 2 
-STRING Mar ==== Tháng 3 
-STRING Apr ==== Tháng 4 
-STRING May ==== Tháng 5 
-STRING Jun ==== Tháng 6 
-STRING Jul ==== Tháng 7 
-STRING Aug ==== Tháng 8 
-STRING Sep ==== Tháng 9 
-STRING Oct ==== Tháng 10 
-STRING Nov ==== Tháng 11  
-STRING Dec ==== Tháng 12 
+STRING Jan ==== Tháng 1, Ngày
+STRING Feb ==== Tháng 2, Ngày
+STRING Mar ==== Tháng 3, Ngày
+STRING Apr ==== Tháng 4, Ngày
+STRING May ==== Tháng 5, Ngày
+STRING Jun ==== Tháng 6, Ngày
+STRING Jul ==== Tháng 7, Ngày
+STRING Aug ==== Tháng 8, Ngày
+STRING Sep ==== Tháng 9, Ngày
+STRING Oct ==== Tháng 10, Ngày
+STRING Nov ==== Tháng 11, Ngày
+STRING Dec ==== Tháng 12, Ngày
 STRING Will read airports.====Sẽ đọc các sân bay.
 STRING Departure ICAO should be blank when filing for a popup clearance.====Mã sân bay (ICAO) khởi hành phải để trống khi nộp đơn yêu cầu thông quan cửa sổ bật lên.
 STRING Departure ICAO cannot be blank when filing for a departure clearance.====Mã sân bay (ICAO) khởi hành không được để trống khi nộp đơn yêu cầu khởi hành.
 STRING You do not appear to be at that departure airport.====Bạn dường như không có mặt tại sân bay khởi hành đó.
-STRING Doing so will remove the demo restrictions and allow you unlimited flight time.====Làm như vậy sẽ loại bỏ các giới hạn dùng thử và cho phép bạn bay không giới hạn thời gian.
+STRING Doing so will remove the dùng thử restrictions and allow you unlimited flight time.====Làm như vậy sẽ loại bỏ các giới hạn dùng thử và cho phép bạn bay không giới hạn thời gian.
 STRING Dome projection is designed for bigger sims.====Chiếu hình vòm được thiết kế cho các sim lớn hơn.
 STRING World====Thế giới
 STRING Instruments====Dụng cụ
@@ -449,7 +449,7 @@ STRING New scenery has been installed to match your choices on the map.====Khung
 STRING Scenery has been removed to match your choices on the map.====Phong cảnh đã bị xóa để phù hợp với lựa chọn của bạn trên bản đồ.
 STRING You have selected a very large amount of scenery to install.====Bạn đã chọn một lượng lớn khung cảnh để cài đặt.
 STRING This will take approximately %1:time% to complete, and it will consume %2:disk space% on your hard drive.====Quá trình này sẽ mất khoảng %1:time% để hoàn thành, và nó sẽ tiêu tốn %2:disk space% trên ổ cứng của bạn.
-STRING Please pick which copy of the X-Plane 11 demo you would like to run.====Vui lòng chọn bản sao của bản demo X-Plane 11 mà bạn muốn chạy.
+STRING Please pick which copy of the X-Plane 11 dùng thử you would like to run.====Vui lòng chọn bản sao của bản dùng thử X-Plane 11 mà bạn muốn chạy.
 STRING Please pick which copy of X-Plane 11 you would like to run.====Vui lòng chọn bản sao của X-Plane 11 mà bạn muốn chạy.
 STRING Downloading at %1:rate% from %2:server%.====Đang tải xuống với tốc độ %1:rate% từ %2:server%.
 STRING Unable to download from server %1:server%.====Không thể tải xuống từ máy chủ %1:server%.
@@ -467,15 +467,15 @@ STRING Is the copy of X-Plane 11 you’re looking for missing from this list?===
 STRING Are you looking for a different copy of X-Plane 11 on your computer?====Bạn đang tìm kiếm một bản sao khác của X-Plane 11 trên máy tính của mình?
 STRING Select X-Plane 11====Chọn X-Plane 11
 STRING Select Your Copy of X-Plane 11.====Chọn Bản sao X-Plane 11 của bạn.
-STRING Contacting X-Plane.com to find a demo server.====Đang liên hệ với X-Plane.com để tìm máy chủ demo.
-STRING Downloading demo information from %1:server name%.====Đang tải xuống thông tin demo từ %1:server name%.
+STRING Contacting X-Plane.com to find a dùng thử server.====Đang liên hệ với X-Plane.com để tìm máy chủ dùng thử.
+STRING Downloading dùng thử information from %1:server name%.====Đang tải xuống thông tin dùng thử từ %1:server name%.
 STRING Checking the net for the latest version of X-Plane 11 right now, and I am %1:progress%% done checking.====Đang kiểm tra mạng cho phiên bản mới nhất của X-Plane 11 ngay bây giờ, và tôi đã kiểm tra được %1:process%%.
 STRING Please pick a name for your X-Plane 11 Demo installation. ==== Vui lòng chọn tên cho bản cài đặt Bản dùng thử X-Plane 11 của bạn.
 STRING Pick a folder to install the X-Plane 11 Demo into.====Chọn một thư mục để cài đặt Bản dùng thử X-Plane 11 vào.
 STRING Installing X-Plane 11 Demo====Cài đặt bản dùng thử X-Plane 11
 STRING This installer will guide you through the process of installing the X-Plane 10 Demo.====Trình cài đặt này sẽ hướng dẫn bạn quá trình cài đặt X-Plane 10 Demo.
 STRING There was a problem installing the X-Plane 11 Demo. Please check your internet connection and try again, or contact Laminar Research tech support at info@x-plane.com for help.====Đã xảy ra sự cố khi cài đặt Bản dùng thử X-Plane 11. Vui lòng kiểm tra kết nối internet của bạn và thử lại, hoặc liên hệ với bộ phận hỗ trợ kỹ thuật của Laminar Research tại info@x-plane.com để được trợ giúp.
-STRING There was a problem installing the X-Plane 11 Demo. Please try the demo installer again later or contact Laminar Research tech support for help.====Đã xảy ra sự cố khi cài đặt Bản dùng thử X-Plane 11. Vui lòng thử lại trình cài đặt demo sau hoặc liên hệ với bộ phận hỗ trợ kỹ thuật của Laminar Research để được trợ giúp.
+STRING There was a problem installing the X-Plane 11 Demo. Please try the dùng thử installer again later or contact Laminar Research tech support for help.====Đã xảy ra sự cố khi cài đặt Bản dùng thử X-Plane 11. Vui lòng thử lại trình cài đặt dùng thử sau hoặc liên hệ với bộ phận hỗ trợ kỹ thuật của Laminar Research để được trợ giúp.
 STRING The X-Plane 11 Demo has finished installing at: %1:file path%.====Bản dùng thử X-Plane 11 đã hoàn tất cài đặt tại: %1:file path%.
 STRING X-Plane 11 DVD Update====Cập nhật X-Plane 11 từ DVD
 STRING You have more than one copy of X-Plane 11 installed on this computer.  ==== Bạn đã cài đặt nhiều hơn một bản sao của X-Plane 11 trên máy tính này.
@@ -518,7 +518,7 @@ STRING Please try the updater again later or contact Laminar Research tech suppo
 STRING Server is not responding normally.====Máy chủ không phản hồi bình thường.
 STRING There is a newer version of the X-Plane installer/updater available.====Đã có phiên bản mới hơn của trình cài đặt/cập nhật X-Plane.
 STRING The installer will take you to the web page where you can download the new installer/updater.====Trình cài đặt sẽ đưa bạn đến trang web nơi bạn có thể tải xuống trình cài đặt/trình cập nhật mới.
-STRING This demo installer is too old; a newer one is available for download from X-Plane.com.====Trình cài đặt demo này quá cũ; một cái mới hơn có sẵn để tải xuống từ X-Plane.com.
+STRING This dùng thử installer is too old; a newer one is available for download from X-Plane.com.====Trình cài đặt dùng thử này quá cũ; một cái mới hơn có sẵn để tải xuống từ X-Plane.com.
 STRING This installer is too old; a newer one is available for download from X-Plane.com.====Trình cài đặt này quá cũ; một cái mới hơn có sẵn để tải xuống từ X-Plane.com.
 STRING [ Download Now ]====[ Tải ngay ]
 STRING The installer is unable to install or update X-Plane. An error occurred while creating new folders. Make sure the directory you are trying to install to is not set as read-only in your operating system.====Trình cài đặt không thể cài đặt hoặc cập nhật X-Plane. Đã xảy ra lỗi khi tạo thư mục mới. Đảm bảo rằng thư mục bạn đang cố gắng cài đặt không được đặt là chỉ đọc trong hệ điều hành của bạn.
@@ -547,7 +547,7 @@ STRING Zoom In====Phóng to
 STRING Zoom Out====Thu nhỏ
 STRING Chase====Đuổi
 STRING Lock Geographically====Khóa theo địa lý
-STRING REPLAY MODE====CHẾ ĐỘ TRẢ LỜI
+STRING REPLAY MODE====CHẾ ĐỘ PHÁT LẠI
 STRING Your radios are inoperative.====Bộ đàm của bạn không hoạt động.
 STRING Your audio panel is off.====Bảng điều khiển âm thanh của bạn đang tắt.
 STRING Check in for takeoff clearance by tuning your COM radio to the frequency of the ATC controller acting as tower (indicated with an asterisk* in the table to the right).====Kiểm tra khả năng cất cánh bằng cách điều chỉnh đài COM của bạn đến tần số của bộ điều khiển ATC hoạt động như tháp (được biểu thị bằng dấu hoa thị * trong bảng bên phải).
@@ -571,7 +571,7 @@ STRING RUNWAY====ĐƯỜNG BĂNG
 STRING %1:number of minutes% mins====%1:number of minutes% phút
 STRING Weapons====Vũ khí
 STRING NORMAL CRUISE====TIẾP CẬN BÌNH THƯỜNG
-STRING Fuel Tank %1:tank number%====%1:tank number% thùng nhiên liệu
+STRING Fuel Tank %1:tank number%====Thùng nhiên liệu thứ %1:tank number%
 STRING Fuel Tank %1:tank number% (%2:tank side%)====Thùng nhiên liệu %1:tank number% (%2:tank side%)
 STRING Select New====Chọn Mới
 STRING Select a slung load object (.obj) to open.====Chọn một đối tượng tải cố định (.obj) để mở.
@@ -600,7 +600,7 @@ STRING >====>
 STRING Please contact X-Plane technical support at info@x-plane.com to resolve this issue.====Vui lòng liên hệ với bộ phận hỗ trợ kỹ thuật của X-Plane tại info@x-plane.com để giải quyết vấn đề này.
 STRING Buy the full version of X-Plane 11 Global on Steam today!====Mua phiên bản đầy đủ của X-Plane 11 Global trên Steam ngay hôm nay!
 STRING Alternatively, you can order X-Plane from X-Plane.com.====Ngoài ra, bạn có thể đặt hàng từ X-Plane.com.
-STRING Buy X-Plane 11 Now====Mua X-Plane 11 ngay bây giờ
+STRING Buy X-Plane 11 Now====Mua X-Plane 11
 STRING You can enter a digital download product key to unlock the full version of X-Plane without a DVD.====Bạn có thể nhập khóa sản phẩm tải xuống kỹ thuật số để mở khóa phiên bản đầy đủ của X-Plane mà không cần đĩa DVD.
 STRING You can insert an X-Plane 11 Disc 1 DVD now to unlock the full version of X-Plane.====Bạn có thể chèn một DVD X-Plane 11 Disc 1 ngay bây giờ để mở khóa phiên bản đầy đủ của X-Plane.
 STRING The missing file is: %1:file name%====Tệp bị thiếu là: %1:file name%
@@ -766,7 +766,7 @@ STRING If you want to run a real G430 with X-Plane, you have 2 steps to complete
 STRING 1) Go to X-Plane.com and get a key to unlock the G430 functionality.====1) Truy cập X-Plane.com và nhận chìa khóa để mở khóa chức năng G430.
 STRING 2) Purchase a G430 from a site such as FlyPFC.com.====2) Mua G430 từ một trang web chẳng hạn như FlyPFC.com.
 STRING Your X-Plane DVD has been recognized.====DVD X-Plane của bạn đã được nhận dạng.
-STRING Leaving demo mode now.====Đang rời khỏi chế độ demo.
+STRING Leaving dùng thử mode now.====Đang rời khỏi chế độ dùng thử.
 STRING Network data saving to log.txt.====Lưu dữ liệu mạng vào log.txt.
 STRING Time data saving to log.txt.====Thời gian lưu dữ liệu vào log.txt.
 STRING Disk data saving to data.txt.====Lưu dữ liệu đĩa vào data.txt.
@@ -807,8 +807,8 @@ STRING You are going after a forest fire with no water to drop on it.====Bạn �
 STRING What you are planning to put on the fire will not be enough to extinguish it.====Những gì bạn định đưa vào ngọn lửa sẽ không đủ để dập tắt nó.
 STRING No forest fires in the area.====Không có cháy rừng trên địa bàn.
 STRING You can set this in the Customize Weather window.====Bạn có thể đặt điều này trong cửa sổ Tùy chỉnh thời tiết.
-STRING You are leaving the demo area!====Bạn đang rời khỏi khu vực demo!
-STRING The demo only includes scenery for the Seattle-Tacoma area.====Bản demo chỉ bao gồm phong cảnh cho khu vực Seattle-Tacoma.
+STRING You are leaving the dùng thử area!====Bạn đang rời khỏi khu vực dùng thử!
+STRING The dùng thử only includes scenery for the Seattle-Tacoma area.====Bản dùng thử chỉ bao gồm phong cảnh cho khu vực Seattle-Tacoma.
 STRING Email info@x-plane.com if you need help.====Gửi email tới info@x-plane.com nếu bạn cần trợ giúp.
 STRING the scenery install.====phong cảnh cài đặt.
 STRING You have enough free disk space to install this scenery.====Bạn có đủ dung lượng đĩa trống để cài đặt khung cảnh này.
@@ -1032,7 +1032,7 @@ STRING There was a problem authorizing X-Plane:====Đã xảy ra sự cố khi c
 STRING You can continue to use X-Plane for a few more days.====Bạn có thể tiếp tục sử dụng X-Plane trong vài ngày nữa.
 STRING If you believe this to be an error, click Try Again below, or contact X-Plane customer support at info@x-plane.com.====Nếu bạn cho rằng đây là lỗi, hãy nhấp vào Thử lại bên dưới, hoặc liên hệ với bộ phận hỗ trợ khách hàng của X-Plane tại info@x-plane.com.
 STRING Use Demo====Sử dụng bản Dùng thử
-STRING Unlock Full Version====Mở khóa phiên bản đầy đủ
+STRING Unlock Full Version====Mở khóa bản đầy đủ
 STRING Try Again====Thử lại
 STRING UNLOCK X-PLANE====MỞ KHÓA X-PLANE
 STRING COMPLETE YOUR INSTALLATION====HOÀN THÀNH CÀI ĐẶT CỦA BẠN
@@ -1042,7 +1042,7 @@ STRING Select the method you'd like to use to unlock the full version of X-Plane
 STRING I Have an X-Plane 11 DVD====Tôi có DVD
 STRING I Have a Digital Download Product Key====Tôi có một khóa sản phẩm tải xuống kỹ thuật số
 STRING Please insert your X-Plane 11 Disc 1 DVD now to unlock the full version of X-Plane.====Vui lòng đưa đĩa X-Plane 11 Disc 1 của bạn ngay bây giờ để mở khóa phiên bản đầy đủ.
-STRING I Don‘t Have an X-Plane 11 DVD====Tôi khong có DVD
+STRING I Don‘t Have an X-Plane 11 DVD====Tôi không có DVD
 STRING Or, insert an X-Plane 11 Disc 1 DVD now to unlock the full version of X-Plane.====Hoặc, chèn một DVD X-Plane 11 Disc 1 ngay bây giờ để mở khóa phiên bản đầy đủ của X-Plane.
 STRING MISSING SCENERY====THIẾU CẢNH QUAN
 STRING Install Missing Scenery====Cài đặt phong cảnh bị thiếu
@@ -1071,7 +1071,7 @@ STRING Checking the web for the latest X-Plane installer...====Đang kiểm tra 
 STRING Would you like to add or remove scenery now?====Bạn có muốn thêm hoặc xóa phong cảnh bây giờ không?
 STRING X-Plane can automatically download the latest installer from the web and run it for you so that you can change your scenery installation.====X-Plane có thể tự động tải xuống trình cài đặt mới nhất từ web và chạy nó cho bạn để bạn có thể thay đổi cài đặt phong cảnh của mình.
 STRING Dismiss====Bỏ qua
-STRING Your X-Plane installation appears to be incomplete (perhaps because you previously installed the demo, then later purchased the full version).====Quá trình cài đặt X-Plane của bạn dường như chưa hoàn tất (có thể do trước đó bạn đã cài đặt bản demo, sau đó mua phiên bản đầy đủ).
+STRING Your X-Plane installation appears to be incomplete (perhaps because you previously installed the dùng thử, then later purchased the full version).====Quá trình cài đặt X-Plane của bạn dường như chưa hoàn tất (có thể do trước đó bạn đã cài đặt bản dùng thử, sau đó mua phiên bản đầy đủ).
 STRING Would you like to complete your installation now?====Bạn có muốn hoàn tất cài đặt của mình ngay bây giờ không?
 STRING This selection is used to send arbitrary data items (selected in the Data Output tab of this window) to another machine on your local network.====Lựa chọn này được sử dụng để gửi các mục dữ liệu tùy ý (được chọn trong tab Đầu ra Dữ liệu của cửa sổ này) đến một máy khác trong mạng cục bộ của bạn.
 STRING Send data output to another machine on the network====Gửi đầu ra dữ liệu đến một máy khác trên mạng
@@ -1220,7 +1220,7 @@ STRING INSTRUMENT APPROACH DATA====DỮ LIỆU TIẾP CẬN BẰNG THIẾT BỊ
 STRING LEGAL====HỢP PHÁP
 STRING X-Plane uses free airspace data from SoaringWeb.com====X-Plane sử dụng dữ liệu không phận miễn phí từ SoaringWeb.com
 STRING X-Plane uses FreeType to render fonts. See FreeType.org for more information.====X-Plane sử dụng FreeType để hiển thị phông chữ. Xem FreeType.org để biết thêm thông tin.
-STRING DIFFICULTY====ĐỘ KHÓ KHĂN
+STRING DIFFICULTY====ĐỘ KHÓ
 STRING SCORE====ĐIỂM
 STRING Airliners====Hàng không dân dụng
 STRING Other====Khác
@@ -1316,18 +1316,18 @@ STRING Flight training approved.====Huấn luyện bay đã được phê duyệ
 STRING Don’t Save====Không được lưu
 STRING Crash Reporter====Trình báo cáo sự cố
 STRING Missing Scenery====Thiếu phong cảnh
-STRING January====Tháng 1 
-STRING February====Tháng 2 
-STRING March====Tháng 3 
-STRING April====Tháng 4 
-STRING May====Tháng 5 
-STRING June====Tháng 6 
-STRING July====Tháng 7 
-STRING August====Tháng 8 
-STRING September====Tháng 9 
-STRING October====Tháng 10 
-STRING November====Tháng 11 
-STRING December====Tháng 12 
+STRING January====Tháng 1, Ngày
+STRING February====Tháng 2, Ngày
+STRING March====Tháng 3, Ngày
+STRING April====Tháng 4, Ngày
+STRING May====Tháng 5, Ngày
+STRING June====Tháng 6, Ngày
+STRING July====Tháng 7, Ngày
+STRING August====Tháng 8, Ngày
+STRING September====Tháng 9, Ngày
+STRING October====Tháng 10, Ngày
+STRING November====Tháng 11, Ngày
+STRING December====Tháng 12, Ngày
 STRING Tire blown!====Lốp nổ tung!
 STRING Structure over-G!====Cấu trúc đã vượt quá giới hạn G cho phép!
 STRING Structure over-speed!====Cấu trúc quá tốc độ!
@@ -2219,7 +2219,7 @@ STRING Watch the right EFIS to fly the vertical part of the re-entry, and the mi
 STRING This will be the final 12 minute glide to Edwards AFB, and is a moderate challenge.====Đây sẽ là lần lướt cuối cùng trong 12 phút đối với Edwards AFB, và là một thử thách vừa phải.
 STRING You agree to not distribute the artwork from X-Plane, or any derivative thereof, without permission from Laminar Research.====Bạn đồng ý không phân phối tác phẩm nghệ thuật từ X-Plane, hoặc bất kỳ tác phẩm phái sinh nào của chúng, mà không có sự cho phép của Laminar Research.
 STRING I agree to the terms of the EULA====Tôi đồng ý với các điều khoản của EULA
-STRING the demo installation and delete partial installation.====cài đặt demo và xóa cài đặt một phần.
+STRING the dùng thử installation and delete partial installation.====cài đặt dùng thử và xóa cài đặt một phần.
 STRING Cancel Installation====Hủy cài đặt
 STRING Buy X-Plane Online====Mua X-Plane trực tuyến
 STRING Use departure wizard====Sử dụng trình hỗ trợ khởi hành
@@ -3049,8 +3049,8 @@ STRING Stay on the runway!====Ở trên đường băng!
 STRING PAUSED====ĐÃ TẠM DỪNG
 STRING FROZEN====ĐÔNG CỨNG
 STRING Scenery not available====Phong cảnh không có sẵn
-STRING Because X-Plane is operating in demo mode, you can only load scenery for the Seattle region. Areas outside of Seattle will show only water.====Vì X-Plane đang hoạt động ở chế độ demo, bạn chỉ có thể tải phong cảnh cho vùng Seattle. Các khu vực bên ngoài Seattle sẽ chỉ có nước.
-STRING No scenery available outside of Seattle while in demo mode====Không có phong cảnh nào bên ngoài Seattle khi ở chế độ demo
+STRING Because X-Plane is operating in dùng thử mode, you can only load scenery for the Seattle region. Areas outside of Seattle will show only water.====Vì X-Plane đang hoạt động ở chế độ dùng thử, bạn chỉ có thể tải phong cảnh cho vùng Seattle. Các khu vực bên ngoài Seattle sẽ chỉ có nước.
+STRING No scenery available outside of Seattle while in dùng thử mode====Không có phong cảnh nào bên ngoài Seattle khi ở chế độ dùng thử
 STRING ID====ID 
 STRING Helicopters====Máy bay trực thăng
 STRING Reading new scenery files.====Đang đọc các tệp phong cảnh mới.
@@ -3077,9 +3077,9 @@ STRING Show a list of generic instruments.  These are basic instruments that you
 STRING No approach selected====Không có phương pháp tiếp cận nào được chọn
 STRING No approach selected.====Không có cách tiếp cận nào được chọn.
 STRING Choose an approach from the dropdown to the right.====Chọn một cách tiếp cận từ menu thả xuống bên phải.
-STRING VFR sectional====VFR phần
-STRING IFR low enroute====Đăng ký IFR thấp
-STRING IFR high enroute====Đăng ký IFR cao
+STRING VFR sectional====VFR
+STRING IFR low enroute====IFR tầm thấp
+STRING IFR high enroute====IFR tầm cao
 STRING No clouds====Không có mây
 STRING No wind====Không có gió
 STRING Wind at 12,000 ft====Gió ở 12, 000 ft
@@ -3097,7 +3097,7 @@ STRING Control Sensitivity====Kiểm soát độ nhạy
 STRING AI Aircraft====Máy bay AI
 STRING Just now====Vừa rồi
 STRING 1 minute ago====1 phút trước
-STRING Please enter your X-Plane 11 digital download product key to unlock the full version of X-Plane.====Vui lòng nhập khóa sản phẩm tải xuống kỹ thuật số X-Plane 11 của bạn để mở khóa phiên bản đầy đủ của X-Plane.
+STRING Please enter your X-Plane 11 digital download product key to unlock the full version of X-Plane.====Vui lòng nhập khóa sản phẩm tải xuống kỹ thuật số X-Plane 12 của bạn để mở khóa phiên bản đầy đủ của X-Plane.
 STRING I Don’t Have a Product Key====Tôi không có khóa sản phẩm
 STRING If you have a DVD or digital download product key, you can use it to unlock the full version of X-Plane.====Nếu bạn có khóa sản phẩm tải xuống kỹ thuật số hoặc DVD, bạn có thể sử dụng khóa này để mở khóa phiên bản đầy đủ của X-Plane.
 STRING CHECKING FOR UPDATES====KIỂM TRA CẬP NHẬT
@@ -3153,7 +3153,7 @@ STRING The installer will try to download again shortly.====Trình cài đặt s
 STRING About %1:time% left in the install, downloading at %2:rate% from %3:number% download server.====Khoảng%1:time% còn lại trong cài đặt, tải xuống tại% 2: tỷ lệ% từ% 3: máy chủ tải xuống số%.
 STRING About %1:time% left in the install, downloading at %2:rate% from %3:number% download servers.====Khoảng%1:time% còn lại trong cài đặt, tải xuống ở% 2: tỷ lệ% từ% 3: số% máy chủ tải xuống.
 STRING Please be sure to select the folder that contains the X-Plane application.====Hãy đảm bảo chọn thư mục chứa ứng dụng X-Plane.
-STRING the demo installation process.====quá trình cài đặt demo.
+STRING the dùng thử installation process.====quá trình cài đặt dùng thử.
 STRING the install.====cài đặt.
 STRING There were problems updating X-Plane.  You can try this updater again using a different server.====Đã xảy ra sự cố khi cập nhật X-Plane. Bạn có thể thử lại trình cập nhật này bằng một máy chủ khác.
 STRING Update X-Plane====Cập nhật X-Plane
@@ -3166,7 +3166,7 @@ STRING Fly X-Plane Now====Bay X-Plane ngay
 STRING This is %1:version name% for Pro Use.====Đây là %1:version name% cho Pro Use.
 STRING This is %1:version name%, for home use only.====Đây là %1:version name%, chỉ dành cho cá nhân.
 STRING Unable to read version information from the server.====Không thể đọc thông tin phiên bản từ máy chủ.
-STRING This means you will not be able to use your product key to unlock X-Plane (forcing you to use the time-limited demo version).====Điều này có nghĩa là bạn sẽ không thể sử dụng khóa sản phẩm của mình để mở khóa X-Plane (buộc bạn phải sử dụng phiên bản demo có giới hạn thời gian).
+STRING This means you will not be able to use your product key to unlock X-Plane (forcing you to use the time-limited dùng thử version).====Điều này có nghĩa là bạn sẽ không thể sử dụng khóa sản phẩm của mình để mở khóa X-Plane (buộc bạn phải sử dụng phiên bản dùng thử có giới hạn thời gian).
 STRING Get the full version today at X-Plane.com.====Tải phiên bản đầy đủ ngay hôm nay tại X-Plane.com.
 STRING Authorization successful.====Ủy quyền thành công.
 STRING Note: The installer will only check for the scenery that comes with X-Plane.====Lưu ý: Trình cài đặt sẽ chỉ kiểm tra khung cảnh đi kèm với X-Plane.
@@ -3334,7 +3334,7 @@ STRING Fuel tank vent block #8====Khối thông hơi bình xăng # 8
 STRING Fuel tank vent block #9====Khối thông hơi bình xăng # 9
 STRING Microburst====Microburst
 # X-Plane/Pilotage/Menus/Vol/Carte  -ou- IOS====# X-Plane/Pilotage/Menus/Vol/Carte -ou- IOS
-STRING Compass rose====La bàn hoa hồng
+STRING Compass rose====La bàn tròn
 STRING Glideslope Cross Section====Mặt cắt ngang của Glideslope
 STRING Change Location====Thay đổi địa điểm
 STRING No failed systems.====Không có hệ thống bị lỗi.
@@ -3343,10 +3343,10 @@ STRING Essential Keyboard Shortcuts====Các phím tắt cơ bản
 STRING Command Name====Tên lệnh
 STRING Keyboard Bindings====Liên kết bàn phím
 # X-Plane/Pilotage/Menus/Vol /Services au sol====# X-Plane/Pilotage/Menus/Vol/Services au sol
-STRING Ground Handling====Xử lý đất
-STRING Pushback====Phản hồi
-STRING Straight====Dài
-STRING Brakes are engaged; cannot push back.====Phanh được tham gia; không thể đẩy lùi.
+STRING Ground Handling====Dịch vụ mặt đất
+STRING Pushback====Đẩy lùi
+STRING Straight====Thẳng
+STRING Brakes are engaged; cannot push back.====Phanh được bật; không thể đẩy lùi.
 STRING Because your brakes are engaged, the pushback tug will not be able to move your aircraft.====Bởi vì hệ thống phanh của bạn đang hoạt động, lực kéo ngược sẽ không thể di chuyển máy bay của bạn.
 # X-Plane/Pilotage/Menus/Vol/Vues====# X-Plane/Pilotage/Menus/Vol/Vues
 STRING Change (Internal)====Thay đổi (Nội bộ)
@@ -3356,10 +3356,9 @@ STRING Forward with No Display====Chuyển tiếp mà không có màn hình
 STRING Change (External)====Thay đổi (Bên ngoài)
 STRING Runway====Đường băng
 STRING Circle====Vòng tròn
-# X-Plane/Pilotage/Menus/Vol/Développeur====# X-Plane/Pilotage/Menus/Vol/DÃ © veloppeur
 STRING Show Control Deflections====Hiển thị sai lệch điều khiển
 # X-Plane/Pilotage/Menus/Vol/Développeur/ stabilité tangage lacet====# X-Plane/Pilotage/Menus/Vol/DÃ © veloppeur/StableitÃ © tangage rent
-STRING BE ADVISED====ĐƯỢC TƯ VẤN
+STRING BE ADVISED====CẦN LƯU Ý
 ##end bug##### fin non affichables End of not displayed====## end bug ##### fin non affichables Kết thúc không hiển thị
 STRING X-Plane will now instantly displace the nose exactly 1 degree, and look at the instantaneous acceleration back to trim of the craft, before the autopilot can respond.====X-Plane bây giờ sẽ ngay lập tức dịch chuyển mũi chính xác 1 độ, và xem xét gia tốc tức thời quay trở lại để cắt bớt thủ công, trước khi chế độ lái tự động có thể phản hồi.
 # X-Plane/Pilotage/Menus/Vol/Développeur/ exporter modèle de vol====# X-Plane/Pilotage/Menus/Vol/DÃ © veloppeur/exporter modÃ¨le de vol
@@ -3698,8 +3697,8 @@ STRING Install a Free Demo of X-Plane====Cài đặt bản dùng thử miễn ph
 STRING Use the X-Plane installer, available at X-Plane.com, to complete your installation.====Sử dụng trình cài đặt X-Plane, có tại X-Plane.com, để hoàn tất quá trình cài đặt của bạn.
 STRING Updates include new features, improvements to existing features, and bug fixes. We encourage all users to update in order to get the most complete, powerful simulator available.====Các bản cập nhật bao gồm các tính năng mới, cải tiến các tính năng hiện có, và sửa lỗi. Chúng tôi khuyến khích tất cả người dùng cập nhật để có được bản, trình mô phỏng mạnh mẽ nhất hiện có.
 STRING X-Plane can automatically download the latest installer from the web and run it so that you can complete the installation.====X-Plane có thể tự động tải xuống trình cài đặt mới nhất từ web và chạy nó để bạn có thể hoàn tất quá trình cài đặt.
-STRING Your demo time is up, so your flight controls will no longer function until you restart X-Plane.====Thời gian demo của bạn đã hết, vì vậy điều khiển chuyến bay của bạn sẽ không còn hoạt động cho đến khi bạn khởi động lại X-Plane.
-STRING This installer will guide you through the process of upgrading your X-Plane 11 demo to a full installation of X-Plane.====Trình cài đặt này sẽ hướng dẫn bạn quá trình nâng cấp bản demo X-Plane 11 của bạn lên bản cài đặt đầy đủ X-Plane.
+STRING Your dùng thử time is up, so your flight controls will no longer function until you restart X-Plane.====Thời gian dùng thử của bạn đã hết, vì vậy điều khiển chuyến bay của bạn sẽ không còn hoạt động cho đến khi bạn khởi động lại X-Plane.
+STRING This installer will guide you through the process of upgrading your X-Plane 11 dùng thử to a full installation of X-Plane.====Trình cài đặt này sẽ hướng dẫn bạn quá trình nâng cấp bản dùng thử X-Plane 11 của bạn lên bản cài đặt đầy đủ X-Plane.
 STRING Click on the world map to select the scenery you would like to install. Scenery that you deselect will be removed; scenery that you select will be installed. If you fly into an area with no scenery installed, you will see only ocean.====Nhấp vào bản đồ thế giới để chọn khung cảnh bạn muốn cài đặt. Phong cảnh mà bạn bỏ chọn sẽ bị xóa; khung cảnh mà bạn chọn sẽ được cài đặt. Nếu bạn bay vào một khu vực không có cảnh trí, bạn sẽ chỉ thấy đại dương.
 STRING The folder “%1:install name%” already exists inside the folder “%2:parent folder%.”====Thư mục “%1:install name%” đã tồn tại bên trong thư mục "%2:parent folder% ."
 STRING But it does not appear to be an installed copy of X-Plane 11.====Nhưng nó dường như không phải là một bản sao đã cài đặt của X-Plane 11.
@@ -3923,19 +3922,18 @@ STRING Do you see the purple course deviation indicator drifting to the left of 
 # X-Plane/Pilotage/Menus/Fichier====# Máy bay X/Phi công/Thực đơn/Fichier
 STRING Load Flight====Tải chuyến bay
 STRING Toggle Video Recording====Chuyển đổi tính năng quay video
-STRING Save====Tiết kiệm
+STRING Save====Lưu
 STRING Load at sim startup====Tải khi khởi động sim
 STRING Check this box to load this situation file instead of doing the default “Resume Last Flight” action when the sim first loads.===="Chọn hộp này để tải tệp tình huống này thay vì thực hiện hành động mặc định ""Tiếp tục Chuyến bay Cuối cùng"" khi sim tải lần đầu tiên."
 STRING Save New FDR Template====Lưu mẫu FDR mới
 STRING Load at Startup====Tải lúc khởi động
 STRING Choose a destination for the new FDR file template====Chọn điểm đến cho mẫu tệp FDR mới
-STRING %1:year%-%2:month number%-%3:day number%====1: năm% -% 2: số tháng% -% 3: số ngày%
 STRING Configure Video Recording====Định cấu hình quay video
 STRING VIDEO RECORDING OPTIONS====CÁC LỰA CHỌN QUAY VIDEO
 STRING Frame rate of video====Tốc độ khung hình của video
 STRING Total Hours====Tổng số giờ
 STRING Instrument Hours====Giờ chơi nhạc cụ
-STRING If you click Quit, X-Plane will close immediately.====Nếu bạn nhấp vào Quit, X-Plane sẽ đóng ngay lập tức.
+STRING If you click Quit, X-Plane will close immediately.====Nếu bạn nhấp vào "Thoát", X-Plane sẽ đóng ngay lập tức.
 STRING Don’t ask again====Đừng hỏi lại
 STRING Edit Weight & Balance====Chỉnh sửa Cân nặng & Cân bằng
 STRING Edit Failures====Chỉnh sửa lỗi
@@ -3944,15 +3942,15 @@ STRING Show Map====Hiển thị bản đồ
 STRING Hide Map====Ẩn bản đồ
 STRING Show IOS====Hiển thị iOS
 STRING Hide IOS====Ẩn iOS
-STRING A.I. Flies Your Aircraft====AI bay máy bay của bạn
-STRING A.I. Controls Your Views====AI kiểm soát chế độ xem của bạn
+STRING A.I. Flies Your Aircraft====A.I. lái máy bay của bạn
+STRING A.I. Controls Your Views====A.I. kiểm soát chế độ xem của bạn
 STRING Show Key Shortcuts====Hiển thị các phím tắt
 STRING Manage Keyboard & Joystick Profiles====Quản lý cấu hình bàn phím & cần điều khiển
-STRING Prep Electrical Systems for Boarding====Chuẩn bị hệ thống điện cho nội trú
+STRING Prep Electrical Systems for Boarding====Chuẩn bị hệ thống điện
 STRING Start Engines to Running====Bắt đầu động cơ để chạy
 STRING Toggle Yoke Visibility====Chuyển đổi chế độ hiển thị Yoke
-STRING Show Ground Handling Window====Hiển thị cửa sổ xử lý mặt đất
-STRING Hide Ground Handling Window====Ẩn cửa sổ xử lý mặt đất
+STRING Show Ground Handling Window====Hiển thị cửa sổ dịch vụ mặt đất
+STRING Hide Ground Handling Window====Ẩn cửa sổ dịch vụ mặt đất
 STRING A CG offset of zero, with zero fuel and zero ordnance, gives the CG that is listed as the default in Plane Maker. Fuel and ordnance load will offset you from the default CG according to their locations on the craft. In addition, the CG you set offsets the entire loaded mass of the aircraft from default, as might be obtained with baggage or passengers.====Độ lệch CG bằng 0, với không có nhiên liệu và bằng không, cho CG được liệt kê là giá trị mặc định trong Plane Maker. Tải trọng nhiên liệu và bom mìn sẽ bù đắp cho bạn khỏi CG mặc định tùy theo vị trí của chúng trên tàu. Ngoài ra, CG bạn thiết lập bù đắp toàn bộ khối lượng được tải của máy bay từ mặc định, như có thể có được với hành lý hoặc hành khách.
 ##bug## : pas de traduction====## bug ##: pas de traduction
 STRING ”Fail Selected“===="Đã chọn sự cố"
@@ -4145,7 +4143,6 @@ STRING Hide 3-D Flight Model====Ẩn mô hình chuyến bay 3-D
 STRING Cycle 3-D Flight Model Display====Hiển thị mô hình chuyến bay chu kỳ 3-D
 STRING Cycle 3-D Flight Path====Đường bay chu kỳ 3-D
 STRING Reset 3-D Flight Path====Đặt lại đường bay 3-D
-STRING Cinéma Vérité====CinÃ © ma VÃ © ritÃ ©
 STRING Sunglasses====Kính râm
 STRING Night Vision Goggles====Kính nhìn ban đêm
 STRING Aviation Flashlight====Đèn pin hàng không
@@ -4165,7 +4162,7 @@ STRING Show Weapon Guidance====Hiển thị Hướng dẫn về Vũ khí
 STRING Show Projection Parameters====Hiển thị các tham số chiếu
 STRING Show Sky Colors====Hiển thị màu sắc bầu trời
 STRING Show Dev Console====Hiển thị bảng điều khiển dành cho nhà phát triển
-STRING The aircraft must now be in trimmed, level flight. It must be in trimmed, level, un-accelerated flight before you select this menu option.====Máy bay bây giờ phải ở trạng thái bay ngang, cắt tỉa. Nó phải ở mức, mức, chuyến bay chưa được tăng tốc trước khi bạn chọn tùy chọn menu này.
+STRING The aircraft must now be in trimmed, level flight. It must be in trimmed, level, un-accelerated flight before you select this menu option.====Máy bay bây giờ phải ở trạng thái bay ngang. Nó phải ở chế độ trimmed, level, chuyến bay chưa được tăng tốc trước khi bạn chọn tùy chọn menu này.
 STRING The controls should be centered, with the exception of any trim needed to hold level, un-accelerated flight. The autopilot may be on, since it will not have time to affect the test results.====Các điều khiển phải được căn giữa, ngoại trừ bất kỳ phần nào cần thiết để giữ mức, chuyến bay không tăng tốc. Chế độ lái tự động có thể bật, vì nó sẽ không có thời gian để ảnh hưởng đến kết quả kiểm tra.
 STRING By looking at that acceleration, X-Plane will know the stability derivative. X-Plane will output its findings to the end of the “Cycle Dump.txt” file for you to see.====Bằng cách nhìn vào gia tốc đó, X-Plane sẽ biết được đạo hàm ổn định. X-Plane sẽ xuất những phát hiện của mình vào cuối tệp "Cycle Dump.txt" cho bạn xem.
 STRING Quit X-Plane and open the “Cycle Dump.txt” file with a word processor to read the results.====Thoát X-Plane và mở tệp "Cycle Dump.txt" bằng trình xử lý văn bản để đọc kết quả.
@@ -4880,14 +4877,14 @@ STRING UNABLE TO UNLOCK X-PLANE====KHÔNG THỂ MỞ KHÓA X-PLANE
 STRING Or, if you don’t have a product key, you can purchase the X-Plane 11 digital download to get instant access to the full simulator.====Hoặc, nếu bạn không có khóa sản phẩm, bạn có thể mua bản tải xuống kỹ thuật số X-Plane 11 để truy cập ngay vào trình mô phỏng đầy đủ.
 STRING Or, if you don’t have a DVD, you can purchase the X-Plane 11 digital download to get instant access to the full simulator.====Hoặc, nếu bạn không có DVD, bạn có thể mua bản tải xuống kỹ thuật số X-Plane 11 để truy cập ngay vào trình mô phỏng đầy đủ.
 STRING DEMO MODE ACTIVATED====CHẾ ĐỘ DEMO ĐÃ ĐƯỢC KÍCH HOẠT
-STRING Demo mode allows you to fly around the Seattle area for %1:number% minutes at a time.====Chế độ demo cho phép bạn bay quanh khu vực Seattle với% 1: số% phút tại một thời điểm.
+STRING Demo mode allows you to fly around the Seattle area for %1:number% minutes at a time.====Chế độ dùng thử cho phép bạn bay quanh khu vực Seattle với % 1: số% phút tại một thời điểm.
 STRING NOTE: Since X-Plane was not able to store your product key information to preferences, you will not be able to authorize the simulator using a digital download key.====LƯU Ý: Vì X-Plane không thể lưu trữ thông tin khóa sản phẩm của bạn vào tùy chọn, bạn sẽ không thể ủy quyền trình mô phỏng bằng khóa tải xuống kỹ thuật số.
 STRING Purchase the X-Plane digital download now to instantly unlock the full simulator.====Mua bản tải xuống kỹ thuật số X-Plane ngay bây giờ để mở khóa ngay lập tức trình mô phỏng đầy đủ.
 STRING Would you like to end your flight and install the missing scenery now?====Bạn có muốn kết thúc chuyến bay của mình và cài đặt khung cảnh còn thiếu ngay bây giờ không?
 STRING GDPR PRIVACY NOTICE====THÔNG BÁO QUYỀN RIÊNG TƯ GDPR
 STRING Accept====Chấp nhận
 STRING If you select “Accept,” X-Plane will continue to contact Laminar Research's servers to authorize your digital download copy of X-Plane.====Nếu bạn chọn "Chấp nhận," X-Plane sẽ tiếp tục liên hệ với máy chủ của Laminar Research để cho phép bản tải xuống kỹ thuật số của X-Plane của bạn.
-STRING If you select “Cancel,” we will not contact our servers, and X-Plane will revert to demo mode in %1:days% days.===="Nếu bạn chọn "Hủy, â, chúng tôi sẽ không liên hệ với máy chủ của chúng tôi, và X-Plane sẽ trở lại chế độ demo sau% 1: days% days."
+STRING If you select “Cancel,” we will not contact our servers, and X-Plane will revert to dùng thử mode in %1:days% days.===="Nếu bạn chọn "Hủy, â, chúng tôi sẽ không liên hệ với máy chủ của chúng tôi, và X-Plane sẽ trở lại chế độ dùng thử sau% 1: days% days."
 STRING When you click update button, X-Plane will launch the installer and update to the latest version.====Khi bạn nhấp vào nút cập nhật, X-Plane sẽ khởi chạy trình cài đặt và cập nhật lên phiên bản mới nhất.
 STRING Quit & Update to the Latest Beta====Thoát và cập nhật lên bản Beta mới nhất
 STRING Quit & Update Now====Thoát và cập nhật ngay
@@ -4907,7 +4904,7 @@ STRING Ergonomic Yoke====Ergonomic Yoke
 STRING VR GENERAL SETTINGS====CÀI ĐẶT CHUNG VR
 STRING Enable VR Hardware====Bật phần cứng VR
 STRING Enable VR Mouse Cursor====Bật con trỏ chuột VR
-STRING Realistic yokes respond the way they appear in 3D e.g.(Yokes are pulled, side-sticks are tilted, etc). Ergonomic yokes always act like side-sticks; responding only to the angle of your VR controller which reduces fatigue.===="Yokes thực tế phản hồi theo cách chúng xuất hiện trong 3D, ví dụ: (Yokes được kéo, thanh bên nghiêng, vv). Trò đùa công thái học luôn hoạt động giống như những chiếc gậy phụ; chỉ phản hồi theo góc của bộ điều khiển VR của bạn để giảm mệt mỏi."
+STRING Realistic yokes respond the way they appear in 3D e.g.(Yokes are pulled, side-sticks are tilted, etc). Ergonomic yokes always act like side-sticks; responding only to the angle of your VR controller which reduces fatigue.====Yokes thực tế phản hồi theo cách chúng xuất hiện trong 3D. Cần lái công thái học luôn hoạt động giống như những chiếc gậy phụ; chỉ phản hồi theo góc của bộ điều khiển VR của bạn để giảm mệt mỏi.
 STRING Ergonomic Yoke Sensitivity====Ergonomic Yoke Độ nhạy
 STRING Latch to Yoke Manipulators====Nắm bắt những kẻ điều khiển Yoke
 STRING When enabled, controllers will stay attach to yoke manipulators until you click again to release.====Khi được bật, bộ điều khiển sẽ được gắn vào bộ điều khiển ách cho đến khi bạn nhấp lại để nhả.
@@ -4934,8 +4931,8 @@ STRING Loading the required %1:file name% failed with error:====Tải%1:file nam
 STRING Couldn't find a required submodule:====Không thể tìm thấy một mô-đun con bắt buộc:
 STRING Failed to initialize the required Chromium Embedded Framework.====Không thể khởi chạy Khung nhúng Chromium bắt buộc.
 STRING Couldn't find a required resource directory:====Không thể tìm thấy thư mục tài nguyên bắt buộc:
-STRING Loading…====Đang tải" ¦
-STRING Reload====Nạp lại
+STRING Loading…====Đang tải...
+STRING Reload====Tải lại
 STRING RECORDING====GHI ÂM
 STRING PLAYBACK====PHÁT LẠI
 STRING No selection====Không có sự lựa chọn nào
@@ -6035,3 +6032,28 @@ STRING Virtual Fly - G1000 PFD====Virtual Fly - G1000 PFD
 STRING Thrustmaster A320 Throttle 1 & 2====Thrustmaster A320 Throttle 1 & 2
 STRING Vive Cosmos Controller====Bộ điều khiển Vive Cosmos
 STRING T.Flight Hotas 4 (PlayStation)====T.Flight Hotas 4 (PlayStation)
+##########################################################################
+#Manual Tranlation
+##########################################################################
+STRING X-Plane is operating in demo mode.====X-plane đang chạy ở chế độ dùng thử
+STRING Left====Trái
+STRING HP Reverb G2 Left====HP Reverb G2 Trái
+STRING HP Reverb G2 Right====HP Reverb G2 Phải
+STRING Because X-Plane is operating in demo mode, you can only load scenery for the Seattle region. Areas outside of Seattle will show only water.====Vì X-Plane đang hoạt động ở chế độ demo nên bạn chỉ có thể tải phong cảnh cho vùng Seattle. Các khu vực bên ngoài Seattle sẽ chỉ có nước.
+STRING Seaplane Start====Bắt đầu với Seaplane
+STRING Helipad Start====Bắt đầu với Helipad
+STRING Carrier Cat Shot====Cất cánh từ tàu sân bay
+STRING Carrier Approach====Hạ cánh từ tàu sân bay
+STRING Frigate Approach====Hạ cánh từ chiến hạm
+STRING Small Oil Rig Approach====Hạ cánh từ giàn khoan dầu (nhỏ)
+STRING Large Oil Platform Approach====Hạ cánh từ giàn khoan dầu (lớn)
+STRING Your demo time is up, so your flight controls will no longer function until you restart X-Plane.====Thời gian trải nghiệm thử của bạn đã hết (unu), vì vậy các điều khiển chuyến bay của bạn sẽ không còn hoạt động cho đến khi bạn khởi động lại X-Plane, hoặc mua X-plane bản quyền ngay bây giờ.
+STRING You can fly for a limited time in demo mode.====Bạn có thể bay trong thời gian giới hạn ở chế độ demo.
+STRING Scattered====Mây rải rác 
+STRING Broken====Nhiều mây
+STRING Overcast====U ám 
+STRING Low Visibility====Tầm nhìn thấp
+STRING Foggy====Sương mù dày
+STRING Yaw damper on.====Yaw damper bật
+STRING Yaw damper off.====Yaw damper tắt.
+STRING Forward with 3-D cockpit====Bắt đầu với buồng lái 3D

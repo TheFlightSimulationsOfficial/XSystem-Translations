@@ -1,0 +1,688 @@
+STRING Prop====Prop
+STRING Hãy chờ xem X-plane 12 có gì nào... Tìm hiểu thêm trên x-plane.com.====Hãy chờ xem X-plane 12 có gì nào... Tìm hiểu thêm trên x-plane.com.
+STRING Cinéma Vérité====Cinéma Vérité
+STRING Sim Your Plane (Bluetooth)====Sim Your Plane (Bluetooth)
+STRING Sim Your Plane (Wired)====Sim Your Plane (Wired)
+STRING Xbox Elite Wireless Controller Series 2====Xbox Elite Wireless Controller Series 2
+STRING Shuttle Landing (Full Re-Entry)====Shuttle Landing (Full Re-Entry)
+STRING Shuttle Landing (Final Re-Entry)====Shuttle Landing (Final Re-Entry)
+STRING Shuttle Landing (Full Approach)====Shuttle Landing (Full Approach)
+STRING Shuttle Landing (Final Approach)====Shuttle Landing (Final Approach)
+STRING Formation Flying====Formation Flying
+STRING Refuel - Boom====Refuel - Boom
+STRING Refuel - Basket====Refuel - Basket
+STRING Clear====Clear
+STRING %1:month name% %2:day of month%====%1:month name% %2:day of month%
+STRING %1:date%, %2:time of day%====%1:date%, %2:time of day%
+STRING No scenery available outside of Seattle while in demo mode====No scenery available outside of Seattle while in demo mode
+STRING STARTS====STARTS
+STRING RAMP====RAMP
+STRING Ramp Start====Ramp Start
+STRING %1:degrees latitude%°%2:N or S% / %3:degrees longitude%°%4:E or W%====%1:degrees latitude%°%2:N or S% / %3:degrees longitude%°%4:E or W%
+STRING %1:elevation% ft MSL====%1:elevation% ft MSL
+STRING %1:airport identifier%, %2:runway name%====%1:airport identifier%, %2:runway name%
+STRING Oil temperature warning. This light indicates that your engine is running excessively hot, which will significantly shorten the engine's life if not addressed. Throttle down the engine, open cowl flaps, increase your mixture, and fly at a lower altitude to cool the engine.====Oil temperature warning. This light indicates that your engine is running excessively hot, which will significantly shorten the engine's life if not addressed. Throttle down the engine, open cowl flaps, increase your mixture, and fly at a lower altitude to cool the engine.
+STRING Autopilot engage FMS Vnav. The autopilot will fly the plane at the altitude programmed into the flight management computer.====Autopilot engage FMS Vnav. The autopilot will fly the plane at the altitude programmed into the flight management computer.
+STRING Autopilot engage speed w/ climb. The autopilot will fly whatever climb rate is needed to maintain the selected speed. Control your climb or descent rate with the throttle. Set the desired speed before engaging this mode.====Autopilot engage speed w/ climb. The autopilot will fly whatever climb rate is needed to maintain the selected speed. Control your climb or descent rate with the throttle. Set the desired speed before engaging this mode.
+STRING Nav 1 receiver. Tune this receiver to a VOR for instrument navigation or to the ILS transmitter to make an instrument landing.====Nav 1 receiver. Tune this receiver to a VOR for instrument navigation or to the ILS transmitter to make an instrument landing.
+STRING Ctrl====Ctrl
+STRING Shift====Shift
+STRING Master warning. This light indicates that there is a problem you should be aware of. Check your other warning lights.====Master warning. This light indicates that there is a problem you should be aware of. Check your other warning lights.
+STRING frame rate|f-act  /sec f-sim  /sec _____-_____ frame  time   cpu  time  gpu  time   grnd ratio  flit ratio====frame rate|f-act  /sec f-sim  /sec _____-_____ frame  time   cpu  time  gpu  time   grnd ratio  flit ratio
+STRING Autopilot speed setting. This is the target speed at which the autopilot will fly the plane in the auto-throttle, speed with pitch, and flight level change modes.====Autopilot speed setting. This is the target speed at which the autopilot will fly the plane in the auto-throttle, speed with pitch, and flight level change modes.
+STRING Autopilot heading setting. This is the target heading the autopilot will fly in the heading mode. This setting tracks the heading bug in the directional gyro and HSI.====Autopilot heading setting. This is the target heading the autopilot will fly in the heading mode. This setting tracks the heading bug in the directional gyro and HSI.
+STRING GPWS warning. The Ground Proximity Warning System warns you when you are flying too low and are in danger of flying into the ground. If this lights up, PULL UP!====GPWS warning. The Ground Proximity Warning System warns you when you are flying too low and are in danger of flying into the ground. If this lights up, PULL UP!
+STRING Artificial horizon. The artificial horizon is a gyro-driven instrument that displays your bank and pitch attitude by showing you what the horizon should look like from your current point of view.====Artificial horizon. The artificial horizon is a gyro-driven instrument that displays your bank and pitch attitude by showing you what the horizon should look like from your current point of view.
+STRING Rate of climb. This readout shows you how fast you are going up, in feet per minute.====Rate of climb. This readout shows you how fast you are going up, in feet per minute.
+STRING Rate of climb indicator. This instrument shows how fast you are climbing or descending in feet per minute. To fly a 3 degree glideslope, descend at 500 fpm for each 100 kt of airspeed.====Rate of climb indicator. This instrument shows how fast you are climbing or descending in feet per minute. To fly a 3 degree glideslope, descend at 500 fpm for each 100 kt of airspeed.
+STRING Airspeed indicator. The airspeed indicator gets its reading from air pressure in the pitot tube. At higher altitudes, the lower air density gives a lower reading for the same true airspeed. The indicated airspeed accurately represents the plane's aerodynamic effectiveness.====Airspeed indicator. The airspeed indicator gets its reading from air pressure in the pitot tube. At higher altitudes, the lower air density gives a lower reading for the same true airspeed. The indicated airspeed accurately represents the plane's aerodynamic effectiveness.
+STRING Test annunciators. Press this button to test all of your warning lights.====Test annunciators. Press this button to test all of your warning lights.
+STRING HSI nav source selector. This switch selects which Nav receiver or GPS drives the HSI and autopilot. By setting up multiple receivers you can quickly switch between different nav sources.====HSI nav source selector. This switch selects which Nav receiver or GPS drives the HSI and autopilot. By setting up multiple receivers you can quickly switch between different nav sources.
+STRING Autopilot source selector. This switch selects the pitot/static tube (pilot's side or copilot's side) used for the altitude and airspeed related functions of the autopilot. If one side ices up you have another chance.====Autopilot source selector. This switch selects the pitot/static tube (pilot's side or copilot's side) used for the altitude and airspeed related functions of the autopilot. If one side ices up you have another chance.
+STRING Rate of climb indicator. This instrument shows how fast you are climbing or descending in feet per minute. To fly a 3 degree glideslope, descend at 500 fpm for each 100 kt of airspeed. The small indicator shows your autopilot vertical speed setting.====Rate of climb indicator. This instrument shows how fast you are climbing or descending in feet per minute. To fly a 3 degree glideslope, descend at 500 fpm for each 100 kt of airspeed. The small indicator shows your autopilot vertical speed setting.
+STRING Engine N1. This is the speed at which the first stage (outer) compressor is turning in a turbine engine. The value is expressed as percent of the original maximum design speed.====Engine N1. This is the speed at which the first stage (outer) compressor is turning in a turbine engine. The value is expressed as percent of the original maximum design speed.
+STRING Artificial horizon. The artificial horizon is a gyro-driven instrument that displays your bank and pitch attitude by showing you what the horizon should look like from your current point of view. Use the knob to adjust the reference bar so that it matches the horizon reading when your plane is level.====Artificial horizon. The artificial horizon is a gyro-driven instrument that displays your bank and pitch attitude by showing you what the horizon should look like from your current point of view. Use the knob to adjust the reference bar so that it matches the horizon reading when your plane is level.
+STRING %1:year%-%2:month number%-%3:day number%====%1:year%-%2:month number%-%3:day number%
+STRING Angle of attack. The angle of attack is the angle at which the airflow meets the aircraft (and its wings). Remember that a stall is caused not just by flying too slowly but by having too large an angle of attack.====Angle of attack. The angle of attack is the angle at which the airflow meets the aircraft (and its wings). Remember that a stall is caused not just by flying too slowly but by having too large an angle of attack.
+STRING Mach number. Your Mach number is your true airspeed divided by the speed of sound.====Mach number. Your Mach number is your true airspeed divided by the speed of sound.
+STRING OBS 2 setting. The Omni Bearing Select knob selects the course you want to fly to or from the VOR your Nav 2 receiver is tuned to. The bearing is expressed at the compass direction from the navaid to your desired track.====OBS 2 setting. The Omni Bearing Select knob selects the course you want to fly to or from the VOR your Nav 2 receiver is tuned to. The bearing is expressed at the compass direction from the navaid to your desired track.
+STRING OBS 2 indicator. The Omni Bearing Select indicator shows the course you have selected to or from the VOR your Nav 2 receiver is tuned to. The bearing is expressed at the compass direction from the navaid to your desired track.====OBS 2 indicator. The Omni Bearing Select indicator shows the course you have selected to or from the VOR your Nav 2 receiver is tuned to. The bearing is expressed at the compass direction from the navaid to your desired track.
+STRING Autopilot engage vertical speed. The autopilot will fly the plane at the climb rate selected in the vertical speed setting. Use a positive value to climb, negative to descend.====Autopilot engage vertical speed. The autopilot will fly the plane at the climb rate selected in the vertical speed setting. Use a positive value to climb, negative to descend.
+STRING Autopilot engage glideslope. The autopilot will fly the plane down the approach glideslope you have tuned in your selected Nav receiver. Set up the Nav receiver before engaging this mode. You must intercept the glideslope from below for the autopilot to lock on.====Autopilot engage glideslope. The autopilot will fly the plane down the approach glideslope you have tuned in your selected Nav receiver. Set up the Nav receiver before engaging this mode. You must intercept the glideslope from below for the autopilot to lock on.
+STRING Autopilot engage back course. The autopilot will fly the back course heading of the selected approach localizer. Use this in conjunction with the VOR/localizer mode.====Autopilot engage back course. The autopilot will fly the back course heading of the selected approach localizer. Use this in conjunction with the VOR/localizer mode.
+STRING Space Shuttle: Full re-entry.====Space Shuttle: Full re-entry.
+STRING Space Shuttle: Final re-entry.====Space Shuttle: Final re-entry.
+STRING Space Shuttle: Full approach.====Space Shuttle: Full approach.
+STRING Space Shuttle: Final approach.====Space Shuttle: Final approach.
+STRING Slider #1 On/Off control.====Slider #1 On/Off control.
+STRING Slider #2 On/Off control.====Slider #2 On/Off control.
+STRING Slider #3 On/Off control.====Slider #3 On/Off control.
+STRING Slider #4 On/Off control.====Slider #4 On/Off control.
+STRING Slider #5 On/Off control.====Slider #5 On/Off control.
+STRING Slider #6 On/Off control.====Slider #6 On/Off control.
+STRING Slider #7 On/Off control.====Slider #7 On/Off control.
+STRING Slider #8 On/Off control.====Slider #8 On/Off control.
+STRING Slider #9 On/Off control.====Slider #9 On/Off control.
+STRING Slider #10 On/Off control.====Slider #10 On/Off control.
+STRING Slider #11 On/Off control.====Slider #11 On/Off control.
+STRING Slider #12 On/Off control.====Slider #12 On/Off control.
+STRING Slider #13 On/Off control.====Slider #13 On/Off control.
+STRING Slider #14 On/Off control.====Slider #14 On/Off control.
+STRING Slider #15 On/Off control.====Slider #15 On/Off control.
+STRING Slider #16 On/Off control.====Slider #16 On/Off control.
+STRING Slider #17 On/Off control.====Slider #17 On/Off control.
+STRING Slider #18 On/Off control.====Slider #18 On/Off control.
+STRING Slider #19 On/Off control.====Slider #19 On/Off control.
+STRING Slider #20 On/Off control.====Slider #20 On/Off control.
+STRING Slider #21 On/Off control.====Slider #21 On/Off control.
+STRING Slider #22 On/Off control.====Slider #22 On/Off control.
+STRING Slider #23 On/Off control.====Slider #23 On/Off control.
+STRING Slider #24 On/Off control.====Slider #24 On/Off control.
+STRING Engage starter #1.====Engage starter #1.
+STRING Engage starter #2.====Engage starter #2.
+STRING Engage starter #3.====Engage starter #3.
+STRING Engage starter #4.====Engage starter #4.
+STRING Engage starter #5.====Engage starter #5.
+STRING Engage starter #6.====Engage starter #6.
+STRING Engage starter #7.====Engage starter #7.
+STRING Engage starter #8.====Engage starter #8.
+STRING Throttle down a bit for engine #1.====Throttle down a bit for engine #1.
+STRING Throttle down a bit for engine #2.====Throttle down a bit for engine #2.
+STRING Throttle down a bit for engine #3.====Throttle down a bit for engine #3.
+STRING Throttle down a bit for engine #4.====Throttle down a bit for engine #4.
+STRING Throttle down a bit for engine #5.====Throttle down a bit for engine #5.
+STRING Throttle down a bit for engine #6.====Throttle down a bit for engine #6.
+STRING Throttle down a bit for engine #7.====Throttle down a bit for engine #7.
+STRING Throttle down a bit for engine #8.====Throttle down a bit for engine #8.
+STRING Throttle up a bit for engine #1.====Throttle up a bit for engine #1.
+STRING Throttle up a bit for engine #2.====Throttle up a bit for engine #2.
+STRING Throttle up a bit for engine #3.====Throttle up a bit for engine #3.
+STRING Throttle up a bit for engine #4.====Throttle up a bit for engine #4.
+STRING Throttle up a bit for engine #5.====Throttle up a bit for engine #5.
+STRING Throttle up a bit for engine #6.====Throttle up a bit for engine #6.
+STRING Throttle up a bit for engine #7.====Throttle up a bit for engine #7.
+STRING Throttle up a bit for engine #8.====Throttle up a bit for engine #8.
+STRING Toggle beta prop #1.====Toggle beta prop #1.
+STRING Toggle beta prop #2.====Toggle beta prop #2.
+STRING Toggle beta prop #3.====Toggle beta prop #3.
+STRING Toggle beta prop #4.====Toggle beta prop #4.
+STRING Toggle beta prop #5.====Toggle beta prop #5.
+STRING Toggle beta prop #6.====Toggle beta prop #6.
+STRING Toggle beta prop #7.====Toggle beta prop #7.
+STRING Toggle beta prop #8.====Toggle beta prop #8.
+STRING Toggle thrust reversers #1.====Toggle thrust reversers #1.
+STRING Toggle thrust reversers #2.====Toggle thrust reversers #2.
+STRING Toggle thrust reversers #3.====Toggle thrust reversers #3.
+STRING Toggle thrust reversers #4.====Toggle thrust reversers #4.
+STRING Toggle thrust reversers #5.====Toggle thrust reversers #5.
+STRING Toggle thrust reversers #6.====Toggle thrust reversers #6.
+STRING Toggle thrust reversers #7.====Toggle thrust reversers #7.
+STRING Toggle thrust reversers #8.====Toggle thrust reversers #8.
+STRING Hold thrust reverse at max #1.====Hold thrust reverse at max #1.
+STRING Hold thrust reverse at max #2.====Hold thrust reverse at max #2.
+STRING Hold thrust reverse at max #3.====Hold thrust reverse at max #3.
+STRING Hold thrust reverse at max #4.====Hold thrust reverse at max #4.
+STRING Hold thrust reverse at max #5.====Hold thrust reverse at max #5.
+STRING Hold thrust reverse at max #6.====Hold thrust reverse at max #6.
+STRING Hold thrust reverse at max #7.====Hold thrust reverse at max #7.
+STRING Hold thrust reverse at max #8.====Hold thrust reverse at max #8.
+STRING Propeller====Propeller
+STRING Prop down a bit for engine #1.====Prop down a bit for engine #1.
+STRING Prop down a bit for engine #2.====Prop down a bit for engine #2.
+STRING Prop down a bit for engine #3.====Prop down a bit for engine #3.
+STRING Prop down a bit for engine #4.====Prop down a bit for engine #4.
+STRING Prop down a bit for engine #5.====Prop down a bit for engine #5.
+STRING Prop down a bit for engine #6.====Prop down a bit for engine #6.
+STRING Prop down a bit for engine #7.====Prop down a bit for engine #7.
+STRING Prop down a bit for engine #8.====Prop down a bit for engine #8.
+STRING Prop up a bit for engine #1.====Prop up a bit for engine #1.
+STRING Prop up a bit for engine #2.====Prop up a bit for engine #2.
+STRING Prop up a bit for engine #3.====Prop up a bit for engine #3.
+STRING Prop up a bit for engine #4.====Prop up a bit for engine #4.
+STRING Prop up a bit for engine #5.====Prop up a bit for engine #5.
+STRING Prop up a bit for engine #6.====Prop up a bit for engine #6.
+STRING Prop up a bit for engine #7.====Prop up a bit for engine #7.
+STRING Prop up a bit for engine #8.====Prop up a bit for engine #8.
+STRING Mixture down a bit for engine #1.====Mixture down a bit for engine #1.
+STRING Mixture down a bit for engine #2.====Mixture down a bit for engine #2.
+STRING Mixture down a bit for engine #3.====Mixture down a bit for engine #3.
+STRING Mixture down a bit for engine #4.====Mixture down a bit for engine #4.
+STRING Mixture down a bit for engine #5.====Mixture down a bit for engine #5.
+STRING Mixture down a bit for engine #6.====Mixture down a bit for engine #6.
+STRING Mixture down a bit for engine #7.====Mixture down a bit for engine #7.
+STRING Mixture down a bit for engine #8.====Mixture down a bit for engine #8.
+STRING Mixture up a bit for engine #1.====Mixture up a bit for engine #1.
+STRING Mixture up a bit for engine #2.====Mixture up a bit for engine #2.
+STRING Mixture up a bit for engine #3.====Mixture up a bit for engine #3.
+STRING Mixture up a bit for engine #4.====Mixture up a bit for engine #4.
+STRING Mixture up a bit for engine #5.====Mixture up a bit for engine #5.
+STRING Mixture up a bit for engine #6.====Mixture up a bit for engine #6.
+STRING Mixture up a bit for engine #7.====Mixture up a bit for engine #7.
+STRING Mixture up a bit for engine #8.====Mixture up a bit for engine #8.
+STRING Magnetos down one notch for engine #1.====Magnetos down one notch for engine #1.
+STRING Magnetos down one notch for engine #2.====Magnetos down one notch for engine #2.
+STRING Magnetos down one notch for engine #3.====Magnetos down one notch for engine #3.
+STRING Magnetos down one notch for engine #4.====Magnetos down one notch for engine #4.
+STRING Magnetos down one notch for engine #5.====Magnetos down one notch for engine #5.
+STRING Magnetos down one notch for engine #6.====Magnetos down one notch for engine #6.
+STRING Magnetos down one notch for engine #7.====Magnetos down one notch for engine #7.
+STRING Magnetos down one notch for engine #8.====Magnetos down one notch for engine #8.
+STRING Magnetos up one notch for engine #1.====Magnetos up one notch for engine #1.
+STRING Magnetos up one notch for engine #2.====Magnetos up one notch for engine #2.
+STRING Magnetos up one notch for engine #3.====Magnetos up one notch for engine #3.
+STRING Magnetos up one notch for engine #4.====Magnetos up one notch for engine #4.
+STRING Magnetos up one notch for engine #5.====Magnetos up one notch for engine #5.
+STRING Magnetos up one notch for engine #6.====Magnetos up one notch for engine #6.
+STRING Magnetos up one notch for engine #7.====Magnetos up one notch for engine #7.
+STRING Magnetos up one notch for engine #8.====Magnetos up one notch for engine #8.
+STRING Magnetos off for engine #1.====Magnetos off for engine #1.
+STRING Magnetos off for engine #2.====Magnetos off for engine #2.
+STRING Magnetos off for engine #3.====Magnetos off for engine #3.
+STRING Magnetos off for engine #4.====Magnetos off for engine #4.
+STRING Magnetos off for engine #5.====Magnetos off for engine #5.
+STRING Magnetos off for engine #6.====Magnetos off for engine #6.
+STRING Magnetos off for engine #7.====Magnetos off for engine #7.
+STRING Magnetos off for engine #8.====Magnetos off for engine #8.
+STRING Magnetos left for engine #1.====Magnetos left for engine #1.
+STRING Magnetos left for engine #2.====Magnetos left for engine #2.
+STRING Magnetos left for engine #3.====Magnetos left for engine #3.
+STRING Magnetos left for engine #4.====Magnetos left for engine #4.
+STRING Magnetos left for engine #5.====Magnetos left for engine #5.
+STRING Magnetos left for engine #6.====Magnetos left for engine #6.
+STRING Magnetos left for engine #7.====Magnetos left for engine #7.
+STRING Magnetos left for engine #8.====Magnetos left for engine #8.
+STRING Magnetos right for engine #1.====Magnetos right for engine #1.
+STRING Magnetos right for engine #2.====Magnetos right for engine #2.
+STRING Magnetos right for engine #3.====Magnetos right for engine #3.
+STRING Magnetos right for engine #4.====Magnetos right for engine #4.
+STRING Magnetos right for engine #5.====Magnetos right for engine #5.
+STRING Magnetos right for engine #6.====Magnetos right for engine #6.
+STRING Magnetos right for engine #7.====Magnetos right for engine #7.
+STRING Magnetos right for engine #8.====Magnetos right for engine #8.
+STRING Magnetos both for engine #1.====Magnetos both for engine #1.
+STRING Magnetos both for engine #2.====Magnetos both for engine #2.
+STRING Magnetos both for engine #3.====Magnetos both for engine #3.
+STRING Magnetos both for engine #4.====Magnetos both for engine #4.
+STRING Magnetos both for engine #5.====Magnetos both for engine #5.
+STRING Magnetos both for engine #6.====Magnetos both for engine #6.
+STRING Magnetos both for engine #7.====Magnetos both for engine #7.
+STRING Magnetos both for engine #8.====Magnetos both for engine #8.
+STRING Igniter #1 arm off.====Igniter #1 arm off.
+STRING Igniter #2 arm off.====Igniter #2 arm off.
+STRING Igniter #3 arm off.====Igniter #3 arm off.
+STRING Igniter #4 arm off.====Igniter #4 arm off.
+STRING Igniter #5 arm off.====Igniter #5 arm off.
+STRING Igniter #6 arm off.====Igniter #6 arm off.
+STRING Igniter #7 arm off.====Igniter #7 arm off.
+STRING Igniter #8 arm off.====Igniter #8 arm off.
+STRING Igniter #1 arm on.====Igniter #1 arm on.
+STRING Igniter #2 arm on.====Igniter #2 arm on.
+STRING Igniter #3 arm on.====Igniter #3 arm on.
+STRING Igniter #4 arm on.====Igniter #4 arm on.
+STRING Igniter #5 arm on.====Igniter #5 arm on.
+STRING Igniter #6 arm on.====Igniter #6 arm on.
+STRING Igniter #7 arm on.====Igniter #7 arm on.
+STRING Igniter #8 arm on.====Igniter #8 arm on.
+STRING Igniter #1 contin-ignition off.====Igniter #1 contin-ignition off.
+STRING Igniter #2 contin-ignition off.====Igniter #2 contin-ignition off.
+STRING Igniter #3 contin-ignition off.====Igniter #3 contin-ignition off.
+STRING Igniter #4 contin-ignition off.====Igniter #4 contin-ignition off.
+STRING Igniter #5 contin-ignition off.====Igniter #5 contin-ignition off.
+STRING Igniter #6 contin-ignition off.====Igniter #6 contin-ignition off.
+STRING Igniter #7 contin-ignition off.====Igniter #7 contin-ignition off.
+STRING Igniter #8 contin-ignition off.====Igniter #8 contin-ignition off.
+STRING Igniter #1 contin-ignition on.====Igniter #1 contin-ignition on.
+STRING Igniter #2 contin-ignition on.====Igniter #2 contin-ignition on.
+STRING Igniter #3 contin-ignition on.====Igniter #3 contin-ignition on.
+STRING Igniter #4 contin-ignition on.====Igniter #4 contin-ignition on.
+STRING Igniter #5 contin-ignition on.====Igniter #5 contin-ignition on.
+STRING Igniter #6 contin-ignition on.====Igniter #6 contin-ignition on.
+STRING Igniter #7 contin-ignition on.====Igniter #7 contin-ignition on.
+STRING Igniter #8 contin-ignition on.====Igniter #8 contin-ignition on.
+STRING Ignition key down one notch for engine #1.====Ignition key down one notch for engine #1.
+STRING Ignition key down one notch for engine #2.====Ignition key down one notch for engine #2.
+STRING Ignition key down one notch for engine #3.====Ignition key down one notch for engine #3.
+STRING Ignition key down one notch for engine #4.====Ignition key down one notch for engine #4.
+STRING Ignition key down one notch for engine #5.====Ignition key down one notch for engine #5.
+STRING Ignition key down one notch for engine #6.====Ignition key down one notch for engine #6.
+STRING Ignition key down one notch for engine #7.====Ignition key down one notch for engine #7.
+STRING Ignition key down one notch for engine #8.====Ignition key down one notch for engine #8.
+STRING Ignition key up one notch for engine #1.====Ignition key up one notch for engine #1.
+STRING Ignition key up one notch for engine #2.====Ignition key up one notch for engine #2.
+STRING Ignition key up one notch for engine #3.====Ignition key up one notch for engine #3.
+STRING Ignition key up one notch for engine #4.====Ignition key up one notch for engine #4.
+STRING Ignition key up one notch for engine #5.====Ignition key up one notch for engine #5.
+STRING Ignition key up one notch for engine #6.====Ignition key up one notch for engine #6.
+STRING Ignition key up one notch for engine #7.====Ignition key up one notch for engine #7.
+STRING Ignition key up one notch for engine #8.====Ignition key up one notch for engine #8.
+STRING Move cowl flaps #1 closed a bit.====Move cowl flaps #1 closed a bit.
+STRING Move cowl flaps #2 closed a bit.====Move cowl flaps #2 closed a bit.
+STRING Move cowl flaps #3 closed a bit.====Move cowl flaps #3 closed a bit.
+STRING Move cowl flaps #4 closed a bit.====Move cowl flaps #4 closed a bit.
+STRING Move cowl flaps #5 closed a bit.====Move cowl flaps #5 closed a bit.
+STRING Move cowl flaps #6 closed a bit.====Move cowl flaps #6 closed a bit.
+STRING Move cowl flaps #7 closed a bit.====Move cowl flaps #7 closed a bit.
+STRING Move cowl flaps #8 closed a bit.====Move cowl flaps #8 closed a bit.
+STRING Move cowl flaps #1 open a bit.====Move cowl flaps #1 open a bit.
+STRING Move cowl flaps #2 open a bit.====Move cowl flaps #2 open a bit.
+STRING Move cowl flaps #3 open a bit.====Move cowl flaps #3 open a bit.
+STRING Move cowl flaps #4 open a bit.====Move cowl flaps #4 open a bit.
+STRING Move cowl flaps #5 open a bit.====Move cowl flaps #5 open a bit.
+STRING Move cowl flaps #6 open a bit.====Move cowl flaps #6 open a bit.
+STRING Move cowl flaps #7 open a bit.====Move cowl flaps #7 open a bit.
+STRING Move cowl flaps #8 open a bit.====Move cowl flaps #8 open a bit.
+STRING Pull fuel and mags for shut-down #1.====Pull fuel and mags for shut-down #1.
+STRING Pull fuel and mags for shut-down #2.====Pull fuel and mags for shut-down #2.
+STRING Pull fuel and mags for shut-down #3.====Pull fuel and mags for shut-down #3.
+STRING Pull fuel and mags for shut-down #4.====Pull fuel and mags for shut-down #4.
+STRING Pull fuel and mags for shut-down #5.====Pull fuel and mags for shut-down #5.
+STRING Pull fuel and mags for shut-down #6.====Pull fuel and mags for shut-down #6.
+STRING Pull fuel and mags for shut-down #7.====Pull fuel and mags for shut-down #7.
+STRING Pull fuel and mags for shut-down #8.====Pull fuel and mags for shut-down #8.
+STRING FADEC #1 off.====FADEC #1 off.
+STRING FADEC #2 off.====FADEC #2 off.
+STRING FADEC #3 off.====FADEC #3 off.
+STRING FADEC #4 off.====FADEC #4 off.
+STRING FADEC #5 off.====FADEC #5 off.
+STRING FADEC #6 off.====FADEC #6 off.
+STRING FADEC #7 off.====FADEC #7 off.
+STRING FADEC #8 off.====FADEC #8 off.
+STRING FADEC #1 on.====FADEC #1 on.
+STRING FADEC #2 on.====FADEC #2 on.
+STRING FADEC #3 on.====FADEC #3 on.
+STRING FADEC #4 on.====FADEC #4 on.
+STRING FADEC #5 on.====FADEC #5 on.
+STRING FADEC #6 on.====FADEC #6 on.
+STRING FADEC #7 on.====FADEC #7 on.
+STRING FADEC #8 on.====FADEC #8 on.
+STRING Fire extinguisher #1 off.====Fire extinguisher #1 off.
+STRING Fire extinguisher #2 off.====Fire extinguisher #2 off.
+STRING Fire extinguisher #3 off.====Fire extinguisher #3 off.
+STRING Fire extinguisher #4 off.====Fire extinguisher #4 off.
+STRING Fire extinguisher #5 off.====Fire extinguisher #5 off.
+STRING Fire extinguisher #6 off.====Fire extinguisher #6 off.
+STRING Fire extinguisher #7 off.====Fire extinguisher #7 off.
+STRING Fire extinguisher #8 off.====Fire extinguisher #8 off.
+STRING Fire extinguisher #1 on.====Fire extinguisher #1 on.
+STRING Fire extinguisher #2 on.====Fire extinguisher #2 on.
+STRING Fire extinguisher #3 on.====Fire extinguisher #3 on.
+STRING Fire extinguisher #4 on.====Fire extinguisher #4 on.
+STRING Fire extinguisher #5 on.====Fire extinguisher #5 on.
+STRING Fire extinguisher #6 on.====Fire extinguisher #6 on.
+STRING Fire extinguisher #7 on.====Fire extinguisher #7 on.
+STRING Fire extinguisher #8 on.====Fire extinguisher #8 on.
+STRING Generator #1 off.====Generator #1 off.
+STRING Generator #2 off.====Generator #2 off.
+STRING Generator #3 off.====Generator #3 off.
+STRING Generator #4 off.====Generator #4 off.
+STRING Generator #5 off.====Generator #5 off.
+STRING Generator #6 off.====Generator #6 off.
+STRING Generator #7 off.====Generator #7 off.
+STRING Generator #8 off.====Generator #8 off.
+STRING Generator #1 on.====Generator #1 on.
+STRING Generator #2 on.====Generator #2 on.
+STRING Generator #3 on.====Generator #3 on.
+STRING Generator #4 on.====Generator #4 on.
+STRING Generator #5 on.====Generator #5 on.
+STRING Generator #6 on.====Generator #6 on.
+STRING Generator #7 on.====Generator #7 on.
+STRING Generator #8 on.====Generator #8 on.
+STRING Generator #1 toggle.====Generator #1 toggle.
+STRING Generator #2 toggle.====Generator #2 toggle.
+STRING Generator #3 toggle.====Generator #3 toggle.
+STRING Generator #4 toggle.====Generator #4 toggle.
+STRING Generator #5 toggle.====Generator #5 toggle.
+STRING Generator #6 toggle.====Generator #6 toggle.
+STRING Generator #7 toggle.====Generator #7 toggle.
+STRING Generator #8 toggle.====Generator #8 toggle.
+STRING Generator #1 reset.====Generator #1 reset.
+STRING Generator #2 reset.====Generator #2 reset.
+STRING Generator #3 reset.====Generator #3 reset.
+STRING Generator #4 reset.====Generator #4 reset.
+STRING Generator #5 reset.====Generator #5 reset.
+STRING Generator #6 reset.====Generator #6 reset.
+STRING Generator #7 reset.====Generator #7 reset.
+STRING Generator #8 reset.====Generator #8 reset.
+STRING Alternate air #1 off.====Alternate air #1 off.
+STRING Alternate air #2 off.====Alternate air #2 off.
+STRING Alternate air #3 off.====Alternate air #3 off.
+STRING Alternate air #4 off.====Alternate air #4 off.
+STRING Alternate air #5 off.====Alternate air #5 off.
+STRING Alternate air #6 off.====Alternate air #6 off.
+STRING Alternate air #7 off.====Alternate air #7 off.
+STRING Alternate air #8 off.====Alternate air #8 off.
+STRING Alternate air #1 on.====Alternate air #1 on.
+STRING Alternate air #2 on.====Alternate air #2 on.
+STRING Alternate air #3 on.====Alternate air #3 on.
+STRING Alternate air #4 on.====Alternate air #4 on.
+STRING Alternate air #5 on.====Alternate air #5 on.
+STRING Alternate air #6 on.====Alternate air #6 on.
+STRING Alternate air #7 on.====Alternate air #7 on.
+STRING Alternate air #8 on.====Alternate air #8 on.
+STRING Alternate air backup #1 off.====Alternate air backup #1 off.
+STRING Alternate air backup #2 off.====Alternate air backup #2 off.
+STRING Alternate air backup #3 off.====Alternate air backup #3 off.
+STRING Alternate air backup #4 off.====Alternate air backup #4 off.
+STRING Alternate air backup #5 off.====Alternate air backup #5 off.
+STRING Alternate air backup #6 off.====Alternate air backup #6 off.
+STRING Alternate air backup #7 off.====Alternate air backup #7 off.
+STRING Alternate air backup #8 off.====Alternate air backup #8 off.
+STRING Alternate air backup #1 on.====Alternate air backup #1 on.
+STRING Alternate air backup #2 on.====Alternate air backup #2 on.
+STRING Alternate air backup #3 on.====Alternate air backup #3 on.
+STRING Alternate air backup #4 on.====Alternate air backup #4 on.
+STRING Alternate air backup #5 on.====Alternate air backup #5 on.
+STRING Alternate air backup #6 on.====Alternate air backup #6 on.
+STRING Alternate air backup #7 on.====Alternate air backup #7 on.
+STRING Alternate air backup #8 on.====Alternate air backup #8 on.
+STRING Fuel pump for tank #1 on.====Fuel pump for tank #1 on.
+STRING Fuel pump for tank #2 on.====Fuel pump for tank #2 on.
+STRING Fuel pump for tank #3 on.====Fuel pump for tank #3 on.
+STRING Fuel pump for tank #4 on.====Fuel pump for tank #4 on.
+STRING Fuel pump for tank #5 on.====Fuel pump for tank #5 on.
+STRING Fuel pump for tank #6 on.====Fuel pump for tank #6 on.
+STRING Fuel pump for tank #7 on.====Fuel pump for tank #7 on.
+STRING Fuel pump for tank #8 on.====Fuel pump for tank #8 on.
+STRING Fuel pump for tank #9 on.====Fuel pump for tank #9 on.
+STRING Fuel pump for tank #1 off.====Fuel pump for tank #1 off.
+STRING Fuel pump for tank #2 off.====Fuel pump for tank #2 off.
+STRING Fuel pump for tank #3 off.====Fuel pump for tank #3 off.
+STRING Fuel pump for tank #4 off.====Fuel pump for tank #4 off.
+STRING Fuel pump for tank #5 off.====Fuel pump for tank #5 off.
+STRING Fuel pump for tank #6 off.====Fuel pump for tank #6 off.
+STRING Fuel pump for tank #7 off.====Fuel pump for tank #7 off.
+STRING Fuel pump for tank #8 off.====Fuel pump for tank #8 off.
+STRING Fuel pump for tank #9 off.====Fuel pump for tank #9 off.
+STRING Fuel pump for engine #1 on.====Fuel pump for engine #1 on.
+STRING Fuel pump for engine #2 on.====Fuel pump for engine #2 on.
+STRING Fuel pump for engine #3 on.====Fuel pump for engine #3 on.
+STRING Fuel pump for engine #4 on.====Fuel pump for engine #4 on.
+STRING Fuel pump for engine #5 on.====Fuel pump for engine #5 on.
+STRING Fuel pump for engine #6 on.====Fuel pump for engine #6 on.
+STRING Fuel pump for engine #7 on.====Fuel pump for engine #7 on.
+STRING Fuel pump for engine #8 on.====Fuel pump for engine #8 on.
+STRING Fuel pump for engine #1 off.====Fuel pump for engine #1 off.
+STRING Fuel pump for engine #2 off.====Fuel pump for engine #2 off.
+STRING Fuel pump for engine #3 off.====Fuel pump for engine #3 off.
+STRING Fuel pump for engine #4 off.====Fuel pump for engine #4 off.
+STRING Fuel pump for engine #5 off.====Fuel pump for engine #5 off.
+STRING Fuel pump for engine #6 off.====Fuel pump for engine #6 off.
+STRING Fuel pump for engine #7 off.====Fuel pump for engine #7 off.
+STRING Fuel pump for engine #8 off.====Fuel pump for engine #8 off.
+STRING Fuel pump for engine #1 toggle.====Fuel pump for engine #1 toggle.
+STRING Fuel pump for engine #2 toggle.====Fuel pump for engine #2 toggle.
+STRING Fuel pump for engine #3 toggle.====Fuel pump for engine #3 toggle.
+STRING Fuel pump for engine #4 toggle.====Fuel pump for engine #4 toggle.
+STRING Fuel pump for engine #5 toggle.====Fuel pump for engine #5 toggle.
+STRING Fuel pump for engine #6 toggle.====Fuel pump for engine #6 toggle.
+STRING Fuel pump for engine #7 toggle.====Fuel pump for engine #7 toggle.
+STRING Fuel pump for engine #8 toggle.====Fuel pump for engine #8 toggle.
+STRING Fuel pump prime for engine #1 on.====Fuel pump prime for engine #1 on.
+STRING Fuel pump prime for engine #2 on.====Fuel pump prime for engine #2 on.
+STRING Fuel pump prime for engine #3 on.====Fuel pump prime for engine #3 on.
+STRING Fuel pump prime for engine #4 on.====Fuel pump prime for engine #4 on.
+STRING Fuel pump prime for engine #5 on.====Fuel pump prime for engine #5 on.
+STRING Fuel pump prime for engine #6 on.====Fuel pump prime for engine #6 on.
+STRING Fuel pump prime for engine #7 on.====Fuel pump prime for engine #7 on.
+STRING Fuel pump prime for engine #8 on.====Fuel pump prime for engine #8 on.
+STRING Anti-ice: engine #1 inlet heat on.====Anti-ice: engine #1 inlet heat on.
+STRING Anti-ice: engine #2 inlet heat on.====Anti-ice: engine #2 inlet heat on.
+STRING Anti-ice: engine #3 inlet heat on.====Anti-ice: engine #3 inlet heat on.
+STRING Anti-ice: engine #4 inlet heat on.====Anti-ice: engine #4 inlet heat on.
+STRING Anti-ice: engine #5 inlet heat on.====Anti-ice: engine #5 inlet heat on.
+STRING Anti-ice: engine #6 inlet heat on.====Anti-ice: engine #6 inlet heat on.
+STRING Anti-ice: engine #7 inlet heat on.====Anti-ice: engine #7 inlet heat on.
+STRING Anti-ice: engine #8 inlet heat on.====Anti-ice: engine #8 inlet heat on.
+STRING Anti-ice: engine #1 inlet heat off.====Anti-ice: engine #1 inlet heat off.
+STRING Anti-ice: engine #2 inlet heat off.====Anti-ice: engine #2 inlet heat off.
+STRING Anti-ice: engine #3 inlet heat off.====Anti-ice: engine #3 inlet heat off.
+STRING Anti-ice: engine #4 inlet heat off.====Anti-ice: engine #4 inlet heat off.
+STRING Anti-ice: engine #5 inlet heat off.====Anti-ice: engine #5 inlet heat off.
+STRING Anti-ice: engine #6 inlet heat off.====Anti-ice: engine #6 inlet heat off.
+STRING Anti-ice: engine #7 inlet heat off.====Anti-ice: engine #7 inlet heat off.
+STRING Anti-ice: engine #8 inlet heat off.====Anti-ice: engine #8 inlet heat off.
+STRING Anti-ice: engine #1 inlet heat toggle.====Anti-ice: engine #1 inlet heat toggle.
+STRING Anti-ice: engine #2 inlet heat toggle.====Anti-ice: engine #2 inlet heat toggle.
+STRING Anti-ice: engine #3 inlet heat toggle.====Anti-ice: engine #3 inlet heat toggle.
+STRING Anti-ice: engine #4 inlet heat toggle.====Anti-ice: engine #4 inlet heat toggle.
+STRING Anti-ice: engine #5 inlet heat toggle.====Anti-ice: engine #5 inlet heat toggle.
+STRING Anti-ice: engine #6 inlet heat toggle.====Anti-ice: engine #6 inlet heat toggle.
+STRING Anti-ice: engine #7 inlet heat toggle.====Anti-ice: engine #7 inlet heat toggle.
+STRING Anti-ice: engine #8 inlet heat toggle.====Anti-ice: engine #8 inlet heat toggle.
+STRING Anti-ice: engine #1 anti-ice on.====Anti-ice: engine #1 anti-ice on.
+STRING Anti-ice: engine #2 anti-ice on.====Anti-ice: engine #2 anti-ice on.
+STRING Anti-ice: engine #3 anti-ice on.====Anti-ice: engine #3 anti-ice on.
+STRING Anti-ice: engine #4 anti-ice on.====Anti-ice: engine #4 anti-ice on.
+STRING Anti-ice: engine #5 anti-ice on.====Anti-ice: engine #5 anti-ice on.
+STRING Anti-ice: engine #6 anti-ice on.====Anti-ice: engine #6 anti-ice on.
+STRING Anti-ice: engine #7 anti-ice on.====Anti-ice: engine #7 anti-ice on.
+STRING Anti-ice: engine #8 anti-ice on.====Anti-ice: engine #8 anti-ice on.
+STRING Anti-ice: engine #1 anti-ice off.====Anti-ice: engine #1 anti-ice off.
+STRING Anti-ice: engine #2 anti-ice off.====Anti-ice: engine #2 anti-ice off.
+STRING Anti-ice: engine #3 anti-ice off.====Anti-ice: engine #3 anti-ice off.
+STRING Anti-ice: engine #4 anti-ice off.====Anti-ice: engine #4 anti-ice off.
+STRING Anti-ice: engine #5 anti-ice off.====Anti-ice: engine #5 anti-ice off.
+STRING Anti-ice: engine #6 anti-ice off.====Anti-ice: engine #6 anti-ice off.
+STRING Anti-ice: engine #7 anti-ice off.====Anti-ice: engine #7 anti-ice off.
+STRING Anti-ice: engine #8 anti-ice off.====Anti-ice: engine #8 anti-ice off.
+STRING Anti-ice: engine #1 anti-ice toggle.====Anti-ice: engine #1 anti-ice toggle.
+STRING Anti-ice: engine #2 anti-ice toggle.====Anti-ice: engine #2 anti-ice toggle.
+STRING Anti-ice: engine #3 anti-ice toggle.====Anti-ice: engine #3 anti-ice toggle.
+STRING Anti-ice: engine #4 anti-ice toggle.====Anti-ice: engine #4 anti-ice toggle.
+STRING Anti-ice: engine #5 anti-ice toggle.====Anti-ice: engine #5 anti-ice toggle.
+STRING Anti-ice: engine #6 anti-ice toggle.====Anti-ice: engine #6 anti-ice toggle.
+STRING Anti-ice: engine #7 anti-ice toggle.====Anti-ice: engine #7 anti-ice toggle.
+STRING Anti-ice: engine #8 anti-ice toggle.====Anti-ice: engine #8 anti-ice toggle.
+STRING Anti-ice: engine #1 prop heat on.====Anti-ice: engine #1 prop heat on.
+STRING Anti-ice: engine #2 prop heat on.====Anti-ice: engine #2 prop heat on.
+STRING Anti-ice: engine #3 prop heat on.====Anti-ice: engine #3 prop heat on.
+STRING Anti-ice: engine #4 prop heat on.====Anti-ice: engine #4 prop heat on.
+STRING Anti-ice: engine #5 prop heat on.====Anti-ice: engine #5 prop heat on.
+STRING Anti-ice: engine #6 prop heat on.====Anti-ice: engine #6 prop heat on.
+STRING Anti-ice: engine #7 prop heat on.====Anti-ice: engine #7 prop heat on.
+STRING Anti-ice: engine #8 prop heat on.====Anti-ice: engine #8 prop heat on.
+STRING Anti-ice: engine #1 prop heat off.====Anti-ice: engine #1 prop heat off.
+STRING Anti-ice: engine #2 prop heat off.====Anti-ice: engine #2 prop heat off.
+STRING Anti-ice: engine #3 prop heat off.====Anti-ice: engine #3 prop heat off.
+STRING Anti-ice: engine #4 prop heat off.====Anti-ice: engine #4 prop heat off.
+STRING Anti-ice: engine #5 prop heat off.====Anti-ice: engine #5 prop heat off.
+STRING Anti-ice: engine #6 prop heat off.====Anti-ice: engine #6 prop heat off.
+STRING Anti-ice: engine #7 prop heat off.====Anti-ice: engine #7 prop heat off.
+STRING Anti-ice: engine #8 prop heat off.====Anti-ice: engine #8 prop heat off.
+STRING Anti-ice: engine #1 prop heat toggle.====Anti-ice: engine #1 prop heat toggle.
+STRING Anti-ice: engine #2 prop heat toggle.====Anti-ice: engine #2 prop heat toggle.
+STRING Anti-ice: engine #3 prop heat toggle.====Anti-ice: engine #3 prop heat toggle.
+STRING Anti-ice: engine #4 prop heat toggle.====Anti-ice: engine #4 prop heat toggle.
+STRING Anti-ice: engine #5 prop heat toggle.====Anti-ice: engine #5 prop heat toggle.
+STRING Anti-ice: engine #6 prop heat toggle.====Anti-ice: engine #6 prop heat toggle.
+STRING Anti-ice: engine #7 prop heat toggle.====Anti-ice: engine #7 prop heat toggle.
+STRING Anti-ice: engine #8 prop heat toggle.====Anti-ice: engine #8 prop heat toggle.
+STRING Anti-ice: engine #1 prop TKS norm.====Anti-ice: engine #1 prop TKS norm.
+STRING Anti-ice: engine #2 prop TKS norm.====Anti-ice: engine #2 prop TKS norm.
+STRING Anti-ice: engine #3 prop TKS norm.====Anti-ice: engine #3 prop TKS norm.
+STRING Anti-ice: engine #4 prop TKS norm.====Anti-ice: engine #4 prop TKS norm.
+STRING Anti-ice: engine #5 prop TKS norm.====Anti-ice: engine #5 prop TKS norm.
+STRING Anti-ice: engine #6 prop TKS norm.====Anti-ice: engine #6 prop TKS norm.
+STRING Anti-ice: engine #7 prop TKS norm.====Anti-ice: engine #7 prop TKS norm.
+STRING Anti-ice: engine #8 prop TKS norm.====Anti-ice: engine #8 prop TKS norm.
+STRING Anti-ice: engine #1 prop TKS high.====Anti-ice: engine #1 prop TKS high.
+STRING Anti-ice: engine #2 prop TKS high.====Anti-ice: engine #2 prop TKS high.
+STRING Anti-ice: engine #3 prop TKS high.====Anti-ice: engine #3 prop TKS high.
+STRING Anti-ice: engine #4 prop TKS high.====Anti-ice: engine #4 prop TKS high.
+STRING Anti-ice: engine #5 prop TKS high.====Anti-ice: engine #5 prop TKS high.
+STRING Anti-ice: engine #6 prop TKS high.====Anti-ice: engine #6 prop TKS high.
+STRING Anti-ice: engine #7 prop TKS high.====Anti-ice: engine #7 prop TKS high.
+STRING Anti-ice: engine #8 prop TKS high.====Anti-ice: engine #8 prop TKS high.
+STRING Anti-ice: engine #1 prop TKS off.====Anti-ice: engine #1 prop TKS off.
+STRING Anti-ice: engine #2 prop TKS off.====Anti-ice: engine #2 prop TKS off.
+STRING Anti-ice: engine #3 prop TKS off.====Anti-ice: engine #3 prop TKS off.
+STRING Anti-ice: engine #4 prop TKS off.====Anti-ice: engine #4 prop TKS off.
+STRING Anti-ice: engine #5 prop TKS off.====Anti-ice: engine #5 prop TKS off.
+STRING Anti-ice: engine #6 prop TKS off.====Anti-ice: engine #6 prop TKS off.
+STRING Anti-ice: engine #7 prop TKS off.====Anti-ice: engine #7 prop TKS off.
+STRING Anti-ice: engine #8 prop TKS off.====Anti-ice: engine #8 prop TKS off.
+STRING Anti-ice: engine #1 prop TKS toggle.====Anti-ice: engine #1 prop TKS toggle.
+STRING Anti-ice: engine #2 prop TKS toggle.====Anti-ice: engine #2 prop TKS toggle.
+STRING Anti-ice: engine #3 prop TKS toggle.====Anti-ice: engine #3 prop TKS toggle.
+STRING Anti-ice: engine #4 prop TKS toggle.====Anti-ice: engine #4 prop TKS toggle.
+STRING Anti-ice: engine #5 prop TKS toggle.====Anti-ice: engine #5 prop TKS toggle.
+STRING Anti-ice: engine #6 prop TKS toggle.====Anti-ice: engine #6 prop TKS toggle.
+STRING Anti-ice: engine #7 prop TKS toggle.====Anti-ice: engine #7 prop TKS toggle.
+STRING Anti-ice: engine #8 prop TKS toggle.====Anti-ice: engine #8 prop TKS toggle.
+STRING Master arm on.====Master arm on.
+STRING Master arm off.====Master arm off.
+STRING Weapon single/pair/ripple/salvo down.====Weapon single/pair/ripple/salvo down.
+STRING Door #1 open.====Door #1 open.
+STRING Door #2 open.====Door #2 open.
+STRING Door #3 open.====Door #3 open.
+STRING Door #4 open.====Door #4 open.
+STRING Door #5 open.====Door #5 open.
+STRING Door #6 open.====Door #6 open.
+STRING Door #7 open.====Door #7 open.
+STRING Door #8 open.====Door #8 open.
+STRING Door #9 open.====Door #9 open.
+STRING Door #10 open.====Door #10 open.
+STRING Door #1 close.====Door #1 close.
+STRING Door #2 close.====Door #2 close.
+STRING Door #3 close.====Door #3 close.
+STRING Door #4 close.====Door #4 close.
+STRING Door #5 close.====Door #5 close.
+STRING Door #6 close.====Door #6 close.
+STRING Door #7 close.====Door #7 close.
+STRING Door #8 close.====Door #8 close.
+STRING Door #9 close.====Door #9 close.
+STRING Door #10 close.====Door #10 close.
+STRING NAV 1 flip standby.====NAV 1 flip standby.
+STRING NAV 2 flip standby.====NAV 2 flip standby.
+STRING COM 1 flip standby.====COM 1 flip standby.
+STRING COM 2 flip standby.====COM 2 flip standby.
+STRING ADF active 1 hundreds down.====ADF active 1 hundreds down.
+STRING ADF active 1 hundreds up.====ADF active 1 hundreds up.
+STRING ADF active 1 tens down.====ADF active 1 tens down.
+STRING ADF active 1 tens up.====ADF active 1 tens up.
+STRING ADF active 1 ones down.====ADF active 1 ones down.
+STRING ADF active 1 ones up.====ADF active 1 ones up.
+STRING ADF active 1 ones and tens down.====ADF active 1 ones and tens down.
+STRING ADF active 1 ones and tens up.====ADF active 1 ones and tens up.
+STRING ADF active 1 hundreds and thousands down.====ADF active 1 hundreds and thousands down.
+STRING ADF active 1 hundreds and thousands up.====ADF active 1 hundreds and thousands up.
+STRING ADF standby 1 hundreds down.====ADF standby 1 hundreds down.
+STRING ADF standby 1 hundreds up.====ADF standby 1 hundreds up.
+STRING ADF standby 1 tens down.====ADF standby 1 tens down.
+STRING ADF standby 1 tens up.====ADF standby 1 tens up.
+STRING ADF standby 1 ones down.====ADF standby 1 ones down.
+STRING ADF standby 1 ones up.====ADF standby 1 ones up.
+STRING ADF standby 1 ones and tens down.====ADF standby 1 ones and tens down.
+STRING ADF standby 1 ones and tens up.====ADF standby 1 ones and tens up.
+STRING ADF standby 1 hundreds and thousands down.====ADF standby 1 hundreds and thousands down.
+STRING ADF standby 1 hundreds and thousands up.====ADF standby 1 hundreds and thousands up.
+STRING ADF active 2 hundreds down.====ADF active 2 hundreds down.
+STRING ADF active 2 hundreds up.====ADF active 2 hundreds up.
+STRING ADF active 2 tens down.====ADF active 2 tens down.
+STRING ADF active 2 tens up.====ADF active 2 tens up.
+STRING ADF active 2 ones down.====ADF active 2 ones down.
+STRING ADF active 2 ones up.====ADF active 2 ones up.
+STRING ADF active 2 ones and tens down.====ADF active 2 ones and tens down.
+STRING ADF active 2 ones and tens up.====ADF active 2 ones and tens up.
+STRING ADF active 2 hundreds and thousands down.====ADF active 2 hundreds and thousands down.
+STRING ADF active 2 hundreds and thousands up.====ADF active 2 hundreds and thousands up.
+STRING ADF standby 2 hundreds down.====ADF standby 2 hundreds down.
+STRING ADF standby 2 hundreds up.====ADF standby 2 hundreds up.
+STRING ADF standby 2 tens down.====ADF standby 2 tens down.
+STRING ADF standby 2 tens up.====ADF standby 2 tens up.
+STRING ADF standby 2 ones down.====ADF standby 2 ones down.
+STRING ADF standby 2 ones up.====ADF standby 2 ones up.
+STRING ADF standby 2 ones and tens down.====ADF standby 2 ones and tens down.
+STRING ADF standby 2 ones and tens up.====ADF standby 2 ones and tens up.
+STRING ADF standby 2 hundreds and thousands down.====ADF standby 2 hundreds and thousands down.
+STRING ADF standby 2 hundreds and thousands up.====ADF standby 2 hundreds and thousands up.
+STRING Transponder====Transponder
+STRING Autopilot wing-level / roll hold.====Autopilot wing-level / roll hold.
+STRING Autopilot wing-level / rate hold.====Autopilot wing-level / rate hold.
+STRING GCU: push pan.====GCU: push pan.
+STRING Still spot.====Still spot.
+STRING Hat switch up.====Hat switch up.
+STRING Hat switch up + left.====Hat switch up + left.
+STRING Hat switch up + right.====Hat switch up + right.
+STRING Go to save 3-D cockpit location #1.====Go to save 3-D cockpit location #1.
+STRING Go to save 3-D cockpit location #2.====Go to save 3-D cockpit location #2.
+STRING Go to save 3-D cockpit location #3.====Go to save 3-D cockpit location #3.
+STRING Go to save 3-D cockpit location #4.====Go to save 3-D cockpit location #4.
+STRING Go to save 3-D cockpit location #5.====Go to save 3-D cockpit location #5.
+STRING Go to save 3-D cockpit location #6.====Go to save 3-D cockpit location #6.
+STRING Go to save 3-D cockpit location #7.====Go to save 3-D cockpit location #7.
+STRING Go to save 3-D cockpit location #8.====Go to save 3-D cockpit location #8.
+STRING Go to save 3-D cockpit location #9.====Go to save 3-D cockpit location #9.
+STRING Go to save 3-D cockpit location #10.====Go to save 3-D cockpit location #10.
+STRING Go to save 3-D cockpit location #11.====Go to save 3-D cockpit location #11.
+STRING Go to save 3-D cockpit location #12.====Go to save 3-D cockpit location #12.
+STRING Go to save 3-D cockpit location #13.====Go to save 3-D cockpit location #13.
+STRING Go to save 3-D cockpit location #14.====Go to save 3-D cockpit location #14.
+STRING Go to save 3-D cockpit location #15.====Go to save 3-D cockpit location #15.
+STRING Go to save 3-D cockpit location #16.====Go to save 3-D cockpit location #16.
+STRING Go to save 3-D cockpit location #17.====Go to save 3-D cockpit location #17.
+STRING Go to save 3-D cockpit location #18.====Go to save 3-D cockpit location #18.
+STRING Go to save 3-D cockpit location #19.====Go to save 3-D cockpit location #19.
+STRING Go to save 3-D cockpit location #20.====Go to save 3-D cockpit location #20.
+STRING Memorize 3-D cockpit location #1.====Memorize 3-D cockpit location #1.
+STRING Memorize 3-D cockpit location #2.====Memorize 3-D cockpit location #2.
+STRING Memorize 3-D cockpit location #3.====Memorize 3-D cockpit location #3.
+STRING Memorize 3-D cockpit location #4.====Memorize 3-D cockpit location #4.
+STRING Memorize 3-D cockpit location #5.====Memorize 3-D cockpit location #5.
+STRING Memorize 3-D cockpit location #6.====Memorize 3-D cockpit location #6.
+STRING Memorize 3-D cockpit location #7.====Memorize 3-D cockpit location #7.
+STRING Memorize 3-D cockpit location #8.====Memorize 3-D cockpit location #8.
+STRING Memorize 3-D cockpit location #9.====Memorize 3-D cockpit location #9.
+STRING Memorize 3-D cockpit location #10.====Memorize 3-D cockpit location #10.
+STRING Memorize 3-D cockpit location #11.====Memorize 3-D cockpit location #11.
+STRING Memorize 3-D cockpit location #12.====Memorize 3-D cockpit location #12.
+STRING Memorize 3-D cockpit location #13.====Memorize 3-D cockpit location #13.
+STRING Memorize 3-D cockpit location #14.====Memorize 3-D cockpit location #14.
+STRING Memorize 3-D cockpit location #15.====Memorize 3-D cockpit location #15.
+STRING Memorize 3-D cockpit location #16.====Memorize 3-D cockpit location #16.
+STRING Memorize 3-D cockpit location #17.====Memorize 3-D cockpit location #17.
+STRING Memorize 3-D cockpit location #18.====Memorize 3-D cockpit location #18.
+STRING Memorize 3-D cockpit location #19.====Memorize 3-D cockpit location #19.
+STRING Memorize 3-D cockpit location #20.====Memorize 3-D cockpit location #20.
+STRING Altimeter. This is your altitude above sea level (not the ground!) Your altitude reading is based on the pressure of the outside air. Adjust the barometric pressure setting with the knob to make the altimeter read correctly.====Altimeter. This is your altitude above sea level (not the ground!) Your altitude reading is based on the pressure of the outside air. Adjust the barometric pressure setting with the knob to make the altimeter read correctly.
+STRING Autopilot engage altitude hold. The autopilot will lock onto and maintain the plane's current altitude.====Autopilot engage altitude hold. The autopilot will lock onto and maintain the plane's current altitude.
+STRING Chronometer. This is a combination clock and timer. Use the timer to fly approach patterns accurately.====Chronometer. This is a combination clock and timer. Use the timer to fly approach patterns accurately.
+STRING Exhaust gas temperature. This is the temperature of the exhaust gases leaving the engine. It is measured at the exhaust manifold of a piston engine and at the exhaust port of a turbine engine.====Exhaust gas temperature. This is the temperature of the exhaust gases leaving the engine. It is measured at the exhaust manifold of a piston engine and at the exhaust port of a turbine engine.
+STRING Radio marker indicators. These lights indicate when you fly over the outer, middle, and inner markers of an airport approach.====Radio marker indicators. These lights indicate when you fly over the outer, middle, and inner markers of an airport approach.
+STRING Radio beacon mute. Press this button to mute the annoying beep of the marker beacon receiver.====Radio beacon mute. Press this button to mute the annoying beep of the marker beacon receiver.
+STRING Engine N2. This is the speed at which the second stage (inner) compressor is turning in a turbine engine. The value is expressed as percent of the original maximum design speed.====Engine N2. This is the speed at which the second stage (inner) compressor is turning in a turbine engine. The value is expressed as percent of the original maximum design speed.
+STRING Fuel pressure warning. This light indicates that your fuel pressure is low, possibly because of a fuel pump malfunction or because you are running out of fuel. Expect your engine to stop working soon if this persists.====Fuel pressure warning. This light indicates that your fuel pressure is low, possibly because of a fuel pump malfunction or because you are running out of fuel. Expect your engine to stop working soon if this persists.
+STRING %1:airport identifier%, Ramp %2:ramp name%====%1:airport identifier%, Ramp %2:ramp name%
+STRING Radio altimeter threshold. Use this knob to set the warning threshold on your radio altimeter.====Radio altimeter threshold. Use this knob to set the warning threshold on your radio altimeter.
+STRING ASI bug. Drag this near the airspeed indicator and click on it to run a little bug around the airspeed indicator. Useful to set Vx, Vy, V1, whatever.====ASI bug. Drag this near the airspeed indicator and click on it to run a little bug around the airspeed indicator. Useful to set Vx, Vy, V1, whatever.
+STRING Adapter Unique ID doesn't match OpenGL bridge device====Adapter Unique ID doesn't match OpenGL bridge device
+STRING Resolution====Resolution
+STRING MONITOR %1:monitor index%====MONITOR %1:monitor index%
+STRING If you want a suffix to always be added to the end of the aircraft folders we open on this computer, check this box and enter the suffix below. This is useful if you have two aircraft models, one with the pilot-side cockpit and the other with the copilot-side cockpit, with “Aircraft Folder\My Aircraft.acf” on the master computer, and “Aircraft Folder-copilot\My Aircraft.acf” on an external cockpit, for example. In that case, you would enter “-copilot” as the suffix (on the external cockpit computer only).====If you want a suffix to always be added to the end of the aircraft folders we open on this computer, check this box and enter the suffix below. This is useful if you have two aircraft models, one with the pilot-side cockpit and the other with the copilot-side cockpit, with “Aircraft Folder\My Aircraft.acf” on the master computer, and “Aircraft Folder-copilot\My Aircraft.acf” on an external cockpit, for example. In that case, you would enter “-copilot” as the suffix (on the external cockpit computer only).
+STRING COM %1:port number%====COM %1:port number%
+STRING non-WAAS====non-WAAS
+STRING None (fastest)-FXAA-2x SSAA+FXAA-4x SSAA-4x SSAA+FXAA-8x SSAA+FXAA (highest quality)====None (fastest)-FXAA-2x SSAA+FXAA-4x SSAA-4x SSAA+FXAA-8x SSAA+FXAA (highest quality)
+STRING None (fastest)====None (fastest)
+STRING RMI to Nav 1/2. This instrument is a gyrocompass and direction finder. The needles point toward the transmitters that your Nav 1 and 2 receivers are tuned to.====RMI to Nav 1/2. This instrument is a gyrocompass and direction finder. The needles point toward the transmitters that your Nav 1 and 2 receivers are tuned to.
+STRING Autopilot engage pitch hold. The autopilot will hold the aircraft's current pitch angle.====Autopilot engage pitch hold. The autopilot will hold the aircraft's current pitch angle.
+STRING Thrust reverse indicator. This indicator lights to indicate that your thrust reversers are deployed. In-flight deployment of thrust reversers is normally not recommended!====Thrust reverse indicator. This indicator lights to indicate that your thrust reversers are deployed. In-flight deployment of thrust reversers is normally not recommended!
+STRING Flaps. This lever controls your wing flaps. Flaps increase lift but also increase drag and lower your stall angle. Use a small amount of flaps for takeoff and full flaps for landing.====Flaps. This lever controls your wing flaps. Flaps increase lift but also increase drag and lower your stall angle. Use a small amount of flaps for takeoff and full flaps for landing.
+STRING Flaps approach position. This light indicates that your flaps are in the proper approach position.====Flaps approach position. This light indicates that your flaps are in the proper approach position.
+STRING FMS CDU, control and display unit with bezel for 2-d cockpits.====FMS CDU, control and display unit with bezel for 2-d cockpits.
+STRING G meter. This instrument measures your vertical acceleration in Gs. Keep an eye on this during stunt flying to avoid blacking out or ripping your wings off.====G meter. This instrument measures your vertical acceleration in Gs. Keep an eye on this during stunt flying to avoid blacking out or ripping your wings off.
+STRING Flaps operating indicator. This light comes on to indicate that your flaps are changing position.====Flaps operating indicator. This light comes on to indicate that your flaps are changing position.
+STRING Landing gear indicator. This is for ONE GEAR ONLY, and is RED when the gear UP.====Landing gear indicator. This is for ONE GEAR ONLY, and is RED when the gear UP.
+STRING Slip indicator. The ball in the tube indicates your sideslip angle. Keep it centered with the rudder.====Slip indicator. The ball in the tube indicates your sideslip angle. Keep it centered with the rudder.
+STRING THERMALS====THERMALS
+STRING Climb Rate====Climb Rate
+STRING Marginal VFR====Marginal VFR
+STRING Non-Precision Approach====Non-Precision Approach
+STRING °F====°F
+STRING °C====°C
+STRING %1:altitude% ft MSL====%1:altitude% ft MSL
+STRING %1:altitude% ft MSL (%2:airport% ground level)====%1:altitude% ft MSL (%2:airport% ground level)
+STRING Autopilot climb rate setting. Use this knob to set the speed in feet per minute at which the autopilot will climb or descend in the vertical speed mode. Use a positive value to climb, negative to descend.====Autopilot climb rate setting. Use this knob to set the speed in feet per minute at which the autopilot will climb or descend in the vertical speed mode. Use a positive value to climb, negative to descend.
+STRING OBS 1 indicator. The Omni Bearing Select indicator shows the course you have selected to or from the VOR your Nav 1 receiver is tuned to. The bearing is expressed at the compass direction from the navaid to your desired track.====OBS 1 indicator. The Omni Bearing Select indicator shows the course you have selected to or from the VOR your Nav 1 receiver is tuned to. The bearing is expressed at the compass direction from the navaid to your desired track.
+STRING OBS 1 setting. The Omni Bearing Select knob selects the course you want to fly to or from the VOR your Nav 1 receiver is tuned to. The bearing is expressed at the compass direction from the navaid to your desired track.====OBS 1 setting. The Omni Bearing Select knob selects the course you want to fly to or from the VOR your Nav 1 receiver is tuned to. The bearing is expressed at the compass direction from the navaid to your desired track.
+STRING Flaps indicator. This pointer shows you the current position of your flaps. Notice that they take a little while to extend and retract.====Flaps indicator. This pointer shows you the current position of your flaps. Notice that they take a little while to extend and retract.
+STRING Course deviation indicator. The CDI marker indicates whether you are on your selected course. Fly in the direction of the CDI marker (left or right) to get on course.====Course deviation indicator. The CDI marker indicates whether you are on your selected course. Fly in the direction of the CDI marker (left or right) to get on course.
