@@ -1,115 +1,115 @@
-1. Dynamically control weather, create aircraft failures and more with Control Pad for X-Plane. It is a free App from the Apple App Store that allows you to control X-Plane without pausing the simulation.
+1. Tự động điều khiển thời tiết, tạo ra các lỗi máy bay và hơn thế nữa với Control Pad cho X-Plane. Đây là một ứng dụng miễn phí từ Apple App Store cho phép bạn điều khiển X-Plane mà không cần tạm dừng mô phỏng.
 
-1. You can record a flight in a real aircraft on Xavion, a free iOS app, and replay it in X-Plane 11.
+1. Bạn có thể ghi lại một chuyến bay trong một chiếc máy bay thực trên Xavion, một ứng dụng iOS miễn phí và phát lại nó trong X-Plane 11.
 
-1. Go to Settings > Graphics and reduce the rendering options settings to increase performance on slow machines. Hover over each slider to see whether they impact the CPU or GPU.
+1. Vào Cài đặt> Đồ họa và giảm cài đặt tùy chọn kết xuất để tăng hiệu suất trên máy chạy chậm. Di chuột qua từng thanh trượt để xem liệu chúng có ảnh hưởng đến CPU hoặc GPU hay không.
 
-1. X-Plane uses an aerodynamic model called “blade element theory.” X-Plane actually models the virtual airflow over the airfoil surfaces of the simulated aircraft. Most simulators use a table lookup scheme which can only approximate a correct flight model.
+1. X-Plane sử dụng một mô hình khí động học được gọi là “lý thuyết phần tử lưỡi”. X-Plane thực sự mô hình hóa luồng không khí ảo trên bề mặt cánh quạt của máy bay mô phỏng. Hầu hết các trình mô phỏng sử dụng lược đồ tra cứu bảng chỉ có thể ước tính một mô hình chuyến bay chính xác.
 
-1. There are thousands of free 3rd party aircraft, sceneries, and other X-Plane enhancements. Just search online for “X-Plane freeware.”
+1. Có hàng ngàn máy bay bên thứ 3 miễn phí, cảnh và các cải tiến khác của X-Plane. Chỉ cần tìm kiếm trực tuyến “phần mềm miễn phí X-Plane”.
 
-1. You can display the frame rate by checking the first box in the Data Input & Output screen under the Settings. This allows you to fine-tune your simulator’s performance.
+1. Bạn có thể hiển thị tốc độ khung hình bằng cách chọn hộp đầu tiên trong màn hình Đầu vào & Đầu ra Dữ liệu trong Cài đặt. Điều này cho phép bạn tinh chỉnh hiệu suất của trình mô phỏng.
 
-1. Build your very own custom aircraft using Plane Maker! It comes with X-Plane at no extra cost and is located in your main X-Plane folder.
+1. Xây dựng máy bay tùy chỉnh của riêng bạn bằng cách sử dụng Plane Maker! Nó đi kèm với X-Plane miễn phí và nằm trong thư mục X-Plane chính của bạn.
 
-1. Aviators worldwide use a phonetic alphabet: ALPHA BRAVO CHARLIE DELTA ECHO FOXTROT GOLF HOTEL INDIA JULIET KILO LIMA MIKE NOVEMBER OSCAR PAPA QUEBEC ROMEO SIERRA TANGO UNIFORM VICTOR WHISKEY X-RAY YANKEE ZULU
+1. Các hãng hàng không trên toàn thế giới sử dụng bảng chữ cái phiên âm: ALPHA BRAVO CHARLIE DELTA ECHO FOXTROT GOLF HOTEL INDIA JULIET KILO LIMA MIKE NOVEMBER OSCAR PAPA QUEBEC ROMEO SIERRA TANGO UNIFORM VICTOR WHISKEY X-RAY YANKEE ZULU
 
-1. For a new challenge try the formation flying situation. Go to Flight Configuration > Location > Customize > Special Starts and pick Formation Flying. You will be given an AI aircraft to fly with that is appropriate for your aircraft’s speed.
+1. Đối với một thử thách mới, hãy thử tình huống bay theo đội hình. Đi tới Cấu hình chuyến bay > Vị trí > Tùy chỉnh > Bắt đầu đặc biệt và chọn Bay hình thành. Bạn sẽ được cung cấp một chiếc máy bay AI để bay với chiếc máy bay đó phù hợp với tốc độ máy bay của bạn.
 
-1. There is a professional version of X-Plane. Flight schools use it in pilot training. Many commercial cockpit simulators also use X-Plane to drive their instruments and visuals.
+1. Có một phiên bản chuyên nghiệp của X-Plane. Các trường dạy bay sử dụng nó trong đào tạo phi công. Nhiều trình mô phỏng buồng lái thương mại cũng sử dụng X-Plane để điều khiển các thiết bị và hình ảnh của họ.
 
-1. It’s easy to change the scenery that you’ve installed with X-Plane at any time. Run the installer and select the option to “Add / Remove Scenery.”
+1. Thật dễ dàng để thay đổi khung cảnh mà bạn đã cài đặt với X-Plane bất kỳ lúc nào. Chạy trình cài đặt và chọn tùy chọn để “Thêm/Xóa phong cảnh.”
 
-1. By default the keys Q and E look left and right respectively when inside the 3D cockpit. R and F look up and down. Period and comma move backwards and forwards. Plus and minus zoom in and out. You can use the 4 arrow keys to move the camera around as well.
+1. Theo mặc định, các phím Q và E lần lượt nhìn sang trái và phải khi ở trong buồng lái 3D. R và F nhìn lên và xuống. Dấu chấm và dấu phẩy di chuyển tới và lui. Phóng to và thu nhỏ cộng và trừ. Bạn cũng có thể sử dụng 4 phím mũi tên để di chuyển camera.
 
-1. Try using the mouse to look around inside of the 3D cockpit-—right click and drag to look around, and left click to touch things.
+1. Thử sử dụng chuột để nhìn xung quanh bên trong buồng lái 3D -— nhấp chuột phải và kéo để xem xung quanh và nhấp chuột trái để chạm vào mọi thứ.
 
-1. You can fly gliders, land the space shuttle, conduct aerial refueling and perform aircraft carrier operations. See the Flight Configuration > Location > Customize > Special Starts window.
+1. Bạn có thể bay tàu lượn, hạ cánh tàu con thoi, tiếp nhiên liệu trên không và thực hiện các hoạt động trên tàu sân bay. Xem cửa sổ Cấu hình Chuyến bay> Vị trí> Tùy chỉnh> Bắt đầu Đặc biệt.
 
-1. You can pull up a local map at any time to gain better perspective on your flight.   Press the M key or click the map marker icon in the menu.
+1. Bạn có thể kéo bản đồ địa phương lên bất kỳ lúc nào để có góc nhìn rõ hơn về chuyến bay của mình. Nhấn phím M hoặc nhấp vào biểu tượng điểm đánh dấu bản đồ trong menu.
 
-1. Save your flight parameters as situations and then reload them later. Set up your flight exactly as you like it then use File > Save Flight.
+1. Lưu các thông số chuyến bay của bạn theo các tình huống và sau đó tải lại chúng sau. Thiết lập chuyến bay của bạn chính xác như bạn muốn, sau đó sử dụng Tệp> Lưu chuyến bay.
 
-1. It’s sometimes desirable to start your aircraft on a 3 mile (VFR) or 10 mile (IFR) final to any runway. You can do so in Flight Configuration > Location > Customize and then toggling the Starts button to Runway. Use the drop down to select the appropriate distance for the runway you would like at your selected field.
+1. Đôi khi bạn nên khởi động máy bay của mình ở chặng cuối 3 dặm (VFR) hoặc 10 dặm (IFR) đến bất kỳ đường băng nào. Bạn có thể làm như vậy trong Cấu hình chuyến bay > Vị trí > Tùy chỉnh và sau đó chuyển nút Bắt đầu thành Đường băng. Sử dụng trình đơn thả xuống để chọn khoảng cách thích hợp cho đường băng bạn muốn tại trường bạn đã chọn.
 
-1. MSL is an aviation term used to denote “altitude above mean sea level.” The altimeters in aircraft measure altitude above mean sea level and not above ground level. The term AGL means “above ground level” and radio altimeters are used to report altitudes in AGL.
+1. MSL là một thuật ngữ hàng không được sử dụng để biểu thị "độ cao trên mực nước biển trung bình." Máy đo độ cao trong máy bay đo độ cao trên mực nước biển trung bình và không cao hơn mặt đất. Thuật ngữ AGL có nghĩa là "trên mặt đất" và máy đo độ cao vô tuyến được sử dụng để báo cáo độ cao trong AGL.
 
-1. The Airspeed Indicator in the aircraft will read “Indicated Airspeed,” or IAS. The error in this value will increase the higher you fly (as the density of the surrounding air decreases).
+1. Chỉ báo Tốc độ trên máy bay sẽ đọc “Tốc độ được chỉ định” hoặc IAS. Sai số trong giá trị này sẽ tăng lên khi bạn bay càng cao (khi mật độ của không khí xung quanh giảm xuống).
 
-1. It’s easier than ever to run X-Plane on multiple monitors. Go to Settings > Graphics > Monitor Configuration and configure each of the monitor boxes how you want it. Move the pop up windows for ATC, GPS, or maps to the other monitors if you like!
+1. Chạy X-Plane trên nhiều màn hình dễ dàng hơn bao giờ hết. Đi tới Cài đặt> Đồ họa> Cấu hình Màn hình và định cấu hình từng hộp màn hình theo cách bạn muốn. Di chuyển cửa sổ bật lên cho ATC, GPS hoặc bản đồ sang các màn hình khác nếu bạn muốn!
 
-1. You can change and customize the default keyboard commands in X-Plane. Go to Settings > Keyboard and expand the lists or search for a word.
+1. Bạn có thể thay đổi và tùy chỉnh các lệnh bàn phím mặc định trong X-Plane. Đi tới Cài đặt> Bàn phím và mở rộng danh sách hoặc tìm kiếm một từ.
  
-1. X-Plane 11 runs on all of the most popular operating systems. X-Plane Desktop is available for Windows, macOS, and Linux. The mobile version of X-Plane is available for both Apple iOS and Android.
+1. X-Plane 11 chạy trên tất cả các hệ điều hành phổ biến nhất. X-Plane Desktop có sẵn cho Windows, macOS và Linux. Phiên bản di động của X-Plane có sẵn cho cả Apple iOS và Android.
 
-1. Understanding the aerodynamic forces on an airplane will give you a better concept of how the aircraft flies. The four basic forces are weight, lift, thrust, and drag. Understanding the interaction of these forces will help you become a better pilot.
+1. Tìm hiểu các lực khí động học trên máy bay sẽ giúp bạn có khái niệm tốt hơn về cách máy bay bay. Bốn lực cơ bản là trọng lượng, lực nâng, lực đẩy và lực cản. Hiểu được sự tương tác của các lực này sẽ giúp bạn trở thành một phi công tốt hơn.
 
-1. POH stands for “Pilot Operating Handbook” and contains aircraft operational information. Most POH can be obtained on the internet by searching for your aircraft and the phrase “POH.”
+1. POH là viết tắt của “Sổ tay điều hành phi công” và chứa thông tin hoạt động của máy bay. Hầu hết POH có thể được lấy trên internet bằng cách tìm kiếm máy bay của bạn và cụm từ “POH”.
 
-1. Pick a specific point in the touchdown zone of the runway and try to land there as precisely as possible. Learning to do this consistently will greatly increase your piloting skills.
+1. Chọn một điểm cụ thể trong vùng chạm đất của đường băng và cố gắng hạ cánh ở đó càng chính xác càng tốt. Học cách làm điều này một cách nhất quán sẽ nâng cao kỹ năng lái của bạn lên rất nhiều.
 
-1. For something new, try taking off from a grass field. Set it up by going to Flight Configuration > Location > Customize > Special Starts > Grass Strip. You will notice your takeoff roll is somewhat longer than on a paved runway.
+1. Đối với một điều gì đó mới mẻ, hãy thử cất cánh từ một sân cỏ. Thiết lập nó bằng cách đi tới Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Khởi động đặc biệt> Dải cỏ. Bạn sẽ nhận thấy quá trình cất cánh của mình dài hơn một chút so với trên đường băng lát đá.
 
-1. “Controlled airspace” is airspace of defined dimensions. Pilots should become familiar with the types of controlled airspace and the restrictions for flying within it. X-Plane, along with the appropriate charts and airspace documentation, is the perfect way to practice staying legal.
+1. “Vùng trời có kiểm soát” là vùng trời có các kích thước xác định. Phi công nên làm quen với các loại vùng trời được kiểm soát và các hạn chế bay trong vùng trời đó. X-Plane, cùng với các biểu đồ thích hợp và tài liệu về không phận, là cách hoàn hảo để thực hành hợp pháp.
 
-1. You can set your rendering settings using five preset options on the slider: minimal, low, medium, high & maximum. Go to Settings > Graphics and select the setting you want to use.
+1. Bạn có thể đặt cài đặt kết xuất của mình bằng năm tùy chọn đặt trước trên thanh trượt: tối thiểu, thấp, trung bình, cao & tối đa. Đi tới Cài đặt> Đồ họa và chọn cài đặt bạn muốn sử dụng.
 
-1. One of the best training books for pilots is over a half-century old: “Stick and Rudder” by Wolfgang Langewiesche.
+1. Một trong những cuốn sách đào tạo hay nhất dành cho phi công đã có tuổi đời hơn nửa thế kỷ: “Stick and Rudder” của Wolfgang Langewiesche.
 
-1. Take on a new challenge in X-Plane and learn to fly a tail-dragger. Open Flight Configuration and select the Stinson L5, or try the Taildragger Takeoff Tutorial. Better practice up on your stick and rudder skills for this challenge.
+1. Tham gia một thử thách mới trong X-Plane và học cách lái máy bay kéo đuôi. Mở Cấu hình chuyến bay và chọn Stinson L5 hoặc thử Hướng dẫn cất cánh của Taildragger. Thực hành tốt hơn các kỹ năng về gậy và bánh lái của bạn cho thử thách này.
 
-1. Simulate an engine failure right after takeoff. Can you make the airport or do you land straight ahead? Try it with different wind directions and wind velocities. Now try changing the fuel and passenger loading. Can you survive this emergency under instrument conditions?
+1. Mô phỏng sự cố động cơ ngay sau khi cất cánh. Bạn có thể đến sân bay hay bạn hạ cánh thẳng về phía trước? Hãy thử nó với các hướng gió và vận tốc gió khác nhau. Bây giờ hãy thử thay đổi nhiên liệu và tải hành khách. Bạn có thể sống sót trong trường hợp khẩn cấp này trong điều kiện thiết bị không?
 
-1. Adding takeoff power to a single-engine aircraft in X-Plane will cause the plane to veer to the left. This effect also occurs in real aircraft and is caused by engine torque and by the propeller wash over the wings. Compensate for this effect by applying right rudder during takeoff and climb.
+1. Thêm sức mạnh cất cánh cho máy bay một động cơ trong X-Plane sẽ khiến máy bay quay sang trái. Hiệu ứng này cũng xảy ra trong máy bay thực và do mô-men xoắn của động cơ và do cánh quạt rửa qua cánh. Bù đắp cho hiệu ứng này bằng cách tác động bánh lái bên phải khi cất cánh và lên cao.
 
-1. You can change the default language in X-Plane. Go to Settings > General > Language.
+1. Bạn có thể thay đổi ngôn ngữ mặc định trong X-Plane. Đi tới Cài đặt> Chung> Ngôn ngữ.
 
-1. Want a different flying experience for a change? Try the glider tow. Go to Flight Configuration and pick a glider. Hit the Customize button and pick Tow Plane. You will be towed aloft and you will choose when to release the tow line.
+1. Muốn có một trải nghiệm bay khác để thay đổi? Hãy thử kéo tàu lượn. Đi tới Cấu hình máy bay và chọn một tàu lượn. Nhấn nút Customize và chọn Tow Plane. Bạn sẽ được kéo trên cao và bạn sẽ chọn thời điểm thả dây kéo.
 
-1. Save your flying memories by easily creating screenshots right within X-Plane. Press the shift and space keys, or select File > Take Screenshot from the menu bar. Find your screenshots in the Output folder in your main X-Plane folder.
+1. Lưu những kỷ niệm bay của bạn bằng cách dễ dàng tạo ảnh chụp màn hình ngay trong X-Plane. Nhấn phím shift và phím cách hoặc chọn Tệp> Chụp ảnh chụp màn hình từ thanh menu. Tìm ảnh chụp màn hình của bạn trong thư mục Đầu ra trong thư mục X-Plane chính của bạn.
 
-1. Find out if you have the latest X-Plane update by clicking on Settings > About X-Plane. If an update is available there will be an “Update X-Plane” button in the window. Click the button to download and launch the installer to install the update.
+1. Tìm hiểu xem bạn có bản cập nhật X-Plane mới nhất hay không bằng cách nhấp vào Cài đặt> Giới thiệu về X-Plane. Nếu có bản cập nhật, sẽ có nút “Cập nhật X-Plane” trong cửa sổ. Nhấp vào nút để tải xuống và khởi chạy trình cài đặt để cài đặt bản cập nhật.
 
-1. Groundspeed is the actual speed that an aircraft travels over the ground. It is the combination of the aircraft’s airspeed and the wind's speed relative to the aircraft's direction.
+1. Tốc độ bay là tốc độ thực tế của máy bay trên mặt đất. Nó là sự kết hợp giữa vận tốc của máy bay và tốc độ của gió so với hướng của máy bay.
 
-1. You can practice emergency procedures in X-Plane by flying while a friend or instructor uses the Control Pad App. Use numerous options to simulate emergencies, change location, and even conjure up storms. Using Control Pad, all changes in X-Plane take place dynamically without pausing the simulator.
+1. Bạn có thể thực hành các quy trình khẩn cấp trong X-Plane bằng cách bay trong khi bạn bè hoặc người hướng dẫn sử dụng Ứng dụng Control Pad. Sử dụng nhiều tùy chọn để mô phỏng các trường hợp khẩn cấp, thay đổi vị trí và thậm chí gây ra các cơn bão. Sử dụng Control Pad, tất cả các thay đổi trong X-Plane sẽ diễn ra linh hoạt mà không cần tạm dừng trình mô phỏng.
 
-1. Try the “get me lost” feature, and then try to figure out where you are. Can you find an available airport before running out of fuel? Select Location > Customize > Special Starts > Get Me Lost from the Flight Configuration screen.
+1. Hãy thử tính năng “đưa tôi đi lạc”, sau đó cố gắng tìm ra bạn đang ở đâu. Bạn có thể tìm thấy một sân bay còn trống trước khi hết nhiên liệu? Chọn Vị trí> Tùy chỉnh> Bắt đầu đặc biệt> Đưa tôi đi lạc từ màn hình Cấu hình chuyến bay.
 
-1. Laminar Research’s internal scenery tool for building airports is called World Editor or WED. WED can be downloaded for free and even includes a full set of video tutorials designed for the 1st time user. There are now thousands of free 3-D WED airports included with X-Plane updates.
+1. Công cụ cảnh quan nội bộ của Laminar Research để xây dựng sân bay được gọi là World Editor hoặc WED. WED có thể được tải xuống miễn phí và thậm chí bao gồm một bộ video hướng dẫn đầy đủ được thiết kế cho người dùng lần đầu tiên. Hiện đã có hàng nghìn sân bay 3-D WED miễn phí được đưa vào bản cập nhật X-Plane.
 
-1. Do you notice a yawing movement as you enter a turn? This is called “adverse yaw” and is caused by the lifting wing. Counter this tendency by applying rudder in the direction of the turn.
+1. Bạn có nhận thấy chuyển động ngáp khi vào một lượt không? Điều này được gọi là "chệch hướng bất lợi" và do cánh nâng gây ra. Chống lại xu hướng này bằng cách tác động bánh lái theo hướng rẽ.
 
-1. Be a top gun and “call the ball.” Try landing your fighter jet on the deck of an aircraft carrier. Go to Flight Configuration > Location > Customize > Special Starts, then select the Carrier Approach line. Make sure you’re flying a fighter such as the F-4 Phantom, or perhaps a jet that you designed with Plane Maker.
+1. Hãy là một tay súng hàng đầu và “gọi bóng”. Thử hạ cánh máy bay chiến đấu của bạn trên boong tàu sân bay. Chuyển đến Cấu hình Chuyến bay> Vị trí> Tùy chỉnh> Bắt đầu Đặc biệt, sau đó chọn dòng Phương pháp Tiếp cận Nhà cung cấp dịch vụ. Đảm bảo rằng bạn đang lái một chiếc máy bay chiến đấu như F-4 Phantom hoặc có thể là một chiếc máy bay phản lực mà bạn đã thiết kế bằng Plane Maker.
 
-1. A flare in an airplane is not what you use when you have a flat tire. It is the simple maneuver performed moments before touchdown in which the nose is pitched up. This reduces the descent rate and causes the aircraft to touch down on the main wheels first.
+1. Pháo sáng trên máy bay không phải là thứ bạn dùng khi bị xẹp lốp. Đây là động tác đơn giản được thực hiện ngay trước khi chạm đất, trong đó mũi xe hướng lên. Điều này làm giảm tốc độ hạ độ cao và khiến máy bay chạm bánh chính xuống trước.
 
-1. When you get tired of flying, let X-Plane AI take control of your aircraft, views, or both. Select Flight > AI Flies Your Aircraft or AI Controls Your Views from the menu.
+1. Khi bạn cảm thấy mệt mỏi với việc bay, hãy để X-Plane AI kiểm soát máy bay, tầm nhìn của bạn hoặc cả hai. Chọn Chuyến bay> AI bay Máy bay của bạn hoặc AI Kiểm soát Chế độ xem của bạn từ menu.
 
-1. If you’ve tried the glider tow and want something a little more exciting, try the winch. Go to Flight Configuration and pick a glider. Hit the Customize button and pick Glider Winch.
+1. Nếu bạn đã thử kéo tàu lượn và muốn thứ gì đó thú vị hơn một chút, hãy thử tời kéo. Đi tới Cấu hình máy bay và chọn một tàu lượn. Nhấn vào nút Customize và chọn Glider Winch.
 
-1. Did you know a nautical mile is a unit of distance equal to 1.15 statute miles, and one knot (a unit of speed) is defined as one nautical mile per hour?
+1. Bạn có biết một hải lý là một đơn vị khoảng cách bằng 1,15 dặm quy chế, và một hải lý (một đơn vị tốc độ) được định nghĩa là một hải lý trên giờ?
 
-1. Be a hit at the airshow flying your aerobatic plane and turn on the smoke. Hit the ‘x’ key to toggle smoke, or pick a different key in Settings > Keyboard.
+1. Hãy trở thành một hit tại buổi trình diễn airshow bay chiếc máy bay nhào lộn của bạn và bật khói. Nhấn phím 'x' để chuyển đổi khói hoặc chọn một phím khác trong Cài đặt> Bàn phím.
 
-1. Running low on fuel? Try the mid-air refueling! Go to Flight Configuration > Location > Customize > Special Starts and pick Refuel-Boom or Refuel-Basket. Make sure you’re flying a fighter such as the F-4 Phantom, or perhaps a jet that you designed with Plane Maker.
+1. Sắp hết nhiên liệu? Hãy thử tiếp nhiên liệu giữa không trung! Đi tới Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Khởi động Đặc biệt và chọn Tiếp nhiên liệu-Boom hoặc Tiếp nhiên liệu-Giỏ. Đảm bảo rằng bạn đang lái một chiếc máy bay chiến đấu như F-4 Phantom hoặc có thể là một chiếc máy bay phản lực mà bạn đã thiết kế bằng Plane Maker.
 
-1. A stall in an aircraft occurs when the angle of attack of the wing is too high. This disrupts the smooth airflow over the wing and can result in buffeting and sudden loss of lift. Commonly you can encounter a stall by flying with the nose too high and/or not enough power. Correct this by immediately lowering the nose and adding power.
+1. Máy bay bị chết máy khi góc tấn của cánh quá cao. Điều này làm gián đoạn luồng không khí êm ái qua cánh và có thể dẫn đến hiện tượng đệm và mất lực nâng đột ngột. Thông thường, bạn có thể gặp sự cố do bay với mũi quá cao và / hoặc không đủ lực. Hãy khắc phục điều này bằng cách ngay lập tức hạ mũi xuống và bổ sung lực.
 
-1. You can fly the X-15 rocket plane to the edge of space. Go to Flight Configuration > Location > Customize > Special Starts and pick Air Drop from B-52. Hit the space key to release, add power, and watch the sky turn from blue to black.
+1. Bạn có thể lái máy bay tên lửa X-15 đến rìa không gian. Đi tới Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Bắt đầu đặc biệt và chọn Máy bay thả từ B-52. Nhấn phím cách để giải phóng, thêm sức mạnh và xem bầu trời chuyển từ màu xanh lam sang màu đen.
 
-1. Indicated airspeed (IAS) is the airspeed read directly from the airspeed indicator. It is the difference between total pressure and static pressure, and shows the dynamic pressure.
+1. Tốc độ không khí được chỉ định (IAS) là tốc độ không khí được đọc trực tiếp từ chỉ báo tốc độ không khí. Nó là sự khác biệt giữa tổng áp suất và áp suất tĩnh, và cho thấy áp suất động.
 
-1. You can accurately simulate thermal activity in X-Plane. Go to Flight Configuration > Weather > Customize and adjust thermal coverage, tops, and climb rate.
+1. Bạn có thể mô phỏng chính xác hoạt động nhiệt trong X-Plane. Đi tới Cấu hình chuyến bay> Thời tiết> Tùy chỉnh và điều chỉnh phạm vi nhiệt độ, đỉnh và tốc độ leo núi.
 
-1. When flying an instrument approach you should make your land/miss decision at the decision height. Decision height for approaches at various airports can be found on printed approach charts, as well as online. Not having visual contact with the airport at decision height will lead to a missed approach.
+1. Khi bay tiếp cận dụng cụ, bạn nên đưa ra quyết định hạ cánh / bỏ lỡ ở độ cao quyết định. Chiều cao quyết định cho các phương pháp tiếp cận tại các sân bay khác nhau có thể được tìm thấy trên các biểu đồ tiếp cận được in, cũng như trên mạng. Không có liên hệ trực quan với sân bay ở độ cao quyết định sẽ dẫn đến việc tiếp cận bị bỏ lỡ.
  
-1. Want to try the ultimate challenge? Try landing the Space Shuttle. Go to Flight Configuration > Location > Customize. Click the Special Starts button and pick one of the 4 shuttle entry points. You can do a full re-entry from space all the way down to starting the flight on the final approach.
+1. Bạn muốn thử thách thức cuối cùng? Thử hạ cánh Tàu con thoi. Chuyển đến Cấu hình chuyến bay> Vị trí> Tùy chỉnh. Nhấp vào nút Bắt đầu Đặc biệt và chọn một trong 4 điểm vào xe đưa đón. Bạn có thể nhập lại toàn bộ từ không gian cho đến khi bắt đầu chuyến bay ở cách tiếp cận cuối cùng.
 
-1. Strap yourself in an X-Plane helicopter and land on a floating oil platform. Go to Flight Configuration > Location > Customize. Click the Special Starts button and pick a small or large oil rig approach.
+1. Quấn mình vào chiếc trực thăng X-Plane và hạ cánh trên một giàn khoan dầu nổi. Chuyển đến Cấu hình chuyến bay> Vị trí> Tùy chỉnh. Nhấp vào nút Bắt đầu Đặc biệt và chọn cách tiếp cận giàn khoan dầu nhỏ hoặc lớn.
 
-1. Automatic Terminal Information Services, or ATIS, broadcast airport information on a continuous basis. Always listen to the ATIS transmission before contacting air traffic control at a controlled airport. ATIS frequencies for towered airports can be found on aeronautical maps and airport documentation. Similar information is broadcast at some non-towered airfields from automatic weather stations and is called AWOS.
+1. Dịch vụ Thông tin Nhà ga Tự động, hoặc ATIS, phát thông tin sân bay liên tục. Luôn lắng nghe đường truyền ATIS trước khi liên hệ với bộ phận kiểm soát không lưu tại sân bay được kiểm soát. Tần số ATIS cho các sân bay cao chót vót có thể được tìm thấy trên bản đồ hàng không và tài liệu về sân bay. Thông tin tương tự được phát đi tại một số sân bay không tháp từ các trạm thời tiết tự động và được gọi là AWOS.
 
-1. You can build your own 3-D airports and submit them for inclusion in future updates to X-Plane 11. Visit the X-Plane Scenery Gateway (gateway.x-plane.com) for more information.
+1. Bạn có thể xây dựng các sân bay 3-D của riêng mình và gửi chúng để đưa vào các bản cập nhật trong tương lai cho X-Plane 11. Truy cập Cổng cảnh quan X-Plane (gateway.x-plane.com) để biết thêm thông tin.
 
-1. Interested in making X-Plane ATC pronunciations better? Visit x-plane.com/improve-atc/ for instructions.
+1. Quan tâm đến việc phát âm X-Plane ATC tốt hơn? Truy cập x-plane.com/improve-atc/ để được hướng dẫn.
