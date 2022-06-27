@@ -1428,11 +1428,11 @@ STRING Deploy chaff.====Triển khai chaff.
 STRING Deploy flares.====Triển khai pháo sáng.
 STRING Ignite JATO.====Đánh lửa JATO.
 STRING General command: left.====Lệnh chung: trái.
-STRING General command: right.====Mệnh lệnh chung: đúng.
+STRING General command: right.====Mệnh lệnh chung: phải.
 STRING General command: up.====Lệnh chung: lên.
 STRING General command: down.====Lệnh chung: xuống.
 STRING General command: forward.====Lệnh chung: tiến lên.
-STRING General command: backward.====Lệnh chung: lùi.
+STRING General command: backward.====Lệnh chung: lùi xuống.
 STRING General command: zoom in.====Lệnh chung: phóng to.
 STRING General command: zoom out.====Lệnh chung: thu nhỏ.
 STRING General command: left fast.====Lệnh chung: trái nhanh.
@@ -1622,25 +1622,17 @@ STRING Fire guns.====Súng bắn.
 STRING Fire selected weapon.====Bắn vũ khí đã chọn.
 STRING Fire all armed selections.====Bắn tất cả các lựa chọn vũ trang.
 STRING Reset Keyboard Bindings to Default For:====Đặt lại liên kết bàn phím về mặc định cho:
-## X-Plane/réglages/Clavier/Commandes/Autres systèmes====## X-Plane/rÃ © glages/Clavier/Commandes/Autres systÃ¨mes
 STRING Prop overspeed test.====Đề xuất thử nghiệm quá tốc độ.
-## X-Plane/réglages/Clavier/Commandes/Avioniques====## X-Plane/rÃ © glages/Clavier/Commandes/Avioniques
-## X-Plane/réglages/Clavier/Commandes/Carburant====## X-Plane/rÃ © glages/Clavier/Commandes/Carburant
 STRING Set fuel selector to all tanks.====Đặt bộ chọn nhiên liệu cho tất cả các bình.
 STRING Set fuel selector to none (shut off).====Đặt bộ chọn nhiên liệu thành không (tắt).
-## X-Plane/réglages/Clavier/Commandes/Basiques====## X-Plane/rÃ © glages/Clavier/Commandes/Basiques
 STRING Auto-start engines to running, real-time.====Tự động khởi động động cơ để chạy, thời gian thực.
 STRING Toggle artificial stability power.====Chuyển đổi công suất ổn định nhân tạo.
 STRING Toggle puffers.====Chuyển đổi ống hút.
 STRING Toggle yaw damper.====Chuyển đổi van điều tiết ngáp.
-STRING Yaw damper on.====Van điều tiết hàm đang bật.
-STRING Yaw damper off.====Tắt van điều tiết hàm.
 STRING Throttle governor on.====Bộ điều chỉnh bướm ga đang bật.
 STRING Throttle governor off.====Bộ điều chỉnh bướm ga tắt.
 STRING Throttle governor toggle.====Bộ điều chỉnh bướm ga chuyển đổi.
-## X-Plane/réglages/Clavier/Commandes/Divers====## X-Plane/rÃ © glages/Clavier/Commandes/Divers
-STRING Toggle yoke visibility.====Chuyển đổi chế độ hiển thị ách tắc.
-## X-Plane/réglages/Clavier/Commandes/Dégivrage====## X-Plane/rÃ © glages/Clavier/Commandes/DÃ © givrage
+STRING Toggle yoke visibility.====Chuyển đổi chế độ hiển thị cần điều khiển.
 STRING Anti-ice: AOA toggle.====Chống băng: AOA bật tắt.
 STRING Anti-ice: all prop heat toggle.====Chống đóng băng: chuyển đổi tất cả nhiệt chống nóng.
 STRING Anti-ice: ice detection off.====Chống băng: tắt phát hiện băng.
@@ -1656,16 +1648,12 @@ STRING Anti-ice: right static heat off.====Chống băng: tắt nhiệt tĩnh b�
 STRING Anti-ice: right static heat on.====Chống băng: bật nhiệt tĩnh bên phải.
 STRING Anti-ice: toggle all.====Chống băng: chuyển đổi tất cả.
 STRING Anti-ice: window heat toggle.====Chống băng: chuyển đổi nhiệt cửa sổ.
-## X-Plane/réglages/Clavier/Commandes/Déploiement====## X-Plane/rÃ © glages/Clavier/Commandes/DÃ © ploiement
 STRING Deploy parachute flares.====Triển khai bắn pháo sáng dù.
 STRING Deploy/jettison chute.====Triển khai/máng trượt.
 STRING Drop all drop tanks.====Thả tất cả các bể thả.
 STRING Eject.====Đẩy ra.
 STRING Toggle smoke puffing.====Chuyển đổi chế độ phun khói.
 STRING Water or Nitrous engine BOOST.====Động cơ nước hoặc nitơ BOOST.
-## X-Plane/réglages/Clavier/Commandes/Planeur====## X-Plane/rÃ © glages/Clavier/Commandes/Planeur
-## X-Plane/réglages/Clavier/Commandes/Portes====## X-Plane/rÃ © glages/Clavier/Commandes/Portes
-## X-Plane/réglages/Clavier/Commandes/Pressurisation====## X-Plane/rÃ © glages/Clavier/Commandes/Pressurisation
 STRING Bleed air left engine off.====Khí nén bên trái động cơ tắt.
 STRING Bleed air left engine on.====Động cơ bên trái bị chảy máu đang bật.
 STRING Bleed air right engine off.====Không khí bên phải tắt động cơ.
@@ -1676,208 +1664,142 @@ STRING Bleed air left engine instruments only.====Chỉ có dụng cụ động 
 STRING Bleed air right engine instruments only.====Bleed air bên phải dụng cụ động cơ chỉ.
 STRING Dump pressurization off.====Tắt điều áp bán phá giá.
 STRING Dump pressurization on.====Đang bật điều áp bán phá giá.
-## X-Plane/réglages/Clavier/Commandes/Compensation====## X-Plane/rÃ © glages/Clavier/Commandes/Compensation
-## X-Plane/réglages/Clavier/Commandes/Éclairage====## X-Plane/rÃ © glages/Clavier/Commandes/Ã ‰ clairage
 STRING Aim spotlight down.====Hướng tiêu điểm xuống.
 STRING Aim spotlight left.====Nhắm trái đèn sân khấu.
 STRING Aim spotlight right.====Nhắm đúng tiêu điểm.
 STRING Aim spotlight to center.====Hướng ánh sáng vào trung tâm.
 STRING Aim spotlight up.====Hướng tiêu điểm lên.
-STRING Generic light 01 toggle.====Đèn chung 01 công tắc.
-STRING Generic light 02 toggle.====Đèn chung 02 bật tắt.
-STRING Generic light 03 toggle.====Đèn chung 03 bật tắt.
-STRING Generic light 04 toggle.====Đèn chung 04 bật tắt.
-STRING Generic light 05 toggle.====Đèn chung 05 bật tắt.
-STRING Generic light 06 toggle.====Đèn chung 06 bật tắt.
-STRING Generic light 07 toggle.====Đèn chung 07 bật tắt.
-STRING Generic light 08 toggle.====Đèn chung 08 bật tắt.
-STRING Generic light 09 toggle.====Đèn chung 09 bật tắt.
-STRING Generic light 10 toggle.====Đèn chung 10 chuyển đổi.
-STRING Generic light 11 toggle.====Đèn chung 11 chuyển đổi.
-STRING Generic light 12 toggle.====Đèn chung 12 chuyển đổi.
-STRING Generic light 13 toggle.====Đèn chung 13 chuyển đổi.
-STRING Generic light 14 toggle.====Đèn chung 14 chuyển đổi.
-STRING Generic light 15 toggle.====Đèn chung 15 chuyển đổi.
-STRING Generic light 16 toggle.====Đèn chung 16 bật tắt.
-STRING Generic light 17 toggle.====Đèn chung 17 chuyển đổi.
-STRING Generic light 18 toggle.====Đèn chung 18 chuyển đổi.
-STRING Generic light 19 toggle.====Đèn chung 19 chuyển đổi.
-STRING Generic light 20 toggle.====Đèn chung 20 chuyển đổi.
-STRING Generic light 21 toggle.====Đèn chung 21 chuyển đổi.
-STRING Generic light 22 toggle.====Đèn chung 22 bật tắt.
-STRING Generic light 23 toggle.====Đèn chung 23 chuyển đổi.
-STRING Generic light 24 toggle.====Đèn chung 24 bật tắt.
-STRING Generic light 25 toggle.====Đèn chung 25 chuyển đổi.
-STRING Generic light 26 toggle.====Đèn chung 26 chuyển đổi.
-STRING Generic light 27 toggle.====Đèn chung 27 chuyển đổi.
-STRING Generic light 28 toggle.====Đèn chung 28 chuyển đổi.
-STRING Generic light 29 toggle.====Đèn chung 29 bật tắt.
-STRING Generic light 30 toggle.====Đèn chung 30 chuyển đổi.
-STRING Generic light 31 toggle.====Đèn chung 31 chuyển đổi.
-STRING Generic light 32 toggle.====Đèn chung 32 chuyển đổi.
-STRING Generic light 33 toggle.====Đèn chung 33 chuyển đổi.
-STRING Generic light 34 toggle.====Đèn chung 34 chuyển đổi.
-STRING Generic light 35 toggle.====Đèn chung 35 chuyển đổi.
-STRING Generic light 36 toggle.====Đèn chung 36 chuyển đổi.
-STRING Generic light 37 toggle.====Đèn chung 37 chuyển đổi.
-STRING Generic light 38 toggle.====Đèn chung 38 bật tắt.
-STRING Generic light 39 toggle.====Đèn chung 39 chuyển đổi.
-STRING Generic light 40 toggle.====Đèn chung 40 chuyển đổi.
-STRING Generic light 41 toggle.====Đèn chung 41 chuyển đổi.
-STRING Generic light 42 toggle.====Đèn chung 42 chuyển đổi.
-STRING Generic light 43 toggle.====Đèn chung 43 chuyển đổi.
-STRING Generic light 44 toggle.====Đèn chung 44 chuyển đổi.
-STRING Generic light 45 toggle.====Đèn chung 45 chuyển đổi.
-STRING Generic light 46 toggle.====Đèn chung 46 chuyển đổi.
+STRING Generic light 01 toggle.====Công tắc đèn chung 01.
+STRING Generic light 02 toggle.====Công tắc đèn chung 02.
+STRING Generic light 03 toggle.====Công tắc đèn chung 03.
+STRING Generic light 04 toggle.====Công tắc đèn chung 04.
+STRING Generic light 05 toggle.====Công tắc đèn chung 05.
+STRING Generic light 06 toggle.====Công tắc đèn chung 06.
+STRING Generic light 07 toggle.====Công tắc đèn chung 07.
+STRING Generic light 08 toggle.====Công tắc đèn chung 08.
+STRING Generic light 09 toggle.====Công tắc đèn chung 09.
+STRING Generic light 10 toggle.====Công tắc đèn chung 10.
+STRING Generic light 11 toggle.====Công tắc đèn chung 11.
+STRING Generic light 12 toggle.====Công tắc đèn chung 12.
+STRING Generic light 13 toggle.====Công tắc đèn chung 13.
+STRING Generic light 14 toggle.====Công tắc đèn chung 14.
+STRING Generic light 15 toggle.====Công tắc đèn chung 15.
+STRING Generic light 16 toggle.====Công tắc đèn chung 16.
+STRING Generic light 17 toggle.====Công tắc đèn chung 17.
+STRING Generic light 18 toggle.====Công tắc đèn chung 18.
+STRING Generic light 19 toggle.====Công tắc đèn chung 19.
+STRING Generic light 20 toggle.====Công tắc đèn chung 20.
+STRING Generic light 21 toggle.====Công tắc đèn chung 21.
+STRING Generic light 22 toggle.====Công tắc đèn chung 22.
+STRING Generic light 23 toggle.====Công tắc đèn chung 23.
+STRING Generic light 24 toggle.====Công tắc đèn chung 24.
+STRING Generic light 25 toggle.====Công tắc đèn chung 25.
+STRING Generic light 26 toggle.====Công tắc đèn chung 26.
+STRING Generic light 27 toggle.====Công tắc đèn chung 27.
+STRING Generic light 28 toggle.====Công tắc đèn chung 28.
+STRING Generic light 29 toggle.====Công tắc đèn chung 29.
+STRING Generic light 30 toggle.====Công tắc đèn chung 30.
+STRING Generic light 31 toggle.====Công tắc đèn chung 31.
+STRING Generic light 32 toggle.====Công tắc đèn chung 32.
+STRING Generic light 33 toggle.====Công tắc đèn chung 33.
+STRING Generic light 34 toggle.====Công tắc đèn chung 34.
+STRING Generic light 35 toggle.====Công tắc đèn chung 35.
+STRING Generic light 36 toggle.====Công tắc đèn chung 36.
+STRING Generic light 37 toggle.====Công tắc đèn chung 37.
+STRING Generic light 38 toggle.====Công tắc đèn chung 38.
+STRING Generic light 39 toggle.====Công tắc đèn chung 39.
+STRING Generic light 40 toggle.====Công tắc đèn chung 40.
+STRING Generic light 41 toggle.====Công tắc đèn chung 41.
+STRING Generic light 42 toggle.====Công tắc đèn chung 42.
+STRING Generic light 43 toggle.====Công tắc đèn chung 43.
+STRING Generic light 44 toggle.====Công tắc đèn chung 44.
+STRING Generic light 45 toggle.====Công tắc đèn chung 45.
+STRING Generic light 46 toggle.====Công tắc đèn chung 46.
 STRING Generic light 47 toggle.====Công tắc đèn chung 47.
-STRING Generic light 48 toggle.====Đèn chung 48 chuyển đổi.
-STRING Generic light 49 toggle.====Đèn chung 49 chuyển đổi.
-STRING Generic light 50 toggle.====Đèn chung 50 chuyển đổi.
-STRING Generic light 51 toggle.====Đèn chung 51 chuyển đổi.
-STRING Generic light 52 toggle.====Đèn chung 52 chuyển đổi.
-STRING Generic light 53 toggle.====Đèn chung 53 chuyển đổi.
-STRING Generic light 54 toggle.====Đèn chung 54 chuyển đổi.
-STRING Generic light 55 toggle.====Đèn chung 55 chuyển đổi.
-STRING Generic light 56 toggle.====Đèn chung 56 chuyển đổi.
-STRING Generic light 57 toggle.====Đèn chung 57 chuyển đổi.
-STRING Generic light 58 toggle.====Đèn chung 58 chuyển đổi.
-STRING Generic light 59 toggle.====Đèn chung 59 chuyển đổi.
-STRING Generic light 60 toggle.====Đèn chung 60 chuyển đổi.
-STRING Generic light 61 toggle.====Đèn chung 61 bật tắt.
-STRING Generic light 62 toggle.====Đèn chung 62 bật tắt.
-STRING Generic light 63 toggle.====Đèn chung 63 chuyển đổi.
-STRING Generic light 64 toggle.====Đèn chung 64 chuyển đổi.
+STRING Generic light 48 toggle.====Công tắc đèn chung 48.
+STRING Generic light 49 toggle.====Công tắc đèn chung 49.
+STRING Generic light 50 toggle.====Công tắc đèn chung 50.
+STRING Generic light 51 toggle.====Công tắc đèn chung 51.
+STRING Generic light 52 toggle.====Công tắc đèn chung 52.
+STRING Generic light 53 toggle.====Công tắc đèn chung 53.
+STRING Generic light 54 toggle.====Công tắc đèn chung 54.
+STRING Generic light 55 toggle.====Công tắc đèn chung 55.
+STRING Generic light 56 toggle.====Công tắc đèn chung 56.
+STRING Generic light 57 toggle.====Công tắc đèn chung 57.
+STRING Generic light 58 toggle.====Công tắc đèn chung 58.
+STRING Generic light 59 toggle.====Công tắc đèn chung 59.
+STRING Generic light 60 toggle.====Công tắc đèn chung 60.
+STRING Generic light 61 toggle.====Công tắc đèn chung 61.
+STRING Generic light 62 toggle.====Công tắc đèn chung 62.
+STRING Generic light 63 toggle.====Công tắc đèn chung 63.
+STRING Generic light 64 toggle.====Công tắc đèn chung 64.
 STRING Landing light 01 off.====Đèn hạ cánh 01 tắt.
 STRING Landing light 01 on.====Đèn hạ cánh 01 bật.
-STRING Landing light 01 toggle.====Đèn chiếu sáng hạ cánh 01 công tắc.
+STRING Landing light 01 toggle.====Công tắc đèn chiếu sáng hạ cánh 01.
 STRING Landing light 02 off.====Đèn hạ cánh 02 tắt.
-STRING Landing light 02 on.====Đèn chiếu sáng hạ cánh 02 bật.
+STRING Landing light 02 on.====Công tắc đèn chiếu sáng hạ cánh  02 bật.
 STRING Landing light 03 on.====Đèn hạ cánh 03 bật.
-STRING Landing light 03 toggle.====Đèn chiếu sáng hạ cánh 03 bật tắt.
+STRING Landing light 03 toggle.====Công tắc đèn chiếu sáng hạ cánh  03.
 STRING Landing light 04 off.====Đèn hạ cánh 04 tắt.
 STRING Landing light 04 on.====Đèn hạ cánh 04 bật.
-STRING Landing light 04 toggle.====Đèn chiếu sáng hạ cánh 04 bật tắt.
+STRING Landing light 04 toggle.====Công tắc đèn chiếu sáng hạ cánh  04.
 STRING Landing light 05 off.====Đèn hạ cánh 05 tắt.
 STRING Landing light 05 on.====Đèn hạ cánh 05 bật.
-STRING Landing light 05 toggle.====Đèn chiếu sáng hạ cánh 05 bật tắt.
+STRING Landing light 05 toggle.====Công tắc đèn chiếu sáng hạ cánh  05.
 STRING Landing light 06 off.====Đèn hạ cánh 06 tắt.
-STRING Landing light 06 on.====Đèn chiếu sáng hạ cánh 06 bật.
-STRING Landing light 06 toggle.====Đèn chiếu sáng hạ cánh 06 bật tắt.
+STRING Landing light 06 on.====Công tắc đèn chiếu sáng hạ cánh  06 bật.
+STRING Landing light 06 toggle.====Công tắc đèn chiếu sáng hạ cánh  06.
 STRING Landing light 07 off.====Đèn hạ cánh 07 tắt.
 STRING Landing light 07 on.====Đèn hạ cánh 07 bật.
-STRING Landing light 07 toggle.====Đèn chiếu sáng hạ cánh 07 bật tắt.
+STRING Landing light 07 toggle.====Công tắc đèn chiếu sáng hạ cánh  07.
 STRING Landing light 08 off.====Đèn hạ cánh 08 tắt.
 STRING Landing light 08 on.====Đèn hạ cánh 08 bật.
-STRING Landing light 08 toggle.====Đèn chiếu sáng hạ cánh 08 bật tắt.
+STRING Landing light 08 toggle.====Công tắc đèn chiếu sáng hạ cánh  08.
 STRING Landing light 09 off.====Đèn hạ cánh 09 tắt.
 STRING Landing light 09 on.====Đèn hạ cánh 09 bật.
-STRING Landing light 09 toggle.====Đèn chiếu sáng hạ cánh 09 bật tắt.
+STRING Landing light 09 toggle.====Công tắc đèn chiếu sáng hạ cánh  09.
 STRING Landing light 10 off.====Đèn hạ cánh 10 tắt.
 STRING Landing light 10 on.====Đèn hạ cánh 10 bật.
-STRING Landing light 10 toggle.====Đèn chiếu sáng hạ cánh 10 bật tắt.
+STRING Landing light 10 toggle.====Công tắc đèn chiếu sáng hạ cánh  10.
 STRING Landing light 11 off.====Đèn hạ cánh 11 tắt.
 STRING Landing light 11 on.====Đèn hạ cánh 11 bật.
-STRING Landing light 11 toggle.====Đèn chiếu sáng hạ cánh 11 bật tắt.
+STRING Landing light 11 toggle.====Công tắc đèn chiếu sáng hạ cánh  11.
 STRING Landing light 12 off.====Đèn hạ cánh 12 tắt.
 STRING Landing light 12 on.====Đèn hạ cánh 12 bật.
-STRING Landing light 12 toggle.====Đèn chiếu sáng hạ cánh 12 bật tắt.
+STRING Landing light 12 toggle.====Công tắc đèn chiếu sáng hạ cánh  12.
 STRING Landing light 13 off.====Đèn hạ cánh 13 tắt.
 STRING Landing light 13 on.====Đèn hạ cánh 13 bật.
-STRING Landing light 13 toggle.====Đèn chiếu sáng hạ cánh 13 bật tắt.
+STRING Landing light 13 toggle.====Công tắc đèn chiếu sáng hạ cánh  13.
 STRING Landing light 14 off.====Đèn hạ cánh 14 tắt.
 STRING Landing light 14 on.====Đèn hạ cánh 14 bật.
-STRING Landing light 14 toggle.====Đèn chiếu sáng hạ cánh 14 bật tắt.
+STRING Landing light 14 toggle.====Công tắc đèn chiếu sáng hạ cánh  14.
 STRING Landing light 15 off.====Đèn hạ cánh 15 tắt.
 STRING Landing light 15 on.====Đèn hạ cánh 15 bật.
-STRING Landing light 15 toggle.====Đèn chiếu sáng hạ cánh 15 bật tắt.
+STRING Landing light 15 toggle.====Công tắc đèn chiếu sáng hạ cánh  15.
 STRING Landing light 16 off.====Đèn hạ cánh 16 tắt.
 STRING Landing light 16 on.====Đèn hạ cánh 16 bật.
-STRING Landing light 16 toggle.====Đèn chiếu sáng hạ cánh 16 bật tắt.
-## X-Plane/réglages/Clavier/Commandes/Électricité====## X-Plane/rÃ © glages/Clavier/Commandes/Ã ‰ lectricitÃ ©
-STRING Battery 1 toggle.====Pin 1 chuyển đổi.
-STRING Battery 2 toggle.====Pin 2 bật tắt.
+STRING Landing light 16 toggle.====Công tắc đèn chiếu sáng hạ cánh  16.
+STRING Battery 1 toggle.====Công tắc Pin #1
+STRING Battery 2 toggle.====Công tắc Pin #2.
 STRING Inverter 1 off.====Biến tần 1 tắt.
 STRING Inverter 1 on.====Biến tần 1 bật.
 STRING Inverter 1 toggle.====Biến tần 1 chuyển đổi.
 STRING Inverter 2 off.====Biến tần 2 tắt.
 STRING Inverter 2 on.====Biến tần 2 đang bật.
 STRING Inverter 2 toggle.====Biến tần 2 chuyển đổi.
-## X-Plane/réglages/Clavier/Heure====## X-Plane/rÃ © glages/Clavier/Heure
 STRING Time: a lot earlier.====Thời gian: sớm hơn rất nhiều.
 STRING Time: a lot later.====Thời gian: muộn hơn rất nhiều.
 STRING Timer start/stop/reset.====Hẹn giờ bắt đầu/dừng/đặt lại.
 STRING Timer/clock mode for chronos.====Chế độ hẹn giờ/đồng hồ cho chronos.
-## X-Plane/réglages/Clavier/Moteurs/air alternatif====## X-Plane/rÃ © glages/Clavier/Moteurs/air Alternatif
-## X-Plane/réglages/Clavier/Moteurs/démarrage====## X-Plane/rÃ © glages/Clavier/Moteurs/dÃ © marrage
-## X-Plane/réglages/Clavier/Moteurs/Extincteurs d'incendie====## X-Plane/rÃ © glages/Clavier/Moteurs/Extinceurs d'incendie
-## X-Plane/réglages/Clavier/Moteurs/Beta====## X-Plane/rÃ © glages/Clavier/Moteurs/Beta
-## X-Plane/réglages/Clavier/Moteurs/FADEC====## X-Plane/rÃ © glages/Clavier/Moteurs/FADEC
-## X-Plane/réglages/Clavier/Moteurs/Extinction====## X-Plane/rÃ © glages/Clavier/Moteurs/Extinction
-## X-Plane/réglages/Clavier/Moteurs/Gaz====## X-Plane/rÃ © glages/Clavier/Moteurs/Gaz
-## X-Plane/réglages/Clavier/Moteurs/Gpe générateur====## X-Plane/rÃ © glages/Clavier/Moteurs/Gpe gÃ © nÃ © rateur
-#idem Électricité====#idem Ã ‰ lectricitÃ ©
-## X-Plane/réglages/Clavier/Moteurs/Hélices====## X-Plane/rÃ © glages/Clavier/Moteurs/HÃ © lices
-## X-Plane/réglages/Clavier/Moteurs/Poussée reverse (inversion)====## X-Plane/rÃ © glages/Clavier/Moteurs/PoussÃ © e reverse (đảo ngược)
-#pas joli====#pas joli
-## X-Plane/réglages/Clavier/Moteurs/Magnétos====## X-Plane/rÃ © glages/Clavier/Moteurs/MagnÃ © tos
-## X-Plane/réglages/Clavier/Moteurs/Mélange====## X-Plane/rÃ © glages/Clavier/Moteurs/MÃ © lange
-## X-Plane/réglages/Clavier/Moteurs/Starters====## X-Plane/rÃ © glages/Clavier/Moteurs/Starters
-## X-Plane/réglages/Clavier/Moteurs/Volets de capot====## X-Plane/rÃ © glages/Clavier/Moteurs/Volets de capot
-## X-Plane/réglages/Clavier/Navigation & radios/ADF====## X-Plane/rÃ © glages/Clavier/Navigation & radio/ADF
-STRING Power====Quyền lực
+STRING Power====Điện
 STRING Power ADF1 dn.====Nguồn ADF1 dn.
 STRING Power ADF1 up.====Tăng nguồn ADF1.
 STRING Power ADF2 dn.====Nguồn ADF2 dn.
 STRING Power ADF2 up.====Nguồn ADF2 lên.
-STRING ADF active 1 ones down.====ADF đang hoạt động 1 cái bị giảm.
-STRING ADF active 2 ones down.====ADF hoạt động 2 cái xuống.
-STRING ADF active 1 ones up.====ADF hoạt động 1 cái lên.
-STRING ADF active 2 ones up.====ADF hoạt động 2 cái lên.
-STRING ADF active 1 tens down.====ADF hoạt động 1 hàng chục giảm xuống.
-STRING ADF active 2 tens down.====ADF hoạt động giảm 2 chục.
-STRING ADF active 1 tens up.====ADF hoạt động 1 hàng chục.
-STRING ADF active 2 tens up.====ADF hoạt động 2 chục lên.
-STRING ADF active 1 hundreds down.====ADF đang hoạt động giảm 1 trăm.
-STRING ADF active 2 hundreds down.====ADF đang hoạt động giảm 2 trăm.
-STRING ADF active 1 hundreds up.====ADF hoạt động tăng 1 hàng trăm.
-STRING ADF active 2 hundreds up.====ADF đang hoạt động tăng lên 2 hàng trăm.
-STRING ADF active 1 ones and tens down.====ADF hoạt động 1 cái và hàng chục giảm xuống.
-STRING ADF active 2 ones and tens down.====ADF hoạt động 2 cái và hàng chục xuống.
-STRING ADF active 1 ones and tens up.====ADF hoạt động 1 cái và hàng chục.
-STRING ADF active 2 ones and tens up.====ADF hoạt động 2 cái và hàng chục.
-STRING ADF active 1 hundreds and thousands down.====ADF hoạt động 1 hàng trăm và hàng nghìn giảm xuống.
-STRING ADF active 2 hundreds and thousands down.====ADF đang hoạt động 2 hàng trăm và hàng nghìn giảm xuống.
-STRING ADF active 1 hundreds and thousands up.====ADF hoạt động 1 hàng trăm và hàng nghìn.
-STRING ADF active 2 hundreds and thousands up.====ADF hoạt động từ 2 hàng trăm đến hàng nghìn.
-STRING ADF standby 1 ones down.====ADF chế độ chờ 1 cái.
-STRING ADF standby 2 ones down.====ADF ở chế độ chờ 2 cái.
-STRING ADF standby 1 ones up.====ADF chờ 1 cái lên.
-STRING ADF standby 2 ones up.====ADF ở chế độ chờ 2 cái lên.
-STRING ADF standby 1 tens down.====ADF ở chế độ chờ giảm 1 chục.
-STRING ADF standby 2 tens down.====ADF ở chế độ chờ giảm 2 chục.
-STRING ADF standby 1 tens up.====ADF ở chế độ chờ 1 hàng chục.
-STRING ADF standby 2 tens up.====ADF ở chế độ chờ 2 chục lên.
-STRING ADF standby 1 hundreds down.====ADF ở chế độ chờ giảm 1 trăm.
-STRING ADF standby 2 hundreds down.====ADF ở chế độ chờ giảm 2 trăm.
-STRING ADF standby 1 hundreds up.====ADF ở chế độ chờ 1 trăm lên.
-STRING ADF standby 2 hundreds up.====ADF ở chế độ chờ 2 trăm trở lên.
-STRING ADF standby 1 ones and tens down.====ADF dự phòng 1 cái và hàng chục xuống.
-STRING ADF standby 2 ones and tens down.====ADF dự phòng 2 cái và hàng chục xuống.
-STRING ADF standby 1 ones and tens up.====ADF dự phòng 1 cái và hàng chục.
-STRING ADF standby 2 ones and tens up.====ADF dự phòng 2 cái và hàng chục.
-STRING ADF standby 1 hundreds and thousands down.====ADF dự phòng 1 hàng trăm và hàng nghìn giảm xuống.
-STRING ADF standby 2 hundreds and thousands down.====ADF ở chế độ chờ 2 trăm và hàng nghìn giảm xuống.
-STRING ADF standby 1 hundreds and thousands up.====ADF ở chế độ chờ 1 hàng trăm và hàng nghìn.
-STRING ADF standby 2 hundreds and thousands up.====ADF ở chế độ chờ 2 hàng trăm và hàng nghìn.
-# DME page suivante====# DME trang suivante
-## X-Plane/réglages/Clavier/Navigation & radios/Pilote auto====## X-Plane/rÃ © glages/Clavier/Điều hướng & radio/Pilote auto
 STRING Autopilot altitude hold ARM.====Độ cao tự động lái giữ ARM.
-STRING Control wheel steering mode.====Điều khiển chế độ lái vô lăng.
+STRING Control wheel steering mode.====Điều khiển chế độ lái thủ công.
 STRING Flight director down (on/FDIR/off).====Giám đốc chuyến bay xuống (bật/FDIR/tắt).
 STRING Flight director up (off/FDIR/on).====Giám đốc chuyến bay lên (tắt/FDIR/bật).
-## X-Plane/réglages/Clavier/Navigation & radios/dme====## X-Plane/rÃ © glages/Clavier/Navigation & radio/dme
-## X-Plane/réglages/Clavier/Navigation & radios/ECAM====## X-Plane/rÃ © glages/Clavier/Điều hướng & radio/ECAM
-## X-Plane/réglages/Clavier/Navigation & radios/EFIS====## X-Plane/rÃ © glages/Clavier/Navigation & radio/EFIS
 STRING EFIS 1 selection copilot down (ADF/off/VOR)====EFIS 1 lựa chọn phụ lái xuống (ADF/tắt/VOR)
 STRING EFIS 2 selection copilot down (ADF/off/VOR)====Phụ tùng lựa chọn EFIS 2 xuống (ADF/tắt/VOR)
 STRING EFIS 1 selection copilot up (ADF/off/VOR)====Đồng bộ hóa lựa chọn EFIS 1 (ADF/tắt/VOR)
@@ -1896,7 +1818,6 @@ STRING EFIS mode down (PLN/MAP/VOR/APP)====Chế độ EFIS tắt (PLN/MAP/VOR/A
 STRING EFIS mode up (APP/VOR/MAP/PLN)====Chế độ EFIS lên (APP/VOR/MAP/PLN)
 STRING EFIS page down.====Trang EFIS xuống.
 STRING EFIS page up.====Trang EFIS lên.
-## X-Plane/réglages/Clavier/Navigation & radios/0FMS (copilote)====## X-Plane/rÃ © glages/Clavier/Navigation & radio/0FMS (copilote)
 STRING FMS2: CDU popup====FMS2: Cửa sổ bật lên CDU
 STRING FMS2: CLB====FMS2: CLB
 STRING FMS2: CRZ====FMS2: CRZ
@@ -1904,17 +1825,17 @@ STRING FMS2: DEP/ARR====FMS2: DEP/ARR
 STRING FMS2: DES====FMS2: DES
 STRING FMS2: DIR/INTC====FMS2: DIR/INTC
 STRING FMS2: EXEC====FMS2: EXEC
-STRING FMS2: FIX====FMS2: SỬA
+STRING FMS2: FIX====FMS2: FIX
 STRING FMS2: HOLD====FMS2: HOLD
 STRING FMS2: NAVRAD====FMS2: NAVRAD
 STRING FMS2: FPLN====FMS2: FPLN
 STRING FMS2: pop out CDU window====FMS2: bật ra cửa sổ CDU
 STRING FMS2: prev====FMS2: trước
 STRING FMS2: next====FMS2: tiếp theo
-STRING FMS2: key_clear====FMS2: key_clear
-STRING FMS2: key_delete====FMS2: key_delete
-STRING FMS2: key_minus====FMS2: key_minus
-STRING FMS2: key_slash====FMS2: key_slash
+STRING FMS2: key_clear==== Phím clear
+STRING FMS2: key_delete==== Phím delete
+STRING FMS2: key_minus==== Phím minus
+STRING FMS2: key_slash==== Phím slash
 STRING FMS2: line select 1l====FMS2: dòng chọn 1l
 STRING FMS2: line select 2l====FMS2: chọn dòng 2l
 STRING FMS2: line select 3l====FMS2: chọn dòng 3l
@@ -1928,45 +1849,45 @@ STRING FMS2: line select 4r====FMS2: chọn dòng 4r
 STRING FMS2: line select 5r====FMS2: chọn dòng 5r
 STRING FMS2: line select 6r====FMS2: chọn dòng 6r
 STRING FMS2: PROG====FMS2: PROG
-STRING FMS2: key_0====FMS2: key_0
-STRING FMS2: key_1====FMS2: key_1
-STRING FMS2: key_2====FMS2: key_2
-STRING FMS2: key_3====FMS2: key_3
-STRING FMS2: key_4====FMS2: key_4
-STRING FMS2: key_5====FMS2: key_5
-STRING FMS2: key_6====FMS2: key_6
-STRING FMS2: key_7====FMS2: key_7
-STRING FMS2: key_8====FMS2: key_8
-STRING FMS2: key_9====FMS2: key_9
-STRING FMS2: key_A====FMS2: key_A
-STRING FMS2: key_B====FMS2: key_B
-STRING FMS2: key_C====FMS2: key_C
-STRING FMS2: key_D====FMS2: key_D
-STRING FMS2: key_E====FMS2: key_E
-STRING FMS2: key_F====FMS2: key_F
-STRING FMS2: key_G====FMS2: key_G
-STRING FMS2: key_H====FMS2: key_H
-STRING FMS2: key_I====FMS2: key_I
-STRING FMS2: key_J====FMS2: key_J
-STRING FMS2: key_K====FMS2: key_K
-STRING FMS2: key_L====FMS2: key_L
-STRING FMS2: key_M====FMS2: key_M
-STRING FMS2: key_N====FMS2: key_N
-STRING FMS2: key_O====FMS2: key_O
-STRING FMS2: key_P====FMS2: key_P
-STRING FMS2: key_Q====FMS2: key_Q
-STRING FMS2: key_R====FMS2: key_R
-STRING FMS2: key_S====FMS2: key_S
-STRING FMS2: key_T====FMS2: key_T
-STRING FMS2: key_U====FMS2: key_U
-STRING FMS2: key_V====FMS2: key_V
-STRING FMS2: key_W====FMS2: key_W
-STRING FMS2: key_X====FMS2: key_X
-STRING FMS2: key_Y====FMS2: key_Y
-STRING FMS2: key_Z====FMS2: key_Z
-STRING FMS2: key_period====FMS2: key_period
-STRING FMS2: key_back====FMS2: key_back
-STRING FMS2: key_space====FMS2: key_space
+STRING FMS2: key_0==== Phím 0
+STRING FMS2: key_1==== Phím 1
+STRING FMS2: key_2==== Phím 2
+STRING FMS2: key_3==== Phím 3
+STRING FMS2: key_4==== Phím 4
+STRING FMS2: key_5==== Phím 5
+STRING FMS2: key_6==== Phím 6
+STRING FMS2: key_7==== Phím 7
+STRING FMS2: key_8==== Phím 8
+STRING FMS2: key_9==== Phím 9
+STRING FMS2: key_A==== Phím A
+STRING FMS2: key_B==== Phím B
+STRING FMS2: key_C==== Phím C
+STRING FMS2: key_D==== Phím D
+STRING FMS2: key_E==== Phím E
+STRING FMS2: key_F==== Phím F
+STRING FMS2: key_G==== Phím G
+STRING FMS2: key_H==== Phím H
+STRING FMS2: key_I==== Phím I
+STRING FMS2: key_J==== Phím J
+STRING FMS2: key_K==== Phím K
+STRING FMS2: key_L==== Phím L
+STRING FMS2: key_M==== Phím M
+STRING FMS2: key_N==== Phím N
+STRING FMS2: key_O==== Phím O
+STRING FMS2: key_P==== Phím P
+STRING FMS2: key_Q==== Phím Q
+STRING FMS2: key_R==== Phím R
+STRING FMS2: key_S==== Phím S
+STRING FMS2: key_T==== Phím T
+STRING FMS2: key_U==== Phím U
+STRING FMS2: key_V==== Phím V
+STRING FMS2: key_W==== Phím W
+STRING FMS2: key_X==== Phím X
+STRING FMS2: key_Y==== Phím Y
+STRING FMS2: key_Z==== Phím Z
+STRING FMS2: key_period==== Phím period
+STRING FMS2: key_back==== Phím back
+STRING FMS2: key_space==== Phím space
 ## X-Plane/réglages/Clavier/Navigation & radios/FMS (pilote)====## X-Plane/rÃ © glages/Clavier/Navigation & radio/FMS (pilote)
 STRING FMS: CDU popup====FMS: CDU popup
 STRING FMS: CLB====FMS: CLB
@@ -1997,7 +1918,6 @@ STRING FMS: line select 4r====FMS: chọn dòng 4r
 STRING FMS: line select 5r====FMS: chọn dòng 5r
 STRING FMS: line select 6r====FMS: chọn dòng 6r
 STRING FMS: PROG====FMS: PROG
-## X-Plane/réglages/Clavier/Navigation & radios/GPS/g1000 (mfd)====## X-Plane/rÃ © glages/Clavier/Điều hướng & radio/GPS/g1000 (mfd)
 STRING G1000 MFD -D->.====G1000 MFD -D->.
 STRING G1000 MFD altitude inner ring down.====Vòng trong giảm độ cao MFD của G1000.
 STRING G1000 MFD altitude inner ring up.====Vòng bên trong tăng độ cao MFD của G1000.
@@ -2072,36 +1992,20 @@ STRING G1000 MFD Softkey 7.====Phím chức năng G1000 MFD 7.
 STRING G1000 MFD Softkey 8.====Phím chức năng G1000 MFD 8.
 STRING G1000 MFD Softkey 9.====Phím chức năng G1000 MFD 9.
 STRING G1000 MFD yaw damper.====G1000 MFD giảm chấn.
-## X-Plane/réglages/Clavier/Navigation & radios/GPS/G1000 (copilote)====## X-Plane/rÃ © glages/Clavier/Navigation & radio/GPS/G1000 (copilote)
-## X-Plane/réglages/Clavier/Navigation & radios/GPS/G1000 (pilote)====## X-Plane/rÃ © glages/Clavier/Navigation & radio/GPS/G1000 (pilote)
-## X-Plane/réglages/Clavier/Navigation & radios/GPS/G430(copilote)====## X-Plane/rÃ © glages/Clavier/Navigation & radio/GPS/G430 (copilote)
-## X-Plane/réglages/Clavier/Navigation & radios/GPS/G430 (pilote)====## X-Plane/rÃ © glages/Clavier/Navigation & radio/GPS/G430 (pilote)
-## X-Plane/réglages/Clavier/Navigation & radios/GPS/====## X-Plane/rÃ © glages/Clavier/Điều hướng & radio/GPS /
-## X-Plane/réglages/Clavier/Navigation & radios/Indicateurs et voyants====## X-Plane/rÃ © glages/Clavier/Navigation & radio/Indicateurs et voyants
-## X-Plane/réglages/Clavier/Navigation & radios/radios NAV====## X-Plane/rÃ © glages/Clavier/Điều hướng & radio/radio NAV
 STRING Power NAV1 off.====Tắt nguồn NAV1.
 STRING Power NAV1 on.====Bật nguồn NAV1.
 STRING Power NAV2 off.====Tắt nguồn NAV2.
 STRING Power NAV2 on.====Bật nguồn NAV2.
 STRING Set the radios for the carrier ILS.====Đặt bộ đàm cho ILS của nhà cung cấp dịch vụ.
-## X-Plane/réglages/Clavier/Navigation & radios/OBS, HSI, & carte ADF====## X-Plane/rÃ © glages/Clavier/Navigation & radio/OBS, HSI, & carte ADF
 STRING HSI shows NAV 1, copilot.====HSI cho thấy NAV 1, phi công phụ.
 STRING HSI shows NAV 1.====HSI cho thấy NAV 1.
 STRING HSI shows NAV 2, copilot.====HSI cho thấy NAV 2, phi công phụ.
 STRING HSI shows NAV 2.====HSI cho thấy NAV 2.
-## X-Plane/réglages/Clavier/Navigation & radios/Rack radio====## X-Plane/rÃ © glages/Clavier/Navigation & radio/Rack radio
-## X-Plane/réglages/Clavier/Navigation & radios/RMI====## X-Plane/rÃ © glages/Clavier/Điều hướng & radio/RMI
-## X-Plane/réglages/Clavier/Navigation & radios/Radio COM====## X-Plane/rÃ © glages/Clavier/Điều hướng & radio/Radio COM
 STRING Power COM1 off.====Tắt nguồn COM1.
 STRING Power COM1 on.====Bật nguồn COM1.
 STRING Power COM2 off.====Tắt nguồn COM2.
 STRING Power COM2 on.====Bật nguồn COM2.
-## X-Plane/réglages/Clavier/Navigation & radios/Transpondeur====## X-Plane/rÃ © glages/Clavier/Navigation & radio/Transpondeur
-## X-Plane/réglages/Clavier/Annonces====## X-Plane/rÃ © glages/Clavier/Annonces
-## X-Plane/réglages/Clavier/Utilisation/Curseurs====## X-Plane/rÃ © glages/Clavier/Utilization/Curseurs
-## X-Plane/réglages/Clavier/Utilisation/Développeur====## X-Plane/rÃ © glages/Clavier/Utilization/DÃ © veloppeur
 STRING Toggle display of traffic paths.====Chuyển đổi hiển thị đường dẫn giao thông.
-## X-Plane/réglages/Clavier/Utilisation/Réinitialiser le vol====## X-Plane/rÃ © glages/Clavier/Utilization/RÃ © initialiser le vol
 STRING Carrier catshot.====Ảnh chụp nhà cung cấp dịch vụ.
 STRING Carry another aircraft.====Mang máy bay khác.
 STRING Formation flying.====Hình thành bay.
@@ -2115,17 +2019,9 @@ STRING Piggyback Shuttle on 747.====Con thoi cõng trên 747.
 STRING Reset flight to most recent start.====Đặt lại chuyến bay về điểm bắt đầu gần đây nhất.
 STRING Reset flight to nearest airport.====Đặt lại chuyến bay đến sân bay gần nhất.
 STRING Reset flight to nearest runway.====Đặt lại chuyến bay đến đường băng gần nhất.
-STRING Space Shuttle: Final approach.====Tàu con thoi: Cách tiếp cận cuối cùng.
-STRING Space Shuttle: Final re-entry.====Tàu con thoi: Vào lại lần cuối.
-STRING Space Shuttle: Full approach.====Tàu con thoi: Cách tiếp cận đầy đủ.
-STRING Space Shuttle: Full re-entry.====Tàu con thoi: Tái nhập hoàn toàn.
-## X-Plane/Réglages/Emplacements/personnalisé/Démarrages spéciaux====## X-Plane/RÃ © glages/Emplacements/personnalisÃ ©/DÃ © marrages spÃ © ciaux
 STRING The re-entry takes a long time and is an extreme challenge.====Việc nhập lại diễn ra trong một thời gian dài và là một thử thách khắc nghiệt.
-STRING This will start you off 5,340 miles downrange at 450,000 feet and 15,400 mph.====Điều này sẽ bắt đầu bạn đi 5, 340 dặm xuống tầm bay ở 450, 000 feet và 15, 400 mph.
-STRING If you have too much speed, pull up to a higher pitch for more drag, and do steep S-turns to descend.====Nếu bạn chạy quá tốc độ, kéo lên cao hơn để kéo thêm, và quay đầu dốc chữ S để hạ xuống.
-####### traduits mais je ne sais pas les afficher, translated but I am not able to display it====####### traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể hiển thị nó
-####### fin non affichables End of not displayed====####### fin non affichables Kết thúc không hiển thị
-## X-Plane/réglages/Clavier/Utilisation====## X-Plane/rÃ © glages/Clavier/Utilization
+STRING This will start you off 5,340 miles downrange at 450,000 feet and 15,400 mph.====Nơi bạn bắt đầu sẽ cách nơi đến 5.340 dặm xuống tầm bay ở độ cao 450.000 feet với vận tốc 15.400 mph.
+STRING If you have too much speed, pull up to a higher pitch for more drag, and do steep S-turns to descend.====Nếu bạn chạy quá tốc độ, kéo lên cao hơn để kéo thêm, và quay đầu dốc chữ S để hạ độ cao xuống.
 STRING Force reloading the current scenery.====Buộc tải lại khung cảnh hiện tại.
 STRING General action command.====Lệnh hành động chung.
 STRING Load situation.====Tình hình tải trọng.
@@ -2137,7 +2033,6 @@ STRING Test dataref: Run from 0 to 1 and back.====Kiểm tra dataref: Chạy t�
 STRING Toggle the ground handling window.====Chuyển đổi cửa sổ xử lý mặt đất.
 STRING Toggle the Keyboard Shortcuts window.====Chuyển đổi cửa sổ Phím tắt.
 STRING Toggle TrackIR control.====Chuyển đổi điều khiển TrackIR.
-## X-Plane/réglages/Clavier/Replay====## X-Plane/rÃ © glages/Clavier/Replay
 STRING Replay mode: go to beginning.====Chế độ phát lại: bắt đầu.
 STRING Replay mode: go to end.====Chế độ phát lại: đi đến kết thúc.
 STRING Replay mode: play fast forward.====Chế độ phát lại: phát tua đi nhanh.
@@ -2147,23 +2042,11 @@ STRING Replay mode: play reverse.====Chế độ chơi lại: chơi ngược l�
 STRING Replay mode: play slow forward.====Chế độ phát lại: phát chậm lại.
 STRING Replay mode: play slow reverse.====Chế độ chơi lại: chơi ngược chậm.
 STRING Replay mode: Toggle controls visibility.====Chế độ phát lại: Chuyển đổi kiểm soát khả năng hiển thị.
-## X-Plane/réglages/Clavier/Vues/Manipuler les Vues====## X-Plane/rÃ © glages/Clavier/Vues/Manipuler les Vues
-## X-Plane/réglages/Clavier/Vues/Mode changement de vues/externe====## X-Plane/rÃ © glages/Clavier/Vues/Mode changement de vues/externe
-## X-Plane/réglages/Clavier/Vues/Mode changement de vues/Interne====## X-Plane/rÃ © glages/Clavier/Vues/Thay đổi chế độ de vues/Interne
 STRING Internal====Nội bộ
 STRING Forward with HUD.====Chuyển tiếp với HUD.
 STRING Default view.====Chế độ xem mặc định.
-## X-Plane/réglages/Clavier/Vues/Divers visuels====## X-Plane/rÃ © glages/Clavier/Vues/Divers visuels
-## X-Plane/réglages/Clavier/Vues/Points de vues rapides====## X-Plane/rÃ © glages/Clavier/Vues/Points de vues rapides
-## X-Plane/réglages/Clavier/Vues/Visuels en Vol====## X-Plane/rÃ © glages/Clavier/Vues/Visuels en Vol
-## X-Plane/réglages/Périphériques GPS====## X-Plane/rÃ © glages/PÃ © riphÃ © riques GPS
-## X-Plane/Démarrage du logiciel====## X-Plane/DÃ © marrage du logiciel
-## X-Plane/Hints-Conseil au démarrage du logiciel====## X-Plane/Hints-Conseil au dÃ © marrage du logiciel
-## X-Plane/Vues/Changer (interne)====## X-Plane/Vues/Changer (interne)
 STRING Default View====Chế độ xem mặc định
-## X-Plane/Vues/Changer (externe)====## X-Plane/Vues/Changer (externe)
 STRING Choose Another Location====Chọn một vị trí khác
-#expert/parties invisibles====# chuyên gia/bên vô hình
 STRING ENG1 PYLN 1====ENG1 PYLN 1
 STRING ENG2 PYLN 1====ENG2 PYLN 1
 STRING ENG3 PYLN 1====ENG3 PYLN 1
@@ -2180,11 +2063,7 @@ STRING ENG5 PYLN 2====ENG5 PYLN 2
 STRING ENG6 PYLN 2====ENG6 PYLN 2
 STRING ENG7 PYLN 2====ENG7 PYLN 2
 STRING ENG8 PYLN 2====ENG8 PYLN 2
-STRING engine #%1:N% drives transmission #====động cơ #% 1: N% truyền động truyền động #
-STRING prop #%1:N% is driven by transmission #====prop #% 1: N% được điều khiển bởi truyền #
-STRING Starter will output %1:torque% ft-lbs at %2:rpm% rpm, which is %3:hp% hp.====Bộ khởi động sẽ xuất ra% 1: mô-men xoắn% ft-lbs tại% 2: vòng/phút% vòng/phút, là% 3: hp% hp.
-STRING Autopilot discon====Đĩa lái tự động
-STRING Low vacuum====Chân không thấp
+STRING Low vacuum====Lực bơm thấp
 STRING Low voltage====Điện áp thấp
 STRING Hydraulic press====Thủy áp
 STRING Ice detect====Phát hiện băng
@@ -2193,7 +2072,7 @@ STRING Transonic speed====Tốc độ chuyển đổi
 STRING Slats deployed====Các thanh được triển khai
 STRING Flight director on====Giám đốc chuyến bay trên
 STRING Autopilot on====Tự động lái trên
-STRING Inverter #1 off====Biến tần số 1 tắt
+STRING Inverter #1 off====Biến tần # 1 tắt
 STRING Inverter #2 off====Biến tần # 2 tắt
 STRING Generator off====Máy phát điện tắt
 STRING Igniter on====Bật lửa
@@ -2216,97 +2095,13 @@ STRING Autopilot soft ride====Lái xe tự động nhẹ nhàng
 STRING Inverters fail====Biến tần không thành công
 STRING Stability augmentation====Tăng độ ổn định
 STRING Yaw damper====Van điều tiết hàm
-STRING Autopilot servos====Autopilot servos
-STRING Autothrottle====Autothrottle
-STRING Slats====Thanh
-# standart/systèmes/Circuit 2====# standart/systÃ¨mes/Circuit 2
-STRING Prop sync====Đồng bộ hóa đề xuất
-STRING Stall warning system====Hệ thống cảnh báo gian hàng
+STRING Stall warning system====Hệ thống cảnh báo stall
 STRING Electric fuel pump====Bơm nhiên liệu điện
-STRING Starter====Người khởi xướng
-# standart/systèmes/Limites 1====# standart/systÃ¨mes/Giới hạn 1
-# standart/systèmes/Limites 2====# standart/systÃ¨mes/Limites 2
-# standart/systèmes/objets libres====# standart/systÃ¨mes/objets libres
-# standart/systèmes/Curseurs====# standart/systÃ¨mes/Curseurs
-# standart/systèmes/Arc colors====Các màu # standart/systÃ¨mes/Arc
-STRING Arc Colors====Màu hồ quang
-STRING green-arc color====màu lục cung
-STRING yellow-arc color====màu vòng cung vàng
-STRING red-line color====màu đường đỏ
-# standart/ailes/cadre spécification des profils====# standart/ailes/staff spÃ © cification des profils
-# standart/ailes/cadre ÉLÉMENTS D'AILE====# standart/ailes/staff Ã ‰ LÃ ‰ MENTS D'AILE
-# standart/ailes/flexion aile====# standart/ailes/flexion aile
-# standart/fuselage cadre données carlingue====# standart/fuselage staff donnÃ © es carlingue
-# standart/fuselage cadre emplacement objet====# standart/thân máy bay phản đối sự thay thế cán bộ
-# standart/fuselage cadre texture carlingue====# standart/thân máy bay kết cấu cán bộ
-# standart/autres objets 3d====# standart/autres objets 3d
-STRING Outside-Inside-Glass (Outside)-Glass (Inside)====Bên ngoài-Bên trong-Kính (Bên ngoài)-Kính (Bên trong)
+STRING Starter====Khởi động
 STRING No Prefill-Prefill-Prefill Only====Không điền trước-Chỉ điền trước-điền sẵn
-# standart/carénage sabots de roue cadre DONNÉE CORPS====# standart/carÃ © nage sabots de roue staff DONNÃ ‰ E CORPS
-# standart/SURFACES DE CONTRÔLE/Contrôles/cadre DIMENSIONS DES SURFACES DE CONTRÔLE====# standart/SURFACES DE CONTRÃ ”LE/ContrÃ´les/staff DIMENSIONS DES SURFACES DE CONTRÃ” LE
-# standart/SURFACES DE CONTRÔLE/Géométrie des contrôles/cadre spécifications volets====standart/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/staff spÃ © cification volets
-# standart/SURFACES DE CONTRÔLE/Géométrie des contrôles/Transitions====# standart/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Chuyển tiếp
-# standart/SURFACES DE CONTRÔLE/Géométrie des contrôles/Compensation cadre limtes, durées compensateur====# standart/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Cán bộ bồi thường lấp lửng, durÃ © es offsetateur
-# standart/SURFACES DE CONTRÔLE/Géométrie des contrôles/Compensation cadre Vitesses et limites débattement commandes====# standart/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Cán bộ bồi thường Vitesses et limites dÃ © battement commandes
-# standart/SURFACES DE CONTRÔLE/Géométrie des contrôles/Aérofreins====# standart/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/AÃ © rofreins
-# standart/SURFACES DE CONTRÔLE/Géométrie des contrôles/Forces-contrôle cadre rebonds et amortis====# standart/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Lực lượng-contrÃ´le cán bộ rebonds et amortis
-# standart/SURFACES DE CONTRÔLE/Géométrie des contrôles/coeff force hydraulique====# standart/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/coeff force hydraulique
-# standart/SURFACES DE CONTRÔLE/Géométrie des contrôles/Forces-coeff force hydraulique====# standart/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Lực lượng force-coeff hydraulique
-# standart/Train d'atterrissage/train options====# standart/Train d'atterrissage/tùy chọn xe lửa
-# standart/Train d'atterrissage/ cadre rétraction train et roulette de nez====# standart/Train d'atterrissage/staff rÃ © traction train et roulette de nez
-# standart/Train d'atterrissage/cadre Géométrie roue et pneu====standart/Train d'atterrissage/staff GÃ © omÃ © trie roue et pneu
-# standart/Train d'atterrissage/cadre coordonnées texture roue et pneu====# standart/Train d'atterrissage/staff coordonnÃ © es texture roue et pneu
-# standart/Train d'atterrissage/cadre GOUVERNAIL ET ANCRE====# standart/Train d'atterrissage/staff GOUVERNAIL ET ANCRE
-# standart/Train d'atterrissage/cadre COEFF. FRICTIONS TRAIN ATTERRISSAGE====# standart/Train d'atterrissage/staff COEFF. FRICTIONS TRAIN ATTERRISSAGE
-# standart/Train d'atterrissage/train const cadre deflections====# standart/Train d'atterrissage/đào tạo const cán bộ lệch hướng
-# standart/Train d'atterrissage/train const cadre SUSPENSION====# standart/Train d'atterrissage/train const staff SUSPENSION
-# Standard Masses & centrages/ cadre centre de gravité====# Đại chúng & trung tâm tiêu chuẩn/trung tâm cán bộ de gravitÃ ©
-# Standard Masses & centrages/ cadre Charge élingue/eau/ etc====# Khối lượng tiêu chuẩn & centrages/Phụ phí cán bộ Ã © lingue/eau/etc
-# Standard Masses & centrages/ cadre Poids====# Khối lượng tiêu chuẩn & trọng tâm/Poids cán bộ
-# Standard Masses & centrages/ cadre Rayons de giration====# Khối lượng tiêu chuẩn & trọng tâm/cán bộ Rayons de giration
-# Standard Masses & centrages/ réservoirs====# Khối lượng tiêu chuẩn & centrages/rÃ © servo
-# Standard Masses & centrages/ Définir CG====# Khối lượng tiêu chuẩn & centrages/DÃ © finir CG
-# Standard Masses & centrages/ Vérifier CG====# Khối lượng tiêu chuẩn & centrages/VÃ © rifier CG
-# Expert/profils d'ailes/hélices====# Expert/profils d'ailes/hÃ © lices
-# Expert/profils d'ailes/ailes====# Chuyên gia/profils d'ailes/ailes
-# Expert/Controles VTOLS ou hélicos/ cadre poussée vectorielle====Chuyên gia/Kiểm soát VTOLS ou hÃ © licos/cán bộ poussÃ © e vectorielle
-# Expert/Controles ADAV ou hélicos/ forces supplémentaires sur rotors====# Chuyên gia/Điều khiển ADAV ou hÃ © licos/force supplÃ © mentaires sur rotors
-# Expert/Controles ADAV ou hélicos/ entrées spécifique pour hélicos ou rotors inclinables====# Chuyên gia/Điều khiển ADAV ou hÃ © licos/entrÃ © es spÃ © cifique pour hÃ © licos ou rotors inclinables
-# Expert/Controles ADAV ou hélicos/ entrées spécifique pour jets====# Chuyên gia/Điều khiển ADAV ou hÃ © licos/entrÃ © es spÃ © cifique pour jets
-# Expert/équipement spécial/ cadre débattement spécial des commandes====# Expert/Ã © quipement spÃ © cial/staff dÃ © battement spÃ © cial des commandes
-# Expert/équipement spécial/ vectorisation différentiée de la poussées pour les manoeuvres====# Expert/Ã © quipement spÃ © cial/vectorisation diffÃ © RentiÃ © e de la poussÃ © es pour les manuvers
-# Expert/équipement spécial/ cadre inclinaison de l'aile pour les maoeuvres====# Expert/Ã © quipement spÃ © cial/staff inclinaison de l'aile pour les maoeuvres
-# Expert/équipement spécial/ cadre débattements-auto====# Expert/Ã © quipement spÃ © cial/staff dÃ © battements-auto
-# Expert/équipement spécial/ cadre action dynamique volets====# Expert/Ã © quipement spÃ © cial/cán bộ hành động năng động volets
-# Expert/équipement spécial/ cadre auto-flèche====# Expert/Ã © quipement spÃ © cial/staff auto-flÃ¨che
-# Expert/équipement spécial/ équipement spécial cadre Jato: décollage assisté par fusées====# Expert/Ã © quipement spÃ © cial/Ã © quipement spÃ © cial staff Jato: dÃ © collage hỗ trợÃ © par fusÃ © es
-# Expert/équipement spécial/ cadre ÉQUIPEMENTS OPTIONELS====# Expert/Ã © quipement spÃ © cial/staff Ã ‰ QUIPEMENTS TÙY CHỌN
-# Expert/équipement spécial/ cadre PARACHUTE====Expert/Ã © quipement spÃ © cial/cán bộ PARACHUTE
-# Expert/équipement spécial/ cadre CONTRE-MESURES DÉFENSIVES====# Expert/Ã © quipement spÃ © cial/staff CONTRE-MESURES DÃ ‰ FENSIVES
-# Expert/équipement spécial/ cadre LARGAGE-D'EAU====# Expert/Ã © quipement spÃ © cial/staff LARGAGE-D'EAU
-## expert/Stabilité artificielle/ cadre explicatif du bas====## Expert/StabilitÃ © artificielle/staff explicatif du bas
-## expert/Stabilité artificielle/ Stab.artifielle cadre basse-vitesse====## Expert/StabilitÃ © artificielle/Stab.artifielle cán bộ basse-vitesse
-## expert/Stabilité artificielle/ Stab.artifielle cadre Haute-vitesse====## Expert/StabilitÃ © artificielle/Stab.artifielle cán bộ Haute-vitesse
-## expert/Stabilité artificielle/ pilote auto cadre 1====## Expert/StabilitÃ © artificielle/pilote auto staff 1
-## expert/Stabilité artificielle/ pilote auto cadre 2====## Expert/StabilitÃ © artificielle/pilote auto staff 2
-## expert/Stabilité artificielle/ pilote auto cadre 3====## Expert/StabilitÃ © artificielle/pilote auto staff 3
-## expert/Stabilité artificielle/ Gouvernail====## Expert/StabilitÃ © artificielle/Gouvernail
-## expert/Armes par défaut====## Expert/Armes par dÃ © faut
-####### fin non affichables End not displayed====####### fin non affichables Kết thúc không hiển thị
-## expert/Construire arme cadre Spécifications arme====## Expert/Construire arme staff SpÃ © cification arme
-STRING Weapon Geometry====Hình học vũ khí
-STRING Clear Shell Object====Xóa đối tượng Shell
+STRING Weapon Geometry====Hình học hóa vũ khí
 STRING Clear Launcher Object====Xóa đối tượng trình khởi chạy
 STRING Make Launcher OBJ====Đặt Trình khởi chạy OBJ
-## expert/Construire arme 2ème cadre====## chuyên gia/Construire arme 2Ãme cán bộ
-STRING none-conventional-napalm-nuclear====không-hạt-nhân-thông-thường-napalm
-## expert/Construire/Guidage propulsion cadre système de guidage de l'arme====## Expert/Construire/Hướng dẫn viên chức năng lực đẩy systÃ¨me de Guidage de l'arme
-## expert/Construire/Guidage propulsion cadre propulsion de l'arme====## Expert/Construire/Hướng dẫn đẩy lực đẩy cán bộ đẩy de l'arme
-## expert/Construire/Guidage/Géométrie cadre données fuselage====## Expert/Construire/Guidage/GÃ © omÃ © trie staff donnÃ © es fuselage
-##Spécial/Produire objet à partir de l'aéronef====## SpÃ © cial/Produire objet Ã partir de l'aÃ © ronef
-##Spécial/Personnaliser les touches====## SpÃ © cial/Personnaliser les touch
-#fin====#fin
-#ESSAI====#ESSAI
 STRING Wing L/D====Cánh L/D
 STRING Select New Scenery====Chọn phong cảnh mới
 STRING There were errors while updating your scenery.====Đã xảy ra lỗi khi cập nhật phong cảnh của bạn.
@@ -2316,14 +2111,14 @@ STRING There were errors while removing your scenery.====Đã xảy ra lỗi khi
 STRING To select less scenery for a faster installation.====Để chọn ít khung cảnh hơn để cài đặt nhanh hơn.
 STRING To keep your current scenery selection (and corresponding long installation time).====Để giữ lựa chọn khung cảnh hiện tại của bạn (và thời gian cài đặt dài tương ứng).
 STRING License====Giấy phép
-STRING End User License Agreement====Thỏa thuận cấp phép người dùng cuối
+STRING End User License Agreement====Thỏa thuận cấp phép người dùng cuối (EULA)
 STRING Keep the Old File====Giữ tệp cũ
-STRING Installing: %1:file%====Đang cài đặt:% 1: file%
+STRING Installing: %1:file%====Đang cài đặt: %1:file%
 STRING Unable to download. Please check your internet connection.====Không thể tải xuống. Xin vui lòng kiểm tra kết nối Internet của bạn.
 STRING Press the Back button to cancel installation.====Nhấn nút Quay lại để hủy cài đặt.
 STRING Scan Existing Files====Quét các tệp hiện có
 STRING Pick Destination====Chọn điểm đến
-STRING Pick Install Destination for %1:install%.====Chọn Install Destination cho% 1: install%.
+STRING Pick Install Destination for %1:install%.====Chọn Install Destination cho %1:install%.
 STRING If you have an X-Plane DVD set, please insert disc 1 now.====Nếu bạn có một bộ DVD X-Plane, vui lòng đưa đĩa 1 vào ngay bây giờ.
 STRING This copy of X-Plane is a newer version than this update.====Bản sao của X-Plane này là phiên bản mới hơn so với bản cập nhật này.
 STRING Finished Installing X-Plane====Cài đặt xong X-Plane
@@ -2350,10 +2145,6 @@ STRING Saitek X52 Pro====Saitek X52 Pro
 STRING HOTAS Warthog Throttle====HOTAS Warthog Throttle
 STRING Xbox 360 Controller====Bộ điều khiển Xbox 360
 STRING lbs====lbs
-STRING clean:====lau dọn:
-STRING hazy :====mơ hồ:
-STRING foggy:====sương mù:
-STRING cloud light, dark====ánh sáng mây, bóng tối
 STRING CROSS-SECTIONS, ALL STATIONS WITH RESPECT TO THE CENTER OF GRAVITY!====CÁC KHU VỰC CHÉO, TẤT CẢ CÁC TRẠM CÙNG TÔN TRỌNG ĐẾN TRUNG TÂM CỦA NĂNG LỰC!
 STRING CROSS-SECTIONS (Double-click on a node to 'LOCK' it, preventing smoothing operations from moving that node)====CROSS-SECTIONS (Nhấp đúp vào nút để 'KHÓA' nút đó, ngăn các hoạt động làm trơn di chuyển nút đó)
 STRING BODY TEXTURE====KẾT CẤU CƠ THỂ
@@ -2374,17 +2165,13 @@ STRING Go to 3-d panel.====Chuyển đến bảng điều khiển 3-d.
 STRING If you check this, changes you make will affect every selected instrument.====Nếu bạn chọn điều này, những thay đổi bạn thực hiện sẽ ảnh hưởng đến mọi nhạc cụ đã chọn.
 STRING Key Frames====Khung chính
 STRING none-body mounted====không gắn trên cơ thể
-STRING clear====xa lạ
-STRING Round====Chung quanh
+STRING clear====xóa
 STRING Warnings====Cảnh báo
-STRING Bouncers====Người trả lại
-STRING Governor====Thống đốc
-STRING Prop & Guide====Đề xuất & Hướng dẫn
-STRING General Aviation-Airliner-Fighter-Glider-Helicopter-Autogyro-General IFR-Gyro Twin-Fighter IFR====General Aviation-Airliner-Fighter-Tàu lượn-Trực thăng-Autogyro-General IFR-Gyro Twin-Fighter IFR
+STRING General Aviation-Airliner-Fighter-Glider-Helicopter-Autogyro-General IFR-Gyro Twin-Fighter IFR====Hàng không cơ bản-Hàng không dân dụng-Quân sự-Tàu lượn-Trực thăng-Autogyro-IFR Chung-Gyro Twin-Fighter IFR
 STRING AIRCRAFT AND PANEL VISIBILITY====TRÁCH NHIỆM CỦA MÁY BAY VÀ BẢNG
 STRING SCREEN-CENTERS====MÀN HÌNH-TRUNG TÂM
 STRING CAMERA INSTRUMENT OFFSETS====CÀI ĐẶT MÁY ẢNH
-STRING Viewpoint====Quan điểm
+STRING Viewpoint====Điểm quan sát
 STRING HUD AND SIDESLIP====HUD VÀ SIDESLIP
 STRING view center Y of LEFT side views, pixels====xem trung tâm Y của các chế độ xem bên TRÁI, pixel
 STRING 2-D Cockpit Lighting====Đèn chiếu sáng buồng lái 2-D
@@ -2394,13 +2181,9 @@ STRING GENERAL ENGINE SPECS====THÔNG SỐ KỸ THUẬT ĐỘNG CƠ CHUNG
 STRING PROP ENGINE SPECS====THÔNG SỐ KỸ THUẬT CỦA ĐỘNG CƠ PROP
 STRING JET ENGINE SPECS====THÔNG SỐ KỸ THUẬT CỦA ĐỘNG CƠ JET
 STRING ROCKET ENGINE SPECS at sea level, optimum altitude, and vacuum====THÔNG SỐ KỸ THUẬT CỦA ĐỘNG CƠ ROCKET ở mực nước biển, độ cao tối ưu, và chân không
-#6666====# 6666
-## de log.txt, où ranger?====## de log.txt, oÃ¹ ranger?
 STRING You're coming in too steep—raise the nose and aim to touch down farther back on the runway.====Bạn đang đến quá dốc - hãy nâng cao mũi và hướng xuống xa hơn trên đường băng.
 STRING Make sure your throttle is at idle and your flaps are fully extended. You want to slow down to about 60 knots by the time you touch down.====Đảm bảo van tiết lưu của bạn ở chế độ không tải và cánh tà của bạn được mở rộng hoàn toàn. Bạn muốn giảm tốc độ xuống khoảng 60 hải lý vào thời điểm bạn chạm xuống.
 STRING Our altitude is a bit lower than it should be. Raise the nose and add some throttle to slow our descent.====Độ cao của chúng tôi thấp hơn một chút so với mức cần thiết. Nâng cao mũi xe và tăng ga để giảm tốc độ xuống của chúng tôi.
-#_____________________________________________====#_____________________________________________
-## de untranslated strings, où ranger?====## de chuỗi chưa được dịch, oÃ¹ ranger?
 STRING Rotors flight model (detailed, in-cockpit only)====Mô hình chuyến bay cánh quạt (chi tiết, chỉ trong buồng lái)
 STRING Propellers flight model (detailed, in-cockpit only)====Mô hình bay cánh quạt (chi tiết, chỉ trong buồng lái)
 STRING Wings flight model (detailed, in-cockpit only)====Mô hình chuyến bay Wings (chi tiết, chỉ trong buồng lái)
@@ -2416,11 +2199,10 @@ STRING corrugated with gaps-smooth with gaps-smooth with no gaps-high energy slo
 STRING LANDING GEAR FRICTION COEFFICIENTS====HIỆU QUẢ HÌNH ẢNH BÁNH RĂNG ĐẤT
 STRING WHEEL AND TIRE TEXTURE COORDINATES====PHỐI HỢP KẾT CẤU BÁNH XE VÀ LỐP
 STRING GEAR RETRACTION AND NOSEWHEEL STEERING====PHỤC HỒI BÁNH RĂNG VÀ BỘ CHẾ TẠO NOSEWHEEL
-STRING DAMPING====ĐẬP ĐẬP
 STRING RADII OF GYRATION====RADII CỦA GYRATION
 STRING DEFENSIVE====PHÒNG NGỰ
 STRING WATER-DROP====GIỌT NƯỚC
-STRING PARACHUTE====CÁI DÙ BAY
+STRING PARACHUTE====DÙ
 STRING JET ASSISTED TAKE-OFF====JET ASSISTED TAKE-OFF
 STRING EQUIPMENT OPTIONS====CÁC LỰA CHỌN THIẾT BỊ
 STRING WEAPON SPECS====ĐẶC ĐIỂM VŨ KHÍ
@@ -2430,7 +2212,7 @@ STRING Don't Save====Đừng lưu
 STRING Weight & Balance====Cân bằng trọng lượng
 STRING VTOL Controls====Điều khiển VTOL
 STRING Accessory====Phụ kiện
-STRING After this 'Pre-Flare', where you level your descent, get the gear down and touch down smoothly.===="Sau 'Pre-Flare', này, nơi bạn cân bằng gốc của bạn, xuống số và chạm xuống mượt mà."
+STRING After this 'Pre-Flare', where you level your descent, get the gear down and touch down smoothly.====Sau 'Pre-Flare', này, nơi bạn cân bằng gốc của bạn, xuống số và chạm xuống mượt mà.
 STRING %1:hours%:%2:minutes% local====%1:hours%:%2:minutes% giờ địa phương
 STRING Scanning %1:folder path% to see what files need updating.====Đang quét% 1: đường dẫn thư mục% để xem những tệp nào cần cập nhật.
 STRING This is the “%1:special start name%” special start.====Bạn đã chọn bắt đầu đặc biệt: “%1:special start name%”
@@ -2440,9 +2222,7 @@ STRING Alternatively, you can purchase a complete cockpit simulator from PFC (at
 STRING Physical Moving Maps====Bản đồ di chuyển vật lý
 STRING Rudder trim (not a modifier of rudder input)====Rudder trim (không phải là công cụ sửa đổi của đầu vào bánh lái)
 STRING Failed to open a requested COM port. You may be unable to communicate with COM devices.====Không mở được cổng COM được yêu cầu. Bạn có thể không giao tiếp được với các thiết bị COM.
-#################################################====#####################################################
-STRING Fail when %1:command name% command is given====Không thành công khi% 1: tên lệnh% lệnh được đưa ra
-"###############################################"""===="################################################## """
+STRING Fail when %1:command name% command is given====Không thành công khi %1:command name% lệnh được đưa ra
 STRING Watch the right EFIS to fly the vertical part of the re-entry, and the middle EFIS for the horizontal guidance to Edwards AFB.====Xem EFIS bên phải để di chuyển phần thẳng đứng của mục nhập lại, và EFIS ở giữa để có hướng dẫn ngang tới Edwards AFB.
 STRING This will be the final 12 minute glide to Edwards AFB, and is a moderate challenge.====Đây sẽ là lần lướt cuối cùng trong 12 phút đối với Edwards AFB, và là một thử thách vừa phải.
 STRING You agree to not distribute the artwork from X-Plane, or any derivative thereof, without permission from Laminar Research.====Bạn đồng ý không phân phối tác phẩm nghệ thuật từ X-Plane, hoặc bất kỳ tác phẩm phái sinh nào của chúng, mà không có sự cho phép của Laminar Research.
@@ -2450,7 +2230,7 @@ STRING I agree to the terms of the EULA====Tôi đồng ý với các điều kh
 STRING the demo installation and delete partial installation.====cài đặt demo và xóa cài đặt một phần.
 STRING Cancel Installation====Hủy cài đặt
 STRING Buy X-Plane Online====Mua X-Plane trực tuyến
-STRING Use departure wizard====Sử dụng thuật sĩ khởi hành
+STRING Use departure wizard====Sử dụng trình hỗ trợ khởi hành
 STRING Click a row to tune your COM1 radio to that frequency.====Nhấp vào một hàng để điều chỉnh radio COM1 của bạn theo tần số đó.
 STRING ATC has cancelled all guidance for you because you violated their instructions beyond the acceptable tolerance. You can file a new flight plan and try again if you’d like.====ATC đã hủy bỏ tất cả các hướng dẫn cho bạn vì bạn đã vi phạm các hướng dẫn của họ vượt quá mức cho phép có thể chấp nhận được. Bạn có thể gửi một kế hoạch chuyến bay mới và thử lại nếu bạn muốn.
 STRING Communication with ATC will not be possible.====Giao tiếp với ATC sẽ không thể thực hiện được.
@@ -2463,11 +2243,10 @@ STRING AIRCRAFT CLASS====LỚP MÁY BAY
 STRING Select this option to have your glider towed aloft.====Chọn tùy chọn này để kéo tàu lượn của bạn ở trên cao.
 STRING Barometric pressure at sea level====Áp suất khí quyển ở mực nước biển
 STRING Temperature at nearest airport====Nhiệt độ tại sân bay gần nhất
-STRING Speed: %1:speed% kts====Tốc độ:% 1: tốc độ% kts
+STRING Speed: %1:speed% kts====Tốc độ: %1:speed% kts
 STRING Marker beacons====Báo hiệu điểm đánh dấu
 STRING Glideslope:====Glideslope:
 STRING REPORT CARD====THẺ BÁO CÁO
-#derniers essais====#derniers essais
 STRING WARNINGS====CẢNH BÁO
 STRING These sliders allow you to get more joystick resolution when your controls are near the center of their travel.====Các thanh trượt này cho phép bạn có được độ phân giải phím điều khiển cao hơn khi các điều khiển của bạn ở gần tâm điểm di chuyển của chúng.
 STRING Failed====Thất bại
@@ -2476,12 +2255,11 @@ STRING Copyright & Licensing====Bản quyền & Cấp phép
 STRING General Aviation====Hàng không phổ thông
 STRING This copy is not approved for commercial applications.====Bản sao này không được chấp thuận cho các ứng dụng thương mại.
 STRING For commercial use, see x-plane.com/pro/.====Để sử dụng cho mục đích thương mại, xem x-plane.com/pro/.
-STRING Report violations to austin@x-plane.com.====Báo cáo vi phạm tới austin@x-plane.com.
+STRING Report violations to austin@x-plane.com.====Báo cáo vi phạm bản quyền tới austin@x-plane.com.
 STRING DID YOU KNOW...====BẠN CÓ BIẾT KHÔNG...
-STRING YOU CRASHED!====BẠN ĐIÊN RỒI!
+STRING YOU CRASHED!====BẠN ĐÃ GẶP TAI NẠN!
 STRING You crashed!====Bạn bị rơi!
 STRING Helicopter====Trực thăng
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Monde====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Monde
 STRING Control lock still in====Khóa điều khiển vẫn ở trong
 STRING door still open====cửa vẫn mở
 STRING External power still on====Nguồn bên ngoài vẫn bật
@@ -2491,7 +2269,6 @@ STRING Runway lights====Đèn đường băng
 STRING Bird strike====Cuộc tấn công của chim
 STRING Smoke in cockpit====Khói trong buồng lái
 STRING Brown-out====Màu nâu
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/électricité====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Ã © lectricitÃ ©
 STRING Failures====Thất bại
 STRING Electrical bus #1====Xe buýt điện số 1
 STRING Electrical bus #2====Xe buýt điện số 2
@@ -2499,27 +2276,20 @@ STRING Electrical bus #3====Xe buýt điện số 3
 STRING Electrical bus #4====Xe buýt điện số 4
 STRING Electrical bus #5====Xe buýt điện số 5
 STRING Electrical bus #6====Xe buýt điện số 6
-STRING Battery 1 hi volt====Pin 1 hi volt
-STRING Battery 1 lo volt====Pin 1 lo volt
-STRING Battery 2 hi volt====Pin 2 hi volt
-STRING Battery 2 lo volt====Pin 2 lo volt
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Pilote automatique====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Pilote automatique
+STRING Battery 1 hi volt====Pin 1 điện áp cao
+STRING Battery 1 lo volt====Pin 1 điện áp thấp
+STRING Battery 2 hi volt====Pin 2 điện áp cao
+STRING Battery 2 lo volt====Pin 2 điện áp thấp
 STRING Autopilot runaway====Autopilot chạy
 STRING Autopilot aileron servo====Autopilot aileron servo
 STRING Autopilot elevator servo====Servo thang máy lái tự động
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Contrôles====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/ContrÃ´les
 STRING Rudder trim runaway====Rudder trim runaway
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Train d'atterrissage====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Train d'atterrissage
 STRING Landing gear====Thiết bị hạ cánh
 STRING Gear indicator system====Hệ thống chỉ thị bánh răng
 STRING Actuator jam====Kẹt thiết bị truyền động
 STRING Actuator collapse====Sụp đổ bộ truyền động
 STRING Nosewheel====Bánh mũi
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/équipements====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Ã © quipements
 STRING Auto-feather====Tự động làm sạch lông
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Instruments/Capteurs====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Instruments/Capteurs
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Instruments/Primaire====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Instruments/Primaire
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Instruments/navigation====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Instruments/navigation
 STRING Glideslope antennae====Ăng ten glideslope
 STRING Manifold pressure 1====Áp suất thao tác 1
 STRING Manifold pressure 2====Áp suất Manifold 2
@@ -2529,30 +2299,22 @@ STRING Fuel pressure 1====Áp suất nhiên liệu 1
 STRING Fuel pressure 2====Áp suất nhiên liệu 2
 STRING Oil pressure 1====Áp suất dầu 1
 STRING Oil pressure 2====Áp suất dầu 2
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Instruments/G430====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Instruments/G430
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Instruments/G1000====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Instruments/G1000
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Moteurs====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Moteurs
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Moteurs/Fuel-Air====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Moteurs/Fuel-Air
 STRING Engine-driven fuel pump====Bơm nhiên liệu điều khiển động cơ
 STRING Fuel flow fluctuation====Biến động dòng nhiên liệu
 STRING Fuel flow restricted====Dòng nhiên liệu bị hạn chế
 STRING Air flow restricted====Dòng không khí bị hạn chế
 STRING Compressor stall====Gian hàng máy nén
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Moteurs/Démarrer====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Moteurs/DÃ © marrer
-STRING Hung start (weak starter)====Hung khởi động (khởi động yếu)
+STRING Hung start (weak starter)====Khởi động (khởi động yếu)
 STRING Hot start (extra fuel)====Khởi động nóng (thêm nhiên liệu)
 STRING Runaway ITT (low airflow)====ITT chạy trốn (luồng không khí thấp)
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Moteurs/Hélice====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Moteurs/HÃ © chí
 STRING Engine drive shaft====Trục truyền động động cơ
 STRING Engine seize====Động cơ bắt giữ
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Moteurs/Inverseurs====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Moteurs/Inverseurs
 STRING Reverser retract====Trình đảo ngược rút lại
 STRING Reverser deploy====Triển khai trình đảo ngược
 STRING Reverser lock====Khóa đảo chiều
 STRING Afterburner====Afterburner
-## X-Plane/configuration du vol/Appareil/personnalisé/Pannes/Moteurs/Accessoires====## X-Plane/configuration du vol/Appareil/personnalisÃ ©/Pannes/Moteurs/Accessoires
 STRING Heavy====Nặng
-STRING Track real-world date & time====Theo dõi ngày và giờ trong thế giới thực
+STRING Track real-world date & time====Theo dõi ngày & giờ trong thế giới thực
 STRING With this checked, X-Plane will describe what certain instruments in the cockpit do when you hover over them with the mouse.====Với điều này được đánh dấu, X-Plane sẽ mô tả một số công cụ nhất định trong buồng lái hoạt động khi bạn di chuột qua chúng.
 STRING With this checked, X-Plane will draw arrows showing where air traffic control has cleared you to taxi.====Với điều này được chọn, X-Plane sẽ vẽ các mũi tên hiển thị nơi kiểm soát không lưu đã cho bạn đi taxi.
 STRING If this is on, X-Plane will dump its internet I/O to the Log.txt file. This is useful for seeing what data X-Plane is sending and receiving.====Nếu điều này được bật, X-Plane sẽ kết xuất I/O internet của nó vào tệp Log.txt. Điều này rất hữu ích để xem dữ liệu X-Plane đang gửi và nhận.
@@ -3010,13 +2772,13 @@ STRING Rotate view: pan right slow.====Xoay chế độ xem: quay chậm sang ph
 STRING Move view forward.====Di chuyển tầm nhìn về phía trước.
 STRING Move view backward.====Di chuyển chế độ xem về phía sau.
 STRING Toggle between 2-D and 3-D cockpit.====Chuyển đổi giữa buồng lái 2-D và 3-D.
-STRING Runway.====Đường băng.
-STRING Tower.====Tòa tháp.
-STRING Chase.====Đuổi.
+STRING Runway.====Góc nhìn từ Đường băng.
+STRING Tower.====Góc nhìn từ Tòa tháp.
+STRING Chase.====Góc nhìn Đuổi theo.
 STRING View Tools====Xem công cụ
 STRING Cinema verite.====Điện ảnh verite.
-STRING Night vision.====Tầm nhìn ban đêm.
-STRING Quick Look====Cái nhìn lướt qua
+STRING Night vision.====Chế độ nhìn ban đêm.
+STRING Quick Look====Nhìn lướt qua
 STRING Glance left.====Liếc sang trái.
 STRING Glance right.====Nhìn sang bên phải.
 STRING Glance up and left.====Liếc lên và sang trái.
@@ -3853,7 +3615,7 @@ STRING Cross-feed fuel off.====Nhiên liệu nạp chéo tắt.
 STRING Release tow-plane cable for gliders.====Thả cáp mặt phẳng kéo cho tàu lượn.
 STRING Release tow-plane and winch for gliders.====Thả máy bay kéo và tời cho tàu lượn.
 STRING PRESSURIZATION====ĐÁP ÁN
-STRING Landing light 02 toggle.====Đèn chiếu sáng hạ cánh 02 bật tắt.
+STRING Landing light 02 toggle.====Công tắc đèn chiếu sáng hạ cánh  02 bật tắt.
 STRING Igniter====Igniter
 STRING Autopilot vertical speed, at pre-sel VSI.====Tự động lái tốc độ dọc, tại VSI pre-sel.
 STRING Annunciators====Người đưa tin
@@ -3919,32 +3681,6 @@ STRING BACKGROUND BITMAP====BITMAP NỀN TẢNG
 STRING Interior Lights====Đèn nội thất
 STRING Exterior Lights====Đèn ngoại thất
 STRING Special Controls====Kiểm soát đặc biệt
-#Plane Maker/standard/auteur====#Plane Maker/standard/auteur
-##Plane Maker/standard/Vue générale cadre Airspeed====## Plane Maker/standard/Vue gÃ © nÃ © rale staff Airspeed
-# traduit mais je ne sais pas les afficher, translated but I am I am not able to bring it to display====# traduit mais je ne sais pas les afficher, đã dịch nhưng tôi không thể mang nó đi trưng bày
-## Plane Maker/standard/Vue générale cadre Cockpit====## Plane Maker/standard/Vue gÃ © nÃ © rale staff Cockpit
-## Plane Maker/standard/Vue générale cadre Map====## Plane Maker/standard/Vue gÃ © nÃ © rale staff Map
-##Plane Maker/standard/Cockpit cadre Hud et dérapage====## Máy bay chế tạo/tiêu chuẩn/Cán bộ buồng lái Hud et dÃ © rapage
-#Plane Maker/standard/Cockpit cadre réglages de la caméra====#Plane Maker/tiêu chuẩn/Cán bộ buồng lái rÃ © glages de la camÃ © ra
-#Plane Maker/standard/Cockpit cadre essuie-glace====#Plane Maker/standard/Cockpit staff essuie-glace
-#Plane Maker/standard/Cockpit cadre Centre des cadrans et afficheurs====# Plane Maker/standard/Trung tâm cán bộ buồng lái des cadrans et afficheurs
-# Plane Maker/standard/Cockpit cadre Centre des cadrans et afficheurs====# Nhà sản xuất máy bay/tiêu chuẩn/Trung tâm cán bộ buồng lái des cadrans et afficheurs
-# Plane Maker/standard/Vue générale/éclairage int.====# Plane Maker/standard/Vue gÃ © nÃ © rale/Ã © clairage int.
-# Plane Maker/standard/Vue générale/éclairage ext.====# Plane Maker/standard/Vue gÃ © nÃ © rale/Ã © clairage ext.
-# Plane Maker/standard/Vue générale/emplacement====# Plane Maker/standard/Vue gÃ © nÃ © rale/emplacement
-# Plane Maker/standard/Limites des intruments====# Plane Maker/standard/Limites des intruments
-## Plane Maker/page caractéristiques moteur/description cadre spécifications tous moteurs====## Plane Maker/page caractÃ © ristiques moteur/description staff spÃ © cification tous moteurs
-# Plane Maker/page caractéristique moteur/description/spécifications des moteurs à hélice====Plane Maker/page caractÃ © ristique moteur/description/spÃ © cification des moteurs Ã hÃ © chí
-# Plane Maker/page caractéristique moteur/description/spécifications réacteurs====# Plane Maker/page caractÃ © ristique moteur/description/spÃ © cification rÃ © acteurs
-# Plane Maker/page caractéristique moteur/description/spécifications fusée====# Plane Maker/page caractÃ © ristique moteur/description/spÃ © cification fusÃ © e
-## Plane Maker/de untranslated strings, où ranger? probablement indications sur TDB si coché====## Plane Maker/de các chuỗi chưa được dịch, oÃ¹ ranger? chỉ định xác suất sur TDB si cochÃ ©
-## Plane Maker/train d'atterrissage====## Plane Maker/train d'atterrissage
-## Plane Maker/fuel====## Máy bay/nhiên liệu
-## Plane Maker/Boutons/interrupteurs fonction spéciales====## Plane Maker/Boutons/interrupteurs fonction spÃ © ciales
-## Plane Maker/King air C90? (pas beau, mais anglais pire)====## Máy bay chế tạo máy bay/King air C90? (pas beau, mais anglais pire)
-## Plane Maker/page caractéristique moteur/emplacements====## Plane Maker/page caractÃ © ristique moteur/emplacements
-####### Plane Maker/traduits mais je ne sais pas les afficher, translated but I am not able to display it====####### Plane Maker/traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể hiển thị nó
-####====####
 STRING The product key you entered is invalid====Khóa sản phẩm bạn đã nhập không hợp lệ
 STRING The product key you entered has been disabled====Khóa sản phẩm bạn nhập đã bị vô hiệu hóa
 STRING Scenery loading is now disabled.====Tải phong cảnh hiện đã bị vô hiệu hóa.
@@ -3955,112 +3691,13 @@ STRING You have used the force-run command inline option to run X-Plane anyway, 
 STRING There was a problem setting up OpenGL.====Đã xảy ra sự cố khi thiết lập OpenGL.
 STRING You can still fly, but you may experience pauses during flight while scenery loads.====Bạn vẫn có thể bay, nhưng bạn có thể gặp phải tình trạng tạm dừng trong khi bay khi phong cảnh đang tải.
 STRING Check a box to make a part invisible!====Chọn hộp để ẩn một phần!
-# plane-maker/page standard/caractéristique moteur/emplacements====# plane-maker/page standard/caractÃ © ristique moteur/emplacements
-#  plane-maker/page standard/caractéristique moteur/TRANSMISSIONS====# plane-maker/page standard/caractÃ © ristique moteur/TRANSMISSIONS
-#  plane-maker/traduit mais je ne sais pas l'afficher, translated but I am I am not able to bring it to display====# plane-maker/traduit mais je ne sais pas l'afficher, đã dịch nhưng tôi không thể mang nó đi trưng bày
-# erreur de frappe ? traduit mais je ne sais pas l' afficher, translated but I am I am not able to bring it to display====# erreur de frappe? traduit mais je ne sais pas l 'afficher, đã dịch nhưng tôi không thể mang nó đi trưng bày
-#  plane-maker/page standard/caractéristique moteur/start/boost cadre PROP/TURBOPROP TIMES====# plane-maker/page standard/caractÃ © ristique moteur/start/boost staff PROP/TURBOPROP TIMES
-#  plane-maker/page standard/caractéristique moteur/start/boost cadre JET TIMES====plane-maker/page standard/caractÃ © ristique moteur/start/boost staff JET TIMES
-#  plane-maker/page standard/caractéristique moteur/start/boost cadre PROP AND JET BOOST====# plane-maker/page standard/caractÃ © ristique moteur/start/boost staff PROP AND JET BOOST
-#  plane-maker/page standard/caractéristique moteur/start/boost cadre ELECTRIC RE-GEN====# plane-maker/page standard/caractÃ © ristique moteur/start/boost staff ĐIỆN TỬ RE-GEN
-#  plane-maker/page standard/caractéristique moteur/start/boost cadre STARTER====# plane-maker/page standard/caractÃ © ristique moteur/start/boost staff STARTER
-#######  plane-maker/traduits mais je ne sais pas les afficher, translated but I am not able to display it====####### plane-maker/traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể hiển thị nó
-#  plane-maker/page standard/caractéristique moteur/start/SFC/SON cadre TURBOPROP-PISTONS====# plane-maker/page standard/caractÃ © ristique moteur/start/SFC/SON cán bộ TURBOPROP-PISTONS
-#  plane-maker/page standard/caractéristique moteur/start/SFC/SON cadre MOTEUR TURBINE====# plane-maker/page standard/caractÃ © ristique moteur/start/SFC/SON cán bộ MOTEUR TURBINE
-#  plane-maker/page standard/caractéristique moteur/start/SFC/SON cadre ÉNERGIE SOLAIRE====# plane-maker/page standard/caractÃ © ristique moteur/start/SFC/SON cán bộ Ã ‰ NERGIE SOLAIRE
-#  plane-maker/page standard/caractéristique moteur/SFC/SON cadre du bas====# plane-maker/page standard/caractÃ © ristique moteur/SFC/SON staff du bas
-#  plane-maker/standard/page caractéristiques moteur/géo hélices====# plane-maker/standard/page caractÃ © ristiques moteur/gÃ © o hÃ © lices
-#  plane-maker/standard/page caractéristiques moteur/Courbes Jet====# plane-maker/standard/page caractÃ © ristiques moteur/Courbes Jet
-#  plane-maker/standard/systèmes/général 1/cadre pilote automatique====plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/staff pilote automatique
-#  plane-maker/standard/systèmes/général 1/altimètre radio====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/altimÃ¨tre radio
-#  plane-maker/standard/systèmes/général 1/cadre GPSS====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/staff GPSS
-#  plane-maker/standard/systèmes/général 1/alerte de décrochage====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/alerte de dÃ © crochage
-#  plane-maker/standard/systèmes/général 1/alertes Train====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/alertes Train
-#  plane-maker/standard/systèmes/général 2/cadre Sources hydrauliques====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 2/staff Nguồn hydrauliques
-##########  plane-maker/traduits mais je ne sais pas les afficher, translated but I am not able to bring it to display====########## plane-maker/traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể mang ra hiển thị
-#  plane-maker/standard/systèmes/général 2/cadre pressurisation====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 2/staff pressurisation
-#  plane-maker/standard/systèmes/cadre Alertes====# plane-maker/standard/systÃ¨mes/staff Alertes
-#  plane-maker/standard/systèmes/électricité cadre sources====# plane-maker/standard/systÃ¨mes/Ã © lectricitÃ © nguồn cán bộ
-#  plane-maker/standard/systèmes/électricité cadre batteries,génératrices et bus====# plane-maker/standard/systÃ¨mes/Ã © lectricitÃ © pin cán bộ, gÃ © nÃ © ratrices et bus
-#  plane-maker/standard/systèmes/électricité cadre inverseurs====# plane-maker/standard/systÃ¨mes/Ã © lectricitÃ © staff inverseurs
-#  plane-maker/standard/systèmes/Circuit 1====plane-maker/standard/systÃ¨mes/Circuit 1
-#  plane-maker/standard/systèmes/Circuit 2====# plane-maker/standard/systÃ¨mes/Circuit 2
-#  plane-maker/standard/systèmes/Limites 1====# plane-maker/standard/systÃ¨mes/Limites 1
-#  plane-maker/standard/systèmes/Limites 2====# plane-maker/standard/systÃ¨mes/Limites 2
-#  plane-maker/standard/systèmes/objets libres====# plane-maker/standard/systÃ¨mes/objets libres
-#  plane-maker/standard/systèmes/Curseurs====# plane-maker/standard/systÃ¨mes/Curseurs
-#  plane-maker/standard/systèmes/Arc colors====Các màu # plane-maker/standard/systÃ¨mes/Arc
-#  plane-maker/standard/ailes/cadre spécification des profils====# plane-maker/standard/ailes/staff spÃ © cification des profils
 STRING left====bên trái
-#  plane-maker/standard/ailes/cadre ÉLÉMENTS D'AILE====# plane-maker/standard/ailes/staff Ã ‰ LÃ ‰ MENTS D'AILE
-#  plane-maker/standard/ailes/flexion aile====# plane-maker/standard/ailes/flexion aile
-#  plane-maker/standard/fuselage cadre données carlingue====# plane-maker/standard/fuselage staff donnÃ © es carlingue
-#  plane-maker/standard/fuselage cadre emplacement objet====# máy bay-nhà sản xuất/tiêu chuẩn/mục tiêu thay thế cán bộ thân máy bay
-#  plane-maker/standard/fuselage cadre texture carlingue====# máy bay-nhà sản xuất/tiêu chuẩn/thân máy bay kết cấu cán bộ
 STRING Import Aircraft Body====Nhập khẩu thân máy bay
 STRING RESET THIS SECTION TO VERTICAL====ĐẶT LẠI PHẦN NÀY CHO VERTICAL
 STRING RESET ALL SECTIONS TO VERTICAL====ĐẶT LẠI TẤT CẢ CÁC PHẦN CHO VERTICAL
-#  plane-maker/standard/autres objets 3d====# plane-maker/standard/autres objets 3d
-##########   /plane-maker/traduits mais je ne sais pas les afficher, translated but I am not able to bring it to display====##########/plane-maker/traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể mang ra hiển thị
-#   plane-maker/standard/carénage sabots de roue cadre DONNÉE CORPS====# plane-maker/standard/carÃ © nage sabots de roue staff DONNÃ ‰ E CORPS
-# plane-maker/standard/SURFACES DE CONTRÔLE/Contrôles/cadre DIMENSIONS DES SURFACES DE CONTRÔLE====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/ContrÃ´les/staff DIMENSIONS DES SURFACES DE CONTRÃ” LE
-#  plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des contrôles/cadre spécifications volets====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/staff spÃ © cification volets
-#  plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des contrôles/Transitions====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Transitions
-#  plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des contrôles/Compensation cadre limtes, durées compensateur====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Cán bộ bồi thường lấp lửng, durÃ © es offsetateur
-#  plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des contrôles/Compensation cadre Vitesses et limites débattement commandes====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Cán bộ bồi thường Vitesses et limites dÃ © battement commandes
-#  plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des contrôles/Aérofreins====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/AÃ © rofreins
-#  plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des contrôles/Forces-contrôle cadre rebonds et amortis====plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Lực lượng-contrÃ´le cán bộ rebonds et amortis
-#  plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des contrôles/coeff force hydraulique====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/force hydraulique
-#  plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des contrôles/Forces-coeff force hydraulique====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des contrÃ´les/Lực lượng-hệ số hydraulique
-#  plane-maker/standard/Train d'atterrissage/train options====# máy bay-nhà sản xuất/tiêu chuẩn/Train d'atterrissage/tùy chọn tàu hỏa
-#  plane-maker/standard/Train d'atterrissage/ cadre rétraction train et roulette de nez====# plane-maker/standard/Train d'atterrissage/staff rÃ © traction train et roulette de nez
-#  plane-maker/standard/Train d'atterrissage/cadre Géométrie roue et pneu====# plane-maker/standard/Train d'atterrissage/staff GÃ © omÃ © trie roue et pneu
-#  plane-maker/standard/Train d'atterrissage/cadre coordonnées texture roue et pneu====# plane-maker/standard/Train d'atterrissage/staff coordonnÃ © es texture roue et pneu
-#  plane-maker/standard/Train d'atterrissage/cadre GOUVERNAIL ET ANCRE====# máy bay-nhà sản xuất/tiêu chuẩn/Train d'atterrissage/cán bộ GOUVERNAIL ET ANCRE
-#  plane-maker/standard/Train d'atterrissage/cadre COEFF. FRICTIONS TRAIN ATTERRISSAGE====# máy bay-nhà sản xuất/tiêu chuẩn/Train d'atterrissage/cán bộ COEFF. FRICTIONS TRAIN ATTERRISSAGE
-#  plane-maker/standard/Train d'atterrissage/train const cadre deflections====# máy bay-nhà sản xuất/tiêu chuẩn/Train d'atterrissage/đào tạo const cán bộ lệch hướng
-#  plane-maker/standard/Train d'atterrissage/train const cadre SUSPENSION====plane-maker/standard/Train d'atterrissage/train const staff SUSPENSION
-#  plane-maker/Standard Masses & centrages/ cadre centre de gravité====# plane-maker/Standard Masses & centrages/staff center de gravitÃ ©
-#  plane-maker/Standard Masses & centrages/ cadre Charge élingue/eau/ etc====# plane-maker/Standard Masses & centrages/staff Charge Ã © lingue/eau/etc
-#  plane-maker/Standard Masses & centrages/ cadre Poids====# plane-maker/Khối lượng tiêu chuẩn & centrages/Cán Poids
-#  plane-maker/Standard Masses & centrages/ cadre Rayons de giration====# plane-maker/Khối lượng tiêu chuẩn & centrages/cán bộ Rayons de giration
-#  plane-maker/Standard Masses & centrages/ réservoirs====# plane-maker/Standard Masses & centrages/rÃ © Servits
-#  plane-maker/Standard Masses & centrages/ Définir CG====# plane-maker/Standard Masses & centrages/DÃ © finir CG
-#  plane-maker/Standard Masses & centrages/ Vérifier CG====# plane-maker/Standard Masses & centrages/VÃ © rifier CG
 STRING Each red dot is a possible loading configuration. See here what range of weight and CG you could see in flight! Enter weights below to see the weight and CG for that load.====Mỗi chấm đỏ là một cấu hình tải có thể có. Xem ở đây bạn có thể thấy phạm vi trọng lượng và CG nào trong chuyến bay! Nhập trọng lượng bên dưới để xem trọng lượng và CG cho tải trọng đó.
-#  plane-maker/Expert/profils d'ailes/hélices====# plane-maker/Expert/profils d'ailes/hÃ © lices
-#  plane-maker/Expert/profils d'ailes/ailes====# plane-maker/Expert/profils d'ailes/ailes
-#  plane-maker/Expert/Controles VTOLS ou hélicos/ cadre poussée vectorielle====# plane-maker/Expert/Điều khiển VTOLS ou hÃ © licos/staff poussÃ © e vectorielle
-#  plane-maker/Expert/Controles ADAV ou hélicos/ forces supplémentaires sur rotors====plane-maker/Expert/Điều khiển ADAV ou hÃ © licos/force supplÃ © mentaires sur rotors
-#  plane-maker/Expert/Controles ADAV ou hélicos/ entrées spécifique pour hélicos ou rotors inclinables====# plane-maker/Expert/Điều khiển ADAV ou hÃ © licos/entrÃ © es spÃ © cifique pour hÃ © licos ou rotors inclinables
-#  plane-maker/Expert/Controles ADAV ou hélicos/ entrées spécifique pour jets====# plane-maker/Expert/Điều khiển ADAV ou hÃ © licos/entrÃ © es spÃ © cifique pour jets
-#  plane-maker/Expert/contrôles spéciaux/ cadre débattement spécial des commandes====# plane-maker/Expert/contrÃ´les spÃ © ciaux/staff dÃ © battement spÃ © cial des commandes
-#  plane-maker/Expert/contrôles spéciaux/ vectorisation différentiée de la poussées pour les manoeuvres====# plane-maker/Expert/contrÃ´les spÃ © ciaux/vectorisation diffÃ © RentiÃ © e de la poussÃ © es pour les manuvers
-#  plane-maker/Expert/contrôles spéciaux/ cadre inclinaison de l'aile pour les maoeuvres====# plane-maker/Expert/contrÃ´les spÃ © ciaux/staff inclinaison de l'aile pour les maoeuvres
-#  plane-maker/Expert/contrôles spéciaux/ cadre débattements-auto====# plane-maker/Expert/contrÃ´les spÃ © ciaux/staff dÃ © battements-auto
-#  plane-maker/Expert/contrôles spéciaux/ cadre action dynamique volets====# plane-maker/Expert/contrÃ´les spÃ © ciaux/cán bộ hành động năng động volets
-#  plane-maker/Expert/contrôles spéciaux/ cadre auto-flèche====# plane-maker/Expert/contrÃ´les spÃ © ciaux/staff auto-flÃ¨che
-#  plane-maker/Expert/équipement spécial/ équipement spécial cadre Jato: décollage assisté par fusées====# plane-maker/Expert/Ã © quipement spÃ © cial/Ã © quipement spÃ © cial staff Jato: dÃ © collage AssistÃ © par fusÃ © es
-#  plane-maker/Expert/équipement spécial/ cadre ÉQUIPEMENTS OPTIONELS====plane-maker/Expert/Ã © quipement spÃ © cial/staff Ã ‰ QUIPEMENTS TÙY CHỌN
-#  plane-maker/Expert/équipement spécial/ cadre PARACHUTE====# plane-maker/Expert/Ã © quipement spÃ © cial/staff PARACHUTE
-#  plane-maker/Expert/équipement spécial/ cadre CONTRE-MESURES DÉFENSIVES====# plane-maker/Expert/Ã © quipement spÃ © cial/staff CONTRE-MESURES DÃ ‰ FENSIVES
-#  plane-maker/Expert/équipement spécial/ cadre LARGAGE-D'EAU====# plane-maker/Expert/Ã © quipement spÃ © cial/staff LARGAGE-D'EAU
-##  plane-maker/expert/Stabilité artificielle/ Stab.artifielle cadre basse-vitesse====## plane-maker/Expert/StabilitÃ © artificielle/Stab.artifielle staff basse-vitesse
-##  plane-maker/expert/Stabilité artificielle/ Stab.artifielle cadre Haute-vitesse====## plane-maker/Expert/StabilitÃ © artificielle/Stab.artifielle cán bộ Haute-vitesse
 STRING HIGH-SPEED SYSTEM (for airplanes... tries to give constant angle of attack, sideslip, and roll-rate)====HỆ THỐNG TỐC ĐỘ CAO (dành cho máy bay ... cố gắng cung cấp góc tấn không đổi, trượt bên, và tốc độ lăn)
-##  plane-maker/expert/Stabilité artificielle/ pilote auto cadre 1====## plane-maker/Expert/StabilitÃ © artificielle/pilote auto staff 1
-##  plane-maker/expert/Stabilité artificielle/ pilote auto cadre 2====## plane-maker/Expert/StabilitÃ © artificielle/pilote auto staff 2
-##  plane-maker/expert/Stabilité artificielle/ pilote auto cadre 3====## plane-maker/Expert/StabilitÃ © artificielle/pilote auto staff 3
-##  plane-maker/expert/Stabilité artificielle/ Régulation====## plane-maker/Expert/StabilitÃ © artificielle/RÃ © gulation
-##  plane-maker/expert/Armes par défaut====## plane-maker/Expert/Armes par dÃ © faut
-##  plane-maker/expert/Construire arme cadre Spécifications arme====## plane-maker/Expert/Construire arme staff Các đặc điểm của arme
-##  plane-maker/expert/Construire arme 2ème cadre====## máy bay-maker/chuyên gia/Construire arme 2Ãme cán bộ
-##  plane-maker/expert/Construire/Guidage propulsion cadre système de guidage de l'arme====## máy bay-nhà sản xuất/chuyên gia/Construire/Hướng dẫn cán bộ động cơ đẩy systÃ¨me de hướng dẫn de l'arme
-##  plane-maker/expert/Construire/Guidage propulsion cadre propulsion de l'arme====## máy bay-nhà sản xuất/chuyên gia/Construire/Hướng dẫn lực đẩy cán bộ đẩy de l'arme
-##  plane-maker/expert/Construire/Guidage/Géométrie cadre données fuselage====## plane-maker/Expert/Construire/Guidage/GÃ © omÃ © trie staff donnÃ © es fuselage
 STRING Section====Tiết diện
-## plane-maker/Spécial/Personnaliser les touches====## plane-maker/SpÃ © cial/Personnaliser les touch
-################## ==== ##################
 #plane maker, à ranger====#plane maker, Ã ranger
 STRING Use Default Rendering Options====Sử dụng các tùy chọn kết xuất mặc định
 STRING Keep the Previous Rendering Options====Giữ các tùy chọn kết xuất trước đó
@@ -4128,7 +3765,6 @@ STRING Toggle Keyboard Shortcuts====Chuyển đổi các phím tắt
 STRING Load new METAR====Tải METAR mới
 STRING No object selected====Không có đối tượng nào được chọn
 STRING Unable to load weapon file:====Không thể tải tệp vũ khí:
-#x-plane, à ranger====# x-plane, Ã ranger
 STRING Explosion====Nổ
 STRING Fuel leak====Rỉ xăng
 STRING Rudder====Bánh lái
@@ -4191,7 +3827,6 @@ STRING %1:distance% nm====% 1: khoảng cách% nm
 STRING Stay in the air!====Ở trong không khí!
 STRING Tailwheel====Bánh xe đuôi
 STRING Yaw damper on====Van điều tiết yaw đang bật
-#end of file====#phần cuối của tập tin
 STRING Click to learn more about how Laminar Research collects diagnostic information====Nhấp để tìm hiểu thêm về cách Laminar Research thu thập thông tin chẩn đoán
 STRING If you check this, X-Plane will send usage data to Laminar Research so we can learn how you use X-Plane and make it better.====Nếu bạn chọn mục này, X-Plane sẽ gửi dữ liệu sử dụng đến Laminar Research để chúng tôi có thể tìm hiểu cách bạn sử dụng X-Plane và cải thiện nó.
 STRING X-Plane cannot be installed to the location “%1:parent folder%,” because this location is known to cause problems with X-Plane.====Không thể cài đặt X-Plane vào vị trí â € œ% 1: thư mục mẹ%, â € vì vị trí này được biết là nguyên nhân gây ra sự cố với X-Plane.
@@ -4209,7 +3844,6 @@ STRING Weather====Thời tiết
 STRING End of file====Phần cuối của tập tin
 STRING G1000 MFD====G1000 MFD
 STRING Cowl flaps====Nắp che
-# version : 27/10/2017   17:00  11.10.b5====# phiên bản: 27/10/2017 17:00 11.10.b5
 STRING Enter Product Key or Insert DVD====Nhập Khóa sản phẩm hoặc Chèn DVD
 STRING Updating X-Plane====Cập nhật X-Plane
 STRING Install a Free Demo of X-Plane====Cài đặt bản dùng thử miễn phí của X-Plane
@@ -5149,108 +4783,10 @@ STRING Landing Gear====Thiết bị hạ cánh
 STRING Weight & Bal====Trọng lượng & Cân bằng
 STRING CG Set====Bộ CG
 STRING CG Check====Kiểm tra CG
-#basiques====#basiques
-# plane-maker/page standard/caractéristique moteur/TRANSMISSIONS====# plane-maker/page standard/caractÃ © ristique moteur/TRANSMISSIONS
-# plane-maker/traduit mais je ne sais pas l'afficher, translated but I am I am not able to bring it to display====# plane-maker/traduit mais je ne sais pas l'afficher, đã dịch nhưng tôi không thể mang nó đi trưng bày
-# plane-maker/page standard/caractéristique moteur/start/boost cadre PROP/TURBOPROP TIMES====# plane-maker/page standard/caractÃ © ristique moteur/start/boost staff PROP/TURBOPROP TIMES
-# plane-maker/page standard/caractéristique moteur/start/boost cadre JET TIMES====# plane-maker/page standard/caractÃ © ristique moteur/start/boost staff JET TIMES
-# plane-maker/page standard/caractéristique moteur/start/boost cadre PROP AND JET BOOST====# plane-maker/page standard/caractÃ © ristique moteur/start/boost staff PROP AND JET BOOST
-# plane-maker/page standard/caractéristique moteur/start/boost cadre ELECTRIC RE-GEN====# plane-maker/page standard/caractÃ © ristique moteur/start/boost staff ĐIỆN TỬ RE-GEN
-# plane-maker/page standard/caractéristique moteur/start/boost cadre STARTER====plane-maker/page standard/caractÃ © ristique moteur/start/boost staff STARTER
-####### plane-maker/traduits mais je ne sais pas les afficher, translated but I am not able to display it====####### plane-maker/traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể hiển thị nó
-# plane-maker/page standard/caractéristique moteur/start/SFC/SON cadre TURBOPROP-PISTONS====# plane-maker/page standard/caractÃ © ristique moteur/start/SFC/SON cán bộ TURBOPROP-PISTONS
-# plane-maker/page standard/caractéristique moteur/start/SFC/SON cadre MOTEUR TURBINE====# plane-maker/page standard/caractÃ © ristique moteur/start/SFC/SON cán bộ MOTEUR TURBINE
-# plane-maker/page standard/caractéristique moteur/start/SFC/SON cadre ÉNERGIE SOLAIRE====# plane-maker/page standard/caractÃ © ristique moteur/start/SFC/SON cán bộ Ã ‰ NERGIE SOLAIRE
-# plane-maker/page standard/caractéristique moteur/SFC/SON cadre du bas====# plane-maker/page standard/caractÃ © ristique moteur/SFC/SON staff du bas
-# plane-maker/standard/page caractéristiques moteur/géo hélices====# plane-maker/standard/page caractÃ © ristiques moteur/gÃ © o hÃ © lices
-# plane-maker/standard/page caractéristiques moteur/Courbes Jet====# plane-maker/standard/page caractÃ © ristiques moteur/Courbes Jet
-# plane-maker/standard/systèmes/général 1/cadre pilote automatique====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/staff pilote automatique
-# plane-maker/standard/systèmes/général 1/altimètre radio====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/altimÃ¨tre radio
-# plane-maker/standard/systèmes/général 1/cadre GPSS====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/staff GPSS
-# plane-maker/standard/systèmes/général 1/alerte de décrochage====plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/alerte de dÃ © crochage
-# plane-maker/standard/systèmes/général 1/alertes Train====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 1/alertes Train
-# plane-maker/standard/systèmes/général 2/cadre Sources hydrauliques====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 2/staff Nguồn hydrauliques
-########## plane-maker/traduits mais je ne sais pas les afficher, translated but I am not able to bring it to display====########## plane-maker/traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể mang ra hiển thị
-# plane-maker/standard/systèmes/général 2/cadre Systèmes hydrauliques====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 2/staff SystÃ¨mes hydrauliques
-# plane-maker/standard/systèmes/général 2/cadre pressurisation====# plane-maker/standard/systÃ¨mes/gÃ © nÃ © ral 2/staff pressurisation
-# plane-maker/standard/systèmes/cadre Alertes====# plane-maker/standard/systÃ¨mes/staff Alertes
-# plane-maker/standard/systèmes/électricité cadre sources====# plane-maker/standard/systÃ¨mes/Ã © lectricitÃ © nguồn cán bộ
-# plane-maker/standard/systèmes/électricité cadre batteries,génératrices et bus====# plane-maker/standard/systÃ¨mes/Ã © lectricitÃ © pin cán bộ, gÃ © nÃ © ratrices et bus
-# plane-maker/standard/systèmes/électricité cadre inverseurs====# plane-maker/standard/systÃ¨mes/Ã © lectricitÃ © staff inverseurs
-# plane-maker/standard/systèmes/Circuit 1====# plane-maker/standard/systÃ¨mes/Circuit 1
-# plane-maker/standard/systèmes/Circuit 2====# plane-maker/standard/systÃ¨mes/Circuit 2
-# plane-maker/standard/systèmes/Limites 1====# plane-maker/standard/systÃ¨mes/Limites 1
-# plane-maker/standard/systèmes/Limites 2====plane-maker/standard/systÃ¨mes/Limites 2
-# plane-maker/standard/systèmes/objets libres====# plane-maker/standard/systÃ¨mes/objets libres
-# plane-maker/standard/systèmes/Curseurs====# plane-maker/standard/systÃ¨mes/Curseurs
-# plane-maker/standard/systèmes/Arc colors====Các màu # plane-maker/standard/systÃ¨mes/Arc
-# plane-maker/standard/ailes/cadre spécification des profils====# plane-maker/standard/ailes/staff spÃ © cification des profils
-# plane-maker/standard/ailes/cadre ÉLÉMENTS D'AILE====# plane-maker/standard/ailes/staff Ã ‰ LÃ ‰ MENTS D'AILE
-# plane-maker/standard/ailes/flexion aile====# plane-maker/standard/ailes/flexion aile
-# plane-maker/standard/fuselage cadre données carlingue====# plane-maker/standard/fuselage staff donnÃ © es carlingue
-# plane-maker/standard/fuselage cadre emplacement objet====# máy bay-nhà sản xuất/tiêu chuẩn/mục tiêu thay thế cán bộ thân máy bay
-# plane-maker/standard/fuselage cadre texture carlingue====# máy bay-nhà sản xuất/tiêu chuẩn/thân máy bay kết cấu cán bộ
 STRING CLEAR====XA LẠ
 STRING LOCK ZOOM====KHÓA ZOOM
 STRING LOAD TOP BACKGROUND BITMAP====TẢI BITMAP NỀN TẢNG HÀNG ĐẦU
 STRING LOAD LEFT BACKGROUND BITMAP====TẢI BITMAP BACKGROUND TRÁI
-# plane-maker/standard/autres objets 3d====# plane-maker/standard/autres objets 3d
-##########  /plane-maker/traduits mais je ne sais pas les afficher, translated but I am not able to bring it to display====##########/plane-maker/traduits mais je ne sais pas les afficher, đã dịch nhưng tôi không thể mang ra hiển thị
-#  plane-maker/standard/carénage sabots de roue cadre DONNÉE CORPS====# plane-maker/standard/carÃ © nage sabots de roue staff DONNÃ ‰ E CORPS
-# plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des commandes/cadre spécifications volets====plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des commandes/staff spÃ © cification volets
-# plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des commandes/Transitions====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des commandes/Transitions
-# plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des commandes/Compensation cadre limtes, durées compensateur====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des commandes/Bồi thường cán bộ lấp lửng, durÃ © es offsetateur
-# plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des commandes/Compensation cadre Vitesses et limites débattement commandes====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des commandes/Cán bộ bồi thường Vitesses et limites dÃ © battement commandes
-# plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des commandes/Aérofreins====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des commandes/AÃ © rofreins
-# plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des commmandes/Forces-contrôle cadre rebonds et amortis====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des commmandes/Lực lượng-contrÃ´le cán bộ rebonds et amortis
-# plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des commandes/coeff force hydraulique====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des commandes/coeff force hydraulique
-# plane-maker/standard/SURFACES DE CONTRÔLE/Géométrie des commandes/Forces-coeff force hydraulique====# plane-maker/standard/SURFACES DE CONTRÃ ”LE/GÃ © omÃ © trie des commandes/Lực lượng force-coeff hydraulique
-# plane-maker/standard/Train d'atterrissage/train options====# máy bay-nhà sản xuất/tiêu chuẩn/Train d'atterrissage/tùy chọn tàu hỏa
-# plane-maker/standard/Train d'atterrissage/ cadre rétraction train et roulette de nez====plane-maker/standard/Train d'atterrissage/staff rÃ © traction train et roulette de nez
-# plane-maker/standard/Train d'atterrissage/cadre Géométrie roue et pneu====# plane-maker/standard/Train d'atterrissage/staff GÃ © omÃ © trie roue et pneu
-# plane-maker/standard/Train d'atterrissage/cadre coordonnées texture roue et pneu====# plane-maker/standard/Train d'atterrissage/staff coordonnÃ © es texture roue et pneu
-# plane-maker/standard/Train d'atterrissage/cadre GOUVERNAIL ET ANCRE====# máy bay-nhà sản xuất/tiêu chuẩn/Train d'atterrissage/cán bộ GOUVERNAIL ET ANCRE
-# plane-maker/standard/Train d'atterrissage/cadre COEFF. FRICTIONS TRAIN ATTERRISSAGE====# máy bay-nhà sản xuất/tiêu chuẩn/Train d'atterrissage/cán bộ COEFF. FRICTIONS TRAIN ATTERRISSAGE
-# plane-maker/standard/Train d'atterrissage/train const cadre debattements====# plane-maker/standard/Train d'atterrissage/train const staff debattements
-# plane-maker/standard/Train d'atterrissage/train const cadre SUSPENSION====# plane-maker/standard/Train d'atterrissage/train const staff SUSPENSION
-# plane-maker/Standard Masses & centrages/ cadre centre de gravité====# plane-maker/Standard Masses & centrages/staff center de gravitÃ ©
-# plane-maker/Standard Masses & centrages/ cadre Charge élingue/eau/ etc====# plane-maker/Standard Masses & centrages/staff Charge Ã © lingue/eau/etc
-# plane-maker/Standard Masses & centrages/ cadre Poids====# plane-maker/Khối lượng tiêu chuẩn & centrages/Cán Poids
-# plane-maker/Standard Masses & centrages/ cadre Rayons de giration====# plane-maker/Khối lượng tiêu chuẩn & centrages/cán bộ Rayons de giration
-# plane-maker/Standard Masses & centrages/ réservoirs====# plane-maker/Standard Masses & centrages/rÃ © Servits
-# plane-maker/Standard Masses & centrages/ Définir CG====plane-maker/Standard Masses & centrages/DÃ © finir CG
-# plane-maker/Standard Masses & centrages/ Vérifier CG====# plane-maker/Standard Masses & centrages/VÃ © rifier CG
-# plane-maker/Expert/profils d'ailes/hélices====# plane-maker/Expert/profils d'ailes/hÃ © lices
-# plane-maker/Expert/profils d'ailes/ailes====# plane-maker/Expert/profils d'ailes/ailes
-# plane-maker/Expert/Controles VTOLS ou hélicos/ cadre poussée vectorielle====# plane-maker/Expert/Điều khiển VTOLS ou hÃ © licos/staff poussÃ © e vectorielle
-# plane-maker/Expert/Controles ADAV ou hélicos/ forces supplémentaires sur rotors====# plane-maker/Expert/Điều khiển ADAV ou hÃ © licos/force supplÃ © mentaires sur rotors
-# plane-maker/Expert/Controles ADAV ou hélicos/ entrées spécifique pour hélicos ou rotors inclinables====# plane-maker/Expert/Điều khiển ADAV ou hÃ © licos/entrÃ © es spÃ © cifique pour hÃ © licos ou rotors inclinables
-# plane-maker/Expert/Controles ADAV ou hélicos/ entrées spécifique pour jets====# plane-maker/Expert/Điều khiển ADAV ou hÃ © licos/entrÃ © es spÃ © cifique pour jets
-# plane-maker/Expert/commandes spéciales/ cadre débattement spécial des commandes====# plane-maker/Expert/commandes spÃ © ciales/staff dÃ © battement spÃ © cial des commandes
-# plane-maker/Expert/commandes spéciales/ vectorisation différentiée de la poussées pour les manoeuvres====# plane-maker/Expert/commandes spÃ © ciales/vectorisation diffÃ © RentiÃ © e de la poussÃ © es pour les manuvers
-# plane-maker/Expert/commandes spéciales/ cadre inclinaison de l'aile pour les manoeuvres====# plane-maker/Expert/commandes spÃ © ciales/staff inclinaison de l'aile pour les manuvers
-# plane-maker/Expert/commandes spéciales/ cadre débattements-auto====plane-maker/Expert/commandes spÃ © ciales/staff dÃ © battements-auto
-# plane-maker/Expert/commandes spéciales/ cadre action dynamique volets====# plane-maker/Expert/commandes spÃ © ciales/staff action Dyique volets
-# plane-maker/Expert/commandes spéciales/ cadre auto-flèche====# plane-maker/Expert/commandes spÃ © ciales/staff auto-flÃ¨che
-# plane-maker/Expert/équipement spécial/ équipement spécial cadre Jato: décollage assisté par fusées====# plane-maker/Expert/Ã © quipement spÃ © cial/Ã © quipement spÃ © cial staff Jato: dÃ © collage AssistÃ © par fusÃ © es
-# plane-maker/Expert/équipement spécial/ cadre ÉQUIPEMENTS OPTIONELS====# plane-maker/Expert/Ã © quipement spÃ © cial/staff Ã ‰ QUIPEMENTS TÙY CHỌN
-# plane-maker/Expert/équipement spécial/ cadre PARACHUTE====# plane-maker/Expert/Ã © quipement spÃ © cial/staff PARACHUTE
-# plane-maker/Expert/équipement spécial/ cadre CONTRE-MESURES DÉFENSIVES====# plane-maker/Expert/Ã © quipement spÃ © cial/staff CONTRE-MESURES DÃ ‰ FENSIVES
-# plane-maker/Expert/équipement spécial/ cadre LARGAGE-D'EAU====# plane-maker/Expert/Ã © quipement spÃ © cial/staff LARGAGE-D'EAU
-## plane-maker/expert/Stabilité artificielle/ Stab.artifielle cadre basse-vitesse====## plane-maker/Expert/StabilitÃ © artificielle/Stab.artifielle staff basse-vitesse
-## plane-maker/expert/Stabilité artificielle/ Stab.artifielle cadre Haute-vitesse====## plane-maker/Expert/StabilitÃ © artificielle/Stab.artifielle cán bộ Haute-vitesse
-## plane-maker/expert/Stabilité artificielle/ pilote auto cadre 1====## plane-maker/Expert/StabilitÃ © artificielle/pilote auto staff 1
-## plane-maker/expert/Stabilité artificielle/ pilote auto cadre 2====## plane-maker/Expert/StabilitÃ © artificielle/pilote auto staff 2
-## plane-maker/expert/Stabilité artificielle/ pilote auto cadre 3====## plane-maker/Expert/StabilitÃ © artificielle/pilote auto staff 3
-## plane-maker/expert/Stabilité artificielle/ Régulation====## plane-maker/Expert/StabilitÃ © artificielle/RÃ © gulation
-## plane-maker/expert/Armes par défaut====## plane-maker/Expert/Armes par dÃ © faut
-## plane-maker/expert/Construire arme cadre Spécifications arme====## plane-maker/Expert/Construire arme staff Các đặc điểm của arme
-## plane-maker/expert/Construire arme 2ème cadre====## máy bay-maker/chuyên gia/Construire arme 2Ãme cán bộ
-## plane-maker/expert/Construire/Guidage propulsion cadre système de guidage de l'arme====## máy bay-nhà sản xuất/chuyên gia/Construire/Hướng dẫn cán bộ động cơ đẩy systÃ¨me de hướng dẫn de l'arme
-## plane-maker/expert/Construire/Guidage propulsion cadre propulsion de l'arme====## máy bay-nhà sản xuất/chuyên gia/Construire/Hướng dẫn lực đẩy cán bộ đẩy de l'arme
-## plane-maker/expert/Construire/Guidage/Géométrie cadre données fuselage====## plane-maker/Expert/Construire/Guidage/GÃ © omÃ © trie staff donnÃ © es fuselage
-##Spécial/Convertir tout l'appareil au dernier format====## SpÃ © cial/Convertir tout định dạng l'appareil au dernier
-##################====##################
 STRING Save current airplane.====Lưu máy bay hiện tại.
 STRING Reload aircraft textures.====Tải lại kết cấu máy bay.
 STRING You cannot attach the object '%1:file%' to this aircraft.====Bạn không thể đính kèm đối tượng '% 1: file%' vào máy bay này.
@@ -5895,8 +5431,8 @@ STRING Full====Đầy
 STRING Feather point====Điểm lông
 STRING Cutoff point====Điểm cắt
 STRING Full rich====Phong phú đầy đủ
-STRING AXIS %1:axis index% RESPONSE CURVE====TRỤC% 1: chỉ số trục% RESPONSE CURVE
-STRING %1:Axis assignment% AXIS RESPONSE CURVE====% 1: Chỉ định trục% CURVE PHẢN ỨNG TRỤC
+STRING AXIS %1:axis index% RESPONSE CURVE====TRỤC %1:axis index% RESPONSE CURVE
+STRING %1:Axis assignment% AXIS RESPONSE CURVE====%1:Axis assignment% CURVE PHẢN ỨNG TRỤC
 STRING Has beta/reverse detents====Có công cụ phát hiện beta/đảo ngược
 STRING Check if you want this throttle to have a fixed range for beta and/or reverse, as used in turboprops or jets.====Kiểm tra xem bạn có muốn van tiết lưu này có một phạm vi cố định cho phiên bản beta và/hoặc đảo ngược, như được sử dụng trong động cơ phản lực cánh quạt hoặc máy bay phản lực hay không.
 STRING Set mixture cutoff point====Đặt điểm cắt hỗn hợp
@@ -5948,8 +5484,8 @@ STRING This flight plan was saved with a different AIRAC cycle than what is curr
 STRING Verify all instrument procedures and airways for currency and accuracy!====Xác minh tất cả các thủ tục và đường dẫn khí cụ để biết tiền tệ và độ chính xác!
 STRING Currently loaded in X-Plane:====Hiện đã được tải trong X-Plane:
 STRING This flight plan saved with:====Kế hoạch chuyến bay này được lưu với:
-STRING Warning: This flight plan was saved with the SID %1:SID name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với tên SID% 1: SID% không tồn tại trong cơ sở dữ liệu của X-Plane.
-STRING Warning: This flightplan specifies a STAR %1:STAR name% without specifying the active runway or the runway feeder for the STAR.====Cảnh báo: Kế hoạch bay này chỉ định STAR% 1: STAR tên% mà không chỉ định đường băng đang hoạt động hoặc đường trung chuyển cho đường băng cho STAR.
+STRING Warning: This flight plan was saved with the SID %1:SID name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với tên SID %1:SID name% không tồn tại trong cơ sở dữ liệu của X-Plane.
+STRING Warning: This flightplan specifies a STAR %1:STAR name% without specifying the active runway or the runway feeder for the STAR.====Cảnh báo: Kế hoạch bay này chỉ định STAR %1:STAR name% mà không chỉ định đường băng đang hoạt động hoặc đường trung chuyển cho đường băng cho STAR.
 STRING Warning: This flight plan was saved with the STAR %1:STAR name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với tên STAR% 1: STAR% không tồn tại trong cơ sở dữ liệu của X-Plane.
 STRING Warning: This flight plan was saved with the approach %1:approach name% that does not exist in the database of X-Plane.====Cảnh báo: Kế hoạch chuyến bay này đã được lưu với phương pháp tiếp cận% 1: tên tiếp cận% không tồn tại trong cơ sở dữ liệu của X-Plane.
 STRING X-Plane could not understand or save this flight plan file:====X-Plane không thể hiểu hoặc lưu tệp kế hoạch chuyến bay này:
@@ -5957,18 +5493,6 @@ STRING X-Plane could not read or write this flight plan file:====X-Plane không 
 STRING Failed to initialize UDP network connectivity.====Không thể khởi tạo kết nối mạng UDP.
 STRING (IPv4)====(IPv4)
 STRING (IPv6)====(IPv6)
-STRING Throttle 5====Bướm ga 5
-STRING Throttle 6====Bướm ga 6
-STRING Throttle 7====Bướm ga 7
-STRING Throttle 8====Bướm ga 8
-STRING Cowl flaps 1====Nắp bò 1
-STRING Cowl flaps 2====Nắp bò 2
-STRING Cowl flaps 3====Nắp bò 3
-STRING Cowl flaps 4====Nắp bò 4
-STRING Cowl flaps 5====Nắp bò 5
-STRING Cowl flaps 6====Nắp bò 6
-STRING Cowl flaps 7====Nắp bò 7
-STRING Cowl flaps 8====Nắp bò 8
 STRING See the Log.txt file for detailed error information.====Xem tệp Log.txt để biết thông tin chi tiết về lỗi.
 STRING X-Plane cannot run with this corrupt file.====X-Plane không thể chạy với tệp bị hỏng này.
 STRING Error loading the scenery package: ====Lỗi khi tải gói phong cảnh:
@@ -5993,15 +5517,6 @@ STRING <Release brakes to take off>====<Nhả phanh để cất cánh>
 STRING <Space bar to release tow rope>====<Thanh dấu cách để thả dây kéo>
 STRING <Release brakes for winch>====<Nhả phanh cho tời>
 STRING <Space bar to release winch>====<Thanh dấu cách để thả tời>
-STRING <2x time-speed>====<2x tốc độ thời gian>
-STRING <4x time-speed>====<4x tốc độ thời gian>
-STRING <8x time-speed>====<8x tốc độ thời gian>
-STRING <16x time-speed>====<16x tốc độ thời gian>
-STRING <2x ground-speed>====<2x tốc độ mặt đất>
-STRING <4x ground-speed>====<4x tốc độ mặt đất>
-STRING <6x ground-speed>====<6x tốc độ mặt đất>
-STRING <8x ground-speed>====<8x tốc độ mặt đất>
-STRING <16x ground-speed>====<16x tốc độ mặt đất>
 STRING <variable ground-speed for fps>====<tốc độ mặt đất thay đổi cho fps>
 STRING <Anchor deployed>====<Đã triển khai neo>
 STRING Your system does not meet X-Plane's hardware requirements.====Hệ thống của bạn không đáp ứng các yêu cầu phần cứng của X-Plane.
@@ -6015,7 +5530,7 @@ STRING Please make sure it is in your main X-Plane installation folder!====Hãy 
 STRING X-Plane is installed on the desktop, but does not have permission to access files. We will open a web page with instructions for giving X-Plane permission to access desktop files.====X-Plane được cài đặt trên máy tính để bàn, nhưng không có quyền truy cập tệp. Chúng tôi sẽ mở một trang web có hướng dẫn cấp quyền cho X-Plane truy cập các tệp trên máy tính để bàn.
 STRING Metal driver====Trình điều khiển kim loại
 STRING Vulkan driver====Trình điều khiển Vulkan
-STRING X-Plane was not able to start using the %1:driver name%, and is now using the OpenGL driver. Update your drivers and then re-enable the %2:driver name% in the graphics settings to try again.====X-Plane không thể bắt đầu sử dụng% 1: tên trình điều khiển%, và hiện đang sử dụng trình điều khiển OpenGL. Cập nhật trình điều khiển của bạn và sau đó bật lại% 2: tên trình điều khiển% trong cài đặt đồ họa để thử lại.
+STRING X-Plane was not able to start using the %1:driver name%, and is now using the OpenGL driver. Update your drivers and then re-enable the %2:driver name% in the graphics settings to try again.====X-Plane không thể bắt đầu sử dụng %1:driver name%, và hiện đang sử dụng trình điều khiển OpenGL. Cập nhật trình điều khiển của bạn và sau đó bật lại %2:driver name% trong cài đặt đồ họa để thử lại.
 STRING Select a .wav to attach:====Chọn một .wav để đính kèm:
 STRING Select a .afl to attach:====Chọn một .afl để đính kèm:
 STRING Select a .wpn to attach:====Chọn một .wpn để đính kèm:
@@ -6110,10 +5625,9 @@ STRING UPnP error: gateway rejected forwarding request====Lỗi UPnP: yêu cầu
 STRING UPnP warning: no UPnP-capable gateway found====Cảnh báo UPnP: không tìm thấy cổng hỗ trợ UPnP
 STRING Controller (* denotes recommended)====Bộ điều khiển (* biểu thị khuyến nghị)
 STRING Aircraft deleted; X-Plane cannot continue.====Máy bay bị xóa; X-Plane không thể tiếp tục.
-STRING The aircraft you were using (%1:aircraft name%) has moved or was deleted.====Máy bay bạn đang sử dụng (% 1: tên máy bay%) đã di chuyển hoặc đã bị xóa.
+STRING The aircraft you were using (%1:aircraft name%) has moved or was deleted.====Máy bay bạn đang sử dụng (%1:aircraft name%) đã di chuyển hoặc đã bị xóa.
 STRING The previous file path was: %1:path%====Đường dẫn tệp trước đó là:% 1: path%
 STRING Custom Scenery====Phong cảnh tùy chỉnh
-STRING %1:altitude% ft MSL (%2:airport% ground level)====% 1: độ cao% ft MSL (% 2: sân bay% mặt đất)
 STRING Set mean time between failures====Đặt thời gian trung bình giữa các lần Sự cố
 STRING X-Plane has about 250 systems that can fail, so this is ==== X-Plane có khoảng 250 hệ thống có thể bị lỗi, vì vậy đây là
 STRING  hours per failure.==== giờ mỗi lần Sự cố.
@@ -6130,7 +5644,7 @@ STRING Information====Thông tin
 STRING Drawing Misc====Vẽ Misc
 STRING Drawing Window====Cửa sổ vẽ
 STRING Flight Loop====Vòng lặp chuyến bay
-STRING Type====Loại hình
+STRING Type====Loại
 STRING Cost====Phí tổn
 STRING Enabled====Đã bật
 STRING Plugin====Cắm vào
@@ -6331,10 +5845,10 @@ STRING Anti-ice: all prop TKS norm.====Chống băng: tất cả định mức T
 STRING Anti-ice: all prop TKS high.====Chống băng: tất cả đều đẩy TKS lên cao.
 STRING Anti-ice: all prop TKS off.====Chống băng: tất cả chống TKS tắt.
 STRING Anti-ice: all prop TKS toggle.====Chống băng: tất cả chống đỡ TKS bật tắt.
-STRING Anti-ice: engine #%1:index% prop TKS norm.====Chống đóng băng: động cơ #% 1: chỉ số% chống định mức TKS.
-STRING Anti-ice: engine #%1:index% prop TKS high.====Chống đóng băng: động cơ #% 1: chỉ số% đẩy TKS cao.
-STRING Anti-ice: engine #%1:index% prop TKS off.====Anti-ice: engine #% 1: index% prop TKS tắt.
-STRING Anti-ice: engine #%1:index% prop TKS toggle.====Anti-ice: engine #% 1: index% prop TKS chuyển đổi.
+STRING Anti-ice: engine #%1:index% prop TKS norm.====Chống đóng băng: động cơ #%1:index% chống định mức TKS.
+STRING Anti-ice: engine #%1:index% prop TKS high.====Chống đóng băng: động cơ #%1:index% đẩy TKS cao.
+STRING Anti-ice: engine #%1:index% prop TKS off.====Anti-ice: engine #%1:index% prop TKS tắt.
+STRING Anti-ice: engine #%1:index% prop TKS toggle.====Anti-ice: engine #%1:index% prop TKS chuyển đổi.
 STRING Monitor audio: COM auto (same as transmit) toggle.====Giám sát âm thanh: COM tự động (giống như truyền) chuyển đổi.
 STRING Monitor audio: COM1 toggle.====Giám sát âm thanh: chuyển đổi COM1.
 STRING Monitor audio: COM2 toggle.====Giám sát âm thanh: chuyển đổi COM2.
@@ -6514,7 +6028,6 @@ STRING GCU: pan up left.====GCU: quay lên bên trái.
 STRING GCU: pan down left.====GCU: di chuyển xuống bên trái.
 STRING GCU: pan up right.====GCU: quay lên bên phải.
 STRING GCU: pan down right.====GCU: di chuyển xuống bên phải.
-STRING GCU: push pan.====GCU: chảo đẩy.
 STRING GCU: FMS====GCU: FMS
 STRING GCU: XPDR====GCU: XPDR
 STRING GCU: COM====GCU: COM
@@ -6551,7 +6064,7 @@ STRING Pass-through 05.====Đi qua 05.
 STRING Pass-through 06.====Đi qua 06.
 STRING Pass-through 07.====Đi qua 07.
 STRING Pass-through 08.====Đi qua 08.
-STRING Pass-through 09.====Chuyển qua 09.
+STRING Pass-through 09.====Đi qua 09.
 STRING Pass-through 10.====Đi qua 10.
 STRING Pass-through 11.====Đi qua 11.
 STRING Pass-through 12.====Đi qua 12.
@@ -6573,10 +6086,10 @@ STRING This could be because the VR headset is plugged into a different adapter=
 STRING or because some required extensions are missing====hoặc vì thiếu một số tiện ích mở rộng bắt buộc
 STRING The following instance extension wasn't enabled:====Tiện ích mở rộng phiên bản sau chưa được bật:
 STRING The following device extension wasn't enabled:====Tiện ích mở rộng thiết bị sau chưa được bật:
-STRING Carrier====Vận chuyển
-STRING Frigate====Frigate
-STRING Sailboat %1:number%====Thuyền buồm% 1: số%
-STRING Hot Air Balloon %1:number%====Khinh khí cầu% 1: số%
+STRING Carrier====Tàu sân bay
+STRING Frigate====Chiến hạm
+STRING Sailboat %1:number%====Thuyền buồm %1:number%
+STRING Hot Air Balloon %1:number%====Khinh khí cầu %1:number%
 STRING Oil Rig====Giàn khoan dầu
 STRING Yaw control inop left====Điều khiển yaw inop bên trái
 STRING Yaw control 1 hard left====Kiểm soát ngáp 1 trái cứng
@@ -6660,14 +6173,6 @@ STRING Throttle Vertical====Bướm ga theo chiều dọc
 STRING Throttle Horizontal====Bướm ga ngang
 STRING Shader material out of sync====Vật liệu Shader không đồng bộ
 STRING X-Plane cannot continue running====X-Plane không thể tiếp tục chạy
-STRING <Element Wind Delta>====<Đồng bằng gió nguyên tố>
-STRING <Element Wind Delta KNOTS>====<Element Wind Delta KNOTS>
-STRING <Element Forces>====<Lực lượng yếu tố>
-STRING <Element Forces POUNDS>====<Lực lượng yếu tố POUNDS>
-STRING <Stream Wind Delta>====<Đồng bằng sông suối gió>
-STRING <Stream Wind Delta KNOTS>====<KNOTS Đồng bằng gió suối>
-STRING <Streamlines>====<Dòng trực tuyến>
-STRING <Wake Turbulence>====<Sự hỗn loạn thức giấc>
 STRING <Thermals and Microbursts>====<Thermals và Microdowts>
 STRING An aircraft's audio files could not be loaded because they are modified copies of another aircraft's audio files. You will need to update a third party aircraft or change your selection of AI aircraft to fix this.====Không thể tải tệp âm thanh của máy bay vì chúng là bản sao đã sửa đổi của tệp âm thanh của máy bay khác. Bạn sẽ cần cập nhật máy bay của bên thứ ba hoặc thay đổi lựa chọn máy bay AI của mình để khắc phục điều này.
 STRING The aircraft whose sound files could not be loaded is:====Máy bay không tải được tệp âm thanh là:
