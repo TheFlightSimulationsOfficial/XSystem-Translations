@@ -1,4 +1,4 @@
-A
+﻿A
 900
 TRANSLATION
 
@@ -412,7 +412,7 @@ STRING Stormy====Bão
 STRING Add VOR====Thêm VOR
 STRING LANGUAGE====NGÔN NGỮ
 STRING Yaw====Yaw
-STRING Throttle====Bướm ga
+STRING Throttle====Cần ga
 STRING Add Standalone DME====Thêm DME độc lập
 STRING Altitude====Độ cao
 STRING Day====Ngày
@@ -647,7 +647,7 @@ STRING Drag them all the way to 100% for maximum stability, or drag them down to
 STRING The device “%1:device name%” needs to be calibrated before its axes can be used.====Thiết bị “%1:device name%” cần được hiệu chỉnh trước khi các trục của nó có thể được sử dụng.
 STRING The device “%1:device name%” appears to be unplugged. To continue editing its configuration, please reconnect it to your computer.====Thiết bị “%1:device name%” dường như đã được rút phích cắm. Để tiếp tục chỉnh sửa cấu hình của nó, vui lòng kết nối lại nó với máy tính của bạn.
 STRING This section configures special hardware sold by Precision Flight Controls (available at FlyPFC.com).====Phần này định cấu hình phần cứng đặc biệt do Precision Flight Controls bán (có tại FlyPFC.com).
-STRING Throttle quadrant====Góc phần tư bướm ga
+STRING Throttle quadrant====Góc phần tư cần ga
 STRING Serial port hardware (CAT II or above)====Phần cứng cổng nối tiếp (CAT II trở lên)
 STRING Serial port yoke====Cổng nối tiếp ách
 STRING Serial port rudder pedals====Bàn đạp bánh lái cổng nối tiếp
@@ -771,8 +771,8 @@ STRING Network data saving to log.txt.====Lưu dữ liệu mạng vào log.txt.
 STRING Time data saving to log.txt.====Thời gian lưu dữ liệu vào log.txt.
 STRING Disk data saving to data.txt.====Lưu dữ liệu đĩa vào data.txt.
 STRING Navigation lights====Đèn định vị
-STRING Strobe light====Ánh sáng nhấp nháy
-STRING Beacon light====đèn hiệu
+STRING Strobe light====Đền nhấp nháy
+STRING Beacon light====Đèn beacon
 STRING Taxi lights====Đèn taxi
 STRING Landing lights====Đèn hạ cánh
 STRING Floodlight====Đèn pha
@@ -1103,7 +1103,7 @@ STRING CONFLICTING BUTTON ASSIGNMENT====XÁC NHẬN NÚT XUNG ĐỘT
 STRING CONFLICTING HAT SWITCH ASSIGNMENT====XÁC NHẬN CHUYỂN ĐỔI HAT
 STRING Flight Reset====Đặt lại chuyến bay
 STRING Developer====Nhà phát triển
-STRING Starters====Người mới bắt đầu
+STRING Starters====Bộ khởi động động cơ
 STRING Magnetos====Magnetos
 STRING Other Systems====Hệ thống khác
 STRING Doors====Cửa ra vào
@@ -1462,7 +1462,7 @@ STRING Toggle alternate static port.====Chuyển đổi cổng tĩnh thay thế.
 STRING Toggle english/metric thermometer.====Chuyển đổi nhiệt kế tiếng Anh/hệ mét.
 STRING Engage catapault.====Tham gia catapault.
 STRING Toggle rotor brake.====Chuyển đổi phanh rôto.
-STRING Release winch (for gliders).====Thả tời (đối với tàu lượn).
+STRING Release winch (for gliders).====Thả kéo (đối với tàu lượn).
 STRING Flight director on.====Giám đốc chuyến bay vào.
 STRING Flight director toggle.====Giám đốc điều hành chuyến bay chuyển đổi.
 STRING Servos on.====Servos đang bật.
@@ -1622,9 +1622,9 @@ STRING Auto-start engines to running, real-time.====Tự động khởi động 
 STRING Toggle artificial stability power.====Chuyển đổi công suất ổn định nhân tạo.
 STRING Toggle puffers.====Chuyển đổi ống hút.
 STRING Toggle yaw damper.====Chuyển đổi van điều tiết ngáp.
-STRING Throttle governor on.====Bộ điều chỉnh bướm ga đang bật.
-STRING Throttle governor off.====Bộ điều chỉnh bướm ga tắt.
-STRING Throttle governor toggle.====Bộ điều chỉnh bướm ga chuyển đổi.
+STRING Throttle governor on.====Bộ điều chỉnh cần ga đang bật.
+STRING Throttle governor off.====Bộ điều chỉnh cần ga tắt.
+STRING Throttle governor toggle.====Bộ điều chỉnh cần ga chuyển đổi.
 STRING Toggle yoke visibility.====Chuyển đổi chế độ hiển thị cần điều khiển.
 STRING Anti-ice: AOA toggle.====Chống băng: AOA bật tắt.
 STRING Anti-ice: all prop heat toggle.====Chống đóng băng: chuyển đổi tất cả nhiệt chống nóng.
@@ -1998,11 +1998,11 @@ STRING Power COM1 on.====Bật nguồn COM1.
 STRING Power COM2 off.====Tắt nguồn COM2.
 STRING Power COM2 on.====Bật nguồn COM2.
 STRING Toggle display of traffic paths.====Chuyển đổi hiển thị đường dẫn giao thông.
-STRING Carrier catshot.====Ảnh chụp nhà cung cấp dịch vụ.
+STRING Carrier catshot.====Cất cánh từ tàu sân bay.
 STRING Carry another aircraft.====Mang máy bay khác.
 STRING Formation flying.====Hình thành bay.
-STRING Gravel field takeoff.====Cánh đồng sỏi cất cánh.
-STRING Grass field takeoff.====Sân cỏ cất cánh.
+STRING Gravel field takeoff.====Cất cánh từ đồng sỏi
+STRING Grass field takeoff.====Cất cánh từ sân cỏ
 STRING Helipad takeoff.====Trực thăng cất cánh.
 STRING Large oil platform approach.====Phương pháp tiếp cận nền tảng dầu lớn.
 STRING Medium oil rig approach.====Phương pháp tiếp cận giàn khoan dầu trung bình.
@@ -2253,7 +2253,7 @@ STRING YOU CRASHED!====BẠN ĐÃ GẶP TAI NẠN!
 STRING You crashed!====Bạn bị rơi!
 STRING Helicopter====Trực thăng
 STRING Control lock still in====Khóa điều khiển vẫn ở trong
-STRING door still open====cửa vẫn mở
+STRING door still open====Cửa vẫn mở
 STRING External power still on====Nguồn bên ngoài vẫn bật
 STRING Water in fuel====Nước trong nhiên liệu
 STRING Fueled with wrong gas====Đổ nhầm xăng
@@ -2356,7 +2356,7 @@ STRING Weapon select up.====Chọn vũ khí.
 STRING Essentials====Những điều cần thiết
 STRING Currently Assigned====Hiện đã được giao
 STRING Avionics====Avionics
-STRING Avionics on.====Điện tử hàng không đang bật.
+STRING Avionics on.====Thiết bị điện tử hàng không đang bật.
 STRING Avionics off.====Thiết bị điện tử hàng không đang tắt.
 STRING Avionics toggle.====Chuyển đổi điện tử hàng không.
 STRING Cross-feed fuel from left tank.====Tiếp nhiên liệu chéo từ bình bên trái.
@@ -2381,7 +2381,7 @@ STRING Firewall fuel valve right open.====Van nhiên liệu tường lửa mở 
 STRING Firewall fuel valve right closed.====Van nhiên liệu tường lửa đóng phải.
 STRING Select fuel tank left one.====Chọn bình xăng bên trái một.
 STRING Select fuel tank right one.====Chọn bình xăng bên phải.
-STRING Basics====Khái niệm cơ bản
+STRING Basics====Cơ bản
 STRING Toggle thrust reversers.====Chuyển đổi đảo chiều lực đẩy.
 STRING Hold thrust reverse at max.====Giữ lực đẩy ngược lại ở mức tối đa.
 STRING Blimp lift down a bit.====Blimp nhấc xuống một chút.
@@ -2401,12 +2401,12 @@ STRING Rudder right.====Lái sang phải.
 STRING Canopy open.====Mở tán.
 STRING Canopy close.====Tán đóng.
 STRING Canopy toggle.====Tán nhỏ chuyển đổi.
-STRING Flaps up a notch.====Vỗ lên một bậc.
-STRING Flaps down a notch.====Vỗ xuống một bậc.
+STRING Flaps up a notch.====Nâng flap lên một bậc.
+STRING Flaps down a notch.====Hạ flap lên một bậc.
 STRING Landing gear emergency override down.====Ghi đè khẩn cấp thiết bị hạ cánh xuống.
 STRING Landing gear emergency override off.====Tắt ghi đè khẩn cấp thiết bị hạ cánh.
-STRING Landing gear down.====Thiết bị hạ cánh.
-STRING Landing gear up.====Thiết bị hạ cánh.
+STRING Landing gear down.====Hạ Thiết bị hạ cánh.
+STRING Landing gear up.====Nâng Thiết bị hạ cánh.
 STRING Landing gear toggle.====Chuyển đổi thiết bị hạ cánh.
 STRING Toggle brakes max effort.====Chuyển đổi phanh nỗ lực tối đa.
 STRING Hold brakes regular.====Giữ phanh thường xuyên.
@@ -2704,8 +2704,8 @@ STRING This will start you off 591 miles downrange at 197,000 feet, Mach 10.====
 STRING Fly over and past Edwards at 60,000 feet, then do a left 230 degree turn to bring it back to Edwards for a landing on 22.====Bay qua và qua Edwards ở độ cao 60, 000 feet, sau đó quay sang trái 230 độ để đưa nó trở lại Edwards để hạ cánh vào ngày 22.
 STRING Fly the approach at 300 knots, aiming for the lights a few miles short of Edwards, then level out your descent over the lights.====Di chuyển tiếp cận với vận tốc 300 hải lý, nhắm tới những ngọn đèn cách Edwards vài dặm, sau đó điều chỉnh hướng hạ xuống của bạn qua những ngọn đèn.
 STRING Helipad====Sân bay trực thăng
-STRING (Re)generate all icons for the current aircraft.====(Re) tạo tất cả các biểu tượng cho máy bay hiện tại.
-STRING (Re)generate the icon for the current aircraft & livery.====(Re) tạo biểu tượng cho máy bay & xe tải hiện tại.
+STRING (Re)generate all icons for the current aircraft.====Tạo lại tất cả các biểu tượng cho máy bay hiện tại.
+STRING (Re)generate the icon for the current aircraft & livery.====Tạo lại biểu tượng cho máy bay & xe tải hiện tại.
 STRING Toggle AI controls your views.====Chuyển đổi AI kiểm soát chế độ xem của bạn.
 STRING Toggle AVI movie recording.====Chuyển đổi quay phim AVI.
 STRING Toggle the Main Menu screen.====Chuyển đổi màn hình Menu chính.
@@ -2718,7 +2718,7 @@ STRING Toggle Save Flight window.====Chuyển đổi cửa sổ Lưu chuyến ba
 STRING Toggle Load Flight window.====Chuyển đổi cửa sổ Tải chuyến bay.
 STRING Toggle the Settings window.====Chuyển đổi cửa sổ Cài đặt.
 STRING Toggle the Flight School window.====Chuyển đổi cửa sổ Trường bay.
-STRING Toggle the instructor operator station (IOS) window.====Chuyển đổi cửa sổ trạm điều hành người hướng dẫn (IOS).
+STRING Toggle the instructor operator station (IOS) window.====Chuyển đổi cửa sổ IOS.
 STRING Open the Weight & Balance window.====Mở cửa sổ Trọng lượng & Cân bằng.
 STRING Toggle visualization of clickable cockpit areas.====Chuyển đổi hình ảnh trực quan của các khu vực buồng lái có thể nhấp.
 STRING Toggle display of the data output graph.====Chuyển đổi hiển thị biểu đồ đầu ra dữ liệu.
@@ -2801,7 +2801,7 @@ STRING One of the best training books for pilots is over a half-century old: “
 STRING Do you notice a yawing movement as you enter a turn? This is called “adverse yaw” and is caused by the lifting wing. Counter this tendency by applying rudder in the direction of the turn.====Bạn có nhận thấy chuyển động yaw khi vào một lượt không? Điều này được gọi là "chệch hướng bất lợi" và do cánh nâng gây ra. Chống lại xu hướng này bằng cách tác động bánh lái theo hướng rẽ.
 STRING More Info====Thêm thông tin
 STRING SHOW PARTS, BUT NOT OBJECT, IN PLANE MAKER====HIỂN THỊ CÁC BỘ PHẬN, NHƯNG KHÔNG PHẢI LÀ ĐỐI TƯỢNG, TRONG PLANE MAKER
-STRING Engage starters.====Thu hút người mới bắt đầu.
+STRING Engage starters.====Bộ bật động cơ.
 STRING MISC BODY 1====CƠ THỂ MISC 1
 STRING MISC BODY 2====MISC BODY 2
 STRING MISC BODY 3====MISC BODY 3
@@ -2842,7 +2842,7 @@ STRING base load on bus 4:====tải cơ sở trên xe buýt 4:
 STRING base load on bus 5:====tải cơ bản trên xe buýt 5:
 STRING base load on bus 6:====tải cơ bản trên xe buýt 6:
 STRING bus 1-2====xe buýt 1-2
-STRING Instrument lights====Đèn nhạc cụ
+STRING Instrument lights====Đèn thiết bị
 STRING HUD lights====Đèn HUD
 STRING De-ice: all systems====Khử băng: tất cả các hệ thống
 STRING De-ice: window heat====Khử băng: nhiệt cửa sổ
@@ -2931,7 +2931,7 @@ STRING You can pause the simulator at any time by pressing ‘[pause]’.====B�
 STRING Increase the throttle all the way to go to full power.====Tăng ga hết cỡ để đi hết công suất.
 STRING You can use the keyboard to control the throttle. The ‘[throttle_up]’ key increases the throttle.====Bạn có thể sử dụng bàn phím để điều khiển ga. Phím ‘[throttle_up]’ tăng ga.
 STRING While the ‘[throttle_down]’ key decreases it.====Trong khi phím ‘[throttle_down]’ giảm nó.
-STRING Good! I’ll set the throttle to 50% to keep the plane moving nicely.====Tốt! Tôi sẽ đặt bướm ga ở mức 50% để giữ cho máy bay di chuyển tốt.
+STRING Good! I’ll set the throttle to 50% to keep the plane moving nicely.====Tốt! Tôi sẽ đặt cần ga ở mức 50% để giữ cho máy bay di chuyển tốt.
 STRING Commands on the keyboard can change your view. Try pressing ‘[view_circle]’ to go to the Circle view.====Các lệnh trên bàn phím có thể thay đổi chế độ xem của bạn. Thử nhấn '[view_circle]' để chuyển đến dạng xem Circle.
 STRING You can also use the ‘[backwards]’ and ‘[forwards]’ keys to move your view farther from or closer to the plane.====Bạn cũng có thể sử dụng các phím '[ngược]' và '[tiến]' để di chuyển chế độ xem của bạn ra xa hoặc gần mặt phẳng hơn.
 STRING Zooming can be especially useful in the cockpit to get a good look at your instruments.====Tính năng thu phóng có thể đặc biệt hữu ích trong buồng lái để nhìn rõ các thiết bị của bạn.
@@ -2973,7 +2973,7 @@ STRING Here we go! Watch for 55kts...====Bắt đầu! Xem với giá 55kts ...
 STRING Raise the nose a bit to maintain 74kts during our climb to 1500 feet.====Nâng mũi lên một chút để duy trì 74kts trong quá trình chúng tôi leo lên độ cao 1500 feet.
 STRING First, disengage the brakes.====Đầu tiên, ngắt phanh.
 STRING Okay, whenever you’re ready, add full power!====Được rồi, bất cứ khi nào bạn sẵn sàng, thêm toàn bộ sức mạnh!
-STRING (You can press and hold ‘[throttle_up]’ to add full power.)====(Bạn có thể nhấn và giữ '[bướm ga]' để thêm toàn bộ sức mạnh.)
+STRING (You can press and hold ‘[throttle_up]’ to add full power.)====(Bạn có thể nhấn và giữ '[cần ga]' để thêm toàn bộ sức mạnh.)
 STRING (You can push the black knob in all the way to add full power.)====(Bạn có thể đẩy núm màu đen theo mọi cách để thêm toàn bộ sức mạnh.)
 STRING There’s 55 knots! Slowly bring the nose up!====Đó là 55 hải lý! Từ từ đưa mũi lên!
 STRING Continue climbing until you reach 1500 ft.====Tiếp tục leo cho đến khi bạn đạt 1500 ft.
@@ -3024,7 +3024,7 @@ STRING As you’re steering down the runway, watch your airspeed indicator, and 
 STRING Eventually, your tail will naturally rise, and the aircraft's body will be parallel to the ground. At that point, you’ll be able to move the [control] back to neutral and simply steer like usual.====Cuối cùng, đuôi của bạn sẽ tự nhiên nhô lên, và thân máy bay sẽ song song với mặt đất. Tại thời điểm đó, bạn sẽ có thể di chuyển [điều khiển] trở lại vị trí trung lập và chỉ cần chỉ đạo như bình thường.
 STRING Go ahead and turn off the brakes and slowly increase the throttle to about halfway.===="Tiếp tục, tắt phanh và từ từ tăng ga lên khoảng nửa chừng."
 STRING Release the brakes.====Nhả phanh.
-STRING Use ‘[throttle_up]’ to increase the throttle.====Sử dụng '[bướm ga]' để tăng ga.
+STRING Use ‘[throttle_up]’ to increase the throttle.====Sử dụng '[cần ga]' để tăng ga.
 STRING Aim to maintain 65 mph during the climb. Let’s get to 1,200 feet.====Mục tiêu duy trì 65 dặm/giờ trong suốt quá trình leo núi. Hãy đến 1, 200 feet.
 STRING We’re ready to start navigating to Juneau International. I’m going to fly for a moment to get you oriented.====Chúng tôi đã sẵn sàng để bắt đầu điều hướng đến Juneau International. Tôi sẽ bay trong giây lát để giúp bạn định hướng.
 STRING So, we’re going to follow one of these “spokes” (radials) to reach Sisters Island, and then we’ll follow another radial away from Sisters Island to get to Juneau.===="Vì vậy,, chúng ta sẽ đi theo một trong những "spokes" (xuyên tâm) này để đến Đảo Sisters, và sau đó chúng ta sẽ đi theo một hướng xuyên tâm khác từ Đảo Sisters để đến Juneau."
@@ -3097,7 +3097,7 @@ STRING Control Sensitivity====Kiểm soát độ nhạy
 STRING AI Aircraft====Máy bay AI
 STRING Just now====Vừa rồi
 STRING 1 minute ago====1 phút trước
-STRING Please enter your X-Plane 11 digital download product key to unlock the full version of X-Plane.====Vui lòng nhập khóa sản phẩm tải xuống kỹ thuật số X-Plane 12 của bạn để mở khóa phiên bản đầy đủ của X-Plane.
+STRING Please enter your X-Plane 11 digital download product key to unlock the full version of X-Plane.====Vui lòng nhập khóa sản phẩm tải xuống kỹ thuật số X-Plane 11 của bạn để mở khóa phiên bản đầy đủ của X-Plane.
 STRING I Don’t Have a Product Key====Tôi không có khóa sản phẩm
 STRING If you have a DVD or digital download product key, you can use it to unlock the full version of X-Plane.====Nếu bạn có khóa sản phẩm tải xuống kỹ thuật số hoặc DVD, bạn có thể sử dụng khóa này để mở khóa phiên bản đầy đủ của X-Plane.
 STRING CHECKING FOR UPDATES====KIỂM TRA CẬP NHẬT
@@ -3315,8 +3315,8 @@ STRING US Customary====Hệ U.S.
 STRING Payload Weight====Trọng lượng tải trọng
 STRING Restore Defaults====Khôi phục mặc định
 STRING Search by failure name====Tìm kiếm theo tên lỗi
-STRING Fail at exact altitude====Không đạt ở độ cao chính xác
-STRING Fail at exact speed====Không đạt ở tốc độ chính xác
+STRING Fail at exact altitude====Gặp sự cố ở độ cao chính xác
+STRING Fail at exact speed====Gặp sự cố ở tốc độ chính xác
 STRING Set exact time until failure====Đặt thời gian chính xác cho đến khi xảy ra sự cố
 STRING Set mean time until failure====Đặt thời gian trung bình cho đến khi xảy ra sự cố
 STRING Always working====Luôn hoạt động
@@ -3462,7 +3462,7 @@ STRING Cross-feed fuel off.====Nhiên liệu nạp chéo tắt.
 STRING Release tow-plane cable for gliders.====Thả cáp mặt phẳng kéo cho tàu lượn.
 STRING Release tow-plane and winch for gliders.====Thả máy bay kéo và tời cho tàu lượn.
 STRING PRESSURIZATION====ĐÁP ÁN
-STRING Landing light 02 toggle.====Công tắc đèn chiếu sáng hạ cánh  02 bật tắt.
+STRING Landing light 02 toggle.====Công tắc đèn chiếu sáng hạ cánh 02 bật tắt.
 STRING Igniter====Igniter
 STRING Autopilot vertical speed, at pre-sel VSI.====Tự động lái tốc độ dọc, tại VSI pre-sel.
 STRING Annunciators====Người đưa tin
@@ -3624,11 +3624,11 @@ STRING Thrust vector====Véc tơ lực đẩy
 STRING Wing sweep====Quét cánh
 STRING Displacement====Dịch chuyển
 STRING Nosewheel tiller====Máy xới bánh răng
-STRING Backup throttle====Bướm ga dự phòng
-STRING Throttle 1====Bướm ga 1
-STRING Throttle 2====Bướm ga 2
-STRING Throttle 3====Bướm ga 3
-STRING Throttle 4====Bướm ga 4
+STRING Backup throttle====cần ga dự phòng
+STRING Throttle 1====cần ga 1
+STRING Throttle 2====cần ga 2
+STRING Throttle 3====cần ga 3
+STRING Throttle 4====cần ga 4
 STRING Prop 1====Đề xuất 1
 STRING Prop 2====Dự luật 2
 STRING Prop 3====Dự luật 3
@@ -3897,7 +3897,7 @@ STRING Let’s extend the landing gear—press ‘[landing_gear]’.====Hãy ké
 STRING You're coming in too fast—raise the nose and aim to touch down farther back on the runway. We want to be at about 120 knots when we reach the runway.===="Bạn đang đến quá nhanh "", hãy nâng cao mũi và hướng xuống xa hơn trên đường băng. Chúng tôi muốn ở tốc độ khoảng 120 hải lý khi đến đường băng."
 STRING You made it! Tap ‘[brakes]’ to stop the airplane.====Bạn đã thực hiện nó! Nhấn vào '[phanh]' để dừng máy bay.
 STRING Now, to stop even faster, engage the B737’s reverse thrust, so the engines will work to slow you down quickly. Press ‘[thrust_reverse]’ to toggle it on or off.====Bây giờ, để dừng nhanh hơn, tham gia lực đẩy ngược của B737, để động cơ sẽ làm việc để giảm tốc độ của bạn một cách nhanh chóng. Nhấn '[thrust_reverse]' để bật hoặc tắt.
-STRING Now, to stop even faster, engage the B737’s reverse thrust, so the engines will work to slow you down quickly. Drag the throttle down below the idle position in the cockpit.====Bây giờ, để dừng nhanh hơn, tham gia lực đẩy ngược của B737, để động cơ sẽ làm việc để giảm tốc độ của bạn một cách nhanh chóng. Kéo bướm ga xuống dưới vị trí không tải trong buồng lái.
+STRING Now, to stop even faster, engage the B737’s reverse thrust, so the engines will work to slow you down quickly. Drag the throttle down below the idle position in the cockpit.====Bây giờ, để dừng nhanh hơn, tham gia lực đẩy ngược của B737, để động cơ sẽ làm việc để giảm tốc độ của bạn một cách nhanh chóng. Kéo cần ga xuống dưới vị trí không tải trong buồng lái.
 STRING Go ahead and lower the final notch of flaps.====Tiếp tục và hạ thấp khía cuối cùng của cánh tà.
 STRING You're coming in too fast—raise the nose and reduce your power to slow your descent and aim to touch down farther back on the runway. We’d like to be at about 55 knots when we touch down.====Bạn đang đến quá nhanh - hãy nâng mũi và giảm sức mạnh của bạn để giảm tốc độ xuống của bạn và nhằm mục đích chạm xuống xa hơn trên đường băng. Chúng tôi muốn ở khoảng 55 hải lý khi chúng tôi chạm xuống.
 STRING You're coming in a little fast—reduce the throttle all the way back to idle. We should be slowed down to about 55 knots by the time we reach the runway.====Bạn đang đi nhanh một chút - giảm hết ga về trạng thái không tải. Chúng ta nên giảm tốc độ xuống khoảng 55 hải lý/giờ vào thời điểm chúng ta đến đường băng.
@@ -3932,7 +3932,7 @@ STRING Configure Video Recording====Định cấu hình quay video
 STRING VIDEO RECORDING OPTIONS====CÁC LỰA CHỌN QUAY VIDEO
 STRING Frame rate of video====Tốc độ khung hình của video
 STRING Total Hours====Tổng số giờ
-STRING Instrument Hours====Giờ chơi nhạc cụ
+STRING Instrument Hours====Giờ trên bảng điều khiển
 STRING If you click Quit, X-Plane will close immediately.====Nếu bạn nhấp vào "Thoát", X-Plane sẽ đóng ngay lập tức.
 STRING Don’t ask again====Đừng hỏi lại
 STRING Edit Weight & Balance====Chỉnh sửa Cân nặng & Cân bằng
@@ -3956,7 +3956,7 @@ STRING A CG offset of zero, with zero fuel and zero ordnance, gives the CG that 
 STRING ”Fail Selected“===="Đã chọn sự cố"
 STRING Fail when joystick button is pressed====Không thành công khi nhấn nút cần điều khiển
 # X-Plane/Pilotage/Menus/Vol/Pannes et défaillance/Monde====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillance/Monde
-STRING passenger O-2 on====hành khách O-2 trên
+STRING passenger O-2 on====Oxi trong cabin
 STRING Fuel cap left off====Nắp nhiên liệu rời
 STRING Fuel tank vent block #1====Khối thông hơi bình xăng số 1
 STRING Fuel tank vent block #2====Khối thông hơi bình xăng số 2
@@ -3969,10 +3969,10 @@ STRING Inverter #1====Biến tần # 1
 STRING Inverter #2====Biến tần # 2
 STRING Generator====Máy phát điện
 STRING Battery====Pin
-STRING Generator 1 hi volt====Máy phát điện 1 hi volt
-STRING Generator 1 lo volt====Máy phát điện 1 lo volt
-STRING Generator 2 hi volt====Máy phát điện 2 hi volt
-STRING Generator 2 lo volt====Máy phát điện 2 lo volt
+STRING Generator 1 hi volt====Máy phát điện 1 biến áp cao
+STRING Generator 1 lo volt====Máy phát điện 1 biến áp thấp
+STRING Generator 2 hi volt====Máy phát điện 2 biến áp cao
+STRING Generator 2 lo volt====Máy phát điện 2 biến áp thấp
 # X-Plane/Pilotage/Menus/Vol/Pannes et défaillance/Appareil/éclairage====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillance/Appareil/Ã © clairage
 # X-Plane/Pilotage/Menus/Vol/Pannes et défaillance/Appareil/pilote auto====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillance/Appareil/pilote auto
 STRING Autopilot computer====Máy tính lái tự động
@@ -4004,13 +4004,13 @@ STRING De-ice: static heat 2====Khử băng: nhiệt tĩnh 2
 STRING De-ice: engn alt air 1====De-ice: engn alt air 1
 STRING De-ice: engn alt air 2====De-ice: engn alt air 2
 # X-Plane/Pilotage/Menus/Vol/Pannes et défaillance/Appareil/Equipement====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillance/Appareil/Equipement
-STRING HVAC system====hệ thống HVAC
+STRING HVAC system====Hệ thống HVAC
 STRING Bleed air: left engine====Bleed air: động cơ bên trái
-STRING Bleed air: right engine====Bleed air: đúng động cơ
+STRING Bleed air: right engine====Bleed air: động cơ phải
 STRING Bleed-air: APU====Bleed-air: APU
 STRING Slow depressurization====Giảm áp chậm
 STRING Rapid depressurization====Giảm áp nhanh chóng
-STRING Elec hydraulic pump====Bơm thủy lực Elec
+STRING Elec hydraulic pump====Bơm thủy lực bằng điện
 STRING Engine-driven hydraulic pump #1====Bơm thủy lực điều khiển động cơ # 1
 STRING Engine-driven hydraulic pump #2====Bơm thủy lực điều khiển động cơ # 2
 STRING Engine-driven hydraulic pump #3====Bơm thủy lực điều khiển động cơ # 3
@@ -4023,7 +4023,7 @@ STRING Leak hydraulic system #1====Hệ thống thủy lực rò rỉ # 1
 STRING Leak hydraulic system #2====Hệ thống thủy lực rò rỉ # 2
 STRING Overpressure hydraulic system #1====Hệ thống thủy lực quá áp # 1
 STRING Overpressure hydraulic system #2====Hệ thống thủy lực quá áp # 2
-STRING Throttle jam at idle====Kẹt ga khi không tải
+STRING Throttle jam at idle====Kẹt ga ở mức thấp nhất
 STRING Throttle jam at max====Kẹt ga ở mức tối đa
 STRING Throttle jam at current====Hiện tại kẹt ga
 STRING Tail-rotor transmission====Truyền động rôto đuôi
@@ -4054,7 +4054,7 @@ STRING coPilot turn indicator====Đèn báo rẽ coPilot
 STRING coPilot heading indicator====chỉ báo tiêu đề coPilot
 STRING coPilot vertical velocity====vận tốc thẳng đứng coPilot
 STRING AOA indicator====Chỉ báo AOA
-STRING Gear warning system====Hệ thống cảnh báo bánh răng
+STRING Gear warning system====Hệ thống cảnh báo càng đáp
 # X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/Instruments/Navigation====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/Instruments/Navigation
 STRING nav/Com-1 radio====đài nav/Com-1
 STRING Nav/Com-2 radio====Đài phát thanh Nav/Com-2
@@ -4092,7 +4092,7 @@ STRING Engine separation====Tách động cơ
 STRING Hung start (clogged nozzles)====Hung khởi động (đầu phun bị tắc)
 STRING Prop governor fail-to-fine====Đề nghị thống đốc không phạt tiền
 STRING Prop governor fail-to-coarse====Đề nghị thống đốc không-để-thô
-STRING Throttle governor====Điều khiển bướm ga
+STRING Throttle governor====Điều khiển cần ga
 STRING Engine FADEC====Động cơ FADEC
 STRING Oil pump====Bơm dầu
 STRING Chip detect====Phát hiện chip
@@ -4322,7 +4322,7 @@ STRING ST290 Pro Flight Stick====Gậy bay ST290 Pro
 STRING ST90 Joystick====Cần điều khiển ST90
 STRING T.16000M Joystick====Cần điều khiển T.16000M
 STRING Top Gun Joystick (rev2)====Cần điều khiển súng hàng đầu (rev2)
-STRING TWCS Throttle====TWCS bướm ga
+STRING TWCS Throttle====TWCS cần ga
 STRING USB->Din 4 Adaptor====Bộ chuyển đổi USB-> Din 4
 STRING X45 Flight Controller====Bộ điều khiển bay X45
 STRING Xbox One Controller====Bộ điều khiển Xbox One
@@ -4384,9 +4384,9 @@ STRING Dump fuel on.====Đổ xăng vào.
 STRING Dump fuel off.====Đổ hết nhiên liệu.
 STRING Dump fuel toggle.====Chuyển đổi nhiên liệu đổ.
 ## X-Plane/réglages/Clavier/Commandes/Compensateurs====## X-Plane/rÃ © glages/Clavier/Commandes/Compensateurs
-STRING Trim====Xén
-STRING Gyro rotor trim up.====Cắt cánh quạt con quay hồi chuyển.
-STRING Gyro rotor trim down.====Cắt rôto con quay hồi chuyển.
+STRING Trim====Cánh đuôi
+STRING Gyro rotor trim up.====Nâng cánh đuôi con quay hồi chuyển.
+STRING Gyro rotor trim down.====Hạ cánh đuôi con quay hồi chuyển.
 STRING Rotor RPM trim up.====Rotor RPM cắt nhỏ.
 STRING Rotor RPM trim down.====Rotor RPM cắt giảm.
 STRING Aileron trim center.====Trung tâm trang trí Aileron.
@@ -4397,8 +4397,8 @@ STRING Pitch trim down.====Cắt giảm quảng cáo chiêu hàng.
 STRING Controls magnetic lock.====Điều khiển khóa từ.
 STRING Roll trim left.====Cuộn trang trí bên trái.
 STRING Roll trim right.====Cuộn trang trí bên phải.
-STRING Yaw trim left.====Cắt hàm trái.
-STRING Yaw trim right.====Xén hàm phải.
+STRING Yaw trim left.==== Yaw trim trái.
+STRING Yaw trim right.====Yaw trim phải.
 ## X-Plane/réglages/Clavier/Moteurs/Basiques====## X-Plane/rÃ © glages/Clavier/Moteurs/Basiques
 ## X-Plane/réglages/Clavier/Moteurs/Contact====## X-Plane/rÃ © glages/Clavier/Moteurs/Liên hệ
 STRING Ignition====Đánh lửa
@@ -4569,7 +4569,7 @@ STRING Copilot electric DG free sync up.====Copilot điện DG đồng bộ mi�
 STRING Airdrop from B-52.====Máy bay từ B-52.
 STRING Forest fire approach.====Phương pháp chữa cháy rừng.
 STRING Frigate approach.====Phương pháp tiếp cận Frigate.
-STRING Waterway takeoff.====Đường thủy cất cánh.
+STRING Waterway takeoff.====Cất cánh thủy phi cơ.
 STRING Unclassified====Chưa được phân loại
 STRING Toggle AI flying your aircraft.====Chuyển đổi AI điều khiển máy bay của bạn.
 STRING Load situation %1:number%====Tình hình tải %1:number%
@@ -4603,11 +4603,11 @@ STRING You can purchase a Pro-Use key from X-Plane.com to unlock this functional
 STRING Autopilot GPS Steering.====Hệ thống lái tự động GPS.
 STRING X-Plane cannot compress a .zip file because its source file resource fork is more than 2 GB. The source file is probably damaged====X-Plane không thể nén tệp .zip vì fork tài nguyên tệp nguồn của nó lớn hơn 2 GB. Tệp nguồn có thể bị hỏng
 STRING aircraft reference-====tham chiếu máy bay-
-STRING Gear Loc====Gear Loc
-STRING Gear Data====Dữ liệu bánh răng
-STRING Gear Cons====Nhược điểm của Gear
-STRING aircraft author====tác giả máy bay
-STRING aircraft description====mô tả máy bay
+STRING Gear Loc====Càng đáp Loc
+STRING Gear Data====Dữ liệu càng đáp
+STRING Gear Cons====Điểm bất lợi của càng đáp
+STRING aircraft author====tác giả
+STRING aircraft description====mô tả
 STRING DEFLECTIONS====ĐỊNH NGHĨA
 STRING  slat ratio==== tỷ lệ slat
 STRING Control Geometry====Kiểm soát Hình học
@@ -4654,7 +4654,7 @@ STRING Autopilot speed selection: knots or Mach number.====Lựa chọn tốc đ
 STRING Master Caution alerting (0/1).====Cảnh báo Master Caution (0/1).
 STRING Master Warning alerting (0/1).====Cảnh báo Master Warning (0/1).
 STRING Ground Proximity Warning (0/1).====Cảnh báo tiếp cận mặt đất (0/1).
-STRING Throttle ratio 0.0 to 1.0 (but emergency settings can actually exceed 1.0).===="Tỷ lệ bướm ga 0,0 đến 1,0 (nhưng cài đặt khẩn cấp thực sự có thể vượt quá 1,0)."
+STRING Throttle ratio 0.0 to 1.0 (but emergency settings can actually exceed 1.0).===="Tỷ lệ cần ga 0,0 đến 1,0 (nhưng cài đặt khẩn cấp thực sự có thể vượt quá 1,0)."
 STRING Engine Pressure Ratio (per engine).====Tỷ lệ áp suất động cơ (trên mỗi động cơ).
 STRING Exhaust gas Temperature (per engine).====Nhiệt độ khí thải (mỗi động cơ).
 STRING Fuel Flow (per engine).====Lưu lượng nhiên liệu (mỗi động cơ).
@@ -5126,8 +5126,8 @@ STRING Crew oxygen: master valve toggle====Oxy cho phi hành đoàn: chuyển đ
 STRING Crew oxygen: demand regulator up.====Phi hành đoàn oxy: điều chỉnh nhu cầu lên.
 STRING Crew oxygen: demand regulator down.====Phi hành đoàn oxy: điều chỉnh nhu cầu xuống.
 STRING Passenger oxygen: drop masks.====Dưỡng khí hành khách: thả mặt nạ.
-STRING Winch faster. (for gliders).====Tời nhanh hơn. (đối với tàu lượn).
-STRING Winch slower. (for gliders).====Tời chậm hơn. (đối với tàu lượn).
+STRING Winch faster. (for gliders).====Kéo nhanh hơn. (đối với tàu lượn).
+STRING Winch slower. (for gliders).====Kéo chậm hơn. (đối với tàu lượn).
 STRING COM 2 coarse down (8.33kHz).===="COM 2 xuống thô (8,33kHz)."
 STRING COM 2 coarse up (8.33kHz).===="COM 2 thô lên (8,33kHz)."
 STRING Change autopilot instrument source, 0 or 1====Thay đổi nguồn thiết bị lái tự động, 0 hoặc 1
@@ -5292,8 +5292,6 @@ STRING Interp Mode====Chế độ Interp
 STRING No Pro-Use Key found. Global ARINC424 data will not be loaded.====Không tìm thấy Khóa sử dụng chuyên nghiệp. Dữ liệu ARINC424 toàn cầu sẽ không được tải.
 STRING Home users can get navdata from Navigraph, Aerosoft, or the FAA.====Người dùng gia đình có thể lấy navdata từ Navigraph, Aerosoft, hoặc FAA.
 STRING Go to X-Plane.com and get a Pro Key to unlock Pro functionality.====Truy cập X-Plane.com và nhận Pro Key để mở khóa chức năng Pro.
-STRING Airbus to Alternate Law====Airbus đến Luật thay thế
-STRING Airbus to Direct Law====Airbus đến Luật Trực tiếp
 STRING Upper rotors controller failure====Bộ điều khiển rôto trên bị lỗi
 STRING Lower rotors controller failure====Bộ điều khiển rôto thấp hơn bị lỗi
 STRING Upper rotors battery failure====Lỗi pin rôto trên
@@ -5566,17 +5564,17 @@ STRING Aux to feeder transfer test right.====Aux to feeder chuyển kiểm tra q
 STRING Crossfeed valve open.====Van cấp chéo mở.
 STRING Open crossfeed valve when pressure difference detected.====Mở van nạp liệu khi phát hiện chênh lệch áp suất.
 STRING Close crossfeed valve and turn off auto-crossfeed.====Đóng van nạp chéo và tắt tự động nạp chéo.
-STRING Auto-crossfeed off->auto->on.====Auto-crossfeed off-> auto-> on.
-STRING Auto-crossfeed on->auto->off.====Auto-crossfeed on-> auto-> off.
+STRING Auto-crossfeed off->auto->on.====Chuyển đổi Auto-crossfeed (lên).
+STRING Auto-crossfeed on->auto->off.====Chuyển đổi Auto-crossfeed (xuống).
 STRING APU emergency shutoff with fire handle.====Ngắt khẩn cấp APU với tay cầm chữa cháy.
-STRING Bleed air shut off engine 1.====Không khí chảy máu tắt động cơ 1.
-STRING Bleed air shut off engine 2.====Không khí chảy máu tắt động cơ 2.
-STRING Bleed air shut off engine 3.====Không khí bị chảy máu sẽ tắt động cơ 3.
-STRING Bleed air shut off engine 4.====Không khí bị chảy máu sẽ tắt động cơ 4.
-STRING Bleed air shut off engine 5.====Không khí bị chảy máu sẽ tắt động cơ 5.
+STRING Bleed air shut off engine 1.====Không khí nén tắt động cơ 1.
+STRING Bleed air shut off engine 2.====Không khí nén tắt động cơ 2.
+STRING Bleed air shut off engine 3.====Không khí bị nén sẽ tắt động cơ 3.
+STRING Bleed air shut off engine 4.====Không khí bị nén sẽ tắt động cơ 4.
+STRING Bleed air shut off engine 5.====Không khí bị nén sẽ tắt động cơ 5.
 STRING Bleed air shut off engine 6.====Khí nén sẽ tắt động cơ 6.
 STRING Bleed air shut off engine 7.====Khí nén sẽ tắt động cơ 7.
-STRING Bleed air shut off engine 8.====Không khí bị chảy máu sẽ tắt động cơ 8.
+STRING Bleed air shut off engine 8.====Không khí bị nén sẽ tắt động cơ 8.
 STRING Bleed air on engine 1.====Khí nén trên động cơ 1.
 STRING Bleed air on engine 2.====Khí nén trên động cơ 2.
 STRING Bleed air on engine 3.====Khí nén trên động cơ 3.
@@ -5646,11 +5644,11 @@ STRING Anti-ice: right wing, de-icing boots off.====Chống băng: cánh phải,
 STRING Anti-ice: all wing, de-icing boots toggle.====Chống băng: tất cả các cánh, bật tắt ủng khử băng.
 STRING Anti-ice: left wing, de-icing boots toggle.====Chống băng: cánh trái, bật tắt ủng khử băng.
 STRING Anti-ice: right wing, de-icing boots toggle.====Chống băng: cánh phải, bật tắt ủng khử băng.
-STRING Anti-ice: all wing, bleed anti-ice on.====Chống băng: all wing, bleed anti ice on.
+STRING Anti-ice: all wing, bleed anti-ice on.====Chống băng: tất cả các cánh, bleed anti ice on.
 STRING Anti-ice: left wing, bleed anti-ice on.====Chống băng: cánh trái, chảy máu chống băng trên.
 STRING Anti-ice: right wing, bleed anti-ice on.====Chống băng: cánh phải, chảy máu chống băng trên.
-STRING Anti-ice: all wing, bleed anti-ice off.====Chống băng: all wing, bleed anti-ice off.
-STRING Anti-ice: left wing, bleed anti-ice off.====Anti-ice: cánh trái, bleed anti-ice off.
+STRING Anti-ice: all wing, bleed anti-ice off.====Chống băng: tất cả các cánh, khí nén tắt.
+STRING Anti-ice: left wing, bleed anti-ice off.====Anti-ice: cánh trái, khí nén tắt.
 STRING Anti-ice: right wing, bleed anti-ice off.====Chống băng: cánh phải, chảy máu chống băng tắt.
 STRING Anti-ice: all wing, bleed anti-ice toggle.====Chống băng: tất cả các cánh, chuyển đổi chống băng chảy máu.
 STRING Anti-ice: left wing, bleed anti-ice toggle.====Chống băng: cánh trái, chuyển đổi chống băng chảy máu.
@@ -5679,8 +5677,8 @@ STRING Anti-ice: all prop TKS off.====Chống băng: tất cả chống TKS tắ
 STRING Anti-ice: all prop TKS toggle.====Chống băng: tất cả chống đỡ TKS bật tắt.
 STRING Anti-ice: engine #%1:index% prop TKS norm.====Chống đóng băng: động cơ #%1:index% chống định mức TKS.
 STRING Anti-ice: engine #%1:index% prop TKS high.====Chống đóng băng: động cơ #%1:index% đẩy TKS cao.
-STRING Anti-ice: engine #%1:index% prop TKS off.====Anti-ice: engine #%1:index% prop TKS tắt.
-STRING Anti-ice: engine #%1:index% prop TKS toggle.====Anti-ice: engine #%1:index% prop TKS chuyển đổi.
+STRING Anti-ice: engine #%1:index% prop TKS off.====Chống đóng băng #%1:index% prop TKS tắt.
+STRING Anti-ice: engine #%1:index% prop TKS toggle.====Chống đóng băng #%1:index% prop TKS chuyển đổi.
 STRING Monitor audio: COM auto (same as transmit) toggle.====Giám sát âm thanh: COM tự động (giống như truyền) chuyển đổi.
 STRING Monitor audio: COM1 toggle.====Giám sát âm thanh: chuyển đổi COM1.
 STRING Monitor audio: COM2 toggle.====Giám sát âm thanh: chuyển đổi COM2.
@@ -6001,8 +5999,8 @@ STRING (RAKNET)====(RAKNET)
 STRING (BROADCAST)====(PHÁT TIN)
 STRING Some ice====Một ít đá
 STRING Icy====Băng giá
-STRING Throttle Vertical====Bướm ga theo chiều dọc
-STRING Throttle Horizontal====Bướm ga ngang
+STRING Throttle Vertical====cần ga theo chiều dọc
+STRING Throttle Horizontal====cần ga ngang
 STRING Shader material out of sync====Vật liệu Shader không đồng bộ
 STRING X-Plane cannot continue running====X-Plane không thể tiếp tục chạy
 STRING <Thermals and Microbursts>====<Thermals và Microdowts>
@@ -6047,7 +6045,7 @@ STRING Carrier Approach====Hạ cánh từ tàu sân bay
 STRING Frigate Approach====Hạ cánh từ chiến hạm
 STRING Small Oil Rig Approach====Hạ cánh từ giàn khoan dầu (nhỏ)
 STRING Large Oil Platform Approach====Hạ cánh từ giàn khoan dầu (lớn)
-STRING Your demo time is up, so your flight controls will no longer function until you restart X-Plane.====Thời gian trải nghiệm thử của bạn đã hết (unu), vì vậy các điều khiển chuyến bay của bạn sẽ không còn hoạt động cho đến khi bạn khởi động lại X-Plane, hoặc mua X-plane bản quyền ngay bây giờ.
+STRING Your demo time is up, so your flight controls will no longer function until you restart X-Plane.====Thời gian trải nghiệm thử của bạn đã hết , vì vậy các điều khiển chuyến bay của bạn sẽ không còn hoạt động cho đến khi bạn khởi động lại X-Plane, hoặc mua X-plane bản quyền ngay bây giờ.
 STRING You can fly for a limited time in demo mode.====Bạn có thể bay trong thời gian giới hạn ở chế độ demo.
 STRING Scattered====Mây rải rác 
 STRING Broken====Nhiều mây
@@ -6057,3 +6055,614 @@ STRING Foggy====Sương mù dày
 STRING Yaw damper on.====Yaw damper bật
 STRING Yaw damper off.====Yaw damper tắt.
 STRING Forward with 3-D cockpit====Bắt đầu với buồng lái 3D
+STRING Space Shuttle: Full re-entry.====Space Shuttle: Tiếp cận bầu khi quyển (Hoàn chỉnh)
+STRING Space Shuttle: Final re-entry.====Space Shuttle: Tiếp cận bầu khi quyển (Gần hoàn thành)
+STRING Space Shuttle: Full approach.====Space Shuttle: Tiếp cận sân bay (Hoàn chỉnh)
+STRING Space Shuttle: Final approach.====Space Shuttle: Tiếp cận sân bay (Gần hoàn thành)
+STRING Slider #1 On/Off control.====Trượt #1 điều khiển bật tắt.
+STRING Slider #2 On/Off control.====Trượt #2 điều khiển bật tắt.
+STRING Slider #3 On/Off control.====Trượt #3 điều khiển bật tắt.
+STRING Slider #4 On/Off control.====Trượt #4 điều khiển bật tắt.
+STRING Slider #5 On/Off control.====Trượt #5 điều khiển bật tắt.
+STRING Slider #6 On/Off control.====Trượt #6 điều khiển bật tắt.
+STRING Slider #7 On/Off control.====Trượt #7 điều khiển bật tắt.
+STRING Slider #8 On/Off control.====Trượt #8 điều khiển bật tắt.
+STRING Slider #9 On/Off control.====Trượt #9 điều khiển bật tắt.
+STRING Slider #10 On/Off control.====Trượt #10 điều khiển bật tắt.
+STRING Slider #11 On/Off control.====Trượt #11 điều khiển bật tắt.
+STRING Slider #12 On/Off control.====Trượt #12 điều khiển bật tắt.
+STRING Slider #13 On/Off control.====Trượt #13 điều khiển bật tắt.
+STRING Slider #14 On/Off control.====Trượt #14 điều khiển bật tắt.
+STRING Slider #15 On/Off control.====Trượt #15 điều khiển bật tắt.
+STRING Slider #16 On/Off control.====Trượt #16 điều khiển bật tắt.
+STRING Slider #17 On/Off control.====Trượt #17 điều khiển bật tắt.
+STRING Slider #18 On/Off control.====Trượt #18 điều khiển bật tắt.
+STRING Slider #19 On/Off control.====Trượt #19 điều khiển bật tắt.
+STRING Slider #20 On/Off control.====Trượt #20 điều khiển bật tắt.
+STRING Slider #21 On/Off control.====Trượt #21 điều khiển bật tắt.
+STRING Slider #22 On/Off control.====Trượt #22 điều khiển bật tắt.
+STRING Slider #23 On/Off control.====Trượt #23 điều khiển bật tắt.
+STRING Slider #24 On/Off control.====Trượt #24 điều khiển bật tắt.
+STRING Engage starter #1.====Bộ đánh lửa #1.
+STRING Engage starter #2.====Bộ đánh lửa #2.
+STRING Engage starter #3.====Bộ đánh lửa #3.
+STRING Engage starter #4.====Bộ đánh lửa #4.
+STRING Engage starter #5.====Bộ đánh lửa #5.
+STRING Engage starter #6.====Bộ đánh lửa #6.
+STRING Engage starter #7.====Bộ đánh lửa #7.
+STRING Engage starter #8.====Bộ đánh lửa #8.
+STRING Throttle down a bit for engine #1.====Hạ cần ga động cơ một ít #1.
+STRING Throttle down a bit for engine #2.====Hạ cần ga động cơ một ít #2.
+STRING Throttle down a bit for engine #3.====Hạ cần ga động cơ một ít #3.
+STRING Throttle down a bit for engine #4.====Hạ cần ga động cơ một ít #4.
+STRING Throttle down a bit for engine #5.====Hạ cần ga động cơ một ít #5.
+STRING Throttle down a bit for engine #6.====Hạ cần ga động cơ một ít #6.
+STRING Throttle down a bit for engine #7.====Hạ cần ga động cơ một ít #7.
+STRING Throttle down a bit for engine #8.====Hạ cần ga động cơ một ít #8.
+STRING Throttle up a bit for engine #1.====Tăng cần ga động cơ một ít #1.
+STRING Throttle up a bit for engine #2.====Tăng cần ga động cơ một ít #2.
+STRING Throttle up a bit for engine #3.====Tăng cần ga động cơ một ít #3.
+STRING Throttle up a bit for engine #4.====Tăng cần ga động cơ một ít #4.
+STRING Throttle up a bit for engine #5.====Tăng cần ga động cơ một ít #5.
+STRING Throttle up a bit for engine #6.====Tăng cần ga động cơ một ít #6.
+STRING Throttle up a bit for engine #7.====Tăng cần ga động cơ một ít #7.
+STRING Throttle up a bit for engine #8.====Tăng cần ga động cơ một ít #8.
+STRING Toggle beta prop #1.====Điều chỉnh beta prop #1.
+STRING Toggle beta prop #2.====Điều chỉnh beta prop #2.
+STRING Toggle beta prop #3.====Điều chỉnh beta prop #3.
+STRING Toggle beta prop #4.====Điều chỉnh beta prop #4.
+STRING Toggle beta prop #5.====Điều chỉnh beta prop #5.
+STRING Toggle beta prop #6.====Điều chỉnh beta prop #6.
+STRING Toggle beta prop #7.====Điều chỉnh beta prop #7.
+STRING Toggle beta prop #8.====Điều chỉnh beta prop #8.
+STRING Toggle thrust reversers #1.====Điều chỉnh động cơ đẩy lùi #1.
+STRING Toggle thrust reversers #2.====Điều chỉnh động cơ đẩy lùi #2.
+STRING Toggle thrust reversers #3.====Điều chỉnh động cơ đẩy lùi #3.
+STRING Toggle thrust reversers #4.====Điều chỉnh động cơ đẩy lùi #4.
+STRING Toggle thrust reversers #5.====Điều chỉnh động cơ đẩy lùi #5.
+STRING Toggle thrust reversers #6.====Điều chỉnh động cơ đẩy lùi #6.
+STRING Toggle thrust reversers #7.====Điều chỉnh động cơ đẩy lùi #7.
+STRING Toggle thrust reversers #8.====Điều chỉnh động cơ đẩy lùi #8.
+STRING Hold thrust reverse at max #1.====Giữ động cơ đẩy lùi ở mức tối đa #1.
+STRING Hold thrust reverse at max #2.====Giữ động cơ đẩy lùi ở mức tối đa #2.
+STRING Hold thrust reverse at max #3.====Giữ động cơ đẩy lùi ở mức tối đa #3.
+STRING Hold thrust reverse at max #4.====Giữ động cơ đẩy lùi ở mức tối đa #4.
+STRING Hold thrust reverse at max #5.====Giữ động cơ đẩy lùi ở mức tối đa #5.
+STRING Hold thrust reverse at max #6.====Giữ động cơ đẩy lùi ở mức tối đa #6.
+STRING Hold thrust reverse at max #7.====Giữ động cơ đẩy lùi ở mức tối đa #7.
+STRING Hold thrust reverse at max #8.====Giữ động cơ đẩy lùi ở mức tối đa #8.
+STRING Propeller====Cánh quạt
+STRING Prop down a bit for engine #1.====Giảm prop một ít cho động cơ #1.
+STRING Prop down a bit for engine #2.====Giảm prop một ít cho động cơ #2.
+STRING Prop down a bit for engine #3.====Giảm prop một ít cho động cơ #3.
+STRING Prop down a bit for engine #4.====Giảm prop một ít cho động cơ #4.
+STRING Prop down a bit for engine #5.====Giảm prop một ít cho động cơ #5.
+STRING Prop down a bit for engine #6.====Giảm prop một ít cho động cơ #6.
+STRING Prop down a bit for engine #7.====Giảm prop một ít cho động cơ #7.
+STRING Prop down a bit for engine #8.====Giảm prop một ít cho động cơ #8.
+STRING Prop up a bit for engine #1.====Nâng prop một ít cho động cơ #1.
+STRING Prop up a bit for engine #2.====Nâng prop một ít cho động cơ #2.
+STRING Prop up a bit for engine #3.====Nâng prop một ít cho động cơ #3.
+STRING Prop up a bit for engine #4.====Nâng prop một ít cho động cơ #4.
+STRING Prop up a bit for engine #5.====Nâng prop một ít cho động cơ #5.
+STRING Prop up a bit for engine #6.====Nâng prop một ít cho động cơ #6.
+STRING Prop up a bit for engine #7.====Nâng prop một ít cho động cơ #7.
+STRING Prop up a bit for engine #8.====Nâng prop một ít cho động cơ #8.
+STRING Mixture down a bit for engine #1.====Giảm bộ trộn một ít cho động cơ #1.
+STRING Mixture down a bit for engine #2.====Giảm bộ trộn một ít cho động cơ #2.
+STRING Mixture down a bit for engine #3.====Giảm bộ trộn một ít cho động cơ #3.
+STRING Mixture down a bit for engine #4.====Giảm bộ trộn một ít cho động cơ #4.
+STRING Mixture down a bit for engine #5.====Giảm bộ trộn một ít cho động cơ #5.
+STRING Mixture down a bit for engine #6.====Giảm bộ trộn một ít cho động cơ #6.
+STRING Mixture down a bit for engine #7.====Giảm bộ trộn một ít cho động cơ #7.
+STRING Mixture down a bit for engine #8.====Giảm bộ trộn một ít cho động cơ #8.
+STRING Mixture up a bit for engine #1.====Tăng bộ trộn một ít cho động cơ #1.
+STRING Mixture up a bit for engine #2.====Tăng bộ trộn một ít cho động cơ #2.
+STRING Mixture up a bit for engine #3.====Tăng bộ trộn một ít cho động cơ #3.
+STRING Mixture up a bit for engine #4.====Tăng bộ trộn một ít cho động cơ #4.
+STRING Mixture up a bit for engine #5.====Tăng bộ trộn một ít cho động cơ #5.
+STRING Mixture up a bit for engine #6.====Tăng bộ trộn một ít cho động cơ #6.
+STRING Mixture up a bit for engine #7.====Tăng bộ trộn một ít cho động cơ #7.
+STRING Mixture up a bit for engine #8.====Tăng bộ trộn một ít cho động cơ #8.
+STRING Magnetos down one notch for engine #1.====Giảm magnetos một ít cho động cơ #1.
+STRING Magnetos down one notch for engine #2.====Giảm magnetos một ít cho động cơ #2.
+STRING Magnetos down one notch for engine #3.====Giảm magnetos một ít cho động cơ #3.
+STRING Magnetos down one notch for engine #4.====Giảm magnetos một ít cho động cơ #4.
+STRING Magnetos down one notch for engine #5.====Giảm magnetos một ít cho động cơ #5.
+STRING Magnetos down one notch for engine #6.====Giảm magnetos một ít cho động cơ #6.
+STRING Magnetos down one notch for engine #7.====Giảm magnetos một ít cho động cơ #7.
+STRING Magnetos down one notch for engine #8.====Giảm magnetos một ít cho động cơ #8.
+STRING Magnetos up one notch for engine #1.====Tăng magnetos một ít cho động cơ #1.
+STRING Magnetos up one notch for engine #2.====Tăng magnetos một ít cho động cơ #2.
+STRING Magnetos up one notch for engine #3.====Tăng magnetos một ít cho động cơ #3.
+STRING Magnetos up one notch for engine #4.====Tăng magnetos một ít cho động cơ #4.
+STRING Magnetos up one notch for engine #5.====Tăng magnetos một ít cho động cơ #5.
+STRING Magnetos up one notch for engine #6.====Tăng magnetos một ít cho động cơ #6.
+STRING Magnetos up one notch for engine #7.====Tăng magnetos một ít cho động cơ #7.
+STRING Magnetos up one notch for engine #8.====Tăng magnetos một ít cho động cơ #8.
+STRING Magnetos off for engine #1.====Tắt magnetos cho động cơ #1.
+STRING Magnetos off for engine #2.====Tắt magnetos cho động cơ #2.
+STRING Magnetos off for engine #3.====Tắt magnetos cho động cơ #3.
+STRING Magnetos off for engine #4.====Tắt magnetos cho động cơ #4.
+STRING Magnetos off for engine #5.====Tắt magnetos cho động cơ #5.
+STRING Magnetos off for engine #6.====Tắt magnetos cho động cơ #6.
+STRING Magnetos off for engine #7.====Tắt magnetos cho động cơ #7.
+STRING Magnetos off for engine #8.====Tắt magnetos cho động cơ #8.
+STRING Magnetos left for engine #1.====Magnetos cho động cơ trái #1.
+STRING Magnetos left for engine #2.====Magnetos cho động cơ trái #2.
+STRING Magnetos left for engine #3.====Magnetos cho động cơ trái #3.
+STRING Magnetos left for engine #4.====Magnetos cho động cơ trái #4.
+STRING Magnetos left for engine #5.====Magnetos cho động cơ trái #5.
+STRING Magnetos left for engine #6.====Magnetos cho động cơ trái #6.
+STRING Magnetos left for engine #7.====Magnetos cho động cơ trái #7.
+STRING Magnetos left for engine #8.====Magnetos cho động cơ trái #8.
+STRING Magnetos right for engine #1.====Magnetos cho động cơ phải #1.
+STRING Magnetos right for engine #2.====Magnetos cho động cơ phải #2.
+STRING Magnetos right for engine #3.====Magnetos cho động cơ phải #3.
+STRING Magnetos right for engine #4.====Magnetos cho động cơ phải #4.
+STRING Magnetos right for engine #5.====Magnetos cho động cơ phải #5.
+STRING Magnetos right for engine #6.====Magnetos cho động cơ phải #6.
+STRING Magnetos right for engine #7.====Magnetos cho động cơ phải #7.
+STRING Magnetos right for engine #8.====Magnetos cho động cơ phải #8.
+STRING Magnetos both for engine #1.====Magnetos cho tất cả động cơ #1.
+STRING Magnetos both for engine #2.====Magnetos cho tất cả động cơ #2.
+STRING Magnetos both for engine #3.====Magnetos cho tất cả động cơ #3.
+STRING Magnetos both for engine #4.====Magnetos cho tất cả động cơ #4.
+STRING Magnetos both for engine #5.====Magnetos cho tất cả động cơ #5.
+STRING Magnetos both for engine #6.====Magnetos cho tất cả động cơ #6.
+STRING Magnetos both for engine #7.====Magnetos cho tất cả động cơ #7.
+STRING Magnetos both for engine #8.====Magnetos cho tất cả động cơ #8.
+STRING Igniter #1 arm off.====Bộ khởi động #1 tự động tắt.
+STRING Igniter #2 arm off.====Bộ khởi động #2 tự động tắt.
+STRING Igniter #3 arm off.====Bộ khởi động #3 tự động tắt.
+STRING Igniter #4 arm off.====Bộ khởi động #4 tự động tắt.
+STRING Igniter #5 arm off.====Bộ khởi động #5 tự động tắt.
+STRING Igniter #6 arm off.====Bộ khởi động #6 tự động tắt.
+STRING Igniter #7 arm off.====Bộ khởi động #7 tự động tắt.
+STRING Igniter #8 arm off.====Bộ khởi động #8 tự động tắt.
+STRING Igniter #1 arm on.====Bộ khởi động #1 tự động bật.
+STRING Igniter #2 arm on.====Bộ khởi động #2 tự động bật.
+STRING Igniter #3 arm on.====Bộ khởi động #3 tự động bật.
+STRING Igniter #4 arm on.====Bộ khởi động #4 tự động bật.
+STRING Igniter #5 arm on.====Bộ khởi động #5 tự động bật.
+STRING Igniter #6 arm on.====Bộ khởi động #6 tự động bật.
+STRING Igniter #7 arm on.====Bộ khởi động #7 tự động bật.
+STRING Igniter #8 arm on.====Bộ khởi động #8 tự động bật.
+STRING Igniter #1 contin-ignition off.====Bộ khởi động #1 khởi động liên tục tắt.
+STRING Igniter #2 contin-ignition off.====Bộ khởi động #2 khởi động liên tục tắt.
+STRING Igniter #3 contin-ignition off.====Bộ khởi động #3 khởi động liên tục tắt.
+STRING Igniter #4 contin-ignition off.====Bộ khởi động #4 khởi động liên tục tắt.
+STRING Igniter #5 contin-ignition off.====Bộ khởi động #5 khởi động liên tục tắt.
+STRING Igniter #6 contin-ignition off.====Bộ khởi động #6 khởi động liên tục tắt.
+STRING Igniter #7 contin-ignition off.====Bộ khởi động #7 khởi động liên tục tắt.
+STRING Igniter #8 contin-ignition off.====Bộ khởi động #8 khởi động liên tục tắt.
+STRING Igniter #1 contin-ignition on.====Bộ khởi động #1 khởi động liên tục bật.
+STRING Igniter #2 contin-ignition on.====Bộ khởi động #2 khởi động liên tục bật.
+STRING Igniter #3 contin-ignition on.====Bộ khởi động #3 khởi động liên tục bật.
+STRING Igniter #4 contin-ignition on.====Bộ khởi động #4 khởi động liên tục bật.
+STRING Igniter #5 contin-ignition on.====Bộ khởi động #5 khởi động liên tục bật.
+STRING Igniter #6 contin-ignition on.====Bộ khởi động #6 khởi động liên tục bật.
+STRING Igniter #7 contin-ignition on.====Bộ khởi động #7 khởi động liên tục bật.
+STRING Igniter #8 contin-ignition on.====Bộ khởi động #8 khởi động liên tục bật.
+STRING Ignition key down one notch for engine #1.====Chìa khóa bộ khởi động xuống một bậc cho động cơ #1.
+STRING Ignition key down one notch for engine #2.====Chìa khóa bộ khởi động xuống một bậc cho động cơ #2.
+STRING Ignition key down one notch for engine #3.====Chìa khóa bộ khởi động xuống một bậc cho động cơ #3.
+STRING Ignition key down one notch for engine #4.====Chìa khóa bộ khởi động xuống một bậc cho động cơ #4.
+STRING Ignition key down one notch for engine #5.====Chìa khóa bộ khởi động xuống một bậc cho động cơ #5.
+STRING Ignition key down one notch for engine #6.====Chìa khóa bộ khởi động xuống một bậc cho động cơ #6.
+STRING Ignition key down one notch for engine #7.====Chìa khóa bộ khởi động xuống một bậc cho động cơ #7.
+STRING Ignition key down one notch for engine #8.====Chìa khóa bộ khởi động xuống một bậc cho động cơ #8.
+STRING Ignition key up one notch for engine #1.====Chìa khóa bộ khởi động lên một bậc cho động cơ #1.
+STRING Ignition key up one notch for engine #2.====Chìa khóa bộ khởi động lên một bậc cho động cơ #2.
+STRING Ignition key up one notch for engine #3.====Chìa khóa bộ khởi động lên một bậc cho động cơ #3.
+STRING Ignition key up one notch for engine #4.====Chìa khóa bộ khởi động lên một bậc cho động cơ #4.
+STRING Ignition key up one notch for engine #5.====Chìa khóa bộ khởi động lên một bậc cho động cơ #5.
+STRING Ignition key up one notch for engine #6.====Chìa khóa bộ khởi động lên một bậc cho động cơ #6.
+STRING Ignition key up one notch for engine #7.====Chìa khóa bộ khởi động lên một bậc cho động cơ #7.
+STRING Ignition key up one notch for engine #8.====Chìa khóa bộ khởi động lên một bậc cho động cơ #8.
+STRING Move cowl flaps #1 closed a bit.====Di chuyển cánh tà phụ #1 gần lại một tí.
+STRING Move cowl flaps #2 closed a bit.====Di chuyển cánh tà phụ #2 gần lại một tí.
+STRING Move cowl flaps #3 closed a bit.====Di chuyển cánh tà phụ #3 gần lại một tí.
+STRING Move cowl flaps #4 closed a bit.====Di chuyển cánh tà phụ #4 gần lại một tí.
+STRING Move cowl flaps #5 closed a bit.====Di chuyển cánh tà phụ #5 gần lại một tí.
+STRING Move cowl flaps #6 closed a bit.====Di chuyển cánh tà phụ #6 gần lại một tí.
+STRING Move cowl flaps #7 closed a bit.====Di chuyển cánh tà phụ #7 gần lại một tí.
+STRING Move cowl flaps #8 closed a bit.====Di chuyển cánh tà phụ #8 gần lại một tí.
+STRING Move cowl flaps #1 open a bit.====Di chuyển cánh tà phụ #1 xa ra một tí.
+STRING Move cowl flaps #2 open a bit.====Di chuyển cánh tà phụ #2 xa ra một tí.
+STRING Move cowl flaps #3 open a bit.====Di chuyển cánh tà phụ #3 xa ra một tí.
+STRING Move cowl flaps #4 open a bit.====Di chuyển cánh tà phụ #4 xa ra một tí.
+STRING Move cowl flaps #5 open a bit.====Di chuyển cánh tà phụ #5 xa ra một tí.
+STRING Move cowl flaps #6 open a bit.====Di chuyển cánh tà phụ #6 xa ra một tí.
+STRING Move cowl flaps #7 open a bit.====Di chuyển cánh tà phụ #7 xa ra một tí.
+STRING Move cowl flaps #8 open a bit.====Di chuyển cánh tà phụ #8 xa ra một tí.
+STRING Pull fuel and mags for shut-down #1.====Kéo cần điều khiển xăng để tắt động cơ #1.
+STRING Pull fuel and mags for shut-down #2.====Kéo cần điều khiển xăng để tắt động cơ #2.
+STRING Pull fuel and mags for shut-down #3.====Kéo cần điều khiển xăng để tắt động cơ #3.
+STRING Pull fuel and mags for shut-down #4.====Kéo cần điều khiển xăng để tắt động cơ #4.
+STRING Pull fuel and mags for shut-down #5.====Kéo cần điều khiển xăng để tắt động cơ #5.
+STRING Pull fuel and mags for shut-down #6.====Kéo cần điều khiển xăng để tắt động cơ #6.
+STRING Pull fuel and mags for shut-down #7.====Kéo cần điều khiển xăng để tắt động cơ #7.
+STRING Pull fuel and mags for shut-down #8.====Kéo cần điều khiển xăng để tắt động cơ #8.
+STRING FADEC #1 off.====FADEC #1 tắt.
+STRING FADEC #2 off.====FADEC #2 tắt.
+STRING FADEC #3 off.====FADEC #3 tắt.
+STRING FADEC #4 off.====FADEC #4 tắt.
+STRING FADEC #5 off.====FADEC #5 tắt.
+STRING FADEC #6 off.====FADEC #6 tắt.
+STRING FADEC #7 off.====FADEC #7 tắt.
+STRING FADEC #8 off.====FADEC #8 tắt.
+STRING FADEC #1 on.====FADEC #1 bật.
+STRING FADEC #2 on.====FADEC #2 bật.
+STRING FADEC #3 on.====FADEC #3 bật.
+STRING FADEC #4 on.====FADEC #4 bật.
+STRING FADEC #5 on.====FADEC #5 bật.
+STRING FADEC #6 on.====FADEC #6 bật.
+STRING FADEC #7 on.====FADEC #7 bật.
+STRING FADEC #8 on.====FADEC #8 bật.
+STRING Fire extinguisher #1 off.====Bộ dập lửa động cơ #1 tắt.
+STRING Fire extinguisher #2 off.====Bộ dập lửa động cơ #2 tắt.
+STRING Fire extinguisher #3 off.====Bộ dập lửa động cơ #3 tắt.
+STRING Fire extinguisher #4 off.====Bộ dập lửa động cơ #4 tắt.
+STRING Fire extinguisher #5 off.====Bộ dập lửa động cơ #5 tắt.
+STRING Fire extinguisher #6 off.====Bộ dập lửa động cơ #6 tắt.
+STRING Fire extinguisher #7 off.====Bộ dập lửa động cơ #7 tắt.
+STRING Fire extinguisher #8 off.====Bộ dập lửa động cơ #8 tắt.
+STRING Fire extinguisher #1 on.====Bộ dập lửa động cơ #1 bật.
+STRING Fire extinguisher #2 on.====Bộ dập lửa động cơ #2 bật.
+STRING Fire extinguisher #3 on.====Bộ dập lửa động cơ #3 bật.
+STRING Fire extinguisher #4 on.====Bộ dập lửa động cơ #4 bật.
+STRING Fire extinguisher #5 on.====Bộ dập lửa động cơ #5 bật.
+STRING Fire extinguisher #6 on.====Bộ dập lửa động cơ #6 bật.
+STRING Fire extinguisher #7 on.====Bộ dập lửa động cơ #7 bật.
+STRING Fire extinguisher #8 on.====Bộ dập lửa động cơ #8 bật.
+STRING Generator #1 off.====Bộ phát điện #1 tắt.
+STRING Generator #2 off.====Bộ phát điện #2 tắt.
+STRING Generator #3 off.====Bộ phát điện #3 tắt.
+STRING Generator #4 off.====Bộ phát điện #4 tắt.
+STRING Generator #5 off.====Bộ phát điện #5 tắt.
+STRING Generator #6 off.====Bộ phát điện #6 tắt.
+STRING Generator #7 off.====Bộ phát điện #7 tắt.
+STRING Generator #8 off.====Bộ phát điện #8 tắt.
+STRING Generator #1 on.====Bộ phát điện #1 bật.
+STRING Generator #2 on.====Bộ phát điện #2 bật.
+STRING Generator #3 on.====Bộ phát điện #3 bật.
+STRING Generator #4 on.====Bộ phát điện #4 bật.
+STRING Generator #5 on.====Bộ phát điện #5 bật.
+STRING Generator #6 on.====Bộ phát điện #6 bật.
+STRING Generator #7 on.====Bộ phát điện #7 bật.
+STRING Generator #8 on.====Bộ phát điện #8 bật.
+STRING Generator #1 toggle.====Điều chỉnh Bộ phát điện #1
+STRING Generator #2 toggle.====Điều chỉnh Bộ phát điện #2
+STRING Generator #3 toggle.====Điều chỉnh Bộ phát điện #3
+STRING Generator #4 toggle.====Điều chỉnh Bộ phát điện #4
+STRING Generator #5 toggle.====Điều chỉnh Bộ phát điện #5
+STRING Generator #6 toggle.====Điều chỉnh Bộ phát điện #6
+STRING Generator #7 toggle.====Điều chỉnh Bộ phát điện #7
+STRING Generator #8 toggle.====Điều chỉnh Bộ phát điện #8
+STRING Generator #1 reset.====Đặt lại Bộ phát điện #1
+STRING Generator #2 reset.====Đặt lại Bộ phát điện #2
+STRING Generator #3 reset.====Đặt lại Bộ phát điện #3
+STRING Generator #4 reset.====Đặt lại Bộ phát điện #4
+STRING Generator #5 reset.====Đặt lại Bộ phát điện #5
+STRING Generator #6 reset.====Đặt lại Bộ phát điện #6
+STRING Generator #7 reset.====Đặt lại Bộ phát điện #7
+STRING Generator #8 reset.====Đặt lại Bộ phát điện #8
+STRING Alternate air #1 off.====Không khí luân phiên #1 tắt.
+STRING Alternate air #2 off.====Không khí luân phiên #2 tắt.
+STRING Alternate air #3 off.====Không khí luân phiên #3 tắt.
+STRING Alternate air #4 off.====Không khí luân phiên #4 tắt.
+STRING Alternate air #5 off.====Không khí luân phiên #5 tắt.
+STRING Alternate air #6 off.====Không khí luân phiên #6 tắt.
+STRING Alternate air #7 off.====Không khí luân phiên #7 tắt.
+STRING Alternate air #8 off.====Không khí luân phiên #8 tắt.
+STRING Alternate air #1 on.====Không khí luân phiên #1 bật.
+STRING Alternate air #2 on.====Không khí luân phiên #2 bật.
+STRING Alternate air #3 on.====Không khí luân phiên #3 bật.
+STRING Alternate air #4 on.====Không khí luân phiên #4 bật.
+STRING Alternate air #5 on.====Không khí luân phiên #5 bật.
+STRING Alternate air #6 on.====Không khí luân phiên #6 bật.
+STRING Alternate air #7 on.====Không khí luân phiên #7 bật.
+STRING Alternate air #8 on.====Không khí luân phiên #8 bật.
+STRING Alternate air backup #1 off.====Dự phòng không khí thay thế #1 tắt.
+STRING Alternate air backup #2 off.====Dự phòng không khí thay thế #2 tắt.
+STRING Alternate air backup #3 off.====Dự phòng không khí thay thế #3 tắt.
+STRING Alternate air backup #4 off.====Dự phòng không khí thay thế #4 tắt.
+STRING Alternate air backup #5 off.====Dự phòng không khí thay thế #5 tắt.
+STRING Alternate air backup #6 off.====Dự phòng không khí thay thế #6 tắt.
+STRING Alternate air backup #7 off.====Dự phòng không khí thay thế #7 tắt.
+STRING Alternate air backup #8 off.====Dự phòng không khí thay thế #8 tắt.
+STRING Alternate air backup #1 on.====Dự phòng không khí thay thế #1 bật.
+STRING Alternate air backup #2 on.====Dự phòng không khí thay thế #2 bật.
+STRING Alternate air backup #3 on.====Dự phòng không khí thay thế #3 bật.
+STRING Alternate air backup #4 on.====Dự phòng không khí thay thế #4 bật.
+STRING Alternate air backup #5 on.====Dự phòng không khí thay thế #5 bật.
+STRING Alternate air backup #6 on.====Dự phòng không khí thay thế #6 bật.
+STRING Alternate air backup #7 on.====Dự phòng không khí thay thế #7 bật.
+STRING Alternate air backup #8 on.====Dự phòng không khí thay thế #8 bật.
+STRING Fuel pump for tank #1 on.====Máy bơm từ thùng nhiên liệu #1 bật.
+STRING Fuel pump for tank #2 on.====Máy bơm từ thùng nhiên liệu #2 bật.
+STRING Fuel pump for tank #3 on.====Máy bơm từ thùng nhiên liệu #3 bật.
+STRING Fuel pump for tank #4 on.====Máy bơm từ thùng nhiên liệu #4 bật.
+STRING Fuel pump for tank #5 on.====Máy bơm từ thùng nhiên liệu #5 bật.
+STRING Fuel pump for tank #6 on.====Máy bơm từ thùng nhiên liệu #6 bật.
+STRING Fuel pump for tank #7 on.====Máy bơm từ thùng nhiên liệu #7 bật.
+STRING Fuel pump for tank #8 on.====Máy bơm từ thùng nhiên liệu #8 bật.
+STRING Fuel pump for tank #9 on.====Máy bơm từ thùng nhiên liệu #9 bật.
+STRING Fuel pump for tank #1 off.====Máy bơm từ thùng nhiên liệu #1 tắt.
+STRING Fuel pump for tank #2 off.====Máy bơm từ thùng nhiên liệu #2 tắt.
+STRING Fuel pump for tank #3 off.====Máy bơm từ thùng nhiên liệu #3 tắt.
+STRING Fuel pump for tank #4 off.====Máy bơm từ thùng nhiên liệu #4 tắt.
+STRING Fuel pump for tank #5 off.====Máy bơm từ thùng nhiên liệu #5 tắt.
+STRING Fuel pump for tank #6 off.====Máy bơm từ thùng nhiên liệu #6 tắt.
+STRING Fuel pump for tank #7 off.====Máy bơm từ thùng nhiên liệu #7 tắt.
+STRING Fuel pump for tank #8 off.====Máy bơm từ thùng nhiên liệu #8 tắt.
+STRING Fuel pump for tank #9 off.====Máy bơm từ thùng nhiên liệu #9 tắt.
+STRING Fuel pump for engine #1 on.====Máy bơm cho động cơ #1 bật.
+STRING Fuel pump for engine #2 on.====Máy bơm cho động cơ #2 bật.
+STRING Fuel pump for engine #3 on.====Máy bơm cho động cơ #3 bật.
+STRING Fuel pump for engine #4 on.====Máy bơm cho động cơ #4 bật.
+STRING Fuel pump for engine #5 on.====Máy bơm cho động cơ #5 bật.
+STRING Fuel pump for engine #6 on.====Máy bơm cho động cơ #6 bật.
+STRING Fuel pump for engine #7 on.====Máy bơm cho động cơ #7 bật.
+STRING Fuel pump for engine #8 on.====Máy bơm cho động cơ #8 bật.
+STRING Fuel pump for engine #1 off.====Máy bơm cho động cơ #1 tắt.
+STRING Fuel pump for engine #2 off.====Máy bơm cho động cơ #2 tắt.
+STRING Fuel pump for engine #3 off.====Máy bơm cho động cơ #3 tắt.
+STRING Fuel pump for engine #4 off.====Máy bơm cho động cơ #4 tắt.
+STRING Fuel pump for engine #5 off.====Máy bơm cho động cơ #5 tắt.
+STRING Fuel pump for engine #6 off.====Máy bơm cho động cơ #6 tắt.
+STRING Fuel pump for engine #7 off.====Máy bơm cho động cơ #7 tắt.
+STRING Fuel pump for engine #8 off.====Máy bơm cho động cơ #8 tắt.
+STRING Fuel pump for engine #1 toggle.====Điều chỉnh Máy bơm cho động cơ #1
+STRING Fuel pump for engine #2 toggle.====Điều chỉnh Máy bơm cho động cơ #2
+STRING Fuel pump for engine #3 toggle.====Điều chỉnh Máy bơm cho động cơ #3
+STRING Fuel pump for engine #4 toggle.====Điều chỉnh Máy bơm cho động cơ #4
+STRING Fuel pump for engine #5 toggle.====Điều chỉnh Máy bơm cho động cơ #5
+STRING Fuel pump for engine #6 toggle.====Điều chỉnh Máy bơm cho động cơ #6
+STRING Fuel pump for engine #7 toggle.====Điều chỉnh Máy bơm cho động cơ #7
+STRING Fuel pump for engine #8 toggle.====Điều chỉnh Máy bơm cho động cơ #8
+STRING Fuel pump prime for engine #1 on.====Bơm nhiên liệu chính cho động cơ #1 bật.
+STRING Fuel pump prime for engine #2 on.====Bơm nhiên liệu chính cho động cơ #2 bật.
+STRING Fuel pump prime for engine #3 on.====Bơm nhiên liệu chính cho động cơ #3 bật.
+STRING Fuel pump prime for engine #4 on.====Bơm nhiên liệu chính cho động cơ #4 bật.
+STRING Fuel pump prime for engine #5 on.====Bơm nhiên liệu chính cho động cơ #5 bật.
+STRING Fuel pump prime for engine #6 on.====Bơm nhiên liệu chính cho động cơ #6 bật.
+STRING Fuel pump prime for engine #7 on.====Bơm nhiên liệu chính cho động cơ #7 bật.
+STRING Fuel pump prime for engine #8 on.====Bơm nhiên liệu chính cho động cơ #8 bật.
+STRING Anti-ice: engine #1 inlet heat on.====Chống đóng băng động cơ bằng nhiệt #1 bật.
+STRING Anti-ice: engine #2 inlet heat on.====Chống đóng băng động cơ bằng nhiệt #2 bật.
+STRING Anti-ice: engine #3 inlet heat on.====Chống đóng băng động cơ bằng nhiệt #3 bật.
+STRING Anti-ice: engine #4 inlet heat on.====Chống đóng băng động cơ bằng nhiệt #4 bật.
+STRING Anti-ice: engine #5 inlet heat on.====Chống đóng băng động cơ bằng nhiệt #5 bật.
+STRING Anti-ice: engine #6 inlet heat on.====Chống đóng băng động cơ bằng nhiệt #6 bật.
+STRING Anti-ice: engine #7 inlet heat on.====Chống đóng băng động cơ bằng nhiệt #7 bật.
+STRING Anti-ice: engine #8 inlet heat on.====Chống đóng băng động cơ bằng nhiệt #8 bật.
+STRING Anti-ice: engine #1 inlet heat off.====Chống đóng băng động cơ bằng nhiệt #1 tắt.
+STRING Anti-ice: engine #2 inlet heat off.====Chống đóng băng động cơ bằng nhiệt #2 tắt.
+STRING Anti-ice: engine #3 inlet heat off.====Chống đóng băng động cơ bằng nhiệt #3 tắt.
+STRING Anti-ice: engine #4 inlet heat off.====Chống đóng băng động cơ bằng nhiệt #4 tắt.
+STRING Anti-ice: engine #5 inlet heat off.====Chống đóng băng động cơ bằng nhiệt #5 tắt.
+STRING Anti-ice: engine #6 inlet heat off.====Chống đóng băng động cơ bằng nhiệt #6 tắt.
+STRING Anti-ice: engine #7 inlet heat off.====Chống đóng băng động cơ bằng nhiệt #7 tắt.
+STRING Anti-ice: engine #8 inlet heat off.====Chống đóng băng động cơ bằng nhiệt #8 tắt.
+STRING Anti-ice: engine #1 inlet heat toggle.====Điều khiển Chống đóng băng bên trong bằng nhiệt #1
+STRING Anti-ice: engine #2 inlet heat toggle.====Điều khiển Chống đóng băng bên trong bằng nhiệt #2
+STRING Anti-ice: engine #3 inlet heat toggle.====Điều khiển Chống đóng băng bên trong bằng nhiệt #3
+STRING Anti-ice: engine #4 inlet heat toggle.====Điều khiển Chống đóng băng bên trong bằng nhiệt #4
+STRING Anti-ice: engine #5 inlet heat toggle.====Điều khiển Chống đóng băng bên trong bằng nhiệt #5
+STRING Anti-ice: engine #6 inlet heat toggle.====Điều khiển Chống đóng băng bên trong bằng nhiệt #6
+STRING Anti-ice: engine #7 inlet heat toggle.====Điều khiển Chống đóng băng bên trong bằng nhiệt #7
+STRING Anti-ice: engine #8 inlet heat toggle.====Điều khiển Chống đóng băng bên trong bằng nhiệt #8
+STRING Anti-ice: engine #1 anti-ice on.====Chống đóng băng động cơ #1 bật.
+STRING Anti-ice: engine #2 anti-ice on.====Chống đóng băng động cơ #2 bật.
+STRING Anti-ice: engine #3 anti-ice on.====Chống đóng băng động cơ #3 bật.
+STRING Anti-ice: engine #4 anti-ice on.====Chống đóng băng động cơ #4 bật.
+STRING Anti-ice: engine #5 anti-ice on.====Chống đóng băng động cơ #5 bật.
+STRING Anti-ice: engine #6 anti-ice on.====Chống đóng băng động cơ #6 bật.
+STRING Anti-ice: engine #7 anti-ice on.====Chống đóng băng động cơ #7 bật.
+STRING Anti-ice: engine #8 anti-ice on.====Chống đóng băng động cơ #8 bật.
+STRING Anti-ice: engine #1 anti-ice off.====Chống đóng băng động cơ #1 tắt.
+STRING Anti-ice: engine #2 anti-ice off.====Chống đóng băng động cơ #2 tắt.
+STRING Anti-ice: engine #3 anti-ice off.====Chống đóng băng động cơ #3 tắt.
+STRING Anti-ice: engine #4 anti-ice off.====Chống đóng băng động cơ #4 tắt.
+STRING Anti-ice: engine #5 anti-ice off.====Chống đóng băng động cơ #5 tắt.
+STRING Anti-ice: engine #6 anti-ice off.====Chống đóng băng động cơ #6 tắt.
+STRING Anti-ice: engine #7 anti-ice off.====Chống đóng băng động cơ #7 tắt.
+STRING Anti-ice: engine #8 anti-ice off.====Chống đóng băng động cơ #8 tắt.
+STRING Anti-ice: engine #1 anti-ice toggle.====Điều khiển Chống đóng băng động cơ #1
+STRING Anti-ice: engine #2 anti-ice toggle.====Điều khiển Chống đóng băng động cơ #2
+STRING Anti-ice: engine #3 anti-ice toggle.====Điều khiển Chống đóng băng động cơ #3
+STRING Anti-ice: engine #4 anti-ice toggle.====Điều khiển Chống đóng băng động cơ #4
+STRING Anti-ice: engine #5 anti-ice toggle.====Điều khiển Chống đóng băng động cơ #5
+STRING Anti-ice: engine #6 anti-ice toggle.====Điều khiển Chống đóng băng động cơ #6
+STRING Anti-ice: engine #7 anti-ice toggle.====Điều khiển Chống đóng băng động cơ #7
+STRING Anti-ice: engine #8 anti-ice toggle.====Điều khiển Chống đóng băng động cơ #8
+STRING Anti-ice: engine #1 prop heat on.====Chống đóng băng động cơ #1 prop heat bật.
+STRING Anti-ice: engine #2 prop heat on.====Chống đóng băng động cơ #2 prop heat bật.
+STRING Anti-ice: engine #3 prop heat on.====Chống đóng băng động cơ #3 prop heat bật.
+STRING Anti-ice: engine #4 prop heat on.====Chống đóng băng động cơ #4 prop heat bật.
+STRING Anti-ice: engine #5 prop heat on.====Chống đóng băng động cơ #5 prop heat bật.
+STRING Anti-ice: engine #6 prop heat on.====Chống đóng băng động cơ #6 prop heat bật.
+STRING Anti-ice: engine #7 prop heat on.====Chống đóng băng động cơ #7 prop heat bật.
+STRING Anti-ice: engine #8 prop heat on.====Chống đóng băng động cơ #8 prop heat bật.
+STRING Anti-ice: engine #1 prop heat off.====Chống đóng băng động cơ #1 prop heat tắt.
+STRING Anti-ice: engine #2 prop heat off.====Chống đóng băng động cơ #2 prop heat tắt.
+STRING Anti-ice: engine #3 prop heat off.====Chống đóng băng động cơ #3 prop heat tắt.
+STRING Anti-ice: engine #4 prop heat off.====Chống đóng băng động cơ #4 prop heat tắt.
+STRING Anti-ice: engine #5 prop heat off.====Chống đóng băng động cơ #5 prop heat tắt.
+STRING Anti-ice: engine #6 prop heat off.====Chống đóng băng động cơ #6 prop heat tắt.
+STRING Anti-ice: engine #7 prop heat off.====Chống đóng băng động cơ #7 prop heat tắt.
+STRING Anti-ice: engine #8 prop heat off.====Chống đóng băng động cơ #8 prop heat tắt.
+STRING Anti-ice: engine #1 prop heat toggle.====Điều khiển Chống đóng băng động cơ #1
+STRING Anti-ice: engine #2 prop heat toggle.====Điều khiển Chống đóng băng động cơ #2
+STRING Anti-ice: engine #3 prop heat toggle.====Điều khiển Chống đóng băng động cơ #3
+STRING Anti-ice: engine #4 prop heat toggle.====Điều khiển Chống đóng băng động cơ #4
+STRING Anti-ice: engine #5 prop heat toggle.====Điều khiển Chống đóng băng động cơ #5
+STRING Anti-ice: engine #6 prop heat toggle.====Điều khiển Chống đóng băng động cơ #6
+STRING Anti-ice: engine #7 prop heat toggle.====Điều khiển Chống đóng băng động cơ #7
+STRING Anti-ice: engine #8 prop heat toggle.====Điều khiển Chống đóng băng động cơ #8
+STRING Anti-ice: engine #1 prop TKS norm.====Chống đóng băng động cơ #1 prop TKS bình thường.
+STRING Anti-ice: engine #2 prop TKS norm.====Chống đóng băng động cơ #2 prop TKS bình thường.
+STRING Anti-ice: engine #3 prop TKS norm.====Chống đóng băng động cơ #3 prop TKS bình thường.
+STRING Anti-ice: engine #4 prop TKS norm.====Chống đóng băng động cơ #4 prop TKS bình thường.
+STRING Anti-ice: engine #5 prop TKS norm.====Chống đóng băng động cơ #5 prop TKS bình thường.
+STRING Anti-ice: engine #6 prop TKS norm.====Chống đóng băng động cơ #6 prop TKS bình thường.
+STRING Anti-ice: engine #7 prop TKS norm.====Chống đóng băng động cơ #7 prop TKS bình thường.
+STRING Anti-ice: engine #8 prop TKS norm.====Chống đóng băng động cơ #8 prop TKS bình thường.
+STRING Anti-ice: engine #1 prop TKS high.====Chống đóng băng động cơ #1 prop TKS cao.
+STRING Anti-ice: engine #2 prop TKS high.====Chống đóng băng động cơ #2 prop TKS cao.
+STRING Anti-ice: engine #3 prop TKS high.====Chống đóng băng động cơ #3 prop TKS cao.
+STRING Anti-ice: engine #4 prop TKS high.====Chống đóng băng động cơ #4 prop TKS cao.
+STRING Anti-ice: engine #5 prop TKS high.====Chống đóng băng động cơ #5 prop TKS cao.
+STRING Anti-ice: engine #6 prop TKS high.====Chống đóng băng động cơ #6 prop TKS cao.
+STRING Anti-ice: engine #7 prop TKS high.====Chống đóng băng động cơ #7 prop TKS cao.
+STRING Anti-ice: engine #8 prop TKS high.====Chống đóng băng động cơ #8 prop TKS cao.
+STRING Anti-ice: engine #1 prop TKS off.====Chống đóng băng động cơ #1 prop TKS tắt.
+STRING Anti-ice: engine #2 prop TKS off.====Chống đóng băng động cơ #2 prop TKS tắt.
+STRING Anti-ice: engine #3 prop TKS off.====Chống đóng băng động cơ #3 prop TKS tắt.
+STRING Anti-ice: engine #4 prop TKS off.====Chống đóng băng động cơ #4 prop TKS tắt.
+STRING Anti-ice: engine #5 prop TKS off.====Chống đóng băng động cơ #5 prop TKS tắt.
+STRING Anti-ice: engine #6 prop TKS off.====Chống đóng băng động cơ #6 prop TKS tắt.
+STRING Anti-ice: engine #7 prop TKS off.====Chống đóng băng động cơ #7 prop TKS tắt.
+STRING Anti-ice: engine #8 prop TKS off.====Chống đóng băng động cơ #8 prop TKS tắt.
+STRING Anti-ice: engine #1 prop TKS toggle.====Điều chỉnh Chống đóng băng động cơ #1 prop TKS
+STRING Anti-ice: engine #2 prop TKS toggle.====Điều chỉnh Chống đóng băng động cơ #2 prop TKS
+STRING Anti-ice: engine #3 prop TKS toggle.====Điều chỉnh Chống đóng băng động cơ #3 prop TKS
+STRING Anti-ice: engine #4 prop TKS toggle.====Điều chỉnh Chống đóng băng động cơ #4 prop TKS
+STRING Anti-ice: engine #5 prop TKS toggle.====Điều chỉnh Chống đóng băng động cơ #5 prop TKS 
+STRING Anti-ice: engine #6 prop TKS toggle.====Điều chỉnh Chống đóng băng động cơ #6 prop TKS
+STRING Anti-ice: engine #7 prop TKS toggle.====Điều chỉnh Chống đóng băng động cơ #7 prop TKS
+STRING Anti-ice: engine #8 prop TKS toggle.====Điều chỉnh Chống đóng băng động cơ #8 prop TKS
+STRING Master arm on.====Master arm bật.
+STRING Master arm off.====Master arm tắt.
+STRING Door #1 open.====Cửa #1 mở
+STRING Door #2 open.====Cửa #2 mở
+STRING Door #3 open.====Cửa #3 mở
+STRING Door #4 open.====Cửa #4 mở
+STRING Door #5 open.====Cửa #5 mở
+STRING Door #6 open.====Cửa #6 mở
+STRING Door #7 open.====Cửa #7 mở
+STRING Door #8 open.====Cửa #8 mở
+STRING Door #9 open.====Cửa #9 mở
+STRING Door #10 open.====Cửa #10 mở
+STRING Door #1 close.====Cửa #1 đóng
+STRING Door #2 close.====Cửa #2 đóng
+STRING Door #3 close.====Cửa #3 đóng
+STRING Door #4 close.====Cửa #4 đóng
+STRING Door #5 close.====Cửa #5 đóng
+STRING Door #6 close.====Cửa #6 đóng
+STRING Door #7 close.====Cửa #7 đóng
+STRING Door #8 close.====Cửa #8 đóng
+STRING Door #9 close.====Cửa #9 đóng
+STRING Door #10 close.====Cửa #10 đóng
+STRING Transponder====Bộ truyền phát
+STRING Go to save 3-D cockpit location #1.====Di chuyển đến địa điểm buồng lái 3D đã lưu #1.
+STRING Go to save 3-D cockpit location #2.====Di chuyển đến địa điểm buồng lái 3D đã lưu #2.
+STRING Go to save 3-D cockpit location #3.====Di chuyển đến địa điểm buồng lái 3D đã lưu #3.
+STRING Go to save 3-D cockpit location #4.====Di chuyển đến địa điểm buồng lái 3D đã lưu #4.
+STRING Go to save 3-D cockpit location #5.====Di chuyển đến địa điểm buồng lái 3D đã lưu #5.
+STRING Go to save 3-D cockpit location #6.====Di chuyển đến địa điểm buồng lái 3D đã lưu #6.
+STRING Go to save 3-D cockpit location #7.====Di chuyển đến địa điểm buồng lái 3D đã lưu #7.
+STRING Go to save 3-D cockpit location #8.====Di chuyển đến địa điểm buồng lái 3D đã lưu #8.
+STRING Go to save 3-D cockpit location #9.====Di chuyển đến địa điểm buồng lái 3D đã lưu #9.
+STRING Go to save 3-D cockpit location #10.====Di chuyển đến địa điểm buồng lái 3D đã lưu #10.
+STRING Go to save 3-D cockpit location #11.====Di chuyển đến địa điểm buồng lái 3D đã lưu #11.
+STRING Go to save 3-D cockpit location #12.====Di chuyển đến địa điểm buồng lái 3D đã lưu #12.
+STRING Go to save 3-D cockpit location #13.====Di chuyển đến địa điểm buồng lái 3D đã lưu #13.
+STRING Go to save 3-D cockpit location #14.====Di chuyển đến địa điểm buồng lái 3D đã lưu #14.
+STRING Go to save 3-D cockpit location #15.====Di chuyển đến địa điểm buồng lái 3D đã lưu #15.
+STRING Go to save 3-D cockpit location #16.====Di chuyển đến địa điểm buồng lái 3D đã lưu #16.
+STRING Go to save 3-D cockpit location #17.====Di chuyển đến địa điểm buồng lái 3D đã lưu #17.
+STRING Go to save 3-D cockpit location #18.====Di chuyển đến địa điểm buồng lái 3D đã lưu #18.
+STRING Go to save 3-D cockpit location #19.====Di chuyển đến địa điểm buồng lái 3D đã lưu #19.
+STRING Go to save 3-D cockpit location #20.====Di chuyển đến địa điểm buồng lái 3D đã lưu #20.
+STRING Memorize 3-D cockpit location #1.====Lưu địa điểm buồng lái 3D #1.
+STRING Memorize 3-D cockpit location #2.====Lưu địa điểm buồng lái 3D #2.
+STRING Memorize 3-D cockpit location #3.====Lưu địa điểm buồng lái 3D #3.
+STRING Memorize 3-D cockpit location #4.====Lưu địa điểm buồng lái 3D #4.
+STRING Memorize 3-D cockpit location #5.====Lưu địa điểm buồng lái 3D #5.
+STRING Memorize 3-D cockpit location #6.====Lưu địa điểm buồng lái 3D #6.
+STRING Memorize 3-D cockpit location #7.====Lưu địa điểm buồng lái 3D #7.
+STRING Memorize 3-D cockpit location #8.====Lưu địa điểm buồng lái 3D #8.
+STRING Memorize 3-D cockpit location #9.====Lưu địa điểm buồng lái 3D #9.
+STRING Memorize 3-D cockpit location #10.====Lưu địa điểm buồng lái 3D #10.
+STRING Memorize 3-D cockpit location #11.====Lưu địa điểm buồng lái 3D #11.
+STRING Memorize 3-D cockpit location #12.====Lưu địa điểm buồng lái 3D #12.
+STRING Memorize 3-D cockpit location #13.====Lưu địa điểm buồng lái 3D #13.
+STRING Memorize 3-D cockpit location #14.====Lưu địa điểm buồng lái 3D #14.
+STRING Memorize 3-D cockpit location #15.====Lưu địa điểm buồng lái 3D #15.
+STRING Memorize 3-D cockpit location #16.====Lưu địa điểm buồng lái 3D #16.
+STRING Memorize 3-D cockpit location #17.====Lưu địa điểm buồng lái 3D #17.
+STRING Memorize 3-D cockpit location #18.====Lưu địa điểm buồng lái 3D #18.
+STRING Memorize 3-D cockpit location #19.====Lưu địa điểm buồng lái 3D #19.
+STRING Memorize 3-D cockpit location #20.====Lưu địa điểm buồng lái 3D #20.
+STRING COM %1:port number%====Cổng COM: %1:port number%
+STRING non-WAAS====phi-WAAS
+STRING None (fastest)-FXAA-2x SSAA+FXAA-4x SSAA-4x SSAA+FXAA-8x SSAA+FXAA (highest quality)====None (nhanh nhất)-FXAA-2x SSAA+FXAA-4x SSAA-4x SSAA+FXAA-8x SSAA+FXAA (chất lượng tốt nhất)
+STRING None (fastest)====None (fastest)
+STRING Home Button====Màn hình chính
+STRING Left click====Ấn chuột trái
+STRING Routes App====Ứng dụng định tuyến
+STRING Plane Manual App====Ứng dụng hướng dẫn sử dụng máy bay
+STRING Notes App====Ứng dụng nhật kí
+STRING Navigraph App====Ứng dụng điều hướng
+STRING Maps App====Ứng dụng bản đồ
+STRING Charts App====Ứng dụng sơ đồ
+STRING Airports App====Ứng dụng sân bay
+STRING About App====Về ứng dụng này
+STRING Pan down====Xoay xuống
+STRING Recentre====Gần đây
+STRING Pan up====Xoay lên
+STRING Pan right====Xoay qua trái
+STRING Pan left====Xoay qua phải
+STRING Toggle Tablet====Điều khiển máy tính bảng
+STRING Wheel up====Nâng càng đáp
+STRING Wheel down====Hạ càng đáp
+STRING Disconnect tow + headset and switch to hand signals.====Ngắt kết nối + chuyển sang tín hiệu tay.
+STRING Connect tug before entering pushback plan====Kết nối trước khi vào kế hoạch phản hồi
+STRING View from tug's cab.====Xem từ xe đẩy lùi.
+STRING Reconnect tow and await further instructions.====Kết nối lại và chờ hướng dẫn thêm.
+STRING Start pushback planner====Bắt đầu lập kế hoạch
+STRING Start pushback====Bắt đầu đẩy lùi
+STRING Reload tug model====Tải lại mô hình
+STRING Recreate scenery routes from WED files.====Tạo lại các tuyến đường phong cảnh từ các tệp WED.
+STRING Stop pushback====Dừng đẩy lùi
+STRING Stop pushback planner====Dừng lập kế hoạch đẩy lùi
+STRING Reload all Lua script files.====Tải lại LUA.
+STRING Autothrottle====Cần ga
+STRING About====Giới thiệu
+STRING Version====Phiên bản	
+STRING New====Mới	
+STRING -====-				
+STRING Convert All Airfoils to Latest Format====Chuyển đổi tất cả các Airfoils sang định dạng mới nhất				
+STRING -Re|-(meg) { Reynolds number basically is equal to the CHORD (size) of the wing times the SPEED of the airplane times a constant. Light planes may have a Reynolds number of about 9 million.====-Re | - (meg) {Số Reynolds về cơ bản bằng CHORD (kích thước) của cánh nhân với TỐC ĐỘ của máy bay nhân với một hằng số. Máy bay hạng nhẹ có thể có số Reynolds khoảng 9 triệu.				
+"STRING intercept { The lift intercept is the amount of lift the foil puts out at zero degrees angle of attack. This is the lift when the wing is aimed straight into the wind, and is not pitched up at all. 0.20 is a typical value."===="intercept {Mức đánh chặn thang máy là lượng nâng mà lá bạc đặt ra ở góc tấn công bằng 0 độ. Đây là lực nâng khi cánh hướng thẳng vào gió, và hoàn toàn không nâng lên. 0,20 là một giá trị điển hình."				
+STRING slope { The lift slope is the amount of lift the airfoil puts out for each degree angle of attack the wing has on the air. Airfoils almost always have a lift slope of very close to 0.1.===="dốc {Độ dốc nâng là lượng lực nâng mà cánh bay đặt ra cho mỗi góc tấn của cánh trên không. Airfoils hầu như luôn có độ dốc nâng rất gần 0,1."				
+STRING linear range { This is the range of angle of attack (from 0 in either direction) that provides a linear increase in lift.====phạm vi tuyến tính {Đây là phạm vi góc tấn công (từ 0 theo một trong hai hướng) cung cấp mức tăng tuyến tính.				
+STRING lift power { Tune this number so the lift curve transitions smoothly into the stall.====lực nâng {Điều chỉnh số này để đường cong chuyển tiếp sang vị trí dừng.				
+STRING maximum { This is the maximum coefficient of lift that the airfoil can put out. 1.6 is common.===="tối đa {Đây là hệ số lực nâng tối đa mà cánh gió có thể đặt ra. 1,6 là phổ biến."				
+STRING stall drop { This is an indication of how sharp the stall is... a foil with a sharper stall will lose lift more abruptly when the wing goes to too high an angle of attack. A larger number here will result in a more sudden stall with a sharper drop of the airplane in flight.====giảm độ cao {Đây là một dấu hiệu cho thấy độ sắc nét của chuồng ... một tấm giấy bạc có cột nhọn hơn sẽ mất lực nâng đột ngột hơn khi cánh bay đến góc tấn quá cao. Một số lượng lớn hơn ở đây sẽ dẫn đến việc dừng máy đột ngột hơn và máy bay rơi mạnh hơn khi đang bay.				
+STRING stall power { Tune this number so the lift curve transitions smoothly after the stall.====công suất dừng {Điều chỉnh số này để đường cong chuyển tiếp mượt mà sau khi dừng.				
+"STRING stalled drop { This is an indication of how much lift is lost after the stall... thick and supercritical airfoils lose little lift, but thin low-drag airfoils lose a lot of lift here."===="bị đình trệ thả {Đây là dấu hiệu cho biết lực nâng bị mất đi sau khi ngừng hoạt động ... các cánh gió dày và siêu tới hạn mất ít lực nâng, nhưng các cánh gió mỏng kéo thấp sẽ mất rất nhiều lực nâng ở đây."				
+STRING cd-min { This is the minimum parasite drag coefficient of the airfoil. It probably occurs at an angle of attack close to zero degrees.====cd-min {Đây là hệ số cản ký sinh trùng tối thiểu của airfoil. Nó có thể xảy ra ở góc tấn công gần bằng 0 độ.				
+STRING min-cd cl { This is the coefficient of lift at which the minimum drag coefficient is achieved. It is probably close to the lift intercept value you entered above.====min-cd cl {Đây là hệ số nâng mà tại đó hệ số cản nhỏ nhất đạt được. Nó có thể gần với giá trị chặn thang máy mà bạn đã nhập ở trên.				
+STRING cd alpha====			cd alpha	10 { This is the parasite drag coefficient of the airfoil at an angle of attack of 10 degrees.
+"STRING cd power { This number is theoretically close to 2.0, but you can tune it to fit actual data."===="cd power {Con số này về mặt lý thuyết gần bằng 2.0, nhưng bạn có thể điều chỉnh nó để phù hợp với dữ liệu thực tế."				
+"STRING buck cl { Some airfoils have a certain angle of attack range where the airflow is laminar, resulting in very low drag. This is the lift coefficient of the laminar flow low-drag bucket, if any."===="buck cl {Một số cánh quạt có một góc tấn công nhất định nơi luồng không khí là tầng, dẫn đến lực cản rất thấp. Đây là hệ số nâng của gầu kéo thấp dòng chảy tầng, nếu có."				
+"STRING buck width { This is how wide the low-drag laminar flow bucket is, in terms of lift coefficient. It is the lift coefficient range across which drag is reduced by laminar flow."===="chiều rộng xô {Đây là chiều rộng của gầu dòng chảy tầng kéo thấp, tính theo hệ số nâng. Đó là phạm vi hệ số nâng mà lực cản được giảm bởi dòng chảy tầng."				
+STRING buck depth { This is how much the coefficient of drag is reduced by laminar flow (if any).====Chiều sâu xô {Đây là hệ số cản do dòng chảy tầng (nếu có) giảm đi bao nhiêu.				
+STRING buck power { This is the power of curvature of the low-drag laminar flow bucket... 2.0 might be good guess.====buck power {Đây là sức mạnh của độ cong của gầu dòng chảy tầng kéo thấp ... 2.0 có thể là một dự đoán tốt.				
+"STRING alpha 1 { This is the angle of attack at which the airfoil pitching-moment changes... it is almost always the same as the stalling angle of attack, entered below."===="alpha 1 {Đây là góc tấn công mà tại đó mô men ném của cánh chân không thay đổi ... nó gần như luôn giống với góc tấn công dừng lại, được nhập bên dưới."				
+"STRING alpha 2 { This is the angle of attack at which the airfoil pitching-moment changes... it is almost always the same as the stalling angle of attack, entered below."===="alpha 2 {Đây là góc tấn công mà tại đó thời điểm ném cánh của tàu bay thay đổi ... nó gần như luôn giống với góc tấn công dừng, được nhập bên dưới."				
+"STRING cm -20 { This is the coefficient of pitching moment at -20 degrees angle of attack. The pitch moment is an indication of how much the airfoil tends to twist UP. Since airfoils almost always pitch DOWN, this number is almost always negative."===="cm -20 {Đây là hệ số của mômen ném ở góc tấn -20 độ. Thời điểm cao độ là một dấu hiệu cho thấy cánh gió có xu hướng xoắn LÊN bao nhiêu. Vì airfoils hầu như luôn luôn dốc XUỐNG, con số này hầu như luôn là số âm."				
+"STRING cm alpha 1 { This is the coefficient of pitching moment at the pitch-moment change entered above. The pitch moment is an indication of how much the airfoil tends to twist UP. Since airfoils almost always pitch DOWN, this number is almost always negative."===="cm alpha 1 {Đây là hệ số của mômen cao độ tại sự thay đổi mômen cao độ đã nhập ở trên. Thời điểm cao độ là một dấu hiệu cho thấy cánh gió có xu hướng xoắn LÊN bao nhiêu. Vì airfoils hầu như luôn luôn dốc XUỐNG, con số này hầu như luôn là số âm."				
+"STRING cm alpha 2 { This is the coefficient of pitching moment at the pitch-moment change entered above. The pitch moment is an indication of how much the airfoil tends to twist UP. Since airfoils almost always pitch DOWN, this number is almost always negative."===="cm alpha 2 {Đây là hệ số của mômen cao độ tại sự thay đổi mômen cao độ đã nhập ở trên. Thời điểm cao độ là một dấu hiệu cho thấy cánh gió có xu hướng xoắn LÊN bao nhiêu. Vì airfoils hầu như luôn luôn dốc XUỐNG, con số này hầu như luôn là số âm."				
+"STRING cm 20 { This is the coefficient of pitching moment at  20 degrees angle of attack. The pitch moment is an indication of how much the airfoil tends to twist UP. Since airfoils almost always pitch DOWN, this number is almost always negative."===="cm 20 {Đây là hệ số của mômen ném ở góc tấn 20 độ. Thời điểm cao độ là một dấu hiệu cho thấy cánh gió có xu hướng xoắn LÊN bao nhiêu. Vì airfoils hầu như luôn luôn dốc XUỐNG, con số này hầu như luôn là số âm."				
+STRING alpha min { This is the negative angle of attack at which the airfoil stalls. The stall is the point at which the airfoil cannot put out any more lift and (usually abruptly) throws in the towel and loses lift.====alpha min {Đây là góc tấn công âm mà tại đó cánh máy bay dừng lại. Điểm dừng là điểm mà tại đó cánh quạt không thể nâng thêm nữa và (thường là đột ngột) ném vào khăn và mất lực nâng.				
+STRING alpha max { This is the positive angle of attack at which the airfoil stalls. The stall is the point at which the airfoil cannot put out any more lift and (usually abruptly) throws in the towel and loses lift.====alpha max {Đây là góc tấn công dương mà tại đó tàu bay dừng lại. Điểm dừng là điểm mà tại đó cánh quạt không thể nâng thêm nữa và (thường là đột ngột) ném vào khăn và mất lực nâng.				
+"STRING AR|ONLY for L/D viewing at right, no effect on actual flight! { Just enter the AR and e for the wing you plan to use this foil on"===="AR | CHỈ cho xem L / D ở bên phải, không ảnh hưởng đến chuyến bay thực tế! {Chỉ cần nhập AR và e cho cánh mà bạn định sử dụng lá này"				
+"STRING e|ONLY for L/D viewing at right, no effect on actual flight! { Just enter the AR and e for the wing you plan to use this foil on"===="e | CHỈ cho L / D xem ở bên phải, không ảnh hưởng đến chuyến bay thực tế! {Chỉ cần nhập AR và e cho cánh mà bạn định sử dụng lá này"				
+"STRING -airfoil thickness|-(ratio) { Thickness ratio is the ratio of how THICK the airfoil is at its thickest point to its CHORD (from leading edge to trailing edge). Typical thickness ratios go from about 0.08 (for a thin, low-drag airfoil) to 0.16 (for a thick, hi-lift airfoil)."===="-airfoil dầy | - (ratio) {Tỷ lệ độ dày là tỷ số giữa ĐỘ DÀY của cánh gió tại điểm dày nhất của nó so với CHORD của nó (từ mép trước đến mép sau). Tỷ lệ độ dày điển hình đi từ khoảng 0,08 (đối với cánh gió mỏng, kéo thấp) đến 0,16 (đối với loại dày"				
+"STRING -airfoil drag div Mach|-(at zero lift) { This is the Mach number at which compressibility effects become apparent AT ZERO LIFT. 0.75 is a good default. Supercritical foils should enter a higher number, like perhaps 0.85 or even 0.90. Remember this is the Drag Divergence Mach number at ZERO LIFT. X-Plane will reduce this number as lift is produced!"===="-airfoil drag div Mach | - (at zero lift) {Đây là số Mach mà tại đó các hiệu ứng nén trở nên rõ ràng TẠI KHÔNG SỐNG. 0,75 là một mặc định tốt. Các lá siêu tới hạn nên nhập một số cao hơn, chẳng hạn như 0,85 hoặc thậm chí 0,90. Hãy nhớ đây là"				
+						
