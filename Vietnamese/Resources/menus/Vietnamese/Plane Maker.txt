@@ -1,4 +1,4 @@
-CÓ
+A
 1 phiên bản tệp, không chạm vào
 
 0 Giới thiệu
@@ -71,8 +71,8 @@ Cao 1200
 1213 Tiến lên
 1214 Đi xuống
 1215 -
-Chương 1216: Di chuyển nhanh sang trái
-Chương 1217 nhanh sang phải
+1216 Di chuyển nhanh sang trái
+1217 Nhanh sang phải
 1218 Chuyển động lên nhanh
 1219 Chuyển động xuống nhanh
 1220 -
