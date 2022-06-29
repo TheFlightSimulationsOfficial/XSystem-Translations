@@ -987,7 +987,7 @@ STRING Relative Location====Khu vực lân cận
 STRING Latitude:====Vĩ độ:
 STRING Longitude:====Kinh độ:
 STRING Move====Di chuyển
-STRING Final Approach====Tiếp cận cuối cùng
+STRING Final Approach====Tiếp cận chặng cuối
 STRING MEAN SEA LEVEL====MSL
 STRING Communications====Thông tin liên lạc
 STRING Conditions====Các điều kiện
@@ -1108,7 +1108,7 @@ STRING Magnetos====Magnetos
 STRING Other Systems====Hệ thống khác
 STRING Doors====Cửa ra vào
 STRING Glider====Tàu lượn
-STRING Miscellaneous====Điều khoản khác
+STRING Miscellaneous====Khác
 STRING Navigation & Radios====Điều hướng & rađiô
 STRING RMI====RMI
 STRING COM Radios====Bộ đàm COM
@@ -1409,7 +1409,7 @@ STRING Pump flaps up/down.====Bơm cánh lật lên/xuống.
 STRING Pump gear up/down.====Bơm bánh răng lên/xuống.
 STRING Nosewheel steer toggle.====Chuyển đổi bánh răng quay.
 STRING Speedbrakes toggle.====Phanh tốc độ chuyển đổi.
-STRING Toggle brakes regular effort.====Chuyển đổi phanh nỗ lực thường xuyên.
+STRING Toggle brakes regular effort.====Chuyển đổi phanh thường xuyên.
 STRING Hold brake left.====Giữ phanh bên trái.
 STRING Hold brake right.====Giữ phanh bên phải.
 STRING Spot lights on.====Đèn chiếu sáng tại chỗ.
@@ -1456,7 +1456,7 @@ STRING Batteries all toggle.====Tất cả pin đều bật tắt.
 STRING APU on.====APU đang bật.
 STRING APU off.====APU tắt.
 STRING Bleed air from either engine.====Khí nén từ một trong hai động cơ.
-STRING Bleed air off.====Không khí bị chảy máu tắt.
+STRING Bleed air off.====Không khí bị khí nén tắt.
 STRING Pressurization test.====Kiểm tra điều áp.
 STRING Toggle alternate static port.====Chuyển đổi cổng tĩnh thay thế.
 STRING Toggle english/metric thermometer.====Chuyển đổi nhiệt kế tiếng Anh/hệ mét.
@@ -1538,13 +1538,13 @@ STRING Tow-plane for gliders: Take me straight.====Máy bay kéo cho tàu lượ
 STRING Tow-plane for gliders: Take me right.====Máy bay kéo cho tàu lượn: Đưa tôi về bên phải.
 STRING ADF 1 off.====ADF 1 tắt.
 STRING ADF 1 antenna.====ADF 1 ăng-ten.
-STRING ADF 1 on.====ADF 1 trên.
-STRING ADF 1 tone.====ADF 1 giai điệu.
-STRING ADF 1 test.====ADF 1 kiểm tra.
+STRING ADF 1 on.====ADF 1 bật.
+STRING ADF 1 tone.====Tần số ADF 1.
+STRING ADF 1 test.====Kiểm tra ADF 1.
 STRING ADF 2 off.====ADF 2 tắt.
 STRING ADF 2 antenna.====ADF 2 ăng ten.
-STRING ADF 2 tone.====ADF 2 âm.
-STRING ADF 2 test.====Thử nghiệm ADF 2.
+STRING ADF 2 tone.====Tần số ADF 2.
+STRING ADF 2 test.====Kiểm tra ADF 2.
 STRING Transponder digit to 0.====Chữ số bộ chuyển tiếp đến 0.
 STRING Transponder digit to 1.====Chữ số bộ phát đáp đến 1.
 STRING Transponder digit to 2.====Chữ số bộ chuyển tiếp đến 2.
@@ -1618,7 +1618,7 @@ STRING Reset Keyboard Bindings to Default For:====Đặt lại liên kết bàn 
 STRING Prop overspeed test.====Đề xuất thử nghiệm quá tốc độ.
 STRING Set fuel selector to all tanks.====Đặt bộ chọn nhiên liệu cho tất cả các bình.
 STRING Set fuel selector to none (shut off).====Đặt bộ chọn nhiên liệu thành không (tắt).
-STRING Auto-start engines to running, real-time.====Tự động khởi động động cơ để chạy, thời gian thực.
+STRING Auto-start engines to running, real-time.====Tự động khởi động động cơ để chạy.
 STRING Toggle artificial stability power.====Chuyển đổi công suất ổn định nhân tạo.
 STRING Toggle puffers.====Chuyển đổi ống hút.
 STRING Toggle yaw damper.====Chuyển đổi van điều tiết ngáp.
@@ -1648,13 +1648,13 @@ STRING Eject.====Đẩy ra.
 STRING Toggle smoke puffing.====Chuyển đổi chế độ phun khói.
 STRING Water or Nitrous engine BOOST.====Động cơ nước hoặc nitơ BOOST.
 STRING Bleed air left engine off.====Khí nén bên trái động cơ tắt.
-STRING Bleed air left engine on.====Động cơ bên trái bị chảy máu đang bật.
+STRING Bleed air left engine on.====Động cơ bên trái bị khí nén đang bật.
 STRING Bleed air right engine off.====Không khí bên phải tắt động cơ.
 STRING Bleed air right engine on.====Bleed air engine đang bật.
 STRING Bleed air from APU.====Khí nén từ APU.
 STRING Bleed air from any engine or APU.====Khí nén từ bất kỳ động cơ hoặc APU nào.
-STRING Bleed air left engine instruments only.====Chỉ có dụng cụ động cơ bên trái không khí.
-STRING Bleed air right engine instruments only.====Bleed air bên phải dụng cụ động cơ chỉ.
+STRING Bleed air left engine instruments only.====Chỉ cho Khí nén bên trái bảng chỉ động cơ.
+STRING Bleed air right engine instruments only.====Chỉ cho Khí nén bên phải bảng chỉ động cơ.
 STRING Dump pressurization off.====Tắt điều áp bán phá giá.
 STRING Dump pressurization on.====Đang bật điều áp bán phá giá.
 STRING Aim spotlight down.====Hướng tiêu điểm xuống.
@@ -1730,48 +1730,48 @@ STRING Landing light 01 off.====Đèn hạ cánh 01 tắt.
 STRING Landing light 01 on.====Đèn hạ cánh 01 bật.
 STRING Landing light 01 toggle.====Công tắc đèn chiếu sáng hạ cánh 01.
 STRING Landing light 02 off.====Đèn hạ cánh 02 tắt.
-STRING Landing light 02 on.====Công tắc đèn chiếu sáng hạ cánh  02 bật.
+STRING Landing light 02 on.====Công tắc đèn chiếu sáng hạ cánh 02.
 STRING Landing light 03 on.====Đèn hạ cánh 03 bật.
-STRING Landing light 03 toggle.====Công tắc đèn chiếu sáng hạ cánh  03.
+STRING Landing light 03 toggle.====Công tắc đèn chiếu sáng hạ cánh 03.
 STRING Landing light 04 off.====Đèn hạ cánh 04 tắt.
 STRING Landing light 04 on.====Đèn hạ cánh 04 bật.
-STRING Landing light 04 toggle.====Công tắc đèn chiếu sáng hạ cánh  04.
+STRING Landing light 04 toggle.====Công tắc đèn chiếu sáng hạ cánh 04.
 STRING Landing light 05 off.====Đèn hạ cánh 05 tắt.
 STRING Landing light 05 on.====Đèn hạ cánh 05 bật.
-STRING Landing light 05 toggle.====Công tắc đèn chiếu sáng hạ cánh  05.
+STRING Landing light 05 toggle.====Công tắc đèn chiếu sáng hạ cánh 05.
 STRING Landing light 06 off.====Đèn hạ cánh 06 tắt.
-STRING Landing light 06 on.====Công tắc đèn chiếu sáng hạ cánh  06 bật.
-STRING Landing light 06 toggle.====Công tắc đèn chiếu sáng hạ cánh  06.
+STRING Landing light 06 on.====Công tắc đèn chiếu sáng hạ cánh 06.
+STRING Landing light 06 toggle.====Công tắc đèn chiếu sáng hạ cánh 06.
 STRING Landing light 07 off.====Đèn hạ cánh 07 tắt.
 STRING Landing light 07 on.====Đèn hạ cánh 07 bật.
-STRING Landing light 07 toggle.====Công tắc đèn chiếu sáng hạ cánh  07.
+STRING Landing light 07 toggle.====Công tắc đèn chiếu sáng hạ cánh 07.
 STRING Landing light 08 off.====Đèn hạ cánh 08 tắt.
 STRING Landing light 08 on.====Đèn hạ cánh 08 bật.
-STRING Landing light 08 toggle.====Công tắc đèn chiếu sáng hạ cánh  08.
+STRING Landing light 08 toggle.====Công tắc đèn chiếu sáng hạ cánh 08.
 STRING Landing light 09 off.====Đèn hạ cánh 09 tắt.
 STRING Landing light 09 on.====Đèn hạ cánh 09 bật.
-STRING Landing light 09 toggle.====Công tắc đèn chiếu sáng hạ cánh  09.
+STRING Landing light 09 toggle.====Công tắc đèn chiếu sáng hạ cánh 09.
 STRING Landing light 10 off.====Đèn hạ cánh 10 tắt.
 STRING Landing light 10 on.====Đèn hạ cánh 10 bật.
-STRING Landing light 10 toggle.====Công tắc đèn chiếu sáng hạ cánh  10.
+STRING Landing light 10 toggle.====Công tắc đèn chiếu sáng hạ cánh 10.
 STRING Landing light 11 off.====Đèn hạ cánh 11 tắt.
 STRING Landing light 11 on.====Đèn hạ cánh 11 bật.
-STRING Landing light 11 toggle.====Công tắc đèn chiếu sáng hạ cánh  11.
+STRING Landing light 11 toggle.====Công tắc đèn chiếu sáng hạ cánh 11.
 STRING Landing light 12 off.====Đèn hạ cánh 12 tắt.
 STRING Landing light 12 on.====Đèn hạ cánh 12 bật.
-STRING Landing light 12 toggle.====Công tắc đèn chiếu sáng hạ cánh  12.
+STRING Landing light 12 toggle.====Công tắc đèn chiếu sáng hạ cánh 12.
 STRING Landing light 13 off.====Đèn hạ cánh 13 tắt.
 STRING Landing light 13 on.====Đèn hạ cánh 13 bật.
-STRING Landing light 13 toggle.====Công tắc đèn chiếu sáng hạ cánh  13.
+STRING Landing light 13 toggle.====Công tắc đèn chiếu sáng hạ cánh 13.
 STRING Landing light 14 off.====Đèn hạ cánh 14 tắt.
 STRING Landing light 14 on.====Đèn hạ cánh 14 bật.
-STRING Landing light 14 toggle.====Công tắc đèn chiếu sáng hạ cánh  14.
+STRING Landing light 14 toggle.====Công tắc đèn chiếu sáng hạ cánh 14.
 STRING Landing light 15 off.====Đèn hạ cánh 15 tắt.
 STRING Landing light 15 on.====Đèn hạ cánh 15 bật.
-STRING Landing light 15 toggle.====Công tắc đèn chiếu sáng hạ cánh  15.
+STRING Landing light 15 toggle.====Công tắc đèn chiếu sáng hạ cánh 15.
 STRING Landing light 16 off.====Đèn hạ cánh 16 tắt.
 STRING Landing light 16 on.====Đèn hạ cánh 16 bật.
-STRING Landing light 16 toggle.====Công tắc đèn chiếu sáng hạ cánh  16.
+STRING Landing light 16 toggle.====Công tắc đèn chiếu sáng hạ cánh 16.
 STRING Battery 1 toggle.====Công tắc Pin #1
 STRING Battery 2 toggle.====Công tắc Pin #2.
 STRING Inverter 1 off.====Biến tần 1 tắt.
@@ -2027,12 +2027,12 @@ STRING Toggle the Keyboard Shortcuts window.====Chuyển đổi cửa sổ Phím
 STRING Toggle TrackIR control.====Chuyển đổi điều khiển TrackIR.
 STRING Replay mode: go to beginning.====Chế độ phát lại: bắt đầu.
 STRING Replay mode: go to end.====Chế độ phát lại: đi đến kết thúc.
-STRING Replay mode: play fast forward.====Chế độ phát lại: phát tua đi nhanh.
-STRING Replay mode: play fast reverse.====Chế độ chơi lại: chơi ngược nhanh.
+STRING Replay mode: play fast forward.====Chế độ phát lại: phát tua đi (nhanh).
+STRING Replay mode: play fast reverse.====Chế độ chơi lại: chơi ngược (nhanh).
 STRING Replay mode: play forward.====Chế độ phát lại: phát tiếp.
-STRING Replay mode: play reverse.====Chế độ chơi lại: chơi ngược lại.
+STRING Replay mode: play reverse.====Chế độ chơi lại: chơi ngược (bình thường).
 STRING Replay mode: play slow forward.====Chế độ phát lại: phát chậm lại.
-STRING Replay mode: play slow reverse.====Chế độ chơi lại: chơi ngược chậm.
+STRING Replay mode: play slow reverse.====Chế độ chơi lại: chơi ngược (chậm).
 STRING Replay mode: Toggle controls visibility.====Chế độ phát lại: Chuyển đổi kiểm soát khả năng hiển thị.
 STRING Internal====Nội bộ
 STRING Forward with HUD.====Chuyển tiếp với HUD.
@@ -2073,8 +2073,8 @@ STRING Afterburner on====Afterburner bật
 STRING Reverser not ready====Trình đảo ngược chưa sẵn sàng
 STRING Ice vane extended====Cánh băng mở rộng
 STRING Ice vane fail====Cánh băng hỏng
-STRING Bleed air off====Không khí chảy máu tắt
-STRING Bleed air fail====Không khí chảy máu không thành công
+STRING Bleed air off====Không khí nén tắt
+STRING Bleed air fail====Không khí nén không thành công
 STRING Autofeather arm====Autofeather arm
 STRING Autopilot trim fail====Autopilot trim không thành công
 STRING Crossfeed on====Crossfeed on
@@ -2241,7 +2241,7 @@ STRING Glideslope:====Glideslope:
 STRING REPORT CARD====THẺ BÁO CÁO
 STRING WARNINGS====CẢNH BÁO
 STRING These sliders allow you to get more joystick resolution when your controls are near the center of their travel.====Các thanh trượt này cho phép bạn có được độ phân giải phím điều khiển cao hơn khi các điều khiển của bạn ở gần tâm điểm di chuyển của chúng.
-STRING Failed====Thất bại
+STRING Failed====Sự cố
 STRING Privacy Policy====Chính sách bảo mật
 STRING Copyright & Licensing====Bản quyền & Cấp phép
 STRING General Aviation====Hàng không phổ thông
@@ -2298,7 +2298,7 @@ STRING Air flow restricted====Dòng không khí bị hạn chế
 STRING Compressor stall====Gian hàng máy nén
 STRING Hung start (weak starter)====Khởi động (khởi động yếu)
 STRING Hot start (extra fuel)====Khởi động nóng (thêm nhiên liệu)
-STRING Runaway ITT (low airflow)====ITT chạy trốn (luồng không khí thấp)
+STRING Runaway ITT (low airflow)====Runaway ITT (luồng không khí thấp)
 STRING Engine drive shaft====Trục truyền động động cơ
 STRING Engine seize====Động cơ bắt giữ
 STRING Reverser retract====Trình đảo ngược rút lại
@@ -2389,18 +2389,18 @@ STRING Blimp lift up a bit.====Blimp nhấc lên một chút.
 STRING Toggle auto-brakes.====Chuyển đổi phanh tự động.
 STRING Auto-brakes down.====Tự động giảm phanh.
 STRING Auto-brakes up.====Tự động phanh lên.
-STRING Tailhook down.====Đuôi xe.
+STRING Tailhook down.====Hạ tailhook.
 STRING Auto-feather mode down.====Chế độ tự động làm sạch lông.
 STRING Auto-feather mode up.====Chế độ tự động vặt lông lên.
 STRING Auto-feather off.====Tự động tắt lông.
 STRING Auto-feather on.====Tự động quét lông trên.
 STRING Auto-feather test.====Kiểm tra lông vũ tự động.
-STRING Rudder left.====Rudder trái.
-STRING Rudder center.====Trung tâm bánh lái.
-STRING Rudder right.====Lái sang phải.
-STRING Canopy open.====Mở tán.
-STRING Canopy close.====Tán đóng.
-STRING Canopy toggle.====Tán nhỏ chuyển đổi.
+STRING Rudder left.====Bánh lái đuôi sang trái.
+STRING Rudder center.====Bánh lái đuôi về trung tâm.
+STRING Rudder right.====Bánh lái đuôi sang phải.
+STRING Canopy open.====Mở nắp cabin.
+STRING Canopy close.====Đóng nắp cabin.
+STRING Canopy toggle.====Điều khiển nắp cabin.
 STRING Flaps up a notch.====Nâng flap lên một bậc.
 STRING Flaps down a notch.====Hạ flap lên một bậc.
 STRING Landing gear emergency override down.====Ghi đè khẩn cấp thiết bị hạ cánh xuống.
@@ -2408,7 +2408,7 @@ STRING Landing gear emergency override off.====Tắt ghi đè khẩn cấp thi�
 STRING Landing gear down.====Hạ Thiết bị hạ cánh.
 STRING Landing gear up.====Nâng Thiết bị hạ cánh.
 STRING Landing gear toggle.====Chuyển đổi thiết bị hạ cánh.
-STRING Toggle brakes max effort.====Chuyển đổi phanh nỗ lực tối đa.
+STRING Toggle brakes max effort.====Chuyển đổi phanh tối đa.
 STRING Hold brakes regular.====Giữ phanh thường xuyên.
 STRING Hold brakes maximum.====Giữ phanh tối đa.
 STRING Orbital maneuver rockets up.====Cơ động quỹ đạo tên lửa lên.
@@ -2417,16 +2417,16 @@ STRING Orbital maneuver rockets left.====Tên lửa cơ động quỹ đạo tr�
 STRING Orbital maneuver rockets right.====Tên lửa cơ động quỹ đạo phải.
 STRING Orbital maneuver rockets fore.====Các tên lửa cơ động quỹ đạo trước.
 STRING Orbital maneuver rockets aft.====Tên lửa cơ động quỹ đạo phía sau.
-STRING Vector or sweep aft.====Véc tơ hoặc quét về phía sau.
-STRING Vector or sweep forward.====Véc tơ hoặc quét về phía trước.
-STRING Speedbrakes extend one.====Phanh tốc kéo dài một.
-STRING Speedbrakes retract one.====Phanh tốc độ rút lại một.
-STRING Speedbrakes extend full.====Phanh tốc kéo dài hết cỡ.
-STRING Speedbrakes retract full.====Phanh giảm tốc đầy.
+STRING Vector or sweep aft.====Véc tơ hoặc sweep về phía sau.
+STRING Vector or sweep forward.====Véc tơ hoặc sweep về phía trước.
+STRING Speedbrakes extend one.====Phanh giảm tốc lên 1 bậc.
+STRING Speedbrakes retract one.====Phanh giảm tốc giảm 1 bậc.
+STRING Speedbrakes extend full.====Phanh giảm tốc lên tối đa.
+STRING Speedbrakes retract full.====Phanh giảm tốc giảm tối đa.
 STRING Prop sync on.====Đồng bộ hóa đề xuất đang bật.
 STRING Prop sync off.====Đồng bộ hóa đề xuất tắt.
 STRING Prop sync toggle.====Chuyển đổi đồng bộ hóa đề xuất.
-STRING Toggle tailwheel lock.====Chuyển đổi khóa đuôi xe.
+STRING Toggle tailwheel lock.====Chuyển đổi khóa tailwheel.
 STRING Engage tailwheel lock.====Đính khóa đuôi xe.
 STRING Load previous livery.====Tải livery trước đó.
 STRING Load next livery.====Nạp livery tiếp theo.
@@ -2465,9 +2465,9 @@ STRING Landing lights on.====Đèn hạ cánh đang bật.
 STRING Landing lights off.====Đèn hạ cánh tắt.
 STRING Landing lights toggle.====Đèn hạ cánh bật tắt.
 STRING Electrical====Điện
-STRING APU start.====APU bắt đầu.
-STRING GPU on.====Đang bật GPU.
-STRING GPU off.====GPU tắt.
+STRING APU start.====Khởi động APU.
+STRING GPU on.====Bật APU.
+STRING GPU off.====Tắt APU.
 STRING GPU toggle.====Chuyển đổi GPU.
 STRING APU generator on.====Máy phát APU đang bật.
 STRING APU generator off.====Máy phát APU đang tắt.
@@ -2491,16 +2491,16 @@ STRING Shut Down====Tắt
 STRING Thrust Reverse====Lực đẩy ngược
 STRING Mixture====Hỗn hợp
 STRING Cowl Flaps====Nắp che
-STRING ADF 1 flip standby.====ADF 1 chế độ chờ lật.
-STRING ADF 2 flip standby.====ADF 2 lật ở chế độ chờ.
+STRING ADF 1 flip standby.====ADF 1 flip chế độ chờ.
+STRING ADF 2 flip standby.====ADF 2 flip ở chế độ chờ.
 STRING COM 1 fine down (25kHz).====COM 1 xuống tốt (25kHz).
 STRING COM 2 fine down (25kHz).====COM 2 xuống tốt (25kHz).
 STRING COM 1 fine up (25kHz).====COM 1 tốt lên (25kHz).
 STRING COM 2 fine up (25kHz).====COM 2 tốt lên (25kHz).
-STRING COM 1 fine down (8.33 kHz).===="COM 1 giảm xuống (8,33 kHz)."
-STRING COM 2 fine down (8.33kHz).===="COM 2 giảm (8,33kHz)."
-STRING COM 1 fine up (8.33 kHz).===="COM 1 tốt lên (8,33 kHz)."
-STRING COM 2 fine up (8.33kHz).===="COM 2 tốt lên (8,33kHz)."
+STRING COM 1 fine down (8.33 kHz).====COM 1 giảm xuống (8,33 kHz).
+STRING COM 2 fine down (8.33kHz).====COM 2 giảm (8,33kHz).
+STRING COM 1 fine up (8.33 kHz).====COM 1 tốt lên (8,33 kHz).
+STRING COM 2 fine up (8.33kHz).====COM 2 tốt lên (8,33kHz).
 STRING COM 1 coarse down.====COM 1 xuống thô.
 STRING COM 2 coarse down.====COM 2 xuống thô.
 STRING COM 1 coarse up.====COM 1 thô lên.
@@ -2509,10 +2509,10 @@ STRING COM 1 standby fine down (25kHz).====COM 1 ở chế độ chờ giảm (2
 STRING COM 2 standby fine down (25kHz).====COM 2 ở chế độ chờ giảm (25kHz).
 STRING COM 1 standby fine up (25kHz).====COM 1 chế độ chờ tốt lên (25kHz).
 STRING COM 2 standby fine up (25kHz).====COM 2 ở chế độ chờ tốt lên (25kHz).
-STRING COM 1 standby fine down (8.33kHz).===="COM 1 ở chế độ chờ giảm (8,33kHz)."
-STRING COM 2 standby fine down (8.33kHz).===="COM 2 ở chế độ chờ hoạt động tốt (8,33kHz)."
-STRING COM 1 standby fine up (8.33kHz).===="COM 1 ở chế độ chờ tốt lên (8,33kHz)."
-STRING COM 2 standby fine up (8.33kHz).===="COM 2 ở chế độ chờ tốt lên (8,33kHz)."
+STRING COM 1 standby fine down (8.33kHz).====COM 1 ở chế độ chờ giảm (8,33kHz).
+STRING COM 2 standby fine down (8.33kHz).====COM 2 ở chế độ chờ hoạt động tốt (8,33kHz).
+STRING COM 1 standby fine up (8.33kHz).====COM 1 ở chế độ chờ tốt lên (8,33kHz).
+STRING COM 2 standby fine up (8.33kHz).====COM 2 ở chế độ chờ tốt lên (8,33kHz).
 STRING COM 1 standby coarse down.====COM 1 ở chế độ chờ thô.
 STRING COM 2 standby coarse down.====COM 2 ở chế độ chờ thô.
 STRING COM 1 standby coarse up.====COM 1 chế độ chờ thô lên.
@@ -2616,9 +2616,9 @@ STRING DC Voltmeter right.====Vôn kế DC đúng.
 STRING DC Voltmeter external power.====DC Vôn kế nguồn ngoài.
 STRING DC Voltmeter TPL-fed.====Vôn kế DC TPL cấp nguồn.
 STRING DC Voltmeter battery.====Pin vôn kế DC.
-STRING Clear master accept.====Chính chủ rõ ràng chấp nhận.
-STRING Clear master caution.====Chú ý chính chủ rõ ràng.
-STRING Clear master warning.====Cảnh báo chính rõ ràng.
+STRING Clear master accept.====Xóa chấp nhận master.
+STRING Clear master caution.====Xóa cảnh báo master.
+STRING Clear master warning.====Xóa cảnh báo nguy hiểu master.
 STRING Decision-height reference down.====Tham chiếu chiều cao quyết định xuống.
 STRING Decision-height reference up.====Tham chiếu chiều cao quyết định lên.
 STRING Decision-height reference copilot down.====Phi công phụ tham chiếu chiều cao quyết định xuống.
@@ -2638,7 +2638,7 @@ STRING Test fire 5 annunciator.====Thử lửa 5 trình truyền tin.
 STRING Test fire 6 annunciator.====Thử lửa 6 bộ truyền tin.
 STRING Test fire 7 annunciator.====Thử lửa 7 trình truyền tin.
 STRING Test fire 8 annunciator.====Thử lửa 8 máy truyền tin.
-STRING Toggle total-energy audio.====Chuyển đổi âm thanh tổng năng lượng.
+STRING Toggle total-energy audio.====Chuyển đổi tổng năng lượng âm thanh.
 STRING NAV Radios====Bộ đàm NAV
 STRING OBS, HSI, & ADF Card====Thẻ OBS, HSI, & ADF
 STRING ADF card 1 down.====Thẻ ADF 1 xuống.
@@ -2688,7 +2688,7 @@ STRING Transponder digits 1 and 2 down.====Bộ phát đáp chữ số 1 và 2 x
 STRING Transponder digits 1 and 2 up.====Bộ phát đáp chữ số 1 và 2 trở lên.
 STRING Transponder digits 3 and 4 down.====Bộ phát đáp chữ số 3 và 4 xuống.
 STRING Transponder digits 3 and 4 up.====Bộ phát đáp chữ số 3 và 4 trở lên.
-STRING Mute gear warning horn.====Còi cảnh báo bánh răng câm.
+STRING Mute gear warning horn.====Còi cảnh báo càng đáp.
 STRING Operation====Hoạt động
 STRING Toggle the projection configuration window.====Chuyển đổi cửa sổ cấu hình chiếu.
 STRING Toggle the weapon guidance window.====Chuyển đổi cửa sổ hướng dẫn vũ khí.
@@ -2767,7 +2767,6 @@ STRING Runway.====Góc nhìn từ Đường băng.
 STRING Tower.====Góc nhìn từ Tòa tháp.
 STRING Chase.====Góc nhìn Đuổi theo.
 STRING View Tools====Xem công cụ
-STRING Cinema verite.====Điện ảnh verite.
 STRING Night vision.====Chế độ nhìn ban đêm.
 STRING Quick Look====Nhìn lướt qua
 STRING Glance left.====Liếc sang trái.
@@ -2916,7 +2915,7 @@ STRING Select the key you'd like to program from the list on the left of this sc
 STRING Continue====Tiếp tục
 STRING Acknowledge====Thừa nhận
 STRING Try again!====Thử lại!
-STRING Alright, let’s line up with the runway for our final approach.====Được rồi, hãy chuẩn bị cho đường băng để tiếp cận cuối cùng của chúng tôi.
+STRING Alright, let’s line up with the runway for our final approach.====Được rồi, hãy chuẩn bị cho đường băng để tiếp cận chặng cuối của chúng tôi.
 STRING X-Plane Basics====Kiến thức cơ bản về X-Plane
 STRING You’re using a mouse to fly. Click the mouse near the center of the screen to “grab” the yoke (the flight controls). Click a second time if you want to release the controls.====Bạn đang sử dụng chuột để bay. Nhấp chuột gần giữa màn hình để kéo cần điều khiển (điều khiển chuyến bay). Bấm lần thứ hai nếu bạn muốn giải phóng các điều khiển.
 STRING Practice!====Thực tiễn!
@@ -3462,10 +3461,10 @@ STRING Cross-feed fuel off.====Nhiên liệu nạp chéo tắt.
 STRING Release tow-plane cable for gliders.====Thả cáp mặt phẳng kéo cho tàu lượn.
 STRING Release tow-plane and winch for gliders.====Thả máy bay kéo và tời cho tàu lượn.
 STRING PRESSURIZATION====ĐÁP ÁN
-STRING Landing light 02 toggle.====Công tắc đèn chiếu sáng hạ cánh 02 bật tắt.
+STRING Landing light 02 toggle.====Chuyển đôi công tắc đèn chiếu sáng hạ cánh 02.
 STRING Igniter====Igniter
 STRING Autopilot vertical speed, at pre-sel VSI.====Tự động lái tốc độ dọc, tại VSI pre-sel.
-STRING Annunciators====Người đưa tin
+STRING Annunciators====Bộ truyền phát
 STRING Aircraft carrier approach.====Phương pháp tiếp cận tàu sân bay.
 ### Démarrages spéciaux====### DÃ © marrages spÃ © ciaux
 STRING Generate all missing aircraft & livery icons.====Tạo tất cả các biểu tượng máy bay & livery bị thiếu.
@@ -3765,8 +3764,8 @@ STRING Check this box to get access to aircraft from X-Plane 10.====Chọn hộp
 STRING DESIGN STUDIO====THIẾT KẾ STUDIO
 STRING Add Aircraft====Thêm máy bay
 STRING Randomize aircraft each flight====Chọn ngẫu nhiên máy bay mỗi chuyến bay
-STRING 3 nm approach====Cách tiếp cận 3 nm
-STRING 10 nm approach====Cách tiếp cận 10 nm
+STRING 3 nm approach====Cách đường băng 3 nm
+STRING 10 nm approach====Cách đường băng 10 nm
 STRING Special Starts====Khởi đầu đặc biệt
 STRING Gravel Strip====Dải sỏi
 STRING Get Me Lost====Đưa tôi đi lạc
@@ -4056,7 +4055,7 @@ STRING coPilot vertical velocity====vận tốc thẳng đứng coPilot
 STRING AOA indicator====Chỉ báo AOA
 STRING Gear warning system====Hệ thống cảnh báo càng đáp
 # X-Plane/Pilotage/Menus/Vol/Pannes et défaillances/Instruments/Navigation====# X-Plane/Pilotage/Menus/Vol/Pannes et dÃ © faillances/Instruments/Navigation
-STRING nav/Com-1 radio====đài nav/Com-1
+STRING nav/Com-1 radio====Đài Nav/Com-1
 STRING Nav/Com-2 radio====Đài phát thanh Nav/Com-2
 STRING Nav-1 radio====Đài phát thanh Nav-1
 STRING Nav-2 radio====Đài phát thanh Nav-2
@@ -4137,7 +4136,7 @@ STRING Ride Along====Đi dọc
 STRING Track Weapon====Theo dõi vũ khí
 STRING Free Camera====Máy ảnh miễn phí
 STRING Show Instrument Click Regions====Hiển thị các khu vực nhấp chuột trên công cụ
-STRING Show Instrument Descriptions====Hiển thị mô tả nhạc cụ
+STRING Show Instrument Descriptions====Hiển thị mô tả công cụ
 STRING Show 3-D Flight Model====Hiển thị mô hình chuyến bay 3-D
 STRING Hide 3-D Flight Model====Ẩn mô hình chuyến bay 3-D
 STRING Cycle 3-D Flight Model Display====Hiển thị mô hình chuyến bay chu kỳ 3-D
@@ -4171,7 +4170,6 @@ STRING Rendering Options====Tùy chọn kết xuất
 STRING Check this box to set a vertical field of view that is different from what it normally would be to give a non-distorted view. If you have a monitor with non-square pixels, this setting can be useful to counteract that distortion.====Chọn hộp này để đặt trường xem thẳng đứng khác với trường nhìn bình thường để cung cấp chế độ xem không bị bóp méo. Nếu bạn có màn hình với các pixel không phải hình vuông, cài đặt này có thể hữu ích để chống lại sự biến dạng đó.
 STRING Use cylindrical projection on all displays====Sử dụng phép chiếu hình trụ trên tất cả các màn hình
 STRING Grid Adjustments====Điều chỉnh lưới
-STRING PROJECTION WARPING====CHIẾN TRANH DỰ ÁN
 STRING X-Plane can distort the image it displays to match distortions in your projection screen.====X-Plane có thể làm biến dạng hình ảnh mà nó hiển thị để khớp với các biến dạng trên màn hình chiếu của bạn.
 STRING Configure distortion by checking the box below, then dragging the red nodes with the mouse to adjust the warping grid.====Định cấu hình độ méo bằng cách đánh dấu vào ô bên dưới, sau đó dùng chuột kéo các nút màu đỏ để điều chỉnh lưới độ cong vênh.
 STRING Configure projection warping on Display %1:monitor number%====Định cấu hình cong vênh chiếu trên Màn hình %1:monitor number%
@@ -4383,28 +4381,22 @@ STRING Deployment====Triển khai
 STRING Dump fuel on.====Đổ xăng vào.
 STRING Dump fuel off.====Đổ hết nhiên liệu.
 STRING Dump fuel toggle.====Chuyển đổi nhiên liệu đổ.
-## X-Plane/réglages/Clavier/Commandes/Compensateurs====## X-Plane/rÃ © glages/Clavier/Commandes/Compensateurs
 STRING Trim====Cánh đuôi
-STRING Gyro rotor trim up.====Nâng cánh đuôi con quay hồi chuyển.
-STRING Gyro rotor trim down.====Hạ cánh đuôi con quay hồi chuyển.
-STRING Rotor RPM trim up.====Rotor RPM cắt nhỏ.
-STRING Rotor RPM trim down.====Rotor RPM cắt giảm.
+STRING Gyro rotor trim up.====Gyro rotor trim lên.
+STRING Gyro rotor trim down.====Gyro rotor trim xuống.
+STRING Rotor RPM trim up.====Rotor RPM trim lên.
+STRING Rotor RPM trim down.====Rotor RPM trim xuống.
 STRING Aileron trim center.====Trung tâm trang trí Aileron.
 STRING Rudder trim center.====Trung tâm trang trí bánh lái.
-STRING Pitch trim up.====Cắt giảm quảng cáo chiêu hàng.
+STRING Pitch trim up.====Pitch trim lên.
 STRING Pitch trim takeoff.====Pitch trim cất cánh.
-STRING Pitch trim down.====Cắt giảm quảng cáo chiêu hàng.
+STRING Pitch trim down.====Pitch trim xuống.
 STRING Controls magnetic lock.====Điều khiển khóa từ.
-STRING Roll trim left.====Cuộn trang trí bên trái.
+STRING Roll trim left.====Xoay trái.
 STRING Roll trim right.====Cuộn trang trí bên phải.
 STRING Yaw trim left.==== Yaw trim trái.
 STRING Yaw trim right.====Yaw trim phải.
-## X-Plane/réglages/Clavier/Moteurs/Basiques====## X-Plane/rÃ © glages/Clavier/Moteurs/Basiques
-## X-Plane/réglages/Clavier/Moteurs/Contact====## X-Plane/rÃ © glages/Clavier/Moteurs/Liên hệ
-STRING Ignition====Đánh lửa
-STRING Disco servos, flt dir, yaw damp.====Disco servos, flt dir, ngáp ẩm.
-STRING Disco servos, flt dir, yaw damp, trim.====Disco servos, flt dir, yaw ẩm, trim.
-# traduit mais je ne sais pas l'afficher, translated but I am not able to bring it to display====# traduit mais je ne sais pas l'afficher, đã dịch nhưng tôi không thể mang nó đi trưng bày
+STRING Ignition====Bộ khởi động
 STRING G1000 (MFD)====G1000 (MFD)
 STRING G1000 MFD altitude outer ring up.====Vòng ngoài tăng độ cao MFD của G1000.
 STRING G1000 red button for display reversion (backup display).====Nút màu đỏ của G1000 để đảo chiều hiển thị (hiển thị dự phòng).
@@ -4558,10 +4550,6 @@ STRING vacuum DG sync up.====đồng bộ hóa DG chân không.
 STRING Copilot vacuum DG sync down.====Đồng bộ hóa DG chân không Copilot xuống.
 STRING Copilot vacuum DG sync up.====Đồng bộ hóa DG chân không Copilot.
 STRING Copilot vacuum DG sync to magnetic north.====Đồng bộ hóa DG chân không Copilot về phía bắc từ tính.
-STRING electric DG free.====DG điện miễn phí.
-STRING electric DG slave.====điện DG nô lệ.
-STRING Copilot electric DG free.====Copilot điện DG miễn phí.
-STRING Copilot electric DG slave.====Copilot điện DG nô lệ.
 STRING electric DG free sync down.====điện DG miễn phí đồng bộ xuống.
 STRING electric DG free sync up.====điện DG miễn phí đồng bộ lên.
 STRING Copilot electric DG free sync down.====Copilot điện DG miễn phí đồng bộ xuống.
@@ -4572,7 +4560,7 @@ STRING Frigate approach.====Phương pháp tiếp cận Frigate.
 STRING Waterway takeoff.====Cất cánh thủy phi cơ.
 STRING Unclassified====Chưa được phân loại
 STRING Toggle AI flying your aircraft.====Chuyển đổi AI điều khiển máy bay của bạn.
-STRING Load situation %1:number%====Tình hình tải %1:number%
+STRING Load situation %1:number%====Tải tình hình thứ %1:number%
 STRING Stop Interaction Recording====Ngừng ghi lại tương tác
 STRING Fail selected in failures screen.====Đã chọn Sự cố trong màn hình Sự cố.
 STRING Push-back for airliners: Nose 90 left.====Đẩy lùi cho máy bay: Mũi 90 trái.
@@ -4770,8 +4758,8 @@ STRING Autopilot heading-select.====Tiêu đề tự động lái-chọn.
 STRING Autopilot vertical speed, at current VSI, arm ALT.====Autopilot vertical speed, at current VSI, arm ALT.
 STRING Mute marker beacons until next marker is received.====Tắt tiếng báo hiệu điểm đánh dấu cho đến khi nhận được điểm đánh dấu tiếp theo.
 STRING Mute marker beacons until next marker is received or indefinitely if none is received right now.====Tắt tiếng báo hiệu điểm đánh dấu cho đến khi nhận được điểm đánh dấu tiếp theo hoặc vô thời hạn nếu không nhận được điểm đánh dấu nào ngay bây giờ.
-STRING Marker beacon receiver hi sens.====Máy thu tín hiệu đánh dấu hi sens.
-STRING Marker beacon receiver lo sens.====Bộ thu tín hiệu đánh dấu lo cảm nhận.
+STRING Marker beacon receiver hi sens.====Bộ thu tín hiệu đánh dấu cảm biến thấp.
+STRING Marker beacon receiver lo sens.====Bộ thu tín hiệu đánh dấu cảm biến cao.
 STRING Marker beacon receiver sens toggle.====Đèn hiệu đánh dấu bộ nhận cảm biến chuyển đổi.
 STRING Toggle the texture browser window.====Chuyển đổi cửa sổ trình duyệt kết cấu.
 STRING Press the Home Button of the VR xPad.====Nhấn nút Home của VR xPad.
@@ -5117,15 +5105,15 @@ STRING Toggle on-screen frame-rate display.====Chuyển đổi hiển thị tố
 STRING Force reloading the current aircraft (including art).====Buộc tải lại máy bay hiện tại (bao gồm cả phần nghệ thuật).
 STRING Force reloading the current aircraft (skip art reload).====Buộc tải lại máy bay hiện tại (bỏ qua phần tải lại hình ảnh).
 STRING Toggle display of the cockpit data output.====Chuyển đổi hiển thị đầu ra dữ liệu buồng lái.
-STRING Water rudder down (engage).====Bánh lái nước xuống (tham gia).
+STRING Water rudder down (engage).====Bánh lái nước xuống (chuẩn bị).
 STRING Water rudder up (disengage).====Bánh lái nước lên (buông lỏng).
 STRING Re-charge batteries.====Sạc lại pin.
 STRING Crew oxygen: master valve open/on.====Oxy cho phi hành đoàn: mở/bật van chính.
-STRING Crew oxygen: master valve closed/off.====Crew oxy: van chính đóng/tắt.
+STRING Crew oxygen: master valve closed/off.====Van chính đóng/tắt hệ thống oxy.
 STRING Crew oxygen: master valve toggle====Oxy cho phi hành đoàn: chuyển đổi van chính
-STRING Crew oxygen: demand regulator up.====Phi hành đoàn oxy: điều chỉnh nhu cầu lên.
-STRING Crew oxygen: demand regulator down.====Phi hành đoàn oxy: điều chỉnh nhu cầu xuống.
-STRING Passenger oxygen: drop masks.====Dưỡng khí hành khách: thả mặt nạ.
+STRING Crew oxygen: demand regulator up.====Oxy cho phi hành đoàn: điều chỉnh nhu cầu lên.
+STRING Crew oxygen: demand regulator down.====Oxy cho phi hành đoàn: điều chỉnh nhu cầu xuống.
+STRING Passenger oxygen: drop masks.====Thả mặt nạ oxy xuống.
 STRING Winch faster. (for gliders).====Kéo nhanh hơn. (đối với tàu lượn).
 STRING Winch slower. (for gliders).====Kéo chậm hơn. (đối với tàu lượn).
 STRING COM 2 coarse down (8.33kHz).===="COM 2 xuống thô (8,33kHz)."
@@ -5163,8 +5151,8 @@ STRING Minimum descend alt reference up.====Tham chiếu thay thế giảm dần
 STRING Minimum descend alt reference copilot down.====Tối thiểu xuống phi công phụ tham chiếu alt xuống.
 STRING Minimum descend alt reference copilot up.====Tối thiểu xuống phụ tải tham chiếu alt lên.
 STRING G1000 pilot AP VNAV.====G1000 phi công AP VNAV.
-STRING Pitch trim up - Mechanical, not servo.====Pitch trim up - Cơ khí, không phải servo.
-STRING Pitch trim down - Mechanical, not servo.====Pitch trim down - Cơ khí, không phải servo.
+STRING Pitch trim up - Mechanical, not servo.====Pitch trim lên - Chuyển động cơ học, không phải servo.
+STRING Pitch trim down - Mechanical, not servo.====Pitch trim xuống - Chuyển động cơ học, không phải servo.
 STRING Toggle the particle system browser window.====Chuyển đổi cửa sổ trình duyệt hệ thống hạt.
 STRING If you do not have a commercial-use key, you agree to use X-Plane for non-commercial purposes only. (See www.X-Plane.com/pro for information on professional use.)====Nếu bạn không có khóa sử dụng thương mại, bạn đồng ý chỉ sử dụng X-Plane cho mục đích phi thương mại. (Xem www.X-Plane.com/pro để biết thông tin về cách sử dụng chuyên nghiệp.)
 STRING Possible Cd if this is a streamlined body: ==== Cd có thể có nếu đây là một nội dung được sắp xếp hợp lý:
@@ -5213,7 +5201,7 @@ STRING Load with Joystick Button====Tải bằng nút cần điều khiển
 STRING Load with Shortcut Key====Tải bằng phím tắt
 STRING FDR====FDR
 STRING Oxygen Mask====Mặt nạ oxy
-STRING Reload the Current Aircraft and Art====Tải lại Máy bay và Nghệ thuật Hiện tại
+STRING Reload the Current Aircraft and Art====Tải lại Máy bay và Art
 STRING Reload the Current Aircraft (Skip Art Reload)====Tải lại máy bay hiện tại (Bỏ qua ảnh tải lại)
 STRING Show Particle System Browser====Hiển thị trình duyệt hệ thống hạt
 STRING Aircraft Identification====Nhận dạng máy bay
@@ -5371,7 +5359,6 @@ STRING Please report this to Laminar Research.====Vui lòng báo cáo điều n�
 STRING Control Surfaces====Kiểm soát bề mặt
 STRING Multi Rotors====Nhiều cánh quạt
 STRING Lock at Current====Khóa ở hiện tại
-STRING Hard-Over====Cứng hơn
 STRING Failed to allocate a streaming GPU buffer====Không phân bổ được bộ đệm GPU trực tuyến
 STRING This is most likely due to running out of GPU host memory====Điều này rất có thể do hết bộ nhớ máy chủ GPU
 STRING Error loading the file:====Lỗi khi tải tệp:
@@ -5469,7 +5456,7 @@ STRING Signature====Chữ ký
 STRING Path====Đường dẫn
 STRING Note: Disabling Aircraft plugins is not recommended, as they are required to run the currently loaded aircraft====Lưu ý: Không nên tắt các plugin Máy bay, vì chúng được yêu cầu để chạy máy bay hiện đang được tải
 STRING The cost column shows you the impact a plugin has on your X-Plane performance. The cost is calculated as the relative FPS you would gain if you were to disable the plugin, by taking into account CPU and GPU load. You might have very CPU heavy plugins running, but see no cost associated with them because you are limited by your GPU====Cột chi phí cho bạn biết tác động của một plugin đối với hiệu suất X-Plane của bạn. Chi phí được tính bằng FPS tương đối mà bạn sẽ đạt được nếu tắt plugin, bằng cách tính đến tải CPU và GPU. Bạn có thể có các plugin rất nặng dành cho CPU đang chạy, nhưng không có chi phí liên quan đến chúng vì bạn bị giới hạn bởi GPU của mình
-STRING Performance====Màn biểu diễn
+STRING Performance====Hiệu suất
 STRING Information====Thông tin
 STRING Drawing Misc====Vẽ Misc
 STRING Drawing Window====Cửa sổ vẽ
@@ -5536,7 +5523,7 @@ STRING Auto-brakes 1.====Hệ thống phanh tự động 1.
 STRING Auto-brakes 2.====Hệ thống phanh tự động 2.
 STRING Auto-brakes 3.====Hệ thống phanh tự động 3.
 STRING Auto-brakes max.====Hệ thống phanh tự động tối đa.
-STRING Toggle hotel mode.====Chuyển đổi chế độ khách sạn.
+STRING Toggle hotel mode.====Chuyển đổi chế độ hotel.
 STRING Set fuel selector for left engine to none (shut off).====Đặt bộ chọn nhiên liệu cho động cơ bên trái thành không (tắt).
 STRING Set fuel selector for left engine to left tanks.====Đặt bộ chọn nhiên liệu cho động cơ bên trái sang thùng bên trái.
 STRING Set fuel selector for left engine to center tanks.====Đặt bộ chọn nhiên liệu cho động cơ bên trái vào thùng giữa.
@@ -5583,33 +5570,33 @@ STRING Bleed air on engine 5.====Khí nén trên động cơ 5.
 STRING Bleed air on engine 6.====Khí nén trên động cơ 6.
 STRING Bleed air on engine 7.====Khí nén trên động cơ 7.
 STRING Bleed air on engine 8.====Khí nén trên động cơ 8.
-STRING Bleed air toggle engine 1.====Động cơ bật tắt không khí bị chảy máu 1.
-STRING Bleed air toggle engine 2.====Động cơ bật tắt không khí bị chảy máu 2.
-STRING Bleed air toggle engine 3.====Động cơ bật tắt không khí bị chảy máu 3.
-STRING Bleed air toggle engine 4.====Động cơ bật tắt không khí bị chảy máu 4.
-STRING Bleed air toggle engine 5.====Động cơ bật tắt không khí bị chảy máu 5.
-STRING Bleed air toggle engine 6.====Động cơ bật tắt không khí bị chảy máu 6.
-STRING Bleed air toggle engine 7.====Động cơ bật tắt không khí bị chảy máu 7.
-STRING Bleed air toggle engine 8.====Động cơ bật tắt không khí bị chảy máu 8.
-STRING Bleed air shut off GPU.====Không khí chảy máu tắt GPU.
+STRING Bleed air toggle engine 1.====Động cơ bật tắt không khí bị nén 1.
+STRING Bleed air toggle engine 2.====Động cơ bật tắt không khí bị nén 2.
+STRING Bleed air toggle engine 3.====Động cơ bật tắt không khí bị nén 3.
+STRING Bleed air toggle engine 4.====Động cơ bật tắt không khí bị nén 4.
+STRING Bleed air toggle engine 5.====Động cơ bật tắt không khí bị nén 5.
+STRING Bleed air toggle engine 6.====Động cơ bật tắt không khí bị nén 6.
+STRING Bleed air toggle engine 7.====Động cơ bật tắt không khí bị nén 7.
+STRING Bleed air toggle engine 8.====Động cơ bật tắt không khí bị nén 8.
+STRING Bleed air shut off GPU.====Không khí nén tắt GPU.
 STRING Bleed air on GPU.====Không khí tràn trên GPU.
 STRING Bleed air toggle GPU.====GPU bật tắt Bleed air.
-STRING Bleed air shut off APU.====Không khí chảy máu tắt APU.
+STRING Bleed air shut off APU.====Không khí nén tắt APU.
 STRING Bleed air on APU.====Bleed air trên APU.
-STRING Bleed air toggle APU.====Không khí chảy máu chuyển đổi APU.
-STRING Bleed air shut left isolation.====Chảy máu đóng cửa không khí cách ly trái.
+STRING Bleed air toggle APU.====Không khí nén chuyển đổi APU.
+STRING Bleed air shut left isolation.====Nén đóng cửa không khí cách ly trái.
 STRING Bleed air open left isolation.====Khí huyết mở trái cách ly.
-STRING Bleed air toggle left isolation.====Bleed air chuyển sang trái cô lập.
-STRING Bleed air shut right isolation.====Chảy máu đóng cửa không khí phải cách ly.
+STRING Bleed air toggle left isolation.====Khí nén chuyển sang trái cô lập.
+STRING Bleed air shut right isolation.====Khí nén đóng cửa không khí phải cách ly.
 STRING Bleed air open right isolation.====Khí huyết mở phải cách ly.
 STRING Bleed air toggle right isolation.====Bleed air chuyển đổi bên phải cô lập.
 STRING Bleed air left pack off.====Khí nén trái gói.
 STRING Bleed air left pack on.====Bleed air pack on.
 STRING Bleed air left pack toggle.====Bleed air pack chuyển đổi bên trái.
-STRING Bleed air center pack off.====Gói trung tâm không khí bị chảy máu tắt.
-STRING Bleed air center pack on.====Gói trung tâm không khí chảy máu đang bật.
-STRING Bleed air center pack toggle.====Chuyển đổi gói trung tâm không khí chảy máu.
-STRING Bleed air right pack off.====Gói không khí bị chảy máu ngay lập tức.
+STRING Bleed air center pack off.====Gói trung tâm không khí bị khí nén tắt.
+STRING Bleed air center pack on.====Gói trung tâm không khí khí nén đang bật.
+STRING Bleed air center pack toggle.====Chuyển đổi gói trung tâm không khí khí nén.
+STRING Bleed air right pack off.====Gói không khí bị khí nén ngay lập tức.
 STRING Bleed air right pack on.====Bleed air pack on ngay.
 STRING Bleed air right pack toggle.====Chuyển đổi gói bên phải Bleed air.
 STRING Air conditioning on.====Máy lạnh đang bật.
@@ -5645,14 +5632,14 @@ STRING Anti-ice: all wing, de-icing boots toggle.====Chống băng: tất cả c
 STRING Anti-ice: left wing, de-icing boots toggle.====Chống băng: cánh trái, bật tắt ủng khử băng.
 STRING Anti-ice: right wing, de-icing boots toggle.====Chống băng: cánh phải, bật tắt ủng khử băng.
 STRING Anti-ice: all wing, bleed anti-ice on.====Chống băng: tất cả các cánh, bleed anti ice on.
-STRING Anti-ice: left wing, bleed anti-ice on.====Chống băng: cánh trái, chảy máu chống băng trên.
-STRING Anti-ice: right wing, bleed anti-ice on.====Chống băng: cánh phải, chảy máu chống băng trên.
+STRING Anti-ice: left wing, bleed anti-ice on.====Chống băng: cánh trái, khí nén chống băng trên.
+STRING Anti-ice: right wing, bleed anti-ice on.====Chống băng: cánh phải, khí nén chống băng trên.
 STRING Anti-ice: all wing, bleed anti-ice off.====Chống băng: tất cả các cánh, khí nén tắt.
 STRING Anti-ice: left wing, bleed anti-ice off.====Anti-ice: cánh trái, khí nén tắt.
-STRING Anti-ice: right wing, bleed anti-ice off.====Chống băng: cánh phải, chảy máu chống băng tắt.
-STRING Anti-ice: all wing, bleed anti-ice toggle.====Chống băng: tất cả các cánh, chuyển đổi chống băng chảy máu.
-STRING Anti-ice: left wing, bleed anti-ice toggle.====Chống băng: cánh trái, chuyển đổi chống băng chảy máu.
-STRING Anti-ice: right wing, bleed anti-ice toggle.====Chống băng: cánh phải, bật tắt chống băng chảy máu.
+STRING Anti-ice: right wing, bleed anti-ice off.====Chống băng: cánh phải, khí nén chống băng tắt.
+STRING Anti-ice: all wing, bleed anti-ice toggle.====Chống băng: tất cả các cánh, chuyển đổi chống băng khí nén.
+STRING Anti-ice: left wing, bleed anti-ice toggle.====Chống băng: cánh trái, chuyển đổi chống băng khí nén.
+STRING Anti-ice: right wing, bleed anti-ice toggle.====Chống băng: cánh phải, bật tắt chống băng khí nén.
 STRING Anti-ice: all wing, TKS de-ice normal.====Chống đóng băng: tất cả các cánh, TKS khử băng bình thường.
 STRING Anti-ice: left wing, TKS de-ice normal.====Chống băng: cánh trái, TKS khử băng bình thường.
 STRING Anti-ice: right wing, TKS de-ice normal.====Chống băng: cánh phải, TKS khử băng bình thường.
@@ -5939,8 +5926,8 @@ STRING Pitch control 2 hard up====Tăng cường kiểm soát sân 2
 STRING Pitch control inop down====Pitch control inop down
 STRING Pitch control 1 hard down====Điều khiển cao độ 1 giảm mạnh
 STRING Pitch control 2 hard down====Điều khiển cao độ 2 giảm mạnh
-STRING APU failure====APU Sự cố
-STRING APU fire====Lửa APU
+STRING APU failure====APU ngừng hoạt động
+STRING APU fire====Cháy APU
 STRING Electric dual-winding A====Cuộn dây điện kép A
 STRING Electric dual-winding B====Cuộn dây điện kép B
 STRING Left aileron 1: lock====Aileron trái 1: khóa
@@ -6055,10 +6042,10 @@ STRING Foggy====Sương mù dày
 STRING Yaw damper on.====Yaw damper bật
 STRING Yaw damper off.====Yaw damper tắt.
 STRING Forward with 3-D cockpit====Bắt đầu với buồng lái 3D
-STRING Space Shuttle: Full re-entry.====Space Shuttle: Tiếp cận bầu khi quyển (Hoàn chỉnh)
-STRING Space Shuttle: Final re-entry.====Space Shuttle: Tiếp cận bầu khi quyển (Gần hoàn thành)
-STRING Space Shuttle: Full approach.====Space Shuttle: Tiếp cận sân bay (Hoàn chỉnh)
-STRING Space Shuttle: Final approach.====Space Shuttle: Tiếp cận sân bay (Gần hoàn thành)
+STRING Space Shuttle: Full re-entry.====Tàu con thoi: Tái nhập hoàn toàn.
+STRING Space Shuttle: Final re-entry.====Tàu con thoi: Tái nhập chặng cuối.
+STRING Space Shuttle: Full approach.====Tàu con thoi: Tiếp cận sân bay (Hoàn chỉnh)
+STRING Space Shuttle: Final approach.====Tàu con thoi: Tiếp cận sân bay (Gần hoàn thành)
 STRING Slider #1 On/Off control.====Trượt #1 điều khiển bật tắt.
 STRING Slider #2 On/Off control.====Trượt #2 điều khiển bật tắt.
 STRING Slider #3 On/Off control.====Trượt #3 điều khiển bật tắt.
@@ -6665,4 +6652,85 @@ STRING alpha max { This is the positive angle of attack at which the airfoil sta
 "STRING e|ONLY for L/D viewing at right, no effect on actual flight! { Just enter the AR and e for the wing you plan to use this foil on"===="e | CHỈ cho L / D xem ở bên phải, không ảnh hưởng đến chuyến bay thực tế! {Chỉ cần nhập AR và e cho cánh mà bạn định sử dụng lá này"				
 "STRING -airfoil thickness|-(ratio) { Thickness ratio is the ratio of how THICK the airfoil is at its thickest point to its CHORD (from leading edge to trailing edge). Typical thickness ratios go from about 0.08 (for a thin, low-drag airfoil) to 0.16 (for a thick, hi-lift airfoil)."===="-airfoil dầy | - (ratio) {Tỷ lệ độ dày là tỷ số giữa ĐỘ DÀY của cánh gió tại điểm dày nhất của nó so với CHORD của nó (từ mép trước đến mép sau). Tỷ lệ độ dày điển hình đi từ khoảng 0,08 (đối với cánh gió mỏng, kéo thấp) đến 0,16 (đối với loại dày"				
 "STRING -airfoil drag div Mach|-(at zero lift) { This is the Mach number at which compressibility effects become apparent AT ZERO LIFT. 0.75 is a good default. Supercritical foils should enter a higher number, like perhaps 0.85 or even 0.90. Remember this is the Drag Divergence Mach number at ZERO LIFT. X-Plane will reduce this number as lift is produced!"===="-airfoil drag div Mach | - (at zero lift) {Đây là số Mach mà tại đó các hiệu ứng nén trở nên rõ ràng TẠI KHÔNG SỐNG. 0,75 là một mặc định tốt. Các lá siêu tới hạn nên nhập một số cao hơn, chẳng hạn như 0,85 hoặc thậm chí 0,90. Hãy nhớ đây là"				
-						
+STRING Prop====Cánh quạt
+STRING Vulkan shaders are compiled while scenery loads to avoid stutters while you fly. The first time a new shader is compiled the process can take a while; the results are saved to speed up future loads. Loading scenery may take several minutes after updating X-Plane, your hardware, settings or drivers.====Vulkan shader được biên dịch trong khi tải phong cảnh để tránh sự cố khi bạn đang bay. Trong lần chạy đầu tiên, các tệp Vulkan sẽ được biên dịch, quá trình này có thể mất một lúc; kết quả được lưu để tăng tốc độ tải trong tương lai. Việc tải phong cảnh có thể lâu hơn sau khi cập nhật X-Plane, phần cứng, cài đặt máy bay, sân bay mới hoặc trình điều khiển của bạn.
+STRING Sim Your Plane (Bluetooth)====Mô phỏng máy bay của bạn (Bluetooth)
+STRING Sim Your Plane (Wired)====Mô phỏng máy bay của bạn (Kết nối có dây)
+STRING Xbox Elite Wireless Controller Series 2====Xbox Elite Wireless Controller Series 2
+STRING Shuttle Landing (Full Re-Entry)====Tàu con thoi (Tái nhập hoàn toàn)
+STRING Shuttle Landing (Final Re-Entry)====Tàu con thoi (Tái nhập chặng cuối)
+STRING Shuttle Landing (Full Approach)====Tàu con thoi (Tiếp cận chặng cuối)
+STRING Shuttle Landing (Final Approach)====Tàu con thoi (Tiếp cận chặng cuối)
+STRING Resolution====Chất lượng
+STRING MONITOR %1:monitor index%====MÀN HÌNH %1:monitor index%
+STRING If you want a suffix to always be added to the end of the aircraft folders we open on this computer, check this box and enter the suffix below. This is useful if you have two aircraft models, one with the pilot-side cockpit and the other with the copilot-side cockpit, with “Aircraft Folder\My Aircraft.acf” on the master computer, and “Aircraft Folder-copilot\My Aircraft.acf” on an external cockpit, for example. In that case, you would enter “-copilot” as the suffix (on the external cockpit computer only).====Nếu bạn muốn một hậu tố luôn được thêm vào cuối thư mục máy bay mà chúng tôi mở trên máy tính này, hãy chọn hộp này và nhập hậu tố bên dưới. Điều này rất hữu ích nếu bạn có hai mẫu máy bay, một mẫu có buồng lái phía phi công và mẫu còn lại có buồng lái phía phi công phụ, với “Aircraft Folder\My Aircraft.acf” trên máy tính chính và “Aircraft Folder-copilot\My Aircraft.acf” trên buồng lái bên ngoài. Trong trường hợp đó, bạn sẽ nhập “-copilot” làm hậu tố (chỉ trên máy tính buồng lái bên ngoài).
+STRING GCU: push pan.====GCU: push pan.
+STRING Still spot.====Still spot.
+STRING Hat switch up.====Hat switch up.
+STRING Hat switch up + left.====Hat switch up + trái.
+STRING Hat switch up + right.====Hat switch up + phải.
+STRING None (nhanh nhất)====None (nhanh nhất)
+STRING MULTIPLAYER %1:(number of connections)%====NHIỀU NGƯỜI CHƠI %1:(number of connections)%
+STRING Start Guidance====Bắt đầu hướng dẫn
+STRING Show/Hide Follow Me====Ẩn/Hiện xe chỉ đường
+STRING Show/Hide Authoring Tool====Ẩn/Hiện công cụ xác thực
+STRING Show/Hide AOS====Ẩn/Hiện AOS
+STRING Show/Hide Versions====Ẩn/Hiện các phiên bản
+STRING Show/Hide Parking====Ẩn/Hiện chỗ đậu
+STRING Weapon single/pair/ripple/salvo down.====Hạ vũ khí single/pair/ripple/salvo.
+STRING NAV 1 flip standby.====NAV 1 flip chế độ chờ.
+STRING NAV 2 flip standby.====NAV 2 flip ở chế độ chờ.
+STRING COM 1 flip standby.====COM 1 flip chế độ chờ.
+STRING COM 2 flip standby.====COM 2 flip ở chế độ chờ.
+STRING ADF active 1 hundreds down.====ADF đang hoạt động giảm 1 trăm.
+STRING ADF active 1 hundreds up.====ADF hoạt động tăng 1 hàng trăm.
+STRING ADF active 1 tens down.====ADF hoạt động 1 hàng chục giảm xuống.
+STRING ADF active 1 tens up.====ADF hoạt động 1 hàng chục.
+STRING ADF active 1 ones down.====ADF đang hoạt động 1 cái bị giảm.
+STRING ADF active 1 ones up.====ADF hoạt động 1 cái lên.
+STRING ADF active 1 ones and tens down.====ADF hoạt động 1 cái và hàng chục giảm xuống.
+STRING ADF active 1 ones and tens up.====ADF hoạt động 1 cái và hàng chục.
+STRING ADF active 1 hundreds and thousands down.====ADF hoạt động 1 hàng trăm và hàng nghìn giảm xuống.
+STRING ADF active 1 hundreds and thousands up.====ADF hoạt động 1 hàng trăm và hàng nghìn.
+STRING ADF standby 1 hundreds down.====ADF ở ​​chế độ chờ giảm 1 trăm.
+STRING ADF standby 1 hundreds up.====ADF ở ​​chế độ chờ 1 trăm lên.
+STRING ADF standby 1 tens down.====ADF ở ​​chế độ chờ giảm 1 chục.
+STRING ADF standby 1 tens up.====ADF ở ​​chế độ chờ 1 hàng chục.
+STRING ADF standby 1 ones down.====ADF chế độ chờ 1 cái.
+STRING ADF standby 1 ones up.====ADF chờ 1 cái lên.
+STRING ADF standby 1 ones and tens down.====ADF dự phòng 1 cái và hàng chục xuống.
+STRING ADF standby 1 ones and tens up.====ADF dự phòng 1 cái và hàng chục.
+STRING ADF standby 1 hundreds and thousands down.====ADF dự phòng 1 hàng trăm và hàng nghìn giảm xuống.
+STRING ADF standby 1 hundreds and thousands up.====ADF dự phòng 1 hàng trăm và hàng nghìn.
+STRING ADF active 2 hundreds down.====ADF đang hoạt động giảm 2 trăm.
+STRING ADF active 2 hundreds up.====ADF đang hoạt động tăng lên 2 hàng trăm.
+STRING ADF active 2 tens down.====ADF hoạt động giảm 2 chục.
+STRING ADF active 2 tens up.====ADF hoạt động 2 chục lên.
+STRING ADF active 2 ones down.====ADF hoạt động 2 cái xuống.
+STRING ADF active 2 ones up.====ADF hoạt động 2 cái lên.
+STRING ADF active 2 ones and tens down.====ADF hoạt động 2 cái và hàng chục xuống.
+STRING ADF active 2 ones and tens up.====ADF hoạt động 2 cái và hàng chục.
+STRING ADF active 2 hundreds and thousands down.====ADF đang hoạt động 2 hàng trăm và hàng nghìn giảm xuống.
+STRING ADF active 2 hundreds and thousands up.====ADF hoạt động từ 2 hàng trăm đến hàng nghìn.
+STRING ADF standby 2 hundreds down.====ADF ở ​​chế độ chờ giảm 2 trăm.
+STRING ADF standby 2 hundreds up.====ADF ở ​​chế độ chờ 2 trăm trở lên.
+STRING ADF standby 2 tens down.====ADF ở ​​chế độ chờ giảm 2 chục.
+STRING ADF standby 2 tens up.====ADF ở ​​chế độ chờ 2 chục lên.
+STRING ADF standby 2 ones down.====ADF ở ​​chế độ chờ 2 cái.
+STRING ADF standby 2 ones up.====ADF ở ​​chế độ chờ 2 cái lên.
+STRING ADF standby 2 ones and tens down.====ADF dự phòng 2 cái và hàng chục xuống.
+STRING ADF standby 2 ones and tens up.====ADF dự phòng 2 cái và hàng chục.
+STRING ADF standby 2 hundreds and thousands down.====ADF ở ​​chế độ chờ giảm 2 trăm và hàng nghìn.
+STRING ADF standby 2 hundreds and thousands up.====ADF ở ​​chế độ chờ 2 hàng trăm và hàng nghìn.
+STRING Autopilot wing-level/roll hold.====Tự động lái cấp độ cánh/giữ cuộn.
+STRING Autopilot wing-level/rate hold.====Tự động lái cấp độ cánh/tỷ lệ giữ.
+STRING %1:degrees latitude%°%2:N or S% / %3:degrees longitude%°%4:E or W%====%1:degrees latitude%°%2:B or N% / %3:degrees longitude%°%4:Đ or T%
+STRING %1:airport identifier%, %2:runway name%====%1:airport identifier%, %2:runway name%
+STRING Clear====Trời trong xanh
+STRING Particle Browser====Trình duyệt hệ thống hạt
+STRING New...====Tệp mới...
+STRING Open File...====Mở tệp...
+STRING G1000 multifunction display with 2d bezel.====Màn hình đa chức năng G1000 với khung bezel 2d.
+STRING G1000 primary flight display with 2d bezel.====Màn hình hiển thị chuyến bay chính của G1000 với khung bezel 2d
+STRING Airspeed indicator. The airspeed indicator gets its reading from air pressure in the pitot tube. At higher altitudes, the lower air density gives a lower reading for the same true airspeed. The indicated airspeed accurately represents the plane's aerodynamic effectiveness.====Chỉ báo tốc độ. Chỉ báo tốc độ không khí nhận được số đọc của nó từ áp suất không khí trong ống pitot. Ở độ cao lớn hơn, mật độ không khí thấp hơn cho kết quả thấp hơn để có cùng tốc độ không khí thực. Tốc độ không khí được chỉ định thể hiện chính xác hiệu quả khí động học của máy bay.
+STRING Weapon Selected====Vũ khí đã chọn
