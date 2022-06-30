@@ -1,0 +1,19 @@
+1. Hãy chờ xem X-plane 12 có gì nào... Tìm hiểu thêm trên x-plane.com.
+
+1. Bạn có thể đặt câu hỏi và giúp đỡ người khác trên trang Hỏi & Đáp X-Plane. Truy cập vào question.x-plane.com để tham gia cộng đồng.
+
+1. Bảo vệ bản quyền X-plane bằng cách không sử dụng crack, và thông báo vi phạm với chúng tôi tại austin@x-plane.com
+
+1. Hãy là một tay súng hàng đầu và “gọi bóng”. Thử hạ cánh máy bay chiến đấu của bạn trên boong tàu sân bay. Chuyển đến Cấu hình Chuyến bay> Vị trí> Tùy chỉnh> Bắt đầu Đặc biệt, sau đó chọn dòng Phương pháp Tiếp cận Nhà cung cấp dịch vụ. Đảm bảo rằng bạn đang lái máy bay chiến đấu chẳng hạn như F-4 Phantom hoặc có thể là máy bay phản lực mà bạn đã thiết kế bằng Plane Maker.
+
+1. Pháo sáng trên máy bay không phải là thứ bạn dùng khi bị xẹp lốp. Đây là động tác đơn giản được thực hiện ngay trước khi chạm đất, trong đó mũi xe hướng lên. Điều này làm giảm tốc độ hạ độ cao và khiến máy bay chạm bánh chính xuống trước.
+
+1. Khi bạn cảm thấy mệt mỏi với việc bay, hãy để X-Plane AI kiểm soát máy bay, tầm nhìn của bạn hoặc cả hai. Chọn Chuyến bay> AI bay Máy bay của bạn hoặc AI Kiểm soát Chế độ xem của bạn từ menu.
+
+1. Nếu bạn đã thử kéo tàu lượn và muốn thứ gì đó thú vị hơn một chút, hãy thử tời kéo. Đi tới Cấu hình máy bay và chọn một tàu lượn. Nhấn vào nút Customize và chọn Glider Winch.
+
+1. Bạn có biết một hải lý là một đơn vị khoảng cách bằng 1,15 dặm quy chế, và một hải lý (một đơn vị tốc độ) được định nghĩa là một hải lý mỗi giờ?
+
+1. Hãy trở thành một hit tại buổi trình diễn airshow bay chiếc máy bay nhào lộn của bạn và bật khói. Nhấn phím ‘x’ để chuyển đổi khói hoặc chọn một phím khác trong Cài đặt> Bàn phím.
+
+1. Sắp hết nhiên liệu? Hãy thử tiếp nhiên liệu giữa không trung! Đi tới Cấu hình chuyến bay> Vị trí> Tùy chỉnh> Khởi động Đặc biệt và chọn Tiếp nhiên liệu-Boom hoặc Tiếp nhiên liệu-Giỏ. Đảm bảo rằng bạn đang lái máy bay chiến đấu chẳng hạn như F-4 Phantom hoặc có thể là máy bay phản lực mà bạn đã thiết kế bằng Plane Maker.
