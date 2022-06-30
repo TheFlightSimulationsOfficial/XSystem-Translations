@@ -8,4 +8,5 @@ Here's what we do:
 
 
 Logs:
+
 June 30th, 2022: Initial Release for Vietnamese Language Pack. Commiting even more languages... 
